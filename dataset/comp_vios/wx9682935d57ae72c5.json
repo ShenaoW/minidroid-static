@@ -1,0 +1,17 @@
+{
+    "req_before_use": {
+        "authorize_scope": [],
+        "sensi_apis": [
+            "wx.getUserInfo"
+        ],
+        "violation_page": [
+            "app.js",
+            "app.js",
+            "/root/minidroid/dataset/miniprograms/wx9682935d57ae72c5/pages/iqzspy/iqzspy",
+            "/root/minidroid/dataset/miniprograms/wx9682935d57ae72c5/pages/iqzspy/iqzspy",
+            "/root/minidroid/dataset/miniprograms/wx9682935d57ae72c5/pages/iqzspy/iqzspy"
+        ]
+    },
+    "blanket_reqs": null,
+    "compulsory_req": null
+}

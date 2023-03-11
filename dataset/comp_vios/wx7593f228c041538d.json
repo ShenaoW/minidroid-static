@@ -1,0 +1,17 @@
+{
+    "req_before_use": {
+        "authorize_scope": [],
+        "sensi_apis": [
+            "wx.getUserInfo"
+        ],
+        "violation_page": [
+            "app.js",
+            "app.js",
+            "/root/minidroid/dataset/miniprograms/wx7593f228c041538d/pages/czwqpg/czwqpg",
+            "/root/minidroid/dataset/miniprograms/wx7593f228c041538d/pages/czwqpg/czwqpg",
+            "/root/minidroid/dataset/miniprograms/wx7593f228c041538d/pages/czwqpg/czwqpg"
+        ]
+    },
+    "blanket_reqs": null,
+    "compulsory_req": null
+}

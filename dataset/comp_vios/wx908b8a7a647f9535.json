@@ -1,0 +1,17 @@
+{
+    "req_before_use": {
+        "authorize_scope": [],
+        "sensi_apis": [
+            "wx.getUserInfo"
+        ],
+        "violation_page": [
+            "app.js",
+            "app.js",
+            "/root/minidroid/dataset/miniprograms/wx908b8a7a647f9535/pages/kheoaz/kheoaz",
+            "/root/minidroid/dataset/miniprograms/wx908b8a7a647f9535/pages/kheoaz/kheoaz",
+            "/root/minidroid/dataset/miniprograms/wx908b8a7a647f9535/pages/kheoaz/kheoaz"
+        ]
+    },
+    "blanket_reqs": null,
+    "compulsory_req": null
+}

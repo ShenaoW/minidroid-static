@@ -1,0 +1,15 @@
+{
+    "req_before_use": {
+        "authorize_scope": [],
+        "sensi_apis": [
+            "wx.getLocation"
+        ],
+        "violation_page": [
+            "app.js",
+            "app.js",
+            "/root/minidroid/dataset/miniprograms/wxac51b0db14be38ea/pages/changce/merch/index"
+        ]
+    },
+    "blanket_reqs": null,
+    "compulsory_req": null
+}

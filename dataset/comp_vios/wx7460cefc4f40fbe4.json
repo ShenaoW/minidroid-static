@@ -1,0 +1,17 @@
+{
+    "req_before_use": {
+        "authorize_scope": [],
+        "sensi_apis": [
+            "wx.getUserInfo"
+        ],
+        "violation_page": [
+            "app.js",
+            "app.js",
+            "/root/minidroid/dataset/miniprograms/wx7460cefc4f40fbe4/pages/centrePage/centrePage",
+            "/root/minidroid/dataset/miniprograms/wx7460cefc4f40fbe4/pages/centrePage/centrePage",
+            "/root/minidroid/dataset/miniprograms/wx7460cefc4f40fbe4/pages/centrePage/centrePage"
+        ]
+    },
+    "blanket_reqs": null,
+    "compulsory_req": null
+}

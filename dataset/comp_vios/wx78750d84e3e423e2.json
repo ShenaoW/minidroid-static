@@ -1,0 +1,17 @@
+{
+    "req_before_use": {
+        "authorize_scope": [],
+        "sensi_apis": [
+            "wx.getUserInfo"
+        ],
+        "violation_page": [
+            "app.js",
+            "app.js",
+            "/root/minidroid/dataset/miniprograms/wx78750d84e3e423e2/pages/klsbmu/klsbmu",
+            "/root/minidroid/dataset/miniprograms/wx78750d84e3e423e2/pages/klsbmu/klsbmu",
+            "/root/minidroid/dataset/miniprograms/wx78750d84e3e423e2/pages/klsbmu/klsbmu"
+        ]
+    },
+    "blanket_reqs": null,
+    "compulsory_req": null
+}

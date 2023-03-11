@@ -1,0 +1,17 @@
+{
+    "req_before_use": {
+        "authorize_scope": [],
+        "sensi_apis": [
+            "wx.getUserInfo"
+        ],
+        "violation_page": [
+            "app.js",
+            "app.js",
+            "/root/minidroid/dataset/miniprograms/wx97efca691d082c0d/pages/fkgmbg/fkgmbg",
+            "/root/minidroid/dataset/miniprograms/wx97efca691d082c0d/pages/fkgmbg/fkgmbg",
+            "/root/minidroid/dataset/miniprograms/wx97efca691d082c0d/pages/fkgmbg/fkgmbg"
+        ]
+    },
+    "blanket_reqs": null,
+    "compulsory_req": null
+}

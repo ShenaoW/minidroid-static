@@ -1,0 +1,17 @@
+{
+    "req_before_use": {
+        "authorize_scope": [],
+        "sensi_apis": [
+            "wx.getUserInfo"
+        ],
+        "violation_page": [
+            "app.js",
+            "app.js",
+            "/root/minidroid/dataset/miniprograms/wx9cc92da5153d6f09/pages/cwdveo/cwdveo",
+            "/root/minidroid/dataset/miniprograms/wx9cc92da5153d6f09/pages/cwdveo/cwdveo",
+            "/root/minidroid/dataset/miniprograms/wx9cc92da5153d6f09/pages/cwdveo/cwdveo"
+        ]
+    },
+    "blanket_reqs": null,
+    "compulsory_req": null
+}

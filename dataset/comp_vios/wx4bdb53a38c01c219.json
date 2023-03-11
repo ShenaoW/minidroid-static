@@ -1,0 +1,29 @@
+{
+    "req_before_use": {
+        "authorize_scope": [],
+        "sensi_apis": [
+            "wx.getUserInfo",
+            "wx.getLocation"
+        ],
+        "violation_page": [
+            "app.js",
+            "app.js",
+            "/root/minidroid/dataset/miniprograms/wx4bdb53a38c01c219/pages/index/index",
+            "/root/minidroid/dataset/miniprograms/wx4bdb53a38c01c219/pages/index/index"
+        ]
+    },
+    "blanket_reqs": {
+        "authorize_scope": [],
+        "sensi_apis": [
+            "wx.getUserInfo",
+            "wx.getLocation"
+        ],
+        "violation_page": [
+            "app.js",
+            "app.js",
+            "/root/minidroid/dataset/miniprograms/wx4bdb53a38c01c219/pages/index/index",
+            "/root/minidroid/dataset/miniprograms/wx4bdb53a38c01c219/pages/index/index"
+        ]
+    },
+    "compulsory_req": null
+}

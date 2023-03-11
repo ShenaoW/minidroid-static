@@ -1,0 +1,17 @@
+{
+    "req_before_use": {
+        "authorize_scope": [],
+        "sensi_apis": [
+            "wx.getLocation"
+        ],
+        "violation_page": [
+            "app.js",
+            "app.js",
+            "/root/minidroid/dataset/miniprograms/wx4e68c27334961f67/pages/aaafirst/aaafirst",
+            "/root/minidroid/dataset/miniprograms/wx4e68c27334961f67/pages/aaafirst/aaafirst",
+            "/root/minidroid/dataset/miniprograms/wx4e68c27334961f67/pages/aaafirst/aaafirst"
+        ]
+    },
+    "blanket_reqs": null,
+    "compulsory_req": null
+}

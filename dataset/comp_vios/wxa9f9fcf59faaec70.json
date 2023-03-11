@@ -1,0 +1,15 @@
+{
+    "req_before_use": {
+        "authorize_scope": [],
+        "sensi_apis": [
+            "wx.getLocation"
+        ],
+        "violation_page": [
+            "/root/minidroid/dataset/miniprograms/wxa9f9fcf59faaec70/pages/index/index_map",
+            "/root/minidroid/dataset/miniprograms/wxa9f9fcf59faaec70/pages/index/index_map",
+            "/root/minidroid/dataset/miniprograms/wxa9f9fcf59faaec70/pages/index/index_map"
+        ]
+    },
+    "blanket_reqs": null,
+    "compulsory_req": null
+}

@@ -1,0 +1,16 @@
+{
+    "req_before_use": {
+        "authorize_scope": [],
+        "sensi_apis": [
+            "wx.getUserInfo"
+        ],
+        "violation_page": [
+            "app.js",
+            "/root/minidroid/dataset/miniprograms/wxa2844a428c117200/pages/pay/payindex",
+            "/root/minidroid/dataset/miniprograms/wxa2844a428c117200/pages/pay/payindex",
+            "/root/minidroid/dataset/miniprograms/wxa2844a428c117200/pages/pay/payindex"
+        ]
+    },
+    "blanket_reqs": null,
+    "compulsory_req": null
+}

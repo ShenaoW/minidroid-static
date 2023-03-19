@@ -1,0 +1,8 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx765e00bb5fdff869/pages/message/message": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx765e00bb5fdff869/pages/map/map": [
+        "wx.getLocation"
+    ]
+}

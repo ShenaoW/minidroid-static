@@ -1,0 +1,26 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx8c69f341b487408e/pages/map/map": [
+        "wx.getLocation",
+        "wx.chooseLocation",
+        "wx.openBluetoothAdapter"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8c69f341b487408e/pages/studentAuth/studentAuth": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8c69f341b487408e/pages/openLock/openLock": [
+        "wx.openBluetoothAdapter"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8c69f341b487408e/pages/machineStatus/machineStatus": [
+        "wx.getLocation",
+        "wx.openBluetoothAdapter"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8c69f341b487408e/pages/applyPoint/applyPoint": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8c69f341b487408e/pages/fault/fault": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8c69f341b487408e/pages/faceRecognition/faceRecognizing/faceRecognizing": [
+        "wx.createCameraContext"
+    ]
+}

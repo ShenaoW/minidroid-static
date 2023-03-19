@@ -1,0 +1,11 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx72c7a100b72478d4/pages/mine/mine": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx72c7a100b72478d4/pages/buy/buy": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx72c7a100b72478d4/pages/createAddress/createAddress": [
+        "wx.getLocation"
+    ]
+}

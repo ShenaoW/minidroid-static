@@ -1,0 +1,64 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx4509ea4efa03ced3/pages/itemDetail/item_detail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4509ea4efa03ced3/pages/order/order": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4509ea4efa03ced3/pages/address/newAddress": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4509ea4efa03ced3/pages/codeGoods/detail": [
+        "wx.chooseImage",
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4509ea4efa03ced3/pages/sign/integral/order": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4509ea4efa03ced3/pages/food/order": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4509ea4efa03ced3/pages/vote/sign": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4509ea4efa03ced3/pages/dj/orderDetail": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4509ea4efa03ced3/pages/wsq/edit/edit": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4509ea4efa03ced3/pages/wsq/mine/mine": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4509ea4efa03ced3/pages/wsq/newgroup/newgroup": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4509ea4efa03ced3/pages/wsq/gender/info": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4509ea4efa03ced3/pages/wsq/gender/nearby": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4509ea4efa03ced3/pages/city/edit/edit": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4509ea4efa03ced3/pages/meeting/up/up": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4509ea4efa03ced3/pages/evaluate/evaluate": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4509ea4efa03ced3/pages/evaluate/evaluateMore": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4509ea4efa03ced3/pages/drive/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4509ea4efa03ced3/pages/submall/nearby": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4509ea4efa03ced3/pages/chain/index": [
+        "wx.getLocation"
+    ]
+}

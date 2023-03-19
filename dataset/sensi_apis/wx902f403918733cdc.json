@@ -1,0 +1,22 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx902f403918733cdc/pages/index/index": [
+        "wx.getLocation",
+        "wx.chooseAddress",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx902f403918733cdc/pages/message/message": [
+        "wx.chooseAddress",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx902f403918733cdc/pages/store_list/store_list": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx902f403918733cdc/pages/HOME/HOME": [
+        "wx.getLocation",
+        "wx.chooseAddress",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx902f403918733cdc/pages/map/map": [
+        "wx.getLocation"
+    ]
+}

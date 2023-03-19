@@ -1,0 +1,8 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx85055a8702495077/pages/xcx/fabu/fabu": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx85055a8702495077/pages/login/login": [
+        "wx.getUserProfile"
+    ]
+}

@@ -5,11 +5,8 @@
             "wx.getUserInfo"
         ],
         "violation_page": [
-            "app.js",
-            "app.js",
             "/root/minidroid/dataset/miniprograms/wx977de9261602185c/pages/centrePage/centrePage",
-            "/root/minidroid/dataset/miniprograms/wx977de9261602185c/pages/centrePage/centrePage",
-            "/root/minidroid/dataset/miniprograms/wx977de9261602185c/pages/centrePage/centrePage"
+            "app.js"
         ]
     },
     "blanket_reqs": null,

@@ -1,0 +1,11 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx733af15399a9fe77/pages/index/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx733af15399a9fe77/pages/zhibo/zhibo": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx733af15399a9fe77/pages/login/login": [
+        "wx.getUserInfo"
+    ]
+}

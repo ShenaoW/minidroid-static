@@ -1,0 +1,20 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx9953312601bf991e/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9953312601bf991e/pages/user/index": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9953312601bf991e/pages/login/index": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9953312601bf991e/pages/pay/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9953312601bf991e/pages/orderlist/movelist/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9953312601bf991e/pages/guide_detail/evaluate/index": [
+        "wx.chooseImage"
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx4afffd0f594ac5fd/pages/gw/my_customer_info/my_customer_info": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4afffd0f594ac5fd/pages/gw/my_edit/my_edit": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4afffd0f594ac5fd/pages/pt/booking_poster/booking_poster": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4afffd0f594ac5fd/pages/gw/share/share": [
+        "wx.chooseImage",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4afffd0f594ac5fd/pages/gw/index/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4afffd0f594ac5fd/pages/gw/add_team_detail/add_team_detail": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4afffd0f594ac5fd/pages/gw/edit_team_detail/edit_team_detail": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4afffd0f594ac5fd/pages/gw/my/my": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4afffd0f594ac5fd/pages/gw/my_qrcode/my_qrcode": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4afffd0f594ac5fd/pages/gw/my_wechat_qrcode/my_wechat_qrcode": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4afffd0f594ac5fd/pages/gw/team_poster/team_poster": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4afffd0f594ac5fd/pages/gw/visiting_card/visiting_card_index/visiting_card_index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4afffd0f594ac5fd/pages/gw/visiting_card/visiting_card_add/visiting_card_add": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4afffd0f594ac5fd/pages/gw/lucky_draw/poster/poster": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4afffd0f594ac5fd/pages/gw/visiting_card/visiting_card_poster/visiting_card_poster": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4afffd0f594ac5fd/pages/gw/activity_detail/activity_detail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4afffd0f594ac5fd/pages/gw/activity_job/activity_job": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4afffd0f594ac5fd/pages/gw/search_img/search_img": [
+        "wx.chooseImage"
+    ]
+}

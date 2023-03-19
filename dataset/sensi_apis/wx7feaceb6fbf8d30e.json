@@ -1,0 +1,36 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx7feaceb6fbf8d30e/pages/bespeak/details/details": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7feaceb6fbf8d30e/pages/car/add/add": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7feaceb6fbf8d30e/pages/bespeak/evaluate/evaluate": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7feaceb6fbf8d30e/pages/user/user": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7feaceb6fbf8d30e/pages/community/details": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7feaceb6fbf8d30e/pages/community/send": [
+        "wx.chooseImage",
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7feaceb6fbf8d30e/pages/act-turntable/act-turntable": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7feaceb6fbf8d30e/pages/shopping/goods-des/goods-des": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7feaceb6fbf8d30e/pages/shopping/goods-sub/goods-sub": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7feaceb6fbf8d30e/pages/shopping/goods-eva/goods-eva": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7feaceb6fbf8d30e/pages/insurance/insurance-des/insurance-des": [
+        "wx.chooseAddress"
+    ]
+}

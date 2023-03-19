@@ -1,0 +1,26 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx89d5a3e9851d9c0b/pages/default/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx89d5a3e9851d9c0b/pages/default/order/pay/pay": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx89d5a3e9851d9c0b/pages/default/order/comment/comment": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx89d5a3e9851d9c0b/pages/default/member/qregister/qregister": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx89d5a3e9851d9c0b/pages/default/commission/myshop/set/set": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx89d5a3e9851d9c0b/pages/default/merch/street/street": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx89d5a3e9851d9c0b/pages/default/diypage/diypage": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx89d5a3e9851d9c0b/pages/custom/dayuform/form/form": [
+        "wx.chooseImage"
+    ]
+}

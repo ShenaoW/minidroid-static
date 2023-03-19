@@ -1,0 +1,38 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx74e8382b2b57c450/pages/main/main": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx74e8382b2b57c450/pages/personal/personal": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx74e8382b2b57c450/pages/cardlist/cardlist": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx74e8382b2b57c450/pages/medical/medical": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx74e8382b2b57c450/pages/service/service": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx74e8382b2b57c450/pages/luggage/luggage": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx74e8382b2b57c450/pages/receivecard/receivecard": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx74e8382b2b57c450/pages/enroll/enroll": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx74e8382b2b57c450/pages/activation/activation": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx74e8382b2b57c450/pages/experience/experience": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx74e8382b2b57c450/pages/bus/bus": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx74e8382b2b57c450/pages/receivevip/receivevip": [
+        "wx.getUserProfile"
+    ]
+}

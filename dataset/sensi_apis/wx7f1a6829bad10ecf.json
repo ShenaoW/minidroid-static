@@ -1,0 +1,62 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx7f1a6829bad10ecf/pages/goods/goods": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7f1a6829bad10ecf/pages/order-submit/order-submit": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7f1a6829bad10ecf/pages/address-edit/address-edit": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7f1a6829bad10ecf/pages/address-picker/address-picker": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7f1a6829bad10ecf/pages/order-refund/order-refund": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7f1a6829bad10ecf/pages/order-comment/order-comment": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7f1a6829bad10ecf/pages/shop/shop": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7f1a6829bad10ecf/pages/card/card": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7f1a6829bad10ecf/pages/miaosha/details/details": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7f1a6829bad10ecf/pages/miaosha/order-submit/order-submit": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7f1a6829bad10ecf/pages/miaosha/order-comment/order-comment": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7f1a6829bad10ecf/pages/miaosha/order-refund/order-refund": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7f1a6829bad10ecf/pages/pt/details/details": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7f1a6829bad10ecf/pages/pt/order-submit/order-submit": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7f1a6829bad10ecf/pages/pt/group/details": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7f1a6829bad10ecf/pages/pt/order-comment/order-comment": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7f1a6829bad10ecf/pages/pt/order-refund/order-refund": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7f1a6829bad10ecf/pages/book/details/details": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7f1a6829bad10ecf/pages/book/shop/shop": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7f1a6829bad10ecf/pages/book/order-comment/order-comment": [
+        "wx.chooseImage"
+    ]
+}

@@ -5,11 +5,8 @@
             "wx.getUserInfo"
         ],
         "violation_page": [
-            "app.js",
-            "app.js",
             "/root/minidroid/dataset/miniprograms/wx97efca691d082c0d/pages/fkgmbg/fkgmbg",
-            "/root/minidroid/dataset/miniprograms/wx97efca691d082c0d/pages/fkgmbg/fkgmbg",
-            "/root/minidroid/dataset/miniprograms/wx97efca691d082c0d/pages/fkgmbg/fkgmbg"
+            "app.js"
         ]
     },
     "blanket_reqs": null,

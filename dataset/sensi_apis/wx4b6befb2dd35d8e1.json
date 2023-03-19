@@ -1,0 +1,30 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx4b6befb2dd35d8e1/pages/my/my": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4b6befb2dd35d8e1/pages/step/step": [
+        "wx.getUserInfo",
+        "wx.getWeRunData"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4b6befb2dd35d8e1/pages/gongyi/juanbu": [
+        "wx.getLocation",
+        "wx.getWeRunData"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4b6befb2dd35d8e1/pages/gongyi/success": [
+        "wx.getUserProfile",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4b6befb2dd35d8e1/pages/gongyi/chengjiu": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4b6befb2dd35d8e1/pages/gongyi/zhengshu": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4b6befb2dd35d8e1/pages/my/myinfo": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4b6befb2dd35d8e1/pages/gongyi/activejieshao": [
+        "wx.getUserProfile",
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

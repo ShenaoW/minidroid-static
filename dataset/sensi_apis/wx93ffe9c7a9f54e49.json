@@ -1,0 +1,14 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx93ffe9c7a9f54e49/pages/address/address": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx93ffe9c7a9f54e49/pages/address/addAddress": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx93ffe9c7a9f54e49/pages/find/find": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx93ffe9c7a9f54e49/pages/comment/comment": [
+        "wx.getUserInfo"
+    ]
+}

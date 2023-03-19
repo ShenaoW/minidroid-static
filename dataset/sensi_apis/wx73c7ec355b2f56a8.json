@@ -1,0 +1,32 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx73c7ec355b2f56a8/pages/generalForm/generalForm": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx73c7ec355b2f56a8/pages/generalFormTab/generalFormTab": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx73c7ec355b2f56a8/pages/Generalreservationdetailfillorder/Generalreservationdetailfillorder": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx73c7ec355b2f56a8/pages/sharepage/sharepage": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx73c7ec355b2f56a8/pages/storeList/storeList": [
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx73c7ec355b2f56a8/pages/storeListTab/storeListTab": [
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx73c7ec355b2f56a8/pages/myProfile/myProfile": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx73c7ec355b2f56a8/pages/telBook/telBook": [
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ]
+}

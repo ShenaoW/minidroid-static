@@ -1,0 +1,13 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx7e6f35820c08e64d/pages/goodsInfo/editAddress/dzbj": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7e6f35820c08e64d/pages/orderConfirm/orderConfirm": [
+        "wx.chooseAddress",
+        "wx.chooseInvoiceTitle",
+        "wx.chooseInvoice"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7e6f35820c08e64d/pages/shareToWeiChat/shareToWeiChat": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

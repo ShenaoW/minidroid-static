@@ -1,0 +1,24 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx8166884b29c51ea2/pages/index/index": [
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8166884b29c51ea2/pages/dryer/dryer": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8166884b29c51ea2/pages/password_index/password_index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8166884b29c51ea2/pages/loading/loading": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8166884b29c51ea2/pages/muen/muen": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8166884b29c51ea2/pages/userFormMuem/userFormMuem": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8166884b29c51ea2/pages/login/login": [
+        "wx.getUserProfile"
+    ]
+}

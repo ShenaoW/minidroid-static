@@ -1,0 +1,28 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx7804f67a49313604/pages/shopping/nearstore/nearstore": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7804f67a49313604/pages/pet/photoEdit/photoEdit": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7804f67a49313604/pages/pet/photoCanvas/photoCanvas": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7804f67a49313604/pages/pet/result/result": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7804f67a49313604/pages/accountFace/login/index": [
+        "wx.chooseImage",
+        "wx.createCameraContext"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7804f67a49313604/pages/accountFace/index/index": [
+        "wx.chooseImage",
+        "wx.createCameraContext"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7804f67a49313604/pages/account/invite/invite": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7804f67a49313604/pages/account/headSetting/headSetting": [
+        "wx.chooseImage"
+    ]
+}

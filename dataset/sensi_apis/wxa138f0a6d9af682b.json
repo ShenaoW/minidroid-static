@@ -1,0 +1,27 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxa138f0a6d9af682b/pages/drawImage/drawImage": [
+        "wx.chooseImage",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa138f0a6d9af682b/pages/caotu/caotu": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa138f0a6d9af682b/pages/imgdraw/imgdraw": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa138f0a6d9af682b/pages/drawpan/drawpan": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa138f0a6d9af682b/pages/painting2/painting2": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa138f0a6d9af682b/pages/pixdraw/pixdraw": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa138f0a6d9af682b/dressup/pages/result/result": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa138f0a6d9af682b/bbdressup/game/game": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

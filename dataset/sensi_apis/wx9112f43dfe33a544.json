@@ -1,0 +1,19 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx9112f43dfe33a544/pages/article/article": [
+        "wx.getUserInfo",
+        "wx.chooseImage",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9112f43dfe33a544/pages/cardinfo/cardinfo": [
+        "wx.saveImageToPhotosAlbum",
+        "wx.addPhoneContact"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9112f43dfe33a544/components/sidebar/sidebar": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9112f43dfe33a544/pages/live/live": [
+        "wx.getUserInfo",
+        "wx.chooseImage",
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

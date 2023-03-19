@@ -1,0 +1,22 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx95a86adaee8b7f49/pages/getPhone/index": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx95a86adaee8b7f49/verify_mpsdk/index/index": [
+        "wx.getLocation",
+        "wx.chooseImage",
+        "wx.createCameraContext"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx95a86adaee8b7f49/pages/claim/selfClaim/selfClaim": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx95a86adaee8b7f49/pages/claim/reportClaim/reportClaim": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx95a86adaee8b7f49/pages/claim/completion/completion": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx95a86adaee8b7f49/pages/poster/index": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

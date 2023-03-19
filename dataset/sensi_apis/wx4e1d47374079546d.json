@@ -1,0 +1,11 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx4e1d47374079546d/pages/detail/detail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4e1d47374079546d/pages/read/read": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4e1d47374079546d/pages/read_old/read": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

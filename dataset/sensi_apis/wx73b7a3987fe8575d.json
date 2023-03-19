@@ -1,0 +1,14 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx73b7a3987fe8575d/pages/kaka/cms/show/show": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx73b7a3987fe8575d/pages/mall/goodshow/goodshow": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx73b7a3987fe8575d/pages/user/address/addressadd": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx73b7a3987fe8575d/pages/user/address/addressedit": [
+        "wx.chooseLocation"
+    ]
+}

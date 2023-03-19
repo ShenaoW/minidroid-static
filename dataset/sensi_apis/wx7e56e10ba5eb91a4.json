@@ -1,0 +1,17 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx7e56e10ba5eb91a4/pages/home/home": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7e56e10ba5eb91a4/pages/shopDetail/shopDetail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7e56e10ba5eb91a4/pages/copywriting/copywriting": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7e56e10ba5eb91a4/pages/invitation/invitation": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7e56e10ba5eb91a4/pages/index/index": [
+        "wx.getUserInfo"
+    ]
+}

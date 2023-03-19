@@ -1,0 +1,8 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx45e6deff187c29f1/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx45e6deff187c29f1/pages/myInfo/myInfo": [
+        "wx.chooseImage"
+    ]
+}

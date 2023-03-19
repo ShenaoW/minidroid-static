@@ -1,0 +1,23 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx4b7acb44e6941e1f/pages/my/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4b7acb44e6941e1f/pages/member-upgrade/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4b7acb44e6941e1f/pages/detail/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4b7acb44e6941e1f/pages/shop-info/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4b7acb44e6941e1f/pages/register-check/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4b7acb44e6941e1f/pages/index-pingou/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4b7acb44e6941e1f/pages/community/index": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxa94d055394f95e4e/pages/my/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa94d055394f95e4e/pages/my_jianli/index": [
+        "wx.chooseImage",
+        "wx.chooseVideo",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa94d055394f95e4e/pages/show/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa94d055394f95e4e/pages/my_mingpian/index": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

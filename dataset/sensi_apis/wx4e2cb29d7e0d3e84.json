@@ -1,0 +1,58 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx4e2cb29d7e0d3e84/pages/new/zixunadd": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4e2cb29d7e0d3e84/pages/new/wentidetails": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4e2cb29d7e0d3e84/pages/friend/details/details": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4e2cb29d7e0d3e84/pages/friend/submit": [
+        "wx.chooseImage",
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4e2cb29d7e0d3e84/pages/home/service/lushi/login": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4e2cb29d7e0d3e84/pages/home/service/lushi/zixunadd": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4e2cb29d7e0d3e84/pages/home/service/lushi/wentidetails": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4e2cb29d7e0d3e84/pages/personal/profile/set/set": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4e2cb29d7e0d3e84/pages/home/activity/my-activity/activityDetails/activityDetails": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4e2cb29d7e0d3e84/templates/post/post": [
+        "wx.chooseImage",
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4e2cb29d7e0d3e84/pages/home/activity/details/details": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4e2cb29d7e0d3e84/pages/home/life/tenement/post/post": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4e2cb29d7e0d3e84/pages/home/life/friend/set-profile/set-profile": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4e2cb29d7e0d3e84/pages/home/service/question/details/details": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4e2cb29d7e0d3e84/pages/home/service/question/post/post": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4e2cb29d7e0d3e84/pages/home/service/legal-service/details/details": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4e2cb29d7e0d3e84/pages/home/service/legal-service/post/post": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4e2cb29d7e0d3e84/pages/home/service/about/details/details": [
+        "wx.chooseImage"
+    ]
+}

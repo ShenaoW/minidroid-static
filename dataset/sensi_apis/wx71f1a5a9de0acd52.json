@@ -1,0 +1,53 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx71f1a5a9de0acd52/pages/core/main/index": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71f1a5a9de0acd52/pages/core/main/home": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71f1a5a9de0acd52/pages/core/me/sign": [
+        "wx.getUserInfo",
+        "wx.getUserProfile",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71f1a5a9de0acd52/pages/core/pay/payment": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71f1a5a9de0acd52/pages/core/pay/payment_over": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71f1a5a9de0acd52/pages/core/common/mch": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71f1a5a9de0acd52/pages/market/collect/collect": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71f1a5a9de0acd52/pages/market/collect/collect_order": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71f1a5a9de0acd52/pages/market/form/form": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71f1a5a9de0acd52/pages/market/vote/vote": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71f1a5a9de0acd52/pages/dst/code": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71f1a5a9de0acd52/pages/mkyx/main/market": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71f1a5a9de0acd52/pages/mkyx/main/school_list": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71f1a5a9de0acd52/pages/mkyx/market/market": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71f1a5a9de0acd52/pages/video/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71f1a5a9de0acd52/pages/video/info": [
+        "wx.saveImageToPhotosAlbum",
+        "wx.addPhoneContact"
+    ]
+}

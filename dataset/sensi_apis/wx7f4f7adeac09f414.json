@@ -1,0 +1,35 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx7f4f7adeac09f414/pages/home/merchant-enter/merchant-enter": [
+        "wx.getLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7f4f7adeac09f414/pages/car/car": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7f4f7adeac09f414/pages/authorize/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7f4f7adeac09f414/pages/map/track/track": [
+        "wx.getWeRunData"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7f4f7adeac09f414/pages/map/upload-traves/upload-traves": [
+        "wx.getLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7f4f7adeac09f414/pages/map/camera/photo/photo": [
+        "wx.chooseImage",
+        "wx.createCameraContext"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7f4f7adeac09f414/pages/lost-file/issue/isuue": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7f4f7adeac09f414/pages/details/scenic/scenic": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7f4f7adeac09f414/pages/home/feedback/feedback": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7f4f7adeac09f414/pages/lost-file/lost-clue/lost-clue": [
+        "wx.chooseImage"
+    ]
+}

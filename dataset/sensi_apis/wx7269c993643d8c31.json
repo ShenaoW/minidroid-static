@@ -1,0 +1,17 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx7269c993643d8c31/pages/diy/index/index": [
+        "wx.getUserInfo",
+        "wx.getLocation",
+        "wx.chooseAddress",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7269c993643d8c31/pages/logs/logs": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7269c993643d8c31/pages/apply_after_sales/apply_after_sales": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7269c993643d8c31/pages/evaluation/evaluation": [
+        "wx.chooseImage"
+    ]
+}

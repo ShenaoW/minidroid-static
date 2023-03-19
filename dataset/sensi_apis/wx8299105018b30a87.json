@@ -1,0 +1,21 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx8299105018b30a87/pages/home/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8299105018b30a87/pages/mergePage/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8299105018b30a87/pages/share/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8299105018b30a87/pages/morphListPage/index": [
+        "wx.chooseImage",
+        "wx.saveVideoToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8299105018b30a87/pages/morphPage/index": [
+        "wx.saveVideoToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8299105018b30a87/pages/morphSharePage/index": [
+        "wx.saveVideoToPhotosAlbum"
+    ]
+}

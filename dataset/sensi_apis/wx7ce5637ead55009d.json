@@ -1,0 +1,52 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx7ce5637ead55009d/pages/shoppingdetail/shoppingdetail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ce5637ead55009d/pages/loginAvt/loginAvt": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ce5637ead55009d/pages/idCard/idCard": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ce5637ead55009d/pages/confirmationoforder/confirmationoforder": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ce5637ead55009d/pages/orderdetail/orderdetail": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ce5637ead55009d/pages/logins/logins": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ce5637ead55009d/pages/refund/refund": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ce5637ead55009d/pages/collage/collageshare/collageshare": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ce5637ead55009d/pages/collage/collagegooddetail/collagegooddetail": [
+        "wx.getUserInfo",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ce5637ead55009d/pages/seckill/seckillgooddetail/seckillgooddetail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ce5637ead55009d/pages/distribution/distributionno/distributionno": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ce5637ead55009d/pages/distribution/extend/extend": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ce5637ead55009d/pages/distribution/extends/extends": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ce5637ead55009d/pages/bargain/bargainDetail/bargainDetail": [
+        "wx.getUserInfo",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ce5637ead55009d/pages/evaluates/evaluates": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ce5637ead55009d/pages/inlogistics/inlogistics": [
+        "wx.chooseImage"
+    ]
+}

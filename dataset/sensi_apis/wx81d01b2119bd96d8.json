@@ -1,0 +1,11 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx81d01b2119bd96d8/pages/personal_center/personal_center": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx81d01b2119bd96d8/pages/address/address": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx81d01b2119bd96d8/pages/orderlist_aftersale/orderlist_aftersale": [
+        "wx.chooseImage"
+    ]
+}

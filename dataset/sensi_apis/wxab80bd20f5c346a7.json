@@ -1,0 +1,23 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxab80bd20f5c346a7/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxab80bd20f5c346a7/pages/commission/poster/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxab80bd20f5c346a7/pages/goods/poster/poster": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxab80bd20f5c346a7/pages/order/store/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxab80bd20f5c346a7/pages/member/address/index": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxab80bd20f5c346a7/pages/member/address/select": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxab80bd20f5c346a7/pages/changce/merch/index": [
+        "wx.getLocation"
+    ]
+}

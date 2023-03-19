@@ -1,0 +1,14 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxa92b41b4ab0d105c/pages/shop/shop": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa92b41b4ab0d105c/pages/user/user": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa92b41b4ab0d105c/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa92b41b4ab0d105c/pages/feedback/feedback": [
+        "wx.chooseImage"
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx937517031e18a73b/pages/center/Warranty/Warranty": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx937517031e18a73b/pages/center/withdrawCode/withdrawCode": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx937517031e18a73b/pages/index/sharDetail/sharDetail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx937517031e18a73b/pages/center/reviews/reviews": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx937517031e18a73b/pages/center/applyAfterr/applyAfterr": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx937517031e18a73b/pages/center/shar/shar": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx937517031e18a73b/pages/home/taskDetail/taskDetail": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx937517031e18a73b/pages/integral/waresDetail/waresDetail": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx937517031e18a73b/pages/center/editAddress/editAddress": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx937517031e18a73b/pages/center/newAddress/newAddress": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx937517031e18a73b/pages/center/address/address": [
+        "wx.chooseAddress"
+    ]
+}

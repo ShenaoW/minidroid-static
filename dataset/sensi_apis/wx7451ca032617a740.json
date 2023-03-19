@@ -1,0 +1,48 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx7451ca032617a740/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7451ca032617a740/pages/scenic-details/scenic-details": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7451ca032617a740/pages/rate/rate": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7451ca032617a740/pages/purchase-details/purchase-details": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7451ca032617a740/pages/map-guide/map-guide": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7451ca032617a740/pages/card-order/card-order": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7451ca032617a740/pages/new-restaurant-content/new-restaurant-content": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7451ca032617a740/pages/new-restaurant-list/new-restaurant-list": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7451ca032617a740/pages/new-restaurant-star/new-restaurant-star": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7451ca032617a740/pages/new-mall-home/new-mall-home": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7451ca032617a740/pages/new-mall-goods/new-mall-goods": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7451ca032617a740/pages/new-hotel-list/new-hotel-list": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7451ca032617a740/pages/new-hotel-detail/new-hotel-detail": [
+        "wx.getLocation",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7451ca032617a740/pages/new-map-coupon/new-map-coupon": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7451ca032617a740/pages/hot/new-hot-detail/new-hot-detail": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

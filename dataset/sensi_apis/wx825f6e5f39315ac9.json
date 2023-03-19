@@ -1,0 +1,60 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx825f6e5f39315ac9/pages/index/index": [
+        "wx.getUserInfo",
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx825f6e5f39315ac9/pages/detail/detail": [
+        "wx.getUserInfo",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx825f6e5f39315ac9/pages/my/my": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx825f6e5f39315ac9/pages/choseStore/choseStore": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx825f6e5f39315ac9/pages/represent/represent": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx825f6e5f39315ac9/pages/startAppointment/startAppointment": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx825f6e5f39315ac9/pages/myPoster/myPoster": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx825f6e5f39315ac9/pages/otherPoster/otherPoster": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx825f6e5f39315ac9/pages/authorize/authorize": [
+        "wx.getUserInfo",
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx825f6e5f39315ac9/pages/otherMy/otherMy": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx825f6e5f39315ac9/pages/storeList/storeList": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx825f6e5f39315ac9/pages/cardPage/cardPage": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx825f6e5f39315ac9/pages/classify/classify": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx825f6e5f39315ac9/pages/deliveryAddress/deliveryAddress": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx825f6e5f39315ac9/pages/commentDetail/commentDetail": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx825f6e5f39315ac9/pages/bookingMap/bookingMap": [
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx825f6e5f39315ac9/pages/nextStore/nextStore": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx825f6e5f39315ac9/pages/login/login": [
+        "wx.getUserInfo"
+    ]
+}

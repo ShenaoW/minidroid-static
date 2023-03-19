@@ -6,11 +6,8 @@
             "wx.getLocation"
         ],
         "violation_page": [
-            "app.js",
-            "app.js",
             "/root/minidroid/dataset/miniprograms/wx8acfc168d811161b/pages/index/index",
-            "/root/minidroid/dataset/miniprograms/wx8acfc168d811161b/pages/index/index",
-            "/root/minidroid/dataset/miniprograms/wx8acfc168d811161b/pages/index/index"
+            "app.js"
         ]
     },
     "blanket_reqs": {
@@ -20,11 +17,8 @@
             "wx.getLocation"
         ],
         "violation_page": [
-            "app.js",
-            "app.js",
             "/root/minidroid/dataset/miniprograms/wx8acfc168d811161b/pages/index/index",
-            "/root/minidroid/dataset/miniprograms/wx8acfc168d811161b/pages/index/index",
-            "/root/minidroid/dataset/miniprograms/wx8acfc168d811161b/pages/index/index"
+            "app.js"
         ]
     },
     "compulsory_req": null

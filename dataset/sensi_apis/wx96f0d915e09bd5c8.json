@@ -1,0 +1,8 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx96f0d915e09bd5c8/pages/company/company": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx96f0d915e09bd5c8/pages/share/share": [
+        "wx.getUserInfo"
+    ]
+}

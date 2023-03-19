@@ -1,0 +1,20 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxa57581e8d71f74dd/pages/goodsDetail/goodsDetail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa57581e8d71f74dd/pages/location/location": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa57581e8d71f74dd/pages/store/store": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa57581e8d71f74dd/pages/comment/comment": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa57581e8d71f74dd/pages/login/login": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa57581e8d71f74dd/pages/wechatCode/wechatCode": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

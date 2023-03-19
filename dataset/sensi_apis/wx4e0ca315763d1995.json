@@ -1,0 +1,17 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx4e0ca315763d1995/pages/authorizePage/authorizePage": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4e0ca315763d1995/pages/registration/registration": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4e0ca315763d1995/pages/registrationTwo/registrationTwo": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4e0ca315763d1995/pages/welcome/welcome": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4e0ca315763d1995/pages/houseDetails/index/index": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

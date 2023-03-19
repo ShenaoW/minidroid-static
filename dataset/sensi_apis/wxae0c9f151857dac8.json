@@ -1,0 +1,14 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxae0c9f151857dac8/pages/homePage/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxae0c9f151857dac8/pages/index/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxae0c9f151857dac8/pages/add_bank_card/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxae0c9f151857dac8/pages/mapPage/index": [
+        "wx.getLocation"
+    ]
+}

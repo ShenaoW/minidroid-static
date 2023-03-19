@@ -1,0 +1,17 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx81d60547f999236e/pages/view/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx81d60547f999236e/pages/user/index": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx81d60547f999236e/pages/user/agent/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx81d60547f999236e/pages/user/agent/view/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx81d60547f999236e/pages/login/login": [
+        "wx.getUserProfile"
+    ]
+}

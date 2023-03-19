@@ -1,0 +1,12 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx92f1ade0286d1177/pages/shopList/shopList": [
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx92f1ade0286d1177/pages/memberAddress/addMemberAddress/addMemberAddress": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx92f1ade0286d1177/pages/personal/memberInfo/memberInfo": [
+        "wx.chooseImage"
+    ]
+}

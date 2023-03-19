@@ -1,0 +1,14 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx994d441284a981ef/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx994d441284a981ef/pages/me/me": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx994d441284a981ef/pages/refund/refund": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx994d441284a981ef/pages/refundApply/refundApply": [
+        "wx.chooseImage"
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx4d452d0ea7703175/pages/itemDetail/item_detail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d452d0ea7703175/pages/order/order": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d452d0ea7703175/pages/address/newAddress": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d452d0ea7703175/pages/codeGoods/detail": [
+        "wx.chooseImage",
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d452d0ea7703175/pages/personSale/gifts/order": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d452d0ea7703175/pages/sign/integral/order": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d452d0ea7703175/pages/food/order": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d452d0ea7703175/pages/dj/orderDetail": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d452d0ea7703175/pages/evaluate/evaluate": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d452d0ea7703175/pages/evaluate/evaluateMore": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d452d0ea7703175/pages/drive/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d452d0ea7703175/pages/submall/nearby": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d452d0ea7703175/pages/chain/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d452d0ea7703175/pages/personCenter/center": [
+        "wx.chooseAddress"
+    ]
+}

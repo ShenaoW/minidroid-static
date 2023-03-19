@@ -1,0 +1,40 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx95a38aaaabc24d44/pages/actContent/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx95a38aaaabc24d44/pages/votePerson/index": [
+        "wx.chooseImage",
+        "wx.chooseVideo",
+        "wx.chooseMessageFile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx95a38aaaabc24d44/pages/cropperAvatar/cropper": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx95a38aaaabc24d44/pages/reply/reply": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx95a38aaaabc24d44/pages/saveBbs/saveBbs": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx95a38aaaabc24d44/pages/activityIntro/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx95a38aaaabc24d44/pages/product/detail": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx95a38aaaabc24d44/pages/article/detail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx95a38aaaabc24d44/pages/audit/elTicket": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx95a38aaaabc24d44/pages/activityIntro/imgLive": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx95a38aaaabc24d44/pages/personalInfo/personalInfo": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx95a38aaaabc24d44/pages/activityIntro/dynamic-index": [
+        "wx.getLocation"
+    ]
+}

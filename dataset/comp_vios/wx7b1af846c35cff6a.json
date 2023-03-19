@@ -5,11 +5,8 @@
             "wx.getUserInfo"
         ],
         "violation_page": [
-            "app.js",
-            "app.js",
             "/root/minidroid/dataset/miniprograms/wx7b1af846c35cff6a/pages/rgnowl/rgnowl",
-            "/root/minidroid/dataset/miniprograms/wx7b1af846c35cff6a/pages/rgnowl/rgnowl",
-            "/root/minidroid/dataset/miniprograms/wx7b1af846c35cff6a/pages/rgnowl/rgnowl"
+            "app.js"
         ]
     },
     "blanket_reqs": null,

@@ -1,0 +1,12 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxafa57de81c8b04b3/pages/pass/pass": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxafa57de81c8b04b3/pages/publish/publish": [
+        "wx.chooseLocation",
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxafa57de81c8b04b3/pages/post/post": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

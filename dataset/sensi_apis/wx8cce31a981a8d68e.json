@@ -1,0 +1,29 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx8cce31a981a8d68e/pages/home/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8cce31a981a8d68e/pages/item/item": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8cce31a981a8d68e/pages/gzqyhz/apply": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8cce31a981a8d68e/pages/gzqyhz/proposedetail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8cce31a981a8d68e/pages/InformationNews/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8cce31a981a8d68e/pages/cart/settlement": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8cce31a981a8d68e/pages/voucherCoupons/voucherCouponDetail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8cce31a981a8d68e/pages/voucherCoupons/share": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8cce31a981a8d68e/pages/home/switchShop": [
+        "wx.getLocation"
+    ]
+}

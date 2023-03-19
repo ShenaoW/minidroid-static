@@ -1,0 +1,65 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx94b78d399ff7e2f6/pages/index/default": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx94b78d399ff7e2f6/pages/mall/item": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx94b78d399ff7e2f6/pages/order/confirm": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx94b78d399ff7e2f6/pages/receiptaddress/list": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx94b78d399ff7e2f6/pages/order/list": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx94b78d399ff7e2f6/pages/chat/ChatWindow": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx94b78d399ff7e2f6/pages/index/Scene": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx94b78d399ff7e2f6/pages/mySpecial/editPicture": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx94b78d399ff7e2f6/pages/repair/processEdit": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx94b78d399ff7e2f6/pages/member/memberScene": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx94b78d399ff7e2f6/pages/businessIndex/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx94b78d399ff7e2f6/pages/selfMention/selectShop": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx94b78d399ff7e2f6/pages/myReward/poster": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx94b78d399ff7e2f6/pages/mall/uploadsource": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx94b78d399ff7e2f6/pages/index/invitationPoster": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx94b78d399ff7e2f6/pages/index/livelist": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx94b78d399ff7e2f6/pages/solitaire/detail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx94b78d399ff7e2f6/pages/index/newshopcar": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx94b78d399ff7e2f6/pages/index/membercenternew": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx94b78d399ff7e2f6/pages/order/placeorder": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx94b78d399ff7e2f6/pages/mall/item03": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

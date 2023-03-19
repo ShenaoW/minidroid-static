@@ -1,0 +1,11 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx9c306d2868f7dca3/pages/address/address": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9c306d2868f7dca3/pages/orderlist_aftersale/orderlist_aftersale": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9c306d2868f7dca3/pages/booking_detail/booking_detail": [
+        "wx.getUserInfo"
+    ]
+}

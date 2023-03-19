@@ -1,0 +1,54 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx9c2da5d947004986/pages/loadImg/loadImg": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9c2da5d947004986/pages/home/home": [
+        "wx.getUserInfo",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9c2da5d947004986/pages/editCarInfo/editCarInfo": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9c2da5d947004986/pages/editCustomerInfo/editCustomerInfo": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9c2da5d947004986/pages/ensurePay/ensurePay": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9c2da5d947004986/pages/remark/remark": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9c2da5d947004986/pages/enquireImage/enquireImage": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9c2da5d947004986/pages/newcarsImages/newcarsImages": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9c2da5d947004986/pages/lookOffer/lookOffer": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9c2da5d947004986/pages/youCard/youCard": [
+        "wx.addPhoneContact"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9c2da5d947004986/pages/payPage/payPage": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9c2da5d947004986/pages/artificialPay/artificialPay": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9c2da5d947004986/pages/chooseInsurance/chooseInsurance": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9c2da5d947004986/pages/intelligentCI/intelligentCI": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9c2da5d947004986/pages/myMore/myMore": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9c2da5d947004986/pages/enquiryReceivingRemark/enquiryReceivingRemark": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9c2da5d947004986/pages/amendImage/amendImage": [
+        "wx.chooseImage"
+    ]
+}

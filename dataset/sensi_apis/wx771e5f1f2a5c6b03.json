@@ -1,0 +1,32 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx771e5f1f2a5c6b03/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx771e5f1f2a5c6b03/pages/index/fans/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx771e5f1f2a5c6b03/pages/index/choose/location/location": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx771e5f1f2a5c6b03/pages/index/choose/newLoa/location": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx771e5f1f2a5c6b03/pages/auth/index": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx771e5f1f2a5c6b03/pages/order/upload/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx771e5f1f2a5c6b03/pages/my/withdraw/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx771e5f1f2a5c6b03/pages/redpaper/meituan/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx771e5f1f2a5c6b03/pages/redpaper/eleme/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx771e5f1f2a5c6b03/pages/extension/index": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

@@ -5,10 +5,8 @@
             "wx.getUserInfo"
         ],
         "violation_page": [
-            "app.js",
             "/root/minidroid/dataset/miniprograms/wxa20d02dc4da1301a/pages/zipcodequery/index",
-            "/root/minidroid/dataset/miniprograms/wxa20d02dc4da1301a/pages/zipcodequery/index",
-            "/root/minidroid/dataset/miniprograms/wxa20d02dc4da1301a/pages/zipcodequery/index"
+            "app.js"
         ]
     },
     "blanket_reqs": null,

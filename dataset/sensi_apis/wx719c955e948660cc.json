@@ -1,0 +1,14 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx719c955e948660cc/pages/poster/poster": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx719c955e948660cc/pages/fillInformation/fillInformation": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx719c955e948660cc/components/posterCommodity/posterCommodity": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx719c955e948660cc/pages/cashOutInfo/cashOutInfo": [
+        "wx.chooseImage"
+    ]
+}

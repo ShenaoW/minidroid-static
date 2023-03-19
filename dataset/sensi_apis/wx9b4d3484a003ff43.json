@@ -1,0 +1,14 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx9b4d3484a003ff43/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9b4d3484a003ff43/pages/poster/poster": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9b4d3484a003ff43/pages/detile/detile": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9b4d3484a003ff43/pages/map/map": [
+        "wx.getLocation"
+    ]
+}

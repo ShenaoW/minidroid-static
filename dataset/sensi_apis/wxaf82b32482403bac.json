@@ -1,0 +1,17 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxaf82b32482403bac/pages/goods/poster/poster": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaf82b32482403bac/pages/order/store/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaf82b32482403bac/pages/member/address/index": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaf82b32482403bac/pages/member/address/post": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaf82b32482403bac/pages/member/address/select": [
+        "wx.chooseAddress"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx93d45f6e5a9eba43/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx93d45f6e5a9eba43/pages/jxd/saled/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx93d45f6e5a9eba43/pages/common/index": [
+        "wx.getUserProfile"
+    ]
+}

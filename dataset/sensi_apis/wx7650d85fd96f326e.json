@@ -1,0 +1,8 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx7650d85fd96f326e/pages/canvaslog/canvaslog": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7650d85fd96f326e/pages/feedback/feedback": [
+        "wx.chooseImage"
+    ]
+}

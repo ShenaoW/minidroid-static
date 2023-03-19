@@ -1,0 +1,41 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx71b17d00854abb34/pages/order-submit/order-submit": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71b17d00854abb34/pages/address-edit/address-edit": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71b17d00854abb34/pages/address-picker/address-picker": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71b17d00854abb34/pages/order-refund/order-refund": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71b17d00854abb34/pages/business-card/index": [
+        "wx.addPhoneContact"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71b17d00854abb34/pages/business-card/edit": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71b17d00854abb34/pages/order-comment/order-comment": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71b17d00854abb34/pages/shop/shop": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71b17d00854abb34/pages/book/shop/shop": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71b17d00854abb34/pages/book/order-comment/order-comment": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71b17d00854abb34/pages/integral-mall/order-submit/index": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71b17d00854abb34/pages/new-order-submit/new-order-submit": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71b17d00854abb34/pages/es-alipay/index": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

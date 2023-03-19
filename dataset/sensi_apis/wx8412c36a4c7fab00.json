@@ -1,0 +1,17 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx8412c36a4c7fab00/pages/blank/blank": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8412c36a4c7fab00/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8412c36a4c7fab00/pages/user/user": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8412c36a4c7fab00/pages/shop/shop": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8412c36a4c7fab00/pages/feedback/feedback": [
+        "wx.chooseImage"
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx4ecdadb3cfbbcfeb/pages/sameCity/sameCity": [
+        "wx.getUserInfo",
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4ecdadb3cfbbcfeb/pages/takeout/takeout": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4ecdadb3cfbbcfeb/pages/sameCity/advertisement": [
+        "wx.chooseLocation",
+        "wx.chooseImage",
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4ecdadb3cfbbcfeb/pages/my_store/order/takeout_distribution": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4ecdadb3cfbbcfeb/pages/my_store/store-message/store-message": [
+        "wx.chooseImage",
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4ecdadb3cfbbcfeb/pages/shopsSettled/shopsSettled": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4ecdadb3cfbbcfeb/pages/my_store/goods/goods-add": [
+        "wx.chooseImage",
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4ecdadb3cfbbcfeb/pages/groomStore/groomStore": [
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4ecdadb3cfbbcfeb/pages/hotSpot/hotSpot": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4ecdadb3cfbbcfeb/pages/sameCity/publish": [
+        "wx.getLocation",
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4ecdadb3cfbbcfeb/pages/settled/settled": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4ecdadb3cfbbcfeb/pages/newAddress/newAddress": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4ecdadb3cfbbcfeb/pages/personal/myRelease": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4ecdadb3cfbbcfeb/pages/category-list/category-list": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4ecdadb3cfbbcfeb/pages/personal_information/personal_information": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4ecdadb3cfbbcfeb/pages/details/details": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4ecdadb3cfbbcfeb/pages/publishService/publishService": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4ecdadb3cfbbcfeb/pages/lucky/red_pool/red_pool": [
+        "wx.getLocation"
+    ]
+}

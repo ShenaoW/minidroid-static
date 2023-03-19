@@ -2,8 +2,8 @@
     "req_before_use": {
         "authorize_scope": [],
         "sensi_apis": [
-            "wx.getLocation",
-            "wx.getUserInfo"
+            "wx.getUserInfo",
+            "wx.getLocation"
         ],
         "violation_page": [
             "app.js",
@@ -13,8 +13,8 @@
     "blanket_reqs": {
         "authorize_scope": [],
         "sensi_apis": [
-            "wx.getLocation",
-            "wx.getUserInfo"
+            "wx.getUserInfo",
+            "wx.getLocation"
         ],
         "violation_page": [
             "app.js",

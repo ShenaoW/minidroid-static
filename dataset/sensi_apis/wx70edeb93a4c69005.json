@@ -1,0 +1,58 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx70edeb93a4c69005/pages/index/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx70edeb93a4c69005/pages/sucai_search/sucai_search": [
+        "wx.getUserInfo",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx70edeb93a4c69005/pages/koutu/koutu": [
+        "wx.chooseImage",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx70edeb93a4c69005/pages/sucai/sucai": [
+        "wx.getUserInfo",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx70edeb93a4c69005/pages/jgpt/jgpt": [
+        "wx.chooseImage",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx70edeb93a4c69005/pages/pintu/pintu": [
+        "wx.chooseImage",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx70edeb93a4c69005/pages/qietu/qietu": [
+        "wx.chooseImage",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx70edeb93a4c69005/pages/nine_words/nine_words": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx70edeb93a4c69005/pages/hetu/hetu": [
+        "wx.chooseImage",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx70edeb93a4c69005/pages/touxiang/touxiang": [
+        "wx.chooseImage",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx70edeb93a4c69005/pages/axjgg/axjgg": [
+        "wx.chooseImage",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx70edeb93a4c69005/pages/wzsp/wzsp": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx70edeb93a4c69005/pages/szjgg/szjgg": [
+        "wx.chooseImage",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx70edeb93a4c69005/pages/image-cropper/image-cropper": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx70edeb93a4c69005/pages/biaobaitu/biaobaitu": [
+        "wx.chooseImage",
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

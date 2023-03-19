@@ -1,0 +1,18 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx49cfaed651a3155b/pages/destination/physicalStore/physicalStore": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx49cfaed651a3155b/pages/my/my": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx49cfaed651a3155b/pages/my/Sign_in/Sign_in": [
+        "wx.getUserInfo",
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx49cfaed651a3155b/pages/my/Personal_Center/Personal_Center": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx49cfaed651a3155b/pages/my/change_phone/change_phone": [
+        "wx.getUserInfo"
+    ]
+}

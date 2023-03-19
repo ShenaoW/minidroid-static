@@ -1,0 +1,70 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx929071765305956c/pages/news/newsDetail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx929071765305956c/pages/itemDetail/item_detail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx929071765305956c/pages/order/order": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx929071765305956c/pages/address/newAddress": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx929071765305956c/pages/codeGoods/detail": [
+        "wx.chooseImage",
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx929071765305956c/pages/sign/integral/order": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx929071765305956c/pages/food/order": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx929071765305956c/pages/vote/sign": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx929071765305956c/pages/dj/orderDetail": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx929071765305956c/pages/wsq/edit/edit": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx929071765305956c/pages/wsq/mine/mine": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx929071765305956c/pages/wsq/newgroup/newgroup": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx929071765305956c/pages/wsq/gender/info": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx929071765305956c/pages/wsq/gender/nearby": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx929071765305956c/pages/city/edit/edit": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx929071765305956c/pages/meeting/up/up": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx929071765305956c/pages/evaluate/evaluate": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx929071765305956c/pages/evaluate/evaluateMore": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx929071765305956c/pages/news/form": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx929071765305956c/pages/drive/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx929071765305956c/pages/submall/nearby": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx929071765305956c/pages/chain/index": [
+        "wx.getLocation"
+    ]
+}

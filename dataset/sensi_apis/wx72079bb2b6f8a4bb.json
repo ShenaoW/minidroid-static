@@ -1,0 +1,51 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx72079bb2b6f8a4bb/pages/home/dashboard/index": [
+        "wx.getUserProfile",
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx72079bb2b6f8a4bb/pages/usercenter/dashboard/index": [
+        "wx.getUserProfile",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx72079bb2b6f8a4bb/pages/issue/issue": [
+        "wx.getUserProfile",
+        "wx.chooseLocation",
+        "wx.chooseImage",
+        "wx.chooseMessageFile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx72079bb2b6f8a4bb/pages/detail/index": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx72079bb2b6f8a4bb/pages/register/register": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx72079bb2b6f8a4bb/pages/usercenter/payorder/index": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx72079bb2b6f8a4bb/pages/myQuan2/detail": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx72079bb2b6f8a4bb/pages/order/order": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx72079bb2b6f8a4bb/pages/order/detail": [
+        "wx.getUserProfile",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx72079bb2b6f8a4bb/pages/order/judetail": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx72079bb2b6f8a4bb/pages/order/yuyue": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx72079bb2b6f8a4bb/pages/company/infoSet": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx72079bb2b6f8a4bb/pages/dm/dm": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx72079bb2b6f8a4bb/pages/company/storeSet": [
+        "wx.chooseLocation"
+    ]
+}

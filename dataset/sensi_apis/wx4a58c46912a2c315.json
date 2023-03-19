@@ -1,0 +1,17 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx4a58c46912a2c315/pages/index/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4a58c46912a2c315/pages/login/login": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4a58c46912a2c315/pages/feedbackSuggestion/feedback/feedback": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4a58c46912a2c315/pages/feedbackSuggestion/suggestion/suggestion": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4a58c46912a2c315/pages/poetry/detail/detail": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

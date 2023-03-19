@@ -1,0 +1,11 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx99f0b9a1598725f6/pages/userInfo/userAddressList/userAddressList": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx99f0b9a1598725f6/pages/userInfo/empInfo/empInfo": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx99f0b9a1598725f6/pages/userInfo/empInfo/empPoster/empPoster": [
+        "wx.chooseImage"
+    ]
+}

@@ -1,0 +1,9 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx9dcc9b8f8c794b12/pages/empower/empower": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9dcc9b8f8c794b12/pages/Invoice/Invoice": [
+        "wx.chooseInvoiceTitle",
+        "wx.chooseInvoice"
+    ]
+}

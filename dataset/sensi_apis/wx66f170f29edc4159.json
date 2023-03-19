@@ -1,0 +1,20 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx66f170f29edc4159/pages/dailyTask/index": [
+        "wx.getUserInfo",
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx66f170f29edc4159/pages/mission/index": [
+        "wx.getUserInfo",
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx66f170f29edc4159/pages/instance/index": [
+        "wx.getUserInfo",
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx66f170f29edc4159/pages/saas/index": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx66f170f29edc4159/pages/saas/detail": [
+        "wx.getUserProfile"
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx4e1858c8e75a114d/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4e1858c8e75a114d/pages/attend1/attend1": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4e1858c8e75a114d/pages/attend/attend": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4e1858c8e75a114d/pages/fadan/fadan": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4e1858c8e75a114d/pages/flow/flow": [
+        "wx.chooseLocation",
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4e1858c8e75a114d/pages/goods/buy": [
+        "wx.chooseLocation",
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4e1858c8e75a114d/pages/guser/actadd": [
+        "wx.chooseImage"
+    ]
+}

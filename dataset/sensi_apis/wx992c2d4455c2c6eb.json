@@ -1,0 +1,43 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx992c2d4455c2c6eb/pages/index/index": [
+        "wx.getUserProfile",
+        "wx.openBluetoothAdapter"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx992c2d4455c2c6eb/pages/index/funcParkingOrder/funcParkingOrder": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx992c2d4455c2c6eb/pages/index/licenseCertified/licenseCertified": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx992c2d4455c2c6eb/pages/index/pay/errorFeedback/errorFeedback": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx992c2d4455c2c6eb/pages/index/funParkSearch/funParkSearch": [
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx992c2d4455c2c6eb/pages/index/funParkSearch/allPark/allPark": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx992c2d4455c2c6eb/pages/index/reserveParking/reserveParking": [
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx992c2d4455c2c6eb/pages/index/reserveParking/selectParking/selectParking": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx992c2d4455c2c6eb/pages/index/reserveParking/parkingRecord/parkingRecord": [
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx992c2d4455c2c6eb/pages/index/fixedParking/fixedParking": [
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx992c2d4455c2c6eb/pages/user/feedback/submit/submit": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx992c2d4455c2c6eb/pages/user/user": [
+        "wx.getUserProfile"
+    ]
+}

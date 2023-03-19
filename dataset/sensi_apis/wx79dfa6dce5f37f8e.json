@@ -1,0 +1,25 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx79dfa6dce5f37f8e/pages/majorFodderSave/majorFodderSave": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx79dfa6dce5f37f8e/pages/user/guideGroup/guideGroup": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx79dfa6dce5f37f8e/pages/copyGZ/copyGZ": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx79dfa6dce5f37f8e/pages/dry/dryBurn/dryBurn": [
+        "wx.chooseImage",
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx79dfa6dce5f37f8e/pages/dry/playSericeVideo/playSericeVideo": [
+        "wx.saveImageToPhotosAlbum",
+        "wx.saveVideoToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx79dfa6dce5f37f8e/pages/aikucun/aikcOrder/aikcOrder": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx79dfa6dce5f37f8e/pages/greetings/greetings": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

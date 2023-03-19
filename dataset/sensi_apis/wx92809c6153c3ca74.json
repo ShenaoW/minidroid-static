@@ -1,0 +1,12 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx92809c6153c3ca74/pages/ChildGarden/ChildOpera/ChildOpera": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx92809c6153c3ca74/pages/ChildGarden/Detail/Detail": [
+        "wx.chooseLocation",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx92809c6153c3ca74/pages/ChildGarden/ChildEdit/ChildEdit": [
+        "wx.chooseLocation"
+    ]
+}

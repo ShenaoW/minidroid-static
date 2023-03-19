@@ -1,0 +1,79 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx977390b3c5592191/pages/index/index": [
+        "wx.getUserInfo",
+        "wx.getUserProfile",
+        "wx.getLocation",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx977390b3c5592191/pages/package_html/index": [
+        "wx.getUserInfo",
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx977390b3c5592191/pages/my/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx977390b3c5592191/pages/movies/index": [
+        "wx.getUserInfo",
+        "wx.getUserProfile",
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx977390b3c5592191/pages/movies_ten/index": [
+        "wx.getUserInfo",
+        "wx.getUserProfile",
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx977390b3c5592191/pages/event_3568/index": [
+        "wx.getUserInfo",
+        "wx.getUserProfile",
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx977390b3c5592191/pages/login/index": [
+        "wx.getUserInfo",
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx977390b3c5592191/pages/cpcp_html/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx977390b3c5592191/pages/my_orderHtml/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx977390b3c5592191/pages/call_mobile/index": [
+        "wx.getUserInfo",
+        "wx.getUserProfile",
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx977390b3c5592191/pages/c_videoM/index": [
+        "wx.getUserInfo",
+        "wx.getUserProfile",
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx977390b3c5592191/pages/call_cord/index": [
+        "wx.getUserInfo",
+        "wx.getUserProfile",
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx977390b3c5592191/pages/handUp_card/index": [
+        "wx.getUserInfo",
+        "wx.getUserProfile",
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx977390b3c5592191/pages/deatilTd/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx977390b3c5592191/pages/more_html/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx977390b3c5592191/pages/more_html2/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx977390b3c5592191/pages/heart_bag/index": [
+        "wx.getUserInfo",
+        "wx.getUserProfile",
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx977390b3c5592191/pages/voice_bag/index": [
+        "wx.getUserInfo",
+        "wx.getUserProfile",
+        "wx.getLocation"
+    ]
+}

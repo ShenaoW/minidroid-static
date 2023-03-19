@@ -1,0 +1,11 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx75e813829c9c7c06/pages/commission/poster/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx75e813829c9c7c06/pages/goods/poster/poster": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx75e813829c9c7c06/raffle/pages/index/index": [
+        "wx.getUserInfo"
+    ]
+}

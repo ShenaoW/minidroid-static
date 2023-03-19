@@ -1,0 +1,12 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx925e43c427655121/pages/index/index": [
+        "wx.getUserInfo",
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx925e43c427655121/pages/poster/poster": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx925e43c427655121/pages/reward/reward": [
+        "wx.getUserInfo"
+    ]
+}

@@ -5,8 +5,6 @@
             "wx.getLocation"
         ],
         "violation_page": [
-            "/root/minidroid/dataset/miniprograms/wx9452b3952e861c3e/pages/index/index_map",
-            "/root/minidroid/dataset/miniprograms/wx9452b3952e861c3e/pages/index/index_map",
             "/root/minidroid/dataset/miniprograms/wx9452b3952e861c3e/pages/index/index_map"
         ]
     },

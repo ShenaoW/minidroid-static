@@ -1,0 +1,31 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx7fdcb0b7df1b5439/pages/index/index": [
+        "wx.getUserInfo",
+        "wx.getUserProfile",
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7fdcb0b7df1b5439/pages/openlogs/openlogs": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7fdcb0b7df1b5439/pages/allopenlogs/allopenlogs": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7fdcb0b7df1b5439/pages/open/open": [
+        "wx.getUserProfile",
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7fdcb0b7df1b5439/pages/health/health": [
+        "wx.getLocation",
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7fdcb0b7df1b5439/pages/wxlogin/wxlogin": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7fdcb0b7df1b5439/pages/getkeys/getkeys": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7fdcb0b7df1b5439/pages/lock/lock": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

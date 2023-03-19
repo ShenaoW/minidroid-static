@@ -1,0 +1,12 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx499fefecddd7f7e7/pages/picture/picture": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx499fefecddd7f7e7/pages/picture/add/add": [
+        "wx.chooseImage",
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx499fefecddd7f7e7/pages/picture/add/bgimg/bgimg": [
+        "wx.chooseImage"
+    ]
+}

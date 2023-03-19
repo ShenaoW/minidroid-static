@@ -1,0 +1,31 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx4c95f5ab404b0e7e/pages/account/nearstore/nearstore": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4c95f5ab404b0e7e/pages/account/invite/invite": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4c95f5ab404b0e7e/pages/account/headSetting/headSetting": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4c95f5ab404b0e7e/pages/accountFace/login/index": [
+        "wx.chooseImage",
+        "wx.createCameraContext"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4c95f5ab404b0e7e/pages/accountFace/index/index": [
+        "wx.chooseImage",
+        "wx.createCameraContext"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4c95f5ab404b0e7e/pages/group/placeorder/addAddress": [
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4c95f5ab404b0e7e/pages/account/myAddress/addAddress": [
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4c95f5ab404b0e7e/pages/shopping/nearstore/nearstore": [
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx7682814d7a589983/pages/tabbar/0/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7682814d7a589983/pages/category/list/list": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7682814d7a589983/pages/item/view/view": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7682814d7a589983/pages/order/affirm/affirm": [
+        "wx.chooseAddress"
+    ]
+}

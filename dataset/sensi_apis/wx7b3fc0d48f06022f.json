@@ -1,0 +1,38 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx7b3fc0d48f06022f/pages/jingxihongbao/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7b3fc0d48f06022f/pages/detail/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7b3fc0d48f06022f/pages/shop-info/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7b3fc0d48f06022f/pages/activity-detail/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7b3fc0d48f06022f/pages/register-check/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7b3fc0d48f06022f/pages/index-pingou/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7b3fc0d48f06022f/pages/member-upgrade/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7b3fc0d48f06022f/pages/community/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7b3fc0d48f06022f/pages/activity-index/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7b3fc0d48f06022f/pages/recommend/index": [
+        "wx.saveVideoToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7b3fc0d48f06022f/pages/limited-time-reward/index": [
+        "wx.saveVideoToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7b3fc0d48f06022f/pages/push-goods/choose-lab": [
+        "wx.getLocation"
+    ]
+}

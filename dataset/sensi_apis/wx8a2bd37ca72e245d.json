@@ -1,0 +1,43 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx8a2bd37ca72e245d/pages/shopping/nearstore/nearstore": [
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8a2bd37ca72e245d/pages/shopping/placeorder/payment": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8a2bd37ca72e245d/pages/shopping/placeorder/address": [
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8a2bd37ca72e245d/pages/account/invite/invite": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8a2bd37ca72e245d/pages/account/headSetting/headSetting": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8a2bd37ca72e245d/pages/accountFace/login/index": [
+        "wx.chooseImage",
+        "wx.createCameraContext"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8a2bd37ca72e245d/pages/accountFace/index/index": [
+        "wx.chooseImage",
+        "wx.createCameraContext"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8a2bd37ca72e245d/pages/account/pointsMall/checkout/addAddress": [
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8a2bd37ca72e245d/pages/group/placeorder/addAddress": [
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8a2bd37ca72e245d/pages/bargain/placeorder/addAddress": [
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8a2bd37ca72e245d/pages/account/myAddress/addAddress": [
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ]
+}

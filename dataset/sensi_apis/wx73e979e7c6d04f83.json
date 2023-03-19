@@ -1,0 +1,14 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx73e979e7c6d04f83/pages/searchList/searchList": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx73e979e7c6d04f83/pages/my/my": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx73e979e7c6d04f83/pages/address/address": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx73e979e7c6d04f83/pages/fenxiang/fenxiang": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

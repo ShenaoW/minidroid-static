@@ -1,0 +1,56 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx7d798eefe2f937f7/pages/carList/carList": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7d798eefe2f937f7/pages/articles/articles": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7d798eefe2f937f7/pages/loanEvaluate/loanEvaluate": [
+        "wx.getUserInfo",
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7d798eefe2f937f7/pages/publishInfo/publishInfo": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7d798eefe2f937f7/pages/editProfile/editProfile": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7d798eefe2f937f7/pages/myOutlet/myOutlet": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7d798eefe2f937f7/pages/index/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7d798eefe2f937f7/pages/carDetail/carDetail": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7d798eefe2f937f7/pages/croper/croper": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7d798eefe2f937f7/pages/storeHome/storeHome": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7d798eefe2f937f7/pages/seriesHome/seriesHome": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7d798eefe2f937f7/pages/contractResult/contractResult": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7d798eefe2f937f7/pages/carFriendsGroup/carFriendsGroup": [
+        "wx.getUserInfo",
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7d798eefe2f937f7/pages/searchGroupResult/searchGroupResult": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7d798eefe2f937f7/pages/userIndex/userIndex": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7d798eefe2f937f7/pages/selectCity/selectCity": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7d798eefe2f937f7/pages/forum/forum": [
+        "wx.getUserInfo"
+    ]
+}

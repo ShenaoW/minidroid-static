@@ -1,0 +1,18 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx46f156a10f19f144/pages/runs/runs": [
+        "wx.getLocation",
+        "wx.getWeRunData"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx46f156a10f19f144/pages/run/run": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx46f156a10f19f144/pages/send_log/send_log": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx46f156a10f19f144/pages/dan/dan": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx46f156a10f19f144/pages/play/play": [
+        "wx.saveVideoToPhotosAlbum"
+    ]
+}

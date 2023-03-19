@@ -1,0 +1,14 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx8d3ba71c3bc6874a/pages/product/catagory/catagory": [
+        "wx.chooseImage",
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8d3ba71c3bc6874a/pages/guest/add-address/index": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8d3ba71c3bc6874a/pages/admin/admin/admin": [
+        "wx.chooseImage",
+        "wx.chooseVideo",
+        "wx.chooseMessageFile"
+    ]
+}

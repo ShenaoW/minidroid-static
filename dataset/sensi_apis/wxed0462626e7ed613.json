@@ -1,0 +1,32 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxed0462626e7ed613/pages/population/add": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxed0462626e7ed613/pages/property/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxed0462626e7ed613/pages/account/addr": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxed0462626e7ed613/pages/help/feedProblem": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxed0462626e7ed613/pages/readMeter/readMeter": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxed0462626e7ed613/pages/residentBusiness/transferName": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxed0462626e7ed613/pages/residentBusiness/pipeAlteration": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxed0462626e7ed613/pages/residentBusiness/modifyContactInfo": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxed0462626e7ed613/pages/nonresidentBusiness/openAccount": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxed0462626e7ed613/pages/convenientService/dangerReport": [
+        "wx.chooseImage"
+    ]
+}

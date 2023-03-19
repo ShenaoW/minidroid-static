@@ -1,0 +1,8 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx94f128fdb506ab3f/pages/lafen/lafen": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx94f128fdb506ab3f/pages/chat/chat": [
+        "wx.chooseImage"
+    ]
+}

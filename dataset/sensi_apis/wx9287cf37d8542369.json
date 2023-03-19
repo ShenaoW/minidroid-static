@@ -1,0 +1,11 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx9287cf37d8542369/pages/map/map": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9287cf37d8542369/pages/test/test": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9287cf37d8542369/pages/enshrineList/enshrineList": [
+        "wx.getLocation"
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx8a466ac866f7a0d7/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8a466ac866f7a0d7/pages/orderDetail/orderDetail": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8a466ac866f7a0d7/pages/sharepage/sharepage": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8a466ac866f7a0d7/pages/storeList/storeList": [
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8a466ac866f7a0d7/pages/storeListTab/storeListTab": [
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8a466ac866f7a0d7/pages/mulShopList/mulShopList": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8a466ac866f7a0d7/pages/generalForm/generalForm": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8a466ac866f7a0d7/pages/generalFormTab/generalFormTab": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8a466ac866f7a0d7/pages/stepIndex/stepIndex": [
+        "wx.getWeRunData"
+    ]
+}

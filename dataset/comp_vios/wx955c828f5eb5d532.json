@@ -1,0 +1,17 @@
+{
+    "req_before_use": {
+        "authorize_scope": [],
+        "sensi_apis": [
+            "wx.getUserInfo"
+        ],
+        "violation_page": [
+            "app.js",
+            "app.js",
+            "/root/minidroid/dataset/miniprograms/wx955c828f5eb5d532/pages/businessCard/businessCard",
+            "/root/minidroid/dataset/miniprograms/wx955c828f5eb5d532/pages/businessCard/businessCard",
+            "/root/minidroid/dataset/miniprograms/wx955c828f5eb5d532/pages/businessCard/businessCard"
+        ]
+    },
+    "blanket_reqs": null,
+    "compulsory_req": null
+}

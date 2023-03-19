@@ -1,0 +1,37 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx4c1585a754cbee9a/pages/index/mpdetail/index": [
+        "wx.getLocation",
+        "wx.addPhoneContact"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4c1585a754cbee9a/pages/visicard/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4c1585a754cbee9a/pages/leaveMsg/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4c1585a754cbee9a/pages/company/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4c1585a754cbee9a/pages/address/index": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4c1585a754cbee9a/pages/shoprefund/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4c1585a754cbee9a/pages/shopdetail/shopvisicard/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4c1585a754cbee9a/pages/luckydraw/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4c1585a754cbee9a/pages/form/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4c1585a754cbee9a/pages/shopdetail/bargain/bargainvisicard/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4c1585a754cbee9a/pages/transitionlogin/transitionlogin": [
+        "wx.getLocation",
+        "wx.addPhoneContact"
+    ]
+}

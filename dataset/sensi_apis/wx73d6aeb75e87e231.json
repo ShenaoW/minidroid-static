@@ -1,0 +1,11 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx73d6aeb75e87e231/pages/home/home": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx73d6aeb75e87e231/pages/uploadImage/uploadImage": [
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx73d6aeb75e87e231/pages/cropperIndex/cropperIndex": [
+        "wx.chooseImage"
+    ]
+}

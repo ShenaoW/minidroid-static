@@ -1,0 +1,43 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxa42136ddebc87fdf/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa42136ddebc87fdf/pages/login/login": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa42136ddebc87fdf/pages/item/detail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa42136ddebc87fdf/pages/item/gysShop/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa42136ddebc87fdf/pages/buy/detail": [
+        "wx.getLocation",
+        "wx.chooseAddress",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa42136ddebc87fdf/pages/gift/getGift/getGift": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa42136ddebc87fdf/pages/user/evaluate/evaluate": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa42136ddebc87fdf/pages/user/myfans/myRepresent": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa42136ddebc87fdf/pages/levelPage/agentRequest/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa42136ddebc87fdf/pages/levelPage/distRequest/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa42136ddebc87fdf/pages/levelPage/magazineDetail/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa42136ddebc87fdf/pages/levelPage/shopSettled/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa42136ddebc87fdf/pages/levelPage/choosecity/index": [
+        "wx.getLocation"
+    ]
+}

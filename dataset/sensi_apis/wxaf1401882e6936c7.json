@@ -1,0 +1,17 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxaf1401882e6936c7/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaf1401882e6936c7/pages/login/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaf1401882e6936c7/pages/pay/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaf1401882e6936c7/pages/orderlist/movelist/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaf1401882e6936c7/pages/guide_detail/evaluate/index": [
+        "wx.chooseImage"
+    ]
+}

@@ -1,0 +1,79 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx73d336aadd321da5/pages/baodan/baodan": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx73d336aadd321da5/pages/baodanPics/baodanPics": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx73d336aadd321da5/pages/baodanShare/baodanShare": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx73d336aadd321da5/pages/myGuideQrcode/myGuideQrcode": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx73d336aadd321da5/pages/myCheckShare/myCheckShare": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx73d336aadd321da5/pages/lectureShare/lectureShare": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx73d336aadd321da5/pages/zhiboManageEdit/zhiboManageEdit": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx73d336aadd321da5/pages/zhiboShare/zhiboShare": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx73d336aadd321da5/pages/poster_share_sec/poster_share_sec": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx73d336aadd321da5/pages/poster_share_third/poster_share_third": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx73d336aadd321da5/pages/chsRegister/chsRegister": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx73d336aadd321da5/pages/chsPayindex/chsPayindex": [
+        "wx.chooseImage",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx73d336aadd321da5/pages/chsShouye/chsShouye": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx73d336aadd321da5/pages/guideDetail/guideDetail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx73d336aadd321da5/pages/poster_share/poster_share": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx73d336aadd321da5/pages/sign_in/sign_in": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx73d336aadd321da5/pages/sign_in_detail/sign_in_detail": [
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx73d336aadd321da5/pages/shares/shares": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx73d336aadd321da5/pages/details_share/details_share": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx73d336aadd321da5/pages/myAccountArea/myAccountArea": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx73d336aadd321da5/pages/myAccount/myAccount": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx73d336aadd321da5/pages/myBonusU/myBonusU": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx73d336aadd321da5/pages/myStoreQrcode/myStoreQrcode": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx73d336aadd321da5/pages/personInfo/personInfo": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx73d336aadd321da5/pages/storeSortShare/storeSortShare": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

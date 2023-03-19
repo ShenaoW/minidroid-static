@@ -1,0 +1,44 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx49903648367d5128/pages/index/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx49903648367d5128/pages/detail/detail": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx49903648367d5128/pages/confirmorder/confirmorder": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx49903648367d5128/pages/myaddress/myaddress": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx49903648367d5128/pages/addresslist/addresslist": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx49903648367d5128/pages/userset/userset": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx49903648367d5128/pages/applyservice/applyservice": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx49903648367d5128/pages/distributor/storeinfo/storeinfo": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx49903648367d5128/pages/distributor/distributorexplain/distributorexplain": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx49903648367d5128/pages/pintuan/confirmorder/confirmorder": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx49903648367d5128/pages/seckilling/submitorder/submitorder": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx49903648367d5128/pages/reduceauction/confirmorder/confirmorder": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx49903648367d5128/pages/stairgroup/confirmorder/confirmorder": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx49903648367d5128/pages/evaluation/evaluation": [
+        "wx.chooseImage"
+    ]
+}

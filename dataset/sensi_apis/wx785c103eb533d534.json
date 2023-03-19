@@ -1,0 +1,15 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx785c103eb533d534/pages/defaultPage/defaultPage": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx785c103eb533d534/pages/sorryPage/sorryPage": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx785c103eb533d534/pages/minePage/minePage": [
+        "wx.getUserInfo",
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx785c103eb533d534/pages/jumpApplet/jumpApplet": [
+        "wx.getUserInfo"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx8c5811b95beebae7/pages/userInfo/userAuth/userAuth": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8c5811b95beebae7/pages/userInfo/userAddressList/userAddressList": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8c5811b95beebae7/pages/userInfo/empInfo/empInfo": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8c5811b95beebae7/pages/userInfo/empInfo/empPoster/empPoster": [
+        "wx.chooseImage"
+    ]
+}

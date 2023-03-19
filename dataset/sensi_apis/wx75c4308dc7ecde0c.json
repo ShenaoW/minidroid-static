@@ -1,0 +1,8 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx75c4308dc7ecde0c/pages/circle/dynamicRelease/dynamicRelease": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx75c4308dc7ecde0c/pages/cut/cut": [
+        "wx.getLocation"
+    ]
+}

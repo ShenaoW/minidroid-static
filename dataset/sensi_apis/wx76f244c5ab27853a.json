@@ -1,0 +1,26 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx76f244c5ab27853a/pages/editStaff/editStaff": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx76f244c5ab27853a/pages/editContract/editContract": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx76f244c5ab27853a/pages/notice/addNotice/addContract": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx76f244c5ab27853a/pages/recommendCard/recommendCard": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx76f244c5ab27853a/pages/newHouse/sharePosterPrev/sharePosterPrev": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx76f244c5ab27853a/pages/loginPoster/loginPoster": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx76f244c5ab27853a/pages/loginPoster/posterPrev/posterPrev": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx76f244c5ab27853a/pages/multiHouseSave/multiHouseSave": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

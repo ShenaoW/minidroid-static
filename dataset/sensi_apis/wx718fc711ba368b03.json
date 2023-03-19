@@ -1,0 +1,17 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx718fc711ba368b03/pages/index/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx718fc711ba368b03/pages/gift/lipin/lipin": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx718fc711ba368b03/pages/gift/lingqu/lingqu": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx718fc711ba368b03/pages/goods/detail/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx718fc711ba368b03/pages/goods/poster/poster": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

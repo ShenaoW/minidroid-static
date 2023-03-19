@@ -1,0 +1,20 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx70a254106d7e2b0a/pages/astrocx/astrocx_info": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx70a254106d7e2b0a/pages/fortune_astro/fortune_info": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx70a254106d7e2b0a/pages/sx/sx_info": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx70a254106d7e2b0a/pages/fortune_sx/fortune_info": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx70a254106d7e2b0a/pages/pair_astro/xzpair_info": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx70a254106d7e2b0a/pages/pair_sx/sxpair_info": [
+        "wx.getUserInfo"
+    ]
+}

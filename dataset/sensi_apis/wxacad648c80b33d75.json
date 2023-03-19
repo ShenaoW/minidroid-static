@@ -1,0 +1,44 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxacad648c80b33d75/pages/goodsDetail/goodsDetail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxacad648c80b33d75/pages/my/applyShop": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxacad648c80b33d75/pages/live/push": [
+        "wx.createLivePusherContext"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxacad648c80b33d75/pages/index/shop/shopCenter": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxacad648c80b33d75/pages/tenants/store": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxacad648c80b33d75/pages/tenants/shopCenter": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxacad648c80b33d75/pages/community/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxacad648c80b33d75/pages/tenants/goodsDetail": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxacad648c80b33d75/pages/tenants/updateLocation": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxacad648c80b33d75/pages/home/team": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxacad648c80b33d75/pages/servicePlatform/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxacad648c80b33d75/pages/tuan/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxacad648c80b33d75/pages/tenants/new_index": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxacad648c80b33d75/pages/legwork/index": [
+        "wx.getLocation"
+    ]
+}

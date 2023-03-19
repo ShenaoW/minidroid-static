@@ -1,0 +1,12 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx8019cbce4f2e9453/pages/home/index": [
+        "wx.chooseImage",
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8019cbce4f2e9453/pages/order/index": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8019cbce4f2e9453/pages/member/index": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

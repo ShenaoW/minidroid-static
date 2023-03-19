@@ -1,0 +1,36 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx8da81d2714c278ed/pages/enterprise/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8da81d2714c278ed/pages/mall/index/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8da81d2714c278ed/pages/mall/my/pingjia": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8da81d2714c278ed/pages/mall/my/dizhiye": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8da81d2714c278ed/pages/mall/distribution/apply": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8da81d2714c278ed/pages/mall/my/groupShare": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8da81d2714c278ed/pages/sign/index/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8da81d2714c278ed/pages/sign/exchange/exchange": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8da81d2714c278ed/pages/fissioncard/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8da81d2714c278ed/pages/fissioncard/index22": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8da81d2714c278ed/pages/more/index": [
+        "wx.getUserInfo",
+        "wx.getLocation"
+    ]
+}

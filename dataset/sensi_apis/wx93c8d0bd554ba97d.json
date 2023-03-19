@@ -1,0 +1,43 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx93c8d0bd554ba97d/pages/shopsettings/index": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx93c8d0bd554ba97d/pages/updateads/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx93c8d0bd554ba97d/pages/goods-lists/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx93c8d0bd554ba97d/pages/updategoods/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx93c8d0bd554ba97d/pages/updateresource/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx93c8d0bd554ba97d/pages/equpmentgoods/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx93c8d0bd554ba97d/pages/equpmentgoods-add/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx93c8d0bd554ba97d/pages/application/index": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx93c8d0bd554ba97d/pages/device/index": [
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx93c8d0bd554ba97d/pages/merchat_application/index": [
+        "wx.getLocation",
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx93c8d0bd554ba97d/pages/starting/starting": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx93c8d0bd554ba97d/pages/showcoupon/index": [
+        "wx.getUserProfile"
+    ]
+}

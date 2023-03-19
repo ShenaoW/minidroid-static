@@ -1,0 +1,17 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxa9f2eb029730799d/pages/ranked/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa9f2eb029730799d/pages/store/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa9f2eb029730799d/pages/mine/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa9f2eb029730799d/pages/clothesSize/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa9f2eb029730799d/pages/share/index": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

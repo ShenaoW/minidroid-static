@@ -1,0 +1,8 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx82000d29e61a730e/pages/authorize/authorize": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx82000d29e61a730e/pages/commonshop/orderInfor/orderInfor": [
+        "wx.getLocation"
+    ]
+}

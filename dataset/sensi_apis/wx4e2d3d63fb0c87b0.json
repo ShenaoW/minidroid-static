@@ -1,0 +1,14 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx4e2d3d63fb0c87b0/pages/index/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4e2d3d63fb0c87b0/pages/setting/setting": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4e2d3d63fb0c87b0/pages/stepPage/stepPage": [
+        "wx.getWeRunData"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4e2d3d63fb0c87b0/pages/stepYesterday/stepYesterday": [
+        "wx.getWeRunData"
+    ]
+}

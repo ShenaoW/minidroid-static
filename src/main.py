@@ -5,6 +5,7 @@ import json
 import minium
 import config as config
 from loguru import logger 
+from bs4 import BeautifulSoup
 from utils.utils import get_wxapkg_paths, get_miniapp_paths
 from utils.wxapkg_decoder import decompile_wxapp
 from strategy.violation_checker import ViolationChecker
@@ -48,9 +49,9 @@ def mini_droid():
 
 
 def check_compliance_violations():
-    logger.add('dataset/output.log')
-    with open('dataset/dataset.json', 'r') as f:
-        miniapp_paths = json.load(f)
+    logger.add('dataset/comp_vios.log')
+    with open('dataset/dataset.json', 'r') as fp:
+        miniapp_paths = json.load(fp)
     for miniapp_path in miniapp_paths:
         logger.info('[Start] Static analysis of {}'.format(miniapp_path))
         try:
@@ -69,10 +70,46 @@ def check_compliance_violations():
             logger.info('[Finish] Static Analysis finished')
         except Exception as e:
             logger.error(e)
-        
 
+def check_sensi_apis():
+    sensi_apis_json = {}
+    logger.add('dataset/sensi_apis.log')
+    with open('dataset/dataset.json', 'r') as fp:
+        miniapp_paths = json.load(fp)
+    for miniapp_path in miniapp_paths:
+        logger.info('[Start] Static analysis of {}'.format(miniapp_path))
+        try:
+            miniapp = MiniApp(miniapp_path=miniapp_path)
+            sensi_apis_json[miniapp_path] = miniapp.sensi_apis
+            with open(miniapp.miniapp_path.replace('miniprograms', 'sensi_apis')+'.json', 'w') as fp:
+                json.dump(miniapp.sensi_apis, fp, indent=4)
+            logger.info('[Finish] Static Analysis finished')
+        except Exception as e:
+            logger.error(e)
+    with open('dataset/sensi_apis.json', 'w') as fp:
+        json.dump(sensi_apis_json, fp, indent=4)
+
+def get_sensi_page_text():
+    result_json = {}
+    with open('dataset/sensi_apis_result.json', 'r') as fp:
+        json_data = json.load(fp)
+    for miniappkey in json_data.keys():
+        sensi_api_dict = {}
+        for sensi_api in json_data[miniappkey].keys():
+            page_dict = {}
+            for page in json_data[miniappkey][sensi_api]:
+                soup = BeautifulSoup(open(page+'.wxml'), 'html.parser')
+                page_dict[page] = soup.text
+            sensi_api_dict[sensi_api] = page_dict
+        result_json[miniappkey] = sensi_api_dict
+    with open('dataset/senxi_page_text.json', 'w') as fp:
+        json.dump(result_json, fp, indent=4)
+                
+                
 if __name__ == '__main__':
-    check_compliance_violations()
+    # check_compliance_violations()
+    # check_sensi_apis()
+    get_sensi_page_text()
 
     # FIXED: 'Page' object has no attribute 'pdg_node'
     # miniapp = MiniApp('/root/minidroid/dataset/miniprograms/wx4c912d1abd56b887')   __plugin__
@@ -90,7 +127,15 @@ if __name__ == '__main__':
     # miniapp = MiniApp('/root/minidroid/dataset/miniprograms/wx9e6e9ee3c2ec7751')
 
 
-    # miniapp = MiniApp('/root/minidroid/dataset/miniprograms/wxaffdef2d93ac0cf5')
+    # test check_sensi_apis
+    # miniapp = MiniApp('/root/minidroid/dataset/miniprograms/wx9c7a3b1a32b7116c')
+    # with open(miniapp.miniapp_path.replace('miniprograms', 'sensi_apis')+'.json', 'w') as fp:
+    #     json.dump(miniapp.sensi_apis, fp, indent=4)
+    # print('success')
+
+
+    # Test check_compliance_violations
+    # miniapp = MiniApp('/root/minidroid/dataset/miniprograms/wx4efaefee87cecc64')
     # checker = ViolationChecker(miniapp=miniapp)
     # if checker.blanket_reqs != None or checker.req_before_use != None \
     #                 or checker.compulsory_reqs != None:

@@ -1,0 +1,16 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxa3e1dd02d6bd8931/pages/qrcodeGo/nearstore/nearstore": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa3e1dd02d6bd8931/pages/account/headSetting/headSetting": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa3e1dd02d6bd8931/pages/accountFace/login/index": [
+        "wx.chooseImage",
+        "wx.createCameraContext"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa3e1dd02d6bd8931/pages/accountFace/index/index": [
+        "wx.chooseImage",
+        "wx.createCameraContext"
+    ]
+}

@@ -1,0 +1,59 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxa02451d607e302a0/pages/index/index": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa02451d607e302a0/pages/integralMall/integralMall": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa02451d607e302a0/pages/hotExchange/hotExchange": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa02451d607e302a0/pages/orderConfirm/orderConfirm": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa02451d607e302a0/pages/couponList/couponList": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa02451d607e302a0/pages/myTask/myTask": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa02451d607e302a0/pages/hotActivity/hotActivity": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa02451d607e302a0/pages/jjIndex/jjIndex": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa02451d607e302a0/pages/nineIndex/nineIndex": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa02451d607e302a0/pages/invitationAuth/invitationAuth": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa02451d607e302a0/pages/xiliIndex/xiliIndex": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa02451d607e302a0/pages/snowIndex/snowIndex": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa02451d607e302a0/pages/happyIndex/happyIndex": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa02451d607e302a0/pages/springIndex/springIndex": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa02451d607e302a0/pages/meslIndex/meslIndex": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa02451d607e302a0/pages/jxyzIndex/jxyzIndex": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa02451d607e302a0/pages/cardsIndex/cardsIndex": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa02451d607e302a0/pages/openCards/openCards": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa02451d607e302a0/pages/exchangeIndex/exchangeIndex": [
+        "wx.getUserProfile"
+    ]
+}

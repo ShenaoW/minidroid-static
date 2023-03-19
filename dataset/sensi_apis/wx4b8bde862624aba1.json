@@ -1,0 +1,47 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx4b8bde862624aba1/pages/index/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4b8bde862624aba1/pages/group/groupDetail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4b8bde862624aba1/pages/fenxiao/web1": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4b8bde862624aba1/pages/MoForm/list": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4b8bde862624aba1/pages/Article/details": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4b8bde862624aba1/pages/Article/hydetails": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4b8bde862624aba1/pages/product/server": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4b8bde862624aba1/pages/order/detailed": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4b8bde862624aba1/pages/product/details": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4b8bde862624aba1/pages/order/list": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4b8bde862624aba1/pages/order/detailed2": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4b8bde862624aba1/pages/product/server3": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4b8bde862624aba1/pages/takeaway/takeaway": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4b8bde862624aba1/pages/takeaway/Choice1": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4b8bde862624aba1/pages/channel/channel": [
+        "wx.chooseImage"
+    ]
+}

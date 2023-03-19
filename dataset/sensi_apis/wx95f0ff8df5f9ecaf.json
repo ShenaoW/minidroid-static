@@ -1,0 +1,33 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx95f0ff8df5f9ecaf/pages/tel-directory/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx95f0ff8df5f9ecaf/pages/tel-directory/enter/enter": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx95f0ff8df5f9ecaf/pages/tel-directory/telList/telList": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx95f0ff8df5f9ecaf/pages/tel-directory/share/share": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx95f0ff8df5f9ecaf/pages/coupon/card_list/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx95f0ff8df5f9ecaf/pages/user/user_index/index": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx95f0ff8df5f9ecaf/pages/user/setting/index": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx95f0ff8df5f9ecaf/pages/user/address/index": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx95f0ff8df5f9ecaf/pages/user/tips-info/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx95f0ff8df5f9ecaf/pages/user/fenxiao/qcode/qcode": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

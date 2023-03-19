@@ -1,0 +1,75 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxa95167a88eae6f9c/pages/map/driverServer/driverServer": [
+        "wx.getUserInfo",
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa95167a88eae6f9c/pages/orderform/index": [
+        "wx.getLocation",
+        "wx.chooseLocation",
+        "wx.chooseImage",
+        "wx.createCameraContext",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa95167a88eae6f9c/pages/user_home/user_home": [
+        "wx.getUserInfo",
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa95167a88eae6f9c/pages/userOrder/helpFriendDownloadOrder/helpFriendDownloadOrder": [
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa95167a88eae6f9c/pages/user/changeAddress/changeAddress": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa95167a88eae6f9c/pages/user/complain/complain": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa95167a88eae6f9c/pages/user/register/register": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa95167a88eae6f9c/pages/map/my/my": [
+        "wx.getUserInfo",
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa95167a88eae6f9c/pages/driver/evidence/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa95167a88eae6f9c/pages/driver/personalInformation/personalInformation": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa95167a88eae6f9c/pages/driver/logs/logs": [
+        "wx.getUserInfo",
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa95167a88eae6f9c/pages/driver/addIdCardPhoto/addIdCardPhoto": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa95167a88eae6f9c/pages/driver/addDriverPhoto/addDriverPhoto": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa95167a88eae6f9c/pages/driver/driverServer/driverServer": [
+        "wx.getUserInfo",
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa95167a88eae6f9c/pages/driverOrder/insuranceReport/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa95167a88eae6f9c/pages/driverOrder/orderedStatus/orderedStatus": [
+        "wx.getLocation",
+        "wx.onLocationChange",
+        "wx.startLocationUpdate",
+        "wx.startLocationUpdateBackground"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa95167a88eae6f9c/pages/driverOrder/getOrder/getOrder": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa95167a88eae6f9c/pages/driverOrder/orderGoing/orderGoing": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa95167a88eae6f9c/pages/logs/logs": [
+        "wx.getUserInfo",
+        "wx.getLocation"
+    ]
+}

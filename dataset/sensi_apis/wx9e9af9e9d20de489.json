@@ -1,0 +1,9 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx9e9af9e9d20de489/pages/bbs/postmv/index": [
+        "wx.chooseImage",
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9e9af9e9d20de489/pages/push/index": [
+        "wx.createLivePusherContext"
+    ]
+}

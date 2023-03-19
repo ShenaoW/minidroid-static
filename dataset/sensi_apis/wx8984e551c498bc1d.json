@@ -1,0 +1,12 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx8984e551c498bc1d/pages/app-modul/cropping/cropping": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8984e551c498bc1d/pages/app-modul/editor/editor": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8984e551c498bc1d/pages/tabB/consulting_package/consulting_package": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ]
+}

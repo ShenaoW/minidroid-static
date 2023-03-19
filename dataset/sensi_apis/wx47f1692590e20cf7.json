@@ -1,0 +1,35 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx47f1692590e20cf7/pages/share/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx47f1692590e20cf7/pages/user/index/index": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx47f1692590e20cf7/pages/create/index/index": [
+        "wx.chooseImage",
+        "wx.chooseMessageFile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx47f1692590e20cf7/pages/create/details/index": [
+        "wx.chooseImage",
+        "wx.chooseMessageFile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx47f1692590e20cf7/pages/draw/friend-help-image/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx47f1692590e20cf7/pages/draw/in-mp/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx47f1692590e20cf7/pages/draw/qrcode/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx47f1692590e20cf7/pages/draw/share-image/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx47f1692590e20cf7/pages/draw/show-off/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx47f1692590e20cf7/pages/cropper/index": [
+        "wx.chooseImage",
+        "wx.chooseMessageFile"
+    ]
+}

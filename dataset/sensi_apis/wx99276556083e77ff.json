@@ -1,0 +1,17 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx99276556083e77ff/pages/bargain/haibao": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx99276556083e77ff/pages/community/plate/reply": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx99276556083e77ff/pages/community/plate/publish": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx99276556083e77ff/pages/community/plate/complaint": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx99276556083e77ff/pages/goods/poster/index": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

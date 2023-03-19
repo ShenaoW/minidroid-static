@@ -1,0 +1,61 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxa7b18e2e826fd737/pages/authorize/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa7b18e2e826fd737/pages/shopinfo/index": [
+        "wx.getLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa7b18e2e826fd737/pages/product/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa7b18e2e826fd737/pages/service/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa7b18e2e826fd737/pages/address-add/index": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa7b18e2e826fd737/pages/product/edit": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa7b18e2e826fd737/pages/service/edit": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa7b18e2e826fd737/pages/coupon/add": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa7b18e2e826fd737/pages/jp/add": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa7b18e2e826fd737/pages/jp/edit": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa7b18e2e826fd737/pages/my/code": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa7b18e2e826fd737/pages/index/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa7b18e2e826fd737/pages/appoint/product/create": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa7b18e2e826fd737/pages/m_resource/add": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa7b18e2e826fd737/pages/productmgt/goodsDetail/goodsDetail": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa7b18e2e826fd737/pages/productmgt/add/newitem": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa7b18e2e826fd737/pages/orderManag/orderManag": [
+        "wx.getLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa7b18e2e826fd737/pages/appoint/product/edit": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa7b18e2e826fd737/pages/productmgt/upload/upload": [
+        "wx.chooseImage"
+    ]
+}

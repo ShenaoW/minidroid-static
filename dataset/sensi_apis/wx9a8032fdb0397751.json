@@ -1,0 +1,11 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx9a8032fdb0397751/pages/index/loading": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9a8032fdb0397751/pages/order/comment": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9a8032fdb0397751/pages/listen/create": [
+        "wx.chooseImage"
+    ]
+}

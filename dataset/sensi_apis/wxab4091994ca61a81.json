@@ -1,0 +1,21 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxab4091994ca61a81/pages/index/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxab4091994ca61a81/pages/form/form": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxab4091994ca61a81/pages/report/report": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxab4091994ca61a81/pages/pay/invoice/invoice": [
+        "wx.chooseInvoiceTitle",
+        "wx.chooseInvoice"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxab4091994ca61a81/pages/pay/aliPay/aliPay": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxab4091994ca61a81/pages/fund/form/form": [
+        "wx.chooseImage"
+    ]
+}

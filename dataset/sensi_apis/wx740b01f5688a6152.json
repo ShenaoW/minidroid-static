@@ -1,0 +1,43 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx740b01f5688a6152/pages/bigcms/agent/device_info/device_info": [
+        "wx.openBluetoothAdapter",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx740b01f5688a6152/pages/bigcms/agent/deviceEdit/deviceEdit": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx740b01f5688a6152/pages/bigcms/agent/advEdit/advEdit": [
+        "wx.chooseImage",
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx740b01f5688a6152/pages/bigcms/agent/subscriptionEdit/subscriptionEdit": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx740b01f5688a6152/pages/bigcms/staff/detail/detail": [
+        "wx.openBluetoothAdapter"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx740b01f5688a6152/pages/bigcms/agent/goodsEdit/goodsEdit": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx740b01f5688a6152/pages/bigcms/agent/lottery/lottery": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx740b01f5688a6152/pages/bigcms/customer/index/index": [
+        "wx.getUserInfo",
+        "wx.openBluetoothAdapter",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx740b01f5688a6152/pages/bigcms/customer/feedback/feedback": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx740b01f5688a6152/pages/bigcms/agent/advMediaEdit/advMediaEdit": [
+        "wx.chooseImage",
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx740b01f5688a6152/pages/bigcms/agent/advThemeEdit/advThemeEdit": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx740b01f5688a6152/pages/bigcms/agent/advQrcodeEdit/advQrcodeEdit": [
+        "wx.chooseImage"
+    ]
+}

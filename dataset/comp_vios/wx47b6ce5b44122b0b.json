@@ -5,11 +5,8 @@
             "wx.getUserInfo"
         ],
         "violation_page": [
-            "app.js",
-            "app.js",
             "/root/minidroid/dataset/miniprograms/wx47b6ce5b44122b0b/pages/businessCard/businessCard",
-            "/root/minidroid/dataset/miniprograms/wx47b6ce5b44122b0b/pages/businessCard/businessCard",
-            "/root/minidroid/dataset/miniprograms/wx47b6ce5b44122b0b/pages/businessCard/businessCard"
+            "app.js"
         ]
     },
     "blanket_reqs": null,

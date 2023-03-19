@@ -1,0 +1,48 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx923ee90b4547682d/pages/recruit/index": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx923ee90b4547682d/pages/recruit/share": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx923ee90b4547682d/pages/recruit/race/product": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx923ee90b4547682d/pages/recruit/classes/create": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx923ee90b4547682d/pages/recruit/classes/edit": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx923ee90b4547682d/pages/classes/classIndex": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx923ee90b4547682d/pages/classes/list": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx923ee90b4547682d/pages/classes/create": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx923ee90b4547682d/pages/classes/setting": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx923ee90b4547682d/pages/classes/share": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx923ee90b4547682d/pages/classes/homeworks/selectType": [
+        "wx.chooseImage",
+        "wx.chooseVideo",
+        "wx.chooseMessageFile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx923ee90b4547682d/pages/classes/notice/create": [
+        "wx.chooseImage",
+        "wx.chooseVideo",
+        "wx.chooseMessageFile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx923ee90b4547682d/pages/my/index": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx923ee90b4547682d/pages/evaluates/share": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

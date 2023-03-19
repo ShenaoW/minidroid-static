@@ -1,0 +1,38 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx8f19dc0d3b320ab7/pages/TradingArea/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8f19dc0d3b320ab7/pages/TradingArea/TradingArea": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8f19dc0d3b320ab7/pages/Index/Index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8f19dc0d3b320ab7/pages/my/my-index/my-index": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8f19dc0d3b320ab7/pages/my/vip/vip_feedBack/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8f19dc0d3b320ab7/pages/my/service-comment/service-comment": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8f19dc0d3b320ab7/pages/Chain/Lists": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8f19dc0d3b320ab7/pages/Login/Login": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8f19dc0d3b320ab7/pages/couponBagCenter/couponDetail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8f19dc0d3b320ab7/pages/myCenter/shopGoodsDetail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8f19dc0d3b320ab7/pages/Index/willComment": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8f19dc0d3b320ab7/pages/Mall/couponDetailBuy": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

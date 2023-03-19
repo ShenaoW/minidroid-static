@@ -1,0 +1,11 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx4b84e7acef880e75/pages/member/member": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4b84e7acef880e75/pages/orderSubmit/orderSubmit": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4b84e7acef880e75/pages/dingdongService/dingdongService": [
+        "wx.startRecord"
+    ]
+}

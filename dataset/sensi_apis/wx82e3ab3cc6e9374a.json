@@ -1,0 +1,14 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx82e3ab3cc6e9374a/pages/idea/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx82e3ab3cc6e9374a/pages/supply/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx82e3ab3cc6e9374a/pages/supply_release/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx82e3ab3cc6e9374a/pages/nearmember/index": [
+        "wx.getLocation"
+    ]
+}

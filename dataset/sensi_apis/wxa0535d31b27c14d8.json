@@ -1,0 +1,54 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxa0535d31b27c14d8/pages/orgHome/orgHome": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa0535d31b27c14d8/pages/creat/creat": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa0535d31b27c14d8/pages/orgIntroEdit/orgIntroEdit": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa0535d31b27c14d8/pages/noauth/noauth": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa0535d31b27c14d8/pages/myCardEdit/myCardEdit": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa0535d31b27c14d8/pages/upload/upload": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa0535d31b27c14d8/pages/addComment/addComment": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa0535d31b27c14d8/pages/uploadHead/uploadHead": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa0535d31b27c14d8/pages/feedback/feedback": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa0535d31b27c14d8/pages/joinOrg/joinOrg": [
+        "wx.chooseImage",
+        "wx.chooseMessageFile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa0535d31b27c14d8/pages/setOrg/setOrg": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa0535d31b27c14d8/pages/cutFace/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa0535d31b27c14d8/pages/setOrgName/setOrgName": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa0535d31b27c14d8/pages/cutFaceWidth/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa0535d31b27c14d8/pages/cutFaceHeight/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa0535d31b27c14d8/pages/report/report": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa0535d31b27c14d8/pages/orgElegant/orgElegant": [
+        "wx.chooseImage"
+    ]
+}

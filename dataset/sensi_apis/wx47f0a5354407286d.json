@@ -1,0 +1,8 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx47f0a5354407286d/pages/photoface/photoface": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx47f0a5354407286d/pages/cameraface/cameraface": [
+        "wx.createCameraContext"
+    ]
+}

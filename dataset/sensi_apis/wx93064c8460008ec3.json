@@ -1,0 +1,19 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx93064c8460008ec3/pages/user/guideGroup/guideGroup": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx93064c8460008ec3/pages/user/moneyReceivingQRCode/moneyReceivingQRCode": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx93064c8460008ec3/pages/copyGZ/copyGZ": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx93064c8460008ec3/pages/dry/dryBurn/dryBurn": [
+        "wx.chooseImage",
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx93064c8460008ec3/pages/dry/playSericeVideo/playSericeVideo": [
+        "wx.saveImageToPhotosAlbum",
+        "wx.saveVideoToPhotosAlbum"
+    ]
+}

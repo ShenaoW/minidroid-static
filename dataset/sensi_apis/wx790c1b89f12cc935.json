@@ -1,0 +1,17 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx790c1b89f12cc935/pages/me/me": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx790c1b89f12cc935/pages/poster/poster": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx790c1b89f12cc935/pages/authorize/index": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx790c1b89f12cc935/pages/ordercart/order": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx790c1b89f12cc935/pages/liveroom/poster": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

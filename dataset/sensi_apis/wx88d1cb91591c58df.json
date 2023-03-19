@@ -1,0 +1,35 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx88d1cb91591c58df/pages/home/home": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx88d1cb91591c58df/pages/articleList/articleList": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx88d1cb91591c58df/pages/contentList/contentList": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx88d1cb91591c58df/pages/contentDetail/contentDetail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx88d1cb91591c58df/pages/activityList/activityList": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx88d1cb91591c58df/pages/lotteryList/lotteryList": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx88d1cb91591c58df/pages/addressManagementPage/addressManagementPage": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx88d1cb91591c58df/pages/goodsDetail/goodsDetail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx88d1cb91591c58df/pages/activePage/activePage": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx88d1cb91591c58df/pages/activePageBanner/activePageBanner": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx88d1cb91591c58df/pages/posterPage/posterPage": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

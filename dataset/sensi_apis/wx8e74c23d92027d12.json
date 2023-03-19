@@ -1,0 +1,43 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx8e74c23d92027d12/pages/home/home-new": [
+        "wx.getUserInfo",
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8e74c23d92027d12/pages/near/near": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8e74c23d92027d12/pages/mines/mines": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8e74c23d92027d12/pages/goodsCar/submitOrder/submitOrder": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8e74c23d92027d12/pages/login/login": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8e74c23d92027d12/pages/mines/shops/shops-category/settings/setting": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8e74c23d92027d12/pages/mines/shops/shops-category/album/photos-other/photo-add": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8e74c23d92027d12/pages/mines/shops/shops-category/minicode/paymentcode/paymentcode": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8e74c23d92027d12/pages/mines/shops/shops-category/minicode/programcode/programcode": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8e74c23d92027d12/pages/PageWxPay/PageWxPay": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8e74c23d92027d12/pages/PageWxPayNew/PageWxPay": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8e74c23d92027d12/pages/mines/moneybag/moneybag": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8e74c23d92027d12/pages/cutFace/index": [
+        "wx.chooseImage"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx4d1a9f0910a2a160/pages/clock/clock": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d1a9f0910a2a160/pages/map/map": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d1a9f0910a2a160/pages/webview/webview": [
+        "wx.getLocation"
+    ]
+}

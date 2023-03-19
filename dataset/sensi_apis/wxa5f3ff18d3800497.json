@@ -1,0 +1,20 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxa5f3ff18d3800497/pages/index/index": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa5f3ff18d3800497/pages/showtbtest/showtbtest": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa5f3ff18d3800497/pages/dh/dh": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa5f3ff18d3800497/pages/category/category": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa5f3ff18d3800497/pages/personal/personal": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa5f3ff18d3800497/pages/collecpage/collecpage": [
+        "wx.getUserInfo"
+    ]
+}

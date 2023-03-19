@@ -1,0 +1,12 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx736ff48526971e26/pages/index/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx736ff48526971e26/pages/making/making": [
+        "wx.chooseImage",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx736ff48526971e26/pages/my/my": [
+        "wx.chooseImage"
+    ]
+}

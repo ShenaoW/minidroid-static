@@ -1,0 +1,10 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx9f7ada33d3bc8cc7/pages/index/index": [
+        "wx.chooseImage",
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9f7ada33d3bc8cc7/pages/recommend/recommend": [
+        "wx.chooseImage",
+        "wx.chooseVideo"
+    ]
+}

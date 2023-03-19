@@ -1,0 +1,35 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxa3b74160d4878bf0/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa3b74160d4878bf0/pages/index/address/address": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa3b74160d4878bf0/pages/index/search/search": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa3b74160d4878bf0/pages/nearby/nearby": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa3b74160d4878bf0/pages/spread/circleOfFriends/share/share": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa3b74160d4878bf0/pages/order/comment/comment": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa3b74160d4878bf0/pages/users/shippingAddress/shippingAddress": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa3b74160d4878bf0/pages/users/shippingAddress/edit/edit": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa3b74160d4878bf0/pages/users/shippingAddress/address/address": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa3b74160d4878bf0/pages/users/person/photoCropping/photoCropping": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa3b74160d4878bf0/pages/login/login": [
+        "wx.getUserProfile"
+    ]
+}

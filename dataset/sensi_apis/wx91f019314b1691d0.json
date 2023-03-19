@@ -1,0 +1,49 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx91f019314b1691d0/pages/message/message": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx91f019314b1691d0/pages/message/chat": [
+        "wx.chooseImage",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx91f019314b1691d0/pages/message/chat_user": [
+        "wx.getUserInfo",
+        "wx.chooseImage",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx91f019314b1691d0/pages/evaluate/evaluate": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx91f019314b1691d0/pages/myaddress/myaddress": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx91f019314b1691d0/pages/myaddress/addmyaddress": [
+        "wx.getLocation",
+        "wx.chooseLocation",
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx91f019314b1691d0/pages/gaunweb/shownews": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx91f019314b1691d0/pages/gaunweb/show": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx91f019314b1691d0/pages/more/appointment_details": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx91f019314b1691d0/pages/fenxiao/income": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx91f019314b1691d0/pages/store/store_list": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx91f019314b1691d0/pages/ziti/ziti": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx91f019314b1691d0/pages/more/store_detail": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx91f019314b1691d0/pages/match/match": [
+        "wx.getLocation"
+    ]
+}

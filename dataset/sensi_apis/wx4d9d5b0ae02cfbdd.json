@@ -1,0 +1,11 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx4d9d5b0ae02cfbdd/pages/index/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d9d5b0ae02cfbdd/pages/mine/edit-baby/edit-baby": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d9d5b0ae02cfbdd/pages/homework/form/form": [
+        "wx.chooseImage"
+    ]
+}

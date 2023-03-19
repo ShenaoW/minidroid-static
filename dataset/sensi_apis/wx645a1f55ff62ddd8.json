@@ -1,0 +1,47 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx645a1f55ff62ddd8/pages/index/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx645a1f55ff62ddd8/pages/colonel/colonel": [
+        "wx.getUserInfo",
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx645a1f55ff62ddd8/pages/searchcolonel/searchcolonel": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx645a1f55ff62ddd8/pages/goodsdetail/goodsdetail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx645a1f55ff62ddd8/pages/detail/detail": [
+        "wx.getUserInfo",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx645a1f55ff62ddd8/pages/nearcolonel/nearcolonel": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx645a1f55ff62ddd8/pages/firmOrder/firmOrder": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx645a1f55ff62ddd8/pages/feedback/feedback": [
+        "wx.getUserInfo",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx645a1f55ff62ddd8/pages/release/release": [
+        "wx.getUserInfo",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx645a1f55ff62ddd8/pages/memberCard/memberCard": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx645a1f55ff62ddd8/pages/appraise/appraise": [
+        "wx.getUserInfo",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx645a1f55ff62ddd8/pages/logon/logon": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx645a1f55ff62ddd8/pages/register/register": [
+        "wx.getUserInfo"
+    ]
+}

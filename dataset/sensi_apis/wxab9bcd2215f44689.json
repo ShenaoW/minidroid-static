@@ -1,0 +1,36 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxab9bcd2215f44689/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxab9bcd2215f44689/pages/address/address": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxab9bcd2215f44689/pages/userCenter/address/editAddress/index": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxab9bcd2215f44689/pages/shop/shopindex/feedback/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxab9bcd2215f44689/pages/userCenter/set/info/index": [
+        "wx.getUserProfile",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxab9bcd2215f44689/pages/userCenter/promotion/collectionBinding/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxab9bcd2215f44689/pages/userCenter/invite/invitecenter": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxab9bcd2215f44689/pages/userCenter/invitecompents/facetoface/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxab9bcd2215f44689/pages/equity/openequity/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxab9bcd2215f44689/pages/userCenter/marketing/joinPoster/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxab9bcd2215f44689/pages/fecthExpress/addPackage/index": [
+        "wx.chooseImage"
+    ]
+}

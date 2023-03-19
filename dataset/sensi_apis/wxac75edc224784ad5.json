@@ -1,0 +1,11 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxac75edc224784ad5/pages/logs/improve/improve": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxac75edc224784ad5/pages/privatechat/privatechat": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxac75edc224784ad5/pages/chat-http/chat": [
+        "wx.chooseImage"
+    ]
+}

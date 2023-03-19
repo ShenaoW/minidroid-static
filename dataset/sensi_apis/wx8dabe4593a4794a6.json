@@ -1,0 +1,21 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx8dabe4593a4794a6/pages/index/index": [
+        "wx.getUserInfo",
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8dabe4593a4794a6/pages/coupon/coupon": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8dabe4593a4794a6/pages/info/info": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8dabe4593a4794a6/pages/mine/mine": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8dabe4593a4794a6/pages/nearby/nearby": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8dabe4593a4794a6/pages/dingwei/dingwei": [
+        "wx.getLocation"
+    ]
+}

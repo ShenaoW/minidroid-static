@@ -1,0 +1,11 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx97835ff0a4497aba/pages/parent/childManage": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx97835ff0a4497aba/pages/parent/upload": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx97835ff0a4497aba/pages/topic/report": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

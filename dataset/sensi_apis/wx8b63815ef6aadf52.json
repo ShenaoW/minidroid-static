@@ -1,0 +1,19 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx8b63815ef6aadf52/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8b63815ef6aadf52/pages/goodsDetail/goodsDetail": [
+        "wx.getLocation",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8b63815ef6aadf52/pages/multiStore/multiStore": [
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8b63815ef6aadf52/pages/limitTimeDiscount/detail/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8b63815ef6aadf52/pages/promoter/promoterCenter/promoterCenter": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

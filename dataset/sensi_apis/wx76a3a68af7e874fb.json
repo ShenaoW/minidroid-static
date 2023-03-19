@@ -1,0 +1,28 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx76a3a68af7e874fb/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx76a3a68af7e874fb/pages/ucenter/ucenter": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx76a3a68af7e874fb/pages/capture/capture": [
+        "wx.chooseImage",
+        "wx.createCameraContext"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx76a3a68af7e874fb/pages/preview/preview": [
+        "wx.saveVideoToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx76a3a68af7e874fb/pages/qrcode/qrcode": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx76a3a68af7e874fb/pages/shop/submit": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx76a3a68af7e874fb/pages/test/capture": [
+        "wx.chooseImage",
+        "wx.createCameraContext"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx76a3a68af7e874fb/pages/preview/photo": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

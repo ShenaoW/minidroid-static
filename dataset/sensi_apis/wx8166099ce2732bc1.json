@@ -1,0 +1,15 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx8166099ce2732bc1/pages/home/home": [
+        "wx.addPhoneContact"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8166099ce2732bc1/pages/chat/chat": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8166099ce2732bc1/pages/confirmOrder/confirmOrder": [
+        "wx.getLocation",
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8166099ce2732bc1/pages/confirmMenuOrder/confirmMenuOrder": [
+        "wx.chooseAddress"
+    ]
+}

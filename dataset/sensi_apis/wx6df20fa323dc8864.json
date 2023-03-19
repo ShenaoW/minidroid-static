@@ -1,0 +1,17 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx6df20fa323dc8864/pages/editAdpic/editAdpic": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx6df20fa323dc8864/pages/articleDetail/articleDetail": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx6df20fa323dc8864/pages/editAdfloat/editAdfloat": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx6df20fa323dc8864/pages/editAdcard/editAdcard": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx6df20fa323dc8864/pages/editAdkaiping/editAdkaiping": [
+        "wx.chooseImage"
+    ]
+}

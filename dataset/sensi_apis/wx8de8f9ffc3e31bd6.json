@@ -1,0 +1,29 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx8de8f9ffc3e31bd6/pages/turn/turn": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8de8f9ffc3e31bd6/pages/LoginNextCode/LoginNextCode": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8de8f9ffc3e31bd6/pages/LoginRegister/LoginRegister": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8de8f9ffc3e31bd6/pages/invitePoster/invitePoster": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8de8f9ffc3e31bd6/pages/liveModule/livePlayer/livePlayer": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8de8f9ffc3e31bd6/pages/liveModule/liveVideo/liveVideo": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8de8f9ffc3e31bd6/pages/index/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8de8f9ffc3e31bd6/pages/Setting/Setting": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8de8f9ffc3e31bd6/pages/Particulars/Particulars": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

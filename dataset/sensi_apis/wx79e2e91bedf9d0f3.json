@@ -1,0 +1,15 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx79e2e91bedf9d0f3/pages/photo/photo": [
+        "wx.chooseImage",
+        "wx.createCameraContext"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx79e2e91bedf9d0f3/pages/mine/mine": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx79e2e91bedf9d0f3/pages/mall/mall_goods_detail/mall_goods_detail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx79e2e91bedf9d0f3/pages/mall/mall_order_pay/mall_order_pay": [
+        "wx.chooseAddress"
+    ]
+}

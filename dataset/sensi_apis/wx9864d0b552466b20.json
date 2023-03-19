@@ -1,0 +1,14 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx9864d0b552466b20/pages/tabBar/product/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9864d0b552466b20/pages/tabBar/flat/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9864d0b552466b20/pages/tabBar/grouphouseTpl/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9864d0b552466b20/pages/tabBar/grouphouse/index/index": [
+        "wx.getLocation"
+    ]
+}

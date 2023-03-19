@@ -1,0 +1,16 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx8a41a85ccfe13e35/pages/about/part-time-job/start-doing/start-doing": [
+        "wx.chooseImage",
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8a41a85ccfe13e35/pages/about/part-time-job/product-material/product-material": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8a41a85ccfe13e35/pages/about/home/uinfo/uinfo": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8a41a85ccfe13e35/pages/about/part-time-job/start-doing/xiu": [
+        "wx.chooseImage",
+        "wx.chooseVideo"
+    ]
+}

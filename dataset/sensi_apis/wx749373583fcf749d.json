@@ -1,0 +1,29 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx749373583fcf749d/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx749373583fcf749d/pages/index_stu/index_stu": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx749373583fcf749d/pages/index_ins/index_ins": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx749373583fcf749d/pages/index_admin/index_admin": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx749373583fcf749d/pages/add_battery/add_battery": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx749373583fcf749d/pages/add_uav/add_uav": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx749373583fcf749d/pages/uavMaintain_rec/uavMaintain_rec": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx749373583fcf749d/pages/stu_reg/stu_reg": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx749373583fcf749d/pages/update_stuinfo/update_stuinfo": [
+        "wx.chooseImage"
+    ]
+}

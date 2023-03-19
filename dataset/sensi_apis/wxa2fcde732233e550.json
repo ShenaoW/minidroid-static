@@ -1,0 +1,20 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxa2fcde732233e550/pages/product/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa2fcde732233e550/pages/userCenter/userIndex/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa2fcde732233e550/pages/userCenter/revenue/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa2fcde732233e550/pages/userCenter/weixinSet/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa2fcde732233e550/pages/userCenter/inviteFriend/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa2fcde732233e550/pages/jd/product/index": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx7871845628faac7c/pages/edit/edit": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7871845628faac7c/pages/building/subPages/makePost": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

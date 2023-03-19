@@ -1,0 +1,18 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxa79672adcfb8788e/pages/certificate/certificateDetail/certificateDetail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa79672adcfb8788e/pages/photoModule/cropperImage/cropperImage": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa79672adcfb8788e/pages/mystudycontrol/classSignIn/classSignIn": [
+        "wx.getLocation",
+        "wx.onLocationChange",
+        "wx.startLocationUpdate"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa79672adcfb8788e/pages/reportsClass/learningReport": [
+        "wx.getLocation",
+        "wx.onLocationChange",
+        "wx.startLocationUpdate"
+    ]
+}

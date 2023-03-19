@@ -1,0 +1,16 @@
+{
+    "req_before_use": {
+        "authorize_scope": [],
+        "sensi_apis": [
+            "wx.getUserInfo"
+        ],
+        "violation_page": [
+            "app.js",
+            "/root/minidroid/dataset/miniprograms/wxa77997e32a50e02a/pages/wallpaper/wallpaper",
+            "/root/minidroid/dataset/miniprograms/wxa77997e32a50e02a/pages/wallpaper/wallpaper",
+            "/root/minidroid/dataset/miniprograms/wxa77997e32a50e02a/pages/wallpaper/wallpaper"
+        ]
+    },
+    "blanket_reqs": null,
+    "compulsory_req": null
+}

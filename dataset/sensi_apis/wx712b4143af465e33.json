@@ -1,0 +1,15 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx712b4143af465e33/pages/index/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx712b4143af465e33/pages/order-refund/order-refund": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx712b4143af465e33/pages/user/invoice": [
+        "wx.chooseInvoiceTitle",
+        "wx.chooseInvoice"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx712b4143af465e33/pages/withdrawal-integration/withdrawal-integration": [
+        "wx.getUserInfo"
+    ]
+}

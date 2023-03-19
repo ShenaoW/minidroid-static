@@ -1,0 +1,46 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxf8ed5eefca0da42f/pages/ProductDetail/ProductDetail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxf8ed5eefca0da42f/pages/OrderCreate/OrderCreate": [
+        "wx.chooseAddress",
+        "wx.chooseInvoiceTitle",
+        "wx.chooseInvoice"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxf8ed5eefca0da42f/pages/OrderTrace/OrderTrace": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxf8ed5eefca0da42f/pages/ExchangeOrderCreate/ExchangeOrderCreate": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxf8ed5eefca0da42f/pages/MyShare/MyShare": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxf8ed5eefca0da42f/pages/OrderComment/OrderComment": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxf8ed5eefca0da42f/pages/Course_Detail/Course_Detail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxf8ed5eefca0da42f/pages/StoreList/StoreList": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxf8ed5eefca0da42f/pages/Group_Detail/Group_Detail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxf8ed5eefca0da42f/pages/Group_OrderCreate/Group_OrderCreate": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxf8ed5eefca0da42f/pages/SecKill_Detail/SecKill_Detail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxf8ed5eefca0da42f/pages/StoreLists/StoreLists": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxf8ed5eefca0da42f/pages/CutPriceDetail/CutPriceDetail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxf8ed5eefca0da42f/pages/MyShareCode/MyShareCode": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

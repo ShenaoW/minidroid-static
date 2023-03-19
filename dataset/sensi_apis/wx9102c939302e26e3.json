@@ -1,0 +1,18 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx9102c939302e26e3/pages/user_spread_user/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9102c939302e26e3/pages/user_spread_code/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9102c939302e26e3/pages/user_spread_cope/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9102c939302e26e3/pages/movie/index": [
+        "wx.getLocation",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9102c939302e26e3/pages/movie/cinema": [
+        "wx.getLocation"
+    ]
+}

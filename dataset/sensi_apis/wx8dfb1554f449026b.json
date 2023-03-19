@@ -1,0 +1,49 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx8dfb1554f449026b/pages/ProductDetail/ProductDetail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8dfb1554f449026b/pages/OrderCreate/OrderCreate": [
+        "wx.chooseAddress",
+        "wx.chooseInvoiceTitle",
+        "wx.chooseInvoice"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8dfb1554f449026b/pages/OrderTrace/OrderTrace": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8dfb1554f449026b/pages/ExchangeOrderCreate/ExchangeOrderCreate": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8dfb1554f449026b/pages/MyShare/MyShare": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8dfb1554f449026b/pages/OrderComment/OrderComment": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8dfb1554f449026b/pages/Course_Detail/Course_Detail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8dfb1554f449026b/pages/StoreList/StoreList": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8dfb1554f449026b/pages/Group_Detail/Group_Detail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8dfb1554f449026b/pages/Group_OrderCreate/Group_OrderCreate": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8dfb1554f449026b/pages/SecKill_Detail/SecKill_Detail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8dfb1554f449026b/pages/StoreLists/StoreLists": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8dfb1554f449026b/pages/CutPriceDetail/CutPriceDetail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8dfb1554f449026b/pages/MyShareCode/MyShareCode": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8dfb1554f449026b/pages/MyCertificate/MyCertificate": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx83618f1b1ca539bb/pages/custom/custom_144912698": [
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx83618f1b1ca539bb/pages/custom/custom_588334615": [
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx83618f1b1ca539bb/pages/shop/mall/mall": [
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx83618f1b1ca539bb/pages/store/market-index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx83618f1b1ca539bb/pages/live/index/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx83618f1b1ca539bb/pages/user/user_index/index": [
+        "wx.chooseAddress",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx83618f1b1ca539bb/pages/user/address/index": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx83618f1b1ca539bb/pages/user/tips-info/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx83618f1b1ca539bb/pages/user/fenxiao/qcode/qcode": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx83618f1b1ca539bb/pages/user/fenxiao/purchaseShare/purchaseShare": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx83618f1b1ca539bb/pages/user/share/index": [
+        "wx.getLocation",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx83618f1b1ca539bb/pages/user/fenxiao/card/card": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx83618f1b1ca539bb/pages/plug-in/collection/index/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx83618f1b1ca539bb/pages/user/businessCard/myCardDetail/myCardDetail": [
+        "wx.chooseLocation",
+        "wx.addPhoneContact"
+    ]
+}

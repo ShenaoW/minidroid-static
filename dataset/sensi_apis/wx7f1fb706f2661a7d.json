@@ -1,0 +1,40 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx7f1fb706f2661a7d/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7f1fb706f2661a7d/pages/shopSettled/shopSettled": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7f1fb706f2661a7d/pages/flShoplist/flShoplist": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7f1fb706f2661a7d/pages/flShoplistTab/flShoplistTab": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7f1fb706f2661a7d/pages/goodslist/goodslist": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7f1fb706f2661a7d/pages/releaseDetail/releaseDetail": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7f1fb706f2661a7d/pages/generalForm/generalForm": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7f1fb706f2661a7d/pages/generalFormTab/generalFormTab": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7f1fb706f2661a7d/pages/payshortPage/payshortPage": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7f1fb706f2661a7d/pages/storeListTab/storeListTab": [
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7f1fb706f2661a7d/pages/telBook/telBook": [
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ]
+}

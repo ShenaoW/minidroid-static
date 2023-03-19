@@ -1,0 +1,20 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx83f31e85f5e729ce/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx83f31e85f5e729ce/pages/merch-grouds/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx83f31e85f5e729ce/pages/settings/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx83f31e85f5e729ce/pages/merch-list/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx83f31e85f5e729ce/pages/merch-index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx83f31e85f5e729ce/pages/current-city/current-city": [
+        "wx.getLocation"
+    ]
+}

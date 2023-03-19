@@ -1,0 +1,16 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxae05c1b3d6a04a59/pages/MinaPurOrderCustAddress/MinaPurOrderCustAddress": [
+        "wx.chooseLocation",
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxae05c1b3d6a04a59/pages/MinaPnCustInvoiceEdit/MinaPnCustInvoiceEdit": [
+        "wx.chooseInvoiceTitle",
+        "wx.chooseInvoice"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxae05c1b3d6a04a59/pages/MinaInvoiceSheetDetail/MinaInvoiceSheetDetail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxae05c1b3d6a04a59/pages/MinaVipCard/MinaVipCard": [
+        "wx.addPhoneContact"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx79e21bc55d791eb3/pages/detail/detail": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx79e21bc55d791eb3/pages/refuse/applyRefuse": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx79e21bc55d791eb3/pages/my/my": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx79e21bc55d791eb3/pages/comment/comment": [
+        "wx.chooseImage"
+    ]
+}

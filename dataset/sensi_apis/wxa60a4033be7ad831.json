@@ -1,0 +1,8 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxa60a4033be7ad831/pages/transition/transition": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa60a4033be7ad831/component/selectIdentity/selectIdentity": [
+        "wx.getUserProfile"
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx8eba5d2badfea92c/pages/order/QRorder/index": [
+        "wx.chooseAddress",
+        "wx.chooseImage",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8eba5d2badfea92c/pages/details/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8eba5d2badfea92c/pages/activiity/giftvip/order": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8eba5d2badfea92c/pages/step/index": [
+        "wx.getWeRunData"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8eba5d2badfea92c/pages/login/index/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8eba5d2badfea92c/pages/order/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8eba5d2badfea92c/pages/welfare/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8eba5d2badfea92c/pages/user/index": [
+        "wx.chooseAddress",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8eba5d2badfea92c/pages/order/publish/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8eba5d2badfea92c/pages/refund/retGoods/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8eba5d2badfea92c/pages/refund/onlyRefund/index": [
+        "wx.chooseImage"
+    ]
+}

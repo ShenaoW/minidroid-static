@@ -1,0 +1,28 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxad2e9789b5076244/pages/user/user": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxad2e9789b5076244/pages/submit-order/submit-order": [
+        "wx.chooseInvoiceTitle",
+        "wx.chooseInvoice"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxad2e9789b5076244/pages/binding-phone/binding-phone": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxad2e9789b5076244/pages/prod/prod": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxad2e9789b5076244/components/template/spreadsharecode/spreadsharecode": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxad2e9789b5076244/pages/bill/apply/apply": [
+        "wx.chooseInvoiceTitle",
+        "wx.chooseInvoice"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxad2e9789b5076244/pages/sale-list/view/view": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxad2e9789b5076244/pages/gift-coupon/gift-coupon": [
+        "wx.getUserInfo"
+    ]
+}

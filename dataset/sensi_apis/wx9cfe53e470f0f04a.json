@@ -1,0 +1,11 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx9cfe53e470f0f04a/pages/exhibitorJoin/exhibitorJoin": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9cfe53e470f0f04a/pages/myCard/myCard": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9cfe53e470f0f04a/pages/addDockPage/addDockPage": [
+        "wx.chooseImage"
+    ]
+}

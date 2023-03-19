@@ -1,0 +1,38 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx844508036aeec322/pages/catalog/catalogNew": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx844508036aeec322/pages/ucenter/feedback/feedback": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx844508036aeec322/pages/commentPost/commentPost": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx844508036aeec322/pages/topicDetail/topicDetail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx844508036aeec322/pages/topicCommentPost/topicCommentPost": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx844508036aeec322/pages/goods/goods": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx844508036aeec322/pages/groupon/grouponDetail/grouponDetail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx844508036aeec322/pages/seckill/seckill": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx844508036aeec322/pages/goodskill/goodskill": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx844508036aeec322/pages/ucenter/moreSysterm/payPage": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx844508036aeec322/pages/ucenter/receiveMoney": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx844508036aeec322/pages/liveHome/liveHome": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

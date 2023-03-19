@@ -1,0 +1,14 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx8b349917b5765355/pages/attestation/attestation": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8b349917b5765355/pages/confirmOrder/confirmOrder": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8b349917b5765355/pages/productDetail/productDetail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8b349917b5765355/pages/login/login": [
+        "wx.getUserInfo"
+    ]
+}

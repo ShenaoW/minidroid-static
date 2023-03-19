@@ -1,0 +1,26 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx478c74d348859b45/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx478c74d348859b45/pages/auth/auth": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx478c74d348859b45/pages/phonelogin/phonelogin": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx478c74d348859b45/pages/up-common/up-common": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx478c74d348859b45/pages/prize-feed/prize-feed": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx478c74d348859b45/pages/my-car/my-car": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx478c74d348859b45/pages/car-share/car-share": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx478c74d348859b45/pages/driving-certification/driving-certification": [
+        "wx.chooseImage"
+    ]
+}

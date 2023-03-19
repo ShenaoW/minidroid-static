@@ -1,0 +1,18 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx9f70a4fd58c04585/pages/classify/classify": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9f70a4fd58c04585/pages/confirm/confirm": [
+        "wx.getLocation",
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9f70a4fd58c04585/pages/addr/addr": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9f70a4fd58c04585/pages/storeList/storeList": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9f70a4fd58c04585/pages/asbConfirm/asbConfirm": [
+        "wx.chooseAddress"
+    ]
+}

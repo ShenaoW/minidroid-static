@@ -1,0 +1,47 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx7c544dd972e54c8e/pages/detail/detail": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7c544dd972e54c8e/pages/confirmorder/confirmorder": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7c544dd972e54c8e/pages/myaddress/myaddress": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7c544dd972e54c8e/pages/addresslist/addresslist": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7c544dd972e54c8e/pages/userset/userset": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7c544dd972e54c8e/pages/applyservice/applyservice": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7c544dd972e54c8e/pages/distributor/storeinfo/storeinfo": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7c544dd972e54c8e/pages/distributor/storecard/storecard": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7c544dd972e54c8e/pages/distributor/distributorexplain/distributorexplain": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7c544dd972e54c8e/pages/pintuan/confirmorder/confirmorder": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7c544dd972e54c8e/pages/seckilling/submitorder/submitorder": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7c544dd972e54c8e/pages/reduceauction/confirmorder/confirmorder": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7c544dd972e54c8e/pages/stairgroup/confirmorder/confirmorder": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7c544dd972e54c8e/pages/evaluation/evaluation": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7c544dd972e54c8e/pages/supportvalueapply/supportvalueapply": [
+        "wx.chooseImage"
+    ]
+}

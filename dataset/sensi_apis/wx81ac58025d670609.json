@@ -1,0 +1,55 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx81ac58025d670609/components/publishdetail/publishdetail": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx81ac58025d670609/pages/dynamic/dynamic": [
+        "wx.getLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx81ac58025d670609/pages/register/register": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx81ac58025d670609/pages/activity/activity-detail/activity-detail": [
+        "wx.getLocation",
+        "wx.chooseImage",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx81ac58025d670609/pages/activity/activity-checked/activity-checked": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx81ac58025d670609/pages/activity/activity-check/activity-check": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx81ac58025d670609/pages/certificate/certificate": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx81ac58025d670609/pages/integral/integral-detail/integral-detail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx81ac58025d670609/pages/history/history": [
+        "wx.getLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx81ac58025d670609/pages/microwish/microwish-apply/microwish-apply": [
+        "wx.getLocation",
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx81ac58025d670609/pages/need/submitneed/submitneed": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx81ac58025d670609/pages/family/myfamily/myfamily": [
+        "wx.getLocation",
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx81ac58025d670609/pages/family/addmember/addmember": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx81ac58025d670609/pages/family/pay/pay": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx81ac58025d670609/pages/blockchain/blockchain": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

@@ -5,9 +5,8 @@
             "wx.getLocation"
         ],
         "violation_page": [
-            "app.js",
             "/root/minidroid/dataset/miniprograms/wx8f284f72db83ec11/pages/index/index",
-            "/root/minidroid/dataset/miniprograms/wx8f284f72db83ec11/pages/index/index"
+            "app.js"
         ]
     },
     "blanket_reqs": null,

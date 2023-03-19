@@ -1,0 +1,8 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx80d5c60976ef339a/pages/mine/mine_corp/mine_corpverify": [
+        "wx.chooseMessageFile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx80d5c60976ef339a/pages/bzbills/billoperatecreate": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

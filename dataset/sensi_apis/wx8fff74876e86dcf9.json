@@ -1,0 +1,18 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx8fff74876e86dcf9/pages/index/index": [
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8fff74876e86dcf9/pages/my/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8fff74876e86dcf9/pages/my/shop": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8fff74876e86dcf9/master/cate/addCate": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8fff74876e86dcf9/master/shop/add": [
+        "wx.chooseImage"
+    ]
+}

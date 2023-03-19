@@ -1,0 +1,35 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx48035add972363e5/pages/lafen/lafen": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx48035add972363e5/pages/check/coupon/detail/detail": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx48035add972363e5/pages/addcustom/addcustom": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx48035add972363e5/pages/employee/qrcode/qrcode": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx48035add972363e5/pages/custom/birthCustom/birthCustom": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx48035add972363e5/pages/poster/build/build": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx48035add972363e5/pages/teamList/createGood/createGood": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx48035add972363e5/pages/teamList/createGoodDetail/createGoodDetail": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx48035add972363e5/pages/seckillList/createGood/createGood": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx48035add972363e5/pages/seckillList/createGoodDetail/createGoodDetail": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx48035add972363e5/pages/memberPackeg/createActivity/createActivity": [
+        "wx.chooseImage"
+    ]
+}

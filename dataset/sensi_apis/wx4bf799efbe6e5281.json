@@ -1,0 +1,14 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx4bf799efbe6e5281/pages/facecollect/facecollect": [
+        "wx.createCameraContext"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4bf799efbe6e5281/pages/video/video": [
+        "wx.createCameraContext"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4bf799efbe6e5281/pages/faceidentify/faceidentify": [
+        "wx.createCameraContext"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4bf799efbe6e5281/pages/assessment/assessment": [
+        "wx.createCameraContext"
+    ]
+}

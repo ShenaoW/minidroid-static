@@ -1,0 +1,9 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx77f1820ade3ea5ad/pages/tiaozhan/tiaozhan": [
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx77f1820ade3ea5ad/pages/uploads/uploads": [
+        "wx.chooseImage",
+        "wx.chooseVideo"
+    ]
+}

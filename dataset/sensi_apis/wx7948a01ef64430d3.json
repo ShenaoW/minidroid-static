@@ -1,0 +1,12 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx7948a01ef64430d3/pages/product_detail/product_detail": [
+        "wx.getUserInfo",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7948a01ef64430d3/pages/nearby_stores/nearby_stores": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7948a01ef64430d3/pages/certification_upload/certification_upload": [
+        "wx.chooseImage"
+    ]
+}

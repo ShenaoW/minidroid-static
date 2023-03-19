@@ -5,11 +5,8 @@
             "wx.getUserInfo"
         ],
         "violation_page": [
-            "app.js",
-            "app.js",
             "/root/minidroid/dataset/miniprograms/wxa952dc8f87927c53/pages/mcorfi/mcorfi",
-            "/root/minidroid/dataset/miniprograms/wxa952dc8f87927c53/pages/mcorfi/mcorfi",
-            "/root/minidroid/dataset/miniprograms/wxa952dc8f87927c53/pages/mcorfi/mcorfi"
+            "app.js"
         ]
     },
     "blanket_reqs": null,

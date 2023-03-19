@@ -1,0 +1,51 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx96740fb08d34fa0f/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx96740fb08d34fa0f/pages/partner/ctx/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx96740fb08d34fa0f/pages/lingquhongbao/lingquhongbao": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx96740fb08d34fa0f/pages/card/makecard/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx96740fb08d34fa0f/pages/sroll_map/sroll_map": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx96740fb08d34fa0f/pages/address/address": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx96740fb08d34fa0f/pages/addressEdit/address": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx96740fb08d34fa0f/pages/member/member": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx96740fb08d34fa0f/pages/shangjia/indexshopPay": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx96740fb08d34fa0f/pages/second/product/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx96740fb08d34fa0f/pages/second/operagoods/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx96740fb08d34fa0f/pages/second/indexset/index": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx96740fb08d34fa0f/pages/second/apply/apply": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx96740fb08d34fa0f/pages/second/extension/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx96740fb08d34fa0f/pages/second/qrcode/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx96740fb08d34fa0f/pages/second/circleimg/index": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

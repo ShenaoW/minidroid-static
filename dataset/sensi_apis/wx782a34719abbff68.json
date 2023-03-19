@@ -1,0 +1,14 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx782a34719abbff68/pages/getHome/getHome": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx782a34719abbff68/pages/goodsContent/goodsContent": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx782a34719abbff68/pages/addAdress/addAdress": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx782a34719abbff68/pages/adressChange/adressChange": [
+        "wx.chooseLocation"
+    ]
+}

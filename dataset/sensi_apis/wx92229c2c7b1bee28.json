@@ -1,0 +1,26 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx92229c2c7b1bee28/pages/goods/goodDetail": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx92229c2c7b1bee28/pages/goods/purchdetails": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx92229c2c7b1bee28/pages/store/openstore/companydata/companydata": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx92229c2c7b1bee28/pages/store/openedstore/bizmanage/bizmanage": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx92229c2c7b1bee28/pages/store/openedstore/productsupload/productsupload": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx92229c2c7b1bee28/pages/my/my-set/setInfo/setInfo": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx92229c2c7b1bee28/pages/store/openedstore/add_store/add_store": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx92229c2c7b1bee28/pages/position-address/position-address": [
+        "wx.chooseLocation"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx997696e406bf8cce/pages/popular/popular": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx997696e406bf8cce/pages/my/my": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx997696e406bf8cce/pages/share/index": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

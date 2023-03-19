@@ -1,0 +1,8 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx9b8b702e37ab1c16/pages/partition-coupon/partition-coupon": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9b8b702e37ab1c16/pages/nearStore/nearStore": [
+        "wx.getLocation"
+    ]
+}

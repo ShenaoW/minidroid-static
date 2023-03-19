@@ -1,0 +1,11 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxaaac6038c8f51c75/pages/ucenter/index/index": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaaac6038c8f51c75/pages/shopping/checkout/checkout": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaaac6038c8f51c75/pages/goods/goods": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

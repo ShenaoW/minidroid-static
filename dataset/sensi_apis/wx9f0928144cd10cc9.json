@@ -1,0 +1,42 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx9f0928144cd10cc9/pages/management/index/index": [
+        "wx.getUserInfo",
+        "wx.chooseImage",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9f0928144cd10cc9/pages/management/videoqr/master/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9f0928144cd10cc9/pages/management/videoqr/videomaster/index": [
+        "wx.chooseVideo",
+        "wx.chooseMessageFile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9f0928144cd10cc9/pages/management/videoqr/setvideo/index": [
+        "wx.getUserInfo",
+        "wx.chooseImage",
+        "wx.chooseVideo",
+        "wx.chooseMessageFile",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9f0928144cd10cc9/pages/management/videoqr/video/index": [
+        "wx.chooseVideo",
+        "wx.chooseMessageFile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9f0928144cd10cc9/pages/management/videoqr/history/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9f0928144cd10cc9/pages/management/videoqr/historyinfo/index": [
+        "wx.chooseImage",
+        "wx.chooseVideo",
+        "wx.chooseMessageFile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9f0928144cd10cc9/pages/management/videoqr/importhistory/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9f0928144cd10cc9/pages/management/videoqr/cchellopage/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9f0928144cd10cc9/pages/activity/addactivity/index": [
+        "wx.chooseImage"
+    ]
+}

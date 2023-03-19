@@ -1,0 +1,17 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx932702bc564e9408/pages/index/detail/shop_detail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx932702bc564e9408/pages/community/releasee/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx932702bc564e9408/pages/activity/releasee/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx932702bc564e9408/pages/my/my_join/address/add/add": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx932702bc564e9408/pages/my/my_join/distribution_center/share/share": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

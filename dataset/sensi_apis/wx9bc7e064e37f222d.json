@@ -1,0 +1,17 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx9bc7e064e37f222d/pages/OrderCreate/OrderCreate": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9bc7e064e37f222d/pages/ExchangeOrderCreate/ExchangeOrderCreate": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9bc7e064e37f222d/pages/MyShare/MyShare": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9bc7e064e37f222d/pages/OrderComment/OrderComment": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9bc7e064e37f222d/pages/Group_OrderCreate/Group_OrderCreate": [
+        "wx.chooseAddress"
+    ]
+}

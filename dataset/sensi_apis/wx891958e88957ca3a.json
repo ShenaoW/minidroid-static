@@ -1,0 +1,11 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx891958e88957ca3a/pages/home/home": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx891958e88957ca3a/pages/contentList/contentList": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx891958e88957ca3a/pages/activityList/activityList": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

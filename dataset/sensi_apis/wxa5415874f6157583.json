@@ -1,0 +1,19 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxa5415874f6157583/pages/qsy/qsy": [
+        "wx.saveImageToPhotosAlbum",
+        "wx.saveVideoToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa5415874f6157583/pages/md5/md5": [
+        "wx.chooseVideo",
+        "wx.saveVideoToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa5415874f6157583/pages/xiugai/xiugai": [
+        "wx.saveVideoToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa5415874f6157583/pages/batch/batch": [
+        "wx.saveVideoToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa5415874f6157583/pages/mine/invite/invite": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

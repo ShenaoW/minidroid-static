@@ -1,0 +1,12 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx945669226f91b02b/pages/chat/chat": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx945669226f91b02b/pages/confirmOrder/confirmOrder": [
+        "wx.getLocation",
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx945669226f91b02b/pages/confirmMenuOrder/confirmMenuOrder": [
+        "wx.chooseAddress"
+    ]
+}

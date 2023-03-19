@@ -1,0 +1,36 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx71ff22c9dccef946/pages/material/material": [
+        "wx.chooseMessageFile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71ff22c9dccef946/pages/customer/customer_edit": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71ff22c9dccef946/pages/mine/mine_edit": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71ff22c9dccef946/pages/admin/toolEdit/toolEdit": [
+        "wx.chooseImage",
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71ff22c9dccef946/pages/admin/toolEdit/editor": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71ff22c9dccef946/pages/chat/chat_detail": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71ff22c9dccef946/pages/orderHelper/editAddress": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71ff22c9dccef946/pages/orderHelper/editGoods": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71ff22c9dccef946/pages/card/evaluate": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71ff22c9dccef946/pages/card/formSub": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71ff22c9dccef946/pages/feedback/feedback": [
+        "wx.chooseImage"
+    ]
+}

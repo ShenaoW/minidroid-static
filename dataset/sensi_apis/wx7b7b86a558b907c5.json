@@ -1,0 +1,11 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx7b7b86a558b907c5/pages/myLoadPage/myLoadPage": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7b7b86a558b907c5/pages/modifyVip/modifyVip": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7b7b86a558b907c5/pages/confirmExchange/confirmExchange": [
+        "wx.chooseAddress"
+    ]
+}

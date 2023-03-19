@@ -1,0 +1,8 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx670dbf948dd5ce60/pages/run/run": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx670dbf948dd5ce60/pages/person/person": [
+        "wx.getUserInfo"
+    ]
+}

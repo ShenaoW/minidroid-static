@@ -1,0 +1,56 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx9e8f7739e9fd5b52/pages/loadImg/loadImg": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9e8f7739e9fd5b52/pages/home/home": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9e8f7739e9fd5b52/pages/editCarInfo/editCarInfo": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9e8f7739e9fd5b52/pages/editCustomerInfo/editCustomerInfo": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9e8f7739e9fd5b52/pages/ensurePay/ensurePay": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9e8f7739e9fd5b52/pages/remark/remark": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9e8f7739e9fd5b52/pages/enquireImage/enquireImage": [
+        "wx.chooseImage",
+        "wx.chooseMessageFile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9e8f7739e9fd5b52/pages/newcarsImages/newcarsImages": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9e8f7739e9fd5b52/pages/lookOffer/lookOffer": [
+        "wx.chooseImage",
+        "wx.chooseMessageFile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9e8f7739e9fd5b52/pages/youCard/youCard": [
+        "wx.addPhoneContact"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9e8f7739e9fd5b52/pages/payPage/payPage": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9e8f7739e9fd5b52/pages/artificialPay/artificialPay": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9e8f7739e9fd5b52/pages/chooseInsurance/chooseInsurance": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9e8f7739e9fd5b52/pages/intelligentCI/intelligentCI": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9e8f7739e9fd5b52/pages/myMore/myMore": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9e8f7739e9fd5b52/pages/enquiryReceivingRemark/enquiryReceivingRemark": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9e8f7739e9fd5b52/pages/amendImage/amendImage": [
+        "wx.chooseImage",
+        "wx.chooseMessageFile"
+    ]
+}

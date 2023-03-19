@@ -1,0 +1,14 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx93b740444b1bb791/pages/OrderCreate/OrderCreate": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx93b740444b1bb791/pages/ExchangeOrderCreate/ExchangeOrderCreate": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx93b740444b1bb791/pages/MyShare/MyShare": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx93b740444b1bb791/pages/Group_OrderCreate/Group_OrderCreate": [
+        "wx.chooseAddress"
+    ]
+}

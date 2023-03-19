@@ -1,0 +1,8 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx85d0e05316e9efbc/pages/school/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx85d0e05316e9efbc/pages/live-order/index": [
+        "wx.chooseAddress"
+    ]
+}

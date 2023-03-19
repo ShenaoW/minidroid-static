@@ -1,0 +1,14 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx48cf33ae1d7d66a0/pages/editinfo/editinfo": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx48cf33ae1d7d66a0/pages/addmember/addmember": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx48cf33ae1d7d66a0/pages/login/login": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx48cf33ae1d7d66a0/pages/mainpage/mainpage": [
+        "wx.getUserInfo"
+    ]
+}

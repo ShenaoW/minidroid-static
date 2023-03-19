@@ -1,0 +1,31 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx90369c0a79d356d0/pages/index/index": [
+        "wx.getUserInfo",
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx90369c0a79d356d0/pages/user-center/user-center": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx90369c0a79d356d0/pages/wallet/wallet": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx90369c0a79d356d0/pages/apply-exchange/apply-exchange": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx90369c0a79d356d0/pages/classify/classify": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx90369c0a79d356d0/pages/confirm-order/confirm-order": [
+        "wx.getUserInfo",
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx90369c0a79d356d0/pages/feedback/feedback": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx90369c0a79d356d0/pages/liuyan/liuyan": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx90369c0a79d356d0/pages/credit-confirm-order/credit-confirm-order": [
+        "wx.chooseAddress"
+    ]
+}

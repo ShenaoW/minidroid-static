@@ -3,36 +3,22 @@
         "authorize_scope": [],
         "sensi_apis": [
             "wx.getUserInfo",
-            "wx.getUserInfo",
-            "wx.getUserInfo",
-            "wx.getUserInfo",
-            "wx.createCameraContext",
             "wx.createCameraContext"
         ],
         "violation_page": [
-            "app.js",
-            "app.js",
             "/root/minidroid/dataset/miniprograms/wx94453ac9e8af894a/pages/index/index",
-            "/root/minidroid/dataset/miniprograms/wx94453ac9e8af894a/pages/index/index",
-            "/root/minidroid/dataset/miniprograms/wx94453ac9e8af894a/pages/index/index"
+            "app.js"
         ]
     },
     "blanket_reqs": {
         "authorize_scope": [],
         "sensi_apis": [
             "wx.getUserInfo",
-            "wx.getUserInfo",
-            "wx.getUserInfo",
-            "wx.getUserInfo",
-            "wx.createCameraContext",
             "wx.createCameraContext"
         ],
         "violation_page": [
-            "app.js",
-            "app.js",
             "/root/minidroid/dataset/miniprograms/wx94453ac9e8af894a/pages/index/index",
-            "/root/minidroid/dataset/miniprograms/wx94453ac9e8af894a/pages/index/index",
-            "/root/minidroid/dataset/miniprograms/wx94453ac9e8af894a/pages/index/index"
+            "app.js"
         ]
     },
     "compulsory_req": null

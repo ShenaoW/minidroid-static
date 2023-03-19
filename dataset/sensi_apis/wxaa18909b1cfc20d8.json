@@ -1,0 +1,25 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxaa18909b1cfc20d8/hyb_jianzhi/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaa18909b1cfc20d8/hyb_jianzhi/sell/sell": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaa18909b1cfc20d8/hyb_jianzhi/shop_edit/shop_edit": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaa18909b1cfc20d8/hyb_jianzhi/shop_release/shop_release": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaa18909b1cfc20d8/hyb_jianzhi/my/my": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaa18909b1cfc20d8/hyb_jianzhi/edit/edit": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaa18909b1cfc20d8/hyb_jianzhi/job_detail/job_detail": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

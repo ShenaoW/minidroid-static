@@ -1,0 +1,19 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxacf5a38bbe10b646/pages/index/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxacf5a38bbe10b646/pages/live_detail/live_detail": [
+        "wx.saveImageToPhotosAlbum",
+        "wx.saveVideoToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxacf5a38bbe10b646/pages/photo_detail/photo_detail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxacf5a38bbe10b646/pages/special_live/index": [
+        "wx.saveImageToPhotosAlbum",
+        "wx.saveVideoToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxacf5a38bbe10b646/pages/company/detail": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

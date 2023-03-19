@@ -1,0 +1,18 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx92acc6a2ea27552c/pages/main/home/home": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx92acc6a2ea27552c/pages/common/login/login": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx92acc6a2ea27552c/pages/main/inviteShare/inviteShare": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx92acc6a2ea27552c/pages/common/register/register": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx92acc6a2ea27552c/pages/main/goodsDetails/goodsDetails": [
+        "wx.getUserInfo",
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

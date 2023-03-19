@@ -1,0 +1,14 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx9e1bc4d0e3bde0e0/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9e1bc4d0e3bde0e0/pages/login/login": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9e1bc4d0e3bde0e0/pages/selection/selection": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9e1bc4d0e3bde0e0/pages/bluetooth/bluetooth": [
+        "wx.openBluetoothAdapter"
+    ]
+}

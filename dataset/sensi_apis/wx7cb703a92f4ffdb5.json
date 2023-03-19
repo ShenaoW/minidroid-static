@@ -1,0 +1,51 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx7cb703a92f4ffdb5/pages/index/index": [
+        "wx.getUserInfo",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7cb703a92f4ffdb5/pages/goods/goods": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7cb703a92f4ffdb5/pages/shop-list/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7cb703a92f4ffdb5/pages/address-edit/address-edit": [
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7cb703a92f4ffdb5/pages/address-picker/address-picker": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7cb703a92f4ffdb5/pages/new-order-submit/new-order-submit": [
+        "wx.getLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7cb703a92f4ffdb5/pages/share-qrcode/share-qrcode": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7cb703a92f4ffdb5/pages/card/index/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7cb703a92f4ffdb5/pages/pt/details/details": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7cb703a92f4ffdb5/pages/pt/group/details": [
+        "wx.getLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7cb703a92f4ffdb5/pages/pt/group-detail/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7cb703a92f4ffdb5/pages/topic/topic": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7cb703a92f4ffdb5/pages/delivery-area/delivery-area": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7cb703a92f4ffdb5/pages/store/store": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7cb703a92f4ffdb5/pages/foot/summary/summary": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

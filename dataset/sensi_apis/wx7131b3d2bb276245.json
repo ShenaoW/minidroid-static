@@ -1,0 +1,72 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx7131b3d2bb276245/pages/page/clue/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7131b3d2bb276245/pages/page/xc-public/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7131b3d2bb276245/pages/page/xc-home/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7131b3d2bb276245/pages/page/store/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7131b3d2bb276245/pages/page/group/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7131b3d2bb276245/pages/adopt/pet-give/index": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7131b3d2bb276245/pages/adopt/pet-adopt/index": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7131b3d2bb276245/pages/fabu/pet-msg/index": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7131b3d2bb276245/pages/fabu/add-pet/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7131b3d2bb276245/pages/fabu/help/index": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7131b3d2bb276245/pages/fabu/ask-sy/index": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7131b3d2bb276245/pages/fabu/fabu-ly/index": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7131b3d2bb276245/pages/fabu/fabu-shop/index": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7131b3d2bb276245/pages/my/udata/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7131b3d2bb276245/pages/my/pet-edit/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7131b3d2bb276245/pages/my/fabu-xc-pet/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7131b3d2bb276245/pages/my/fabu-xc-msg/index": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7131b3d2bb276245/pages/my/fabu-xz-msg/index": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7131b3d2bb276245/pages/my/fabu-ly-msg/index": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7131b3d2bb276245/pages/my/shop-dtl/index": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7131b3d2bb276245/pages/my/freeback/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7131b3d2bb276245/pages/page/issue/index": [
+        "wx.chooseImage"
+    ]
+}

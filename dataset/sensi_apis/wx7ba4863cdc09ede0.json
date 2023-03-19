@@ -1,0 +1,35 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx7ba4863cdc09ede0/pages/batteryCharge/index": [
+        "wx.openBluetoothAdapter"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ba4863cdc09ede0/pages/replenishment/replenishment": [
+        "wx.openBluetoothAdapter"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ba4863cdc09ede0/pages/openLock/openLock": [
+        "wx.openBluetoothAdapter"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ba4863cdc09ede0/pages/index/index": [
+        "wx.getUserProfile",
+        "wx.openBluetoothAdapter"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ba4863cdc09ede0/pages/login/login": [
+        "wx.openBluetoothAdapter"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ba4863cdc09ede0/pages/complaint/complaint": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ba4863cdc09ede0/pages/serviceHelp/index": [
+        "wx.openBluetoothAdapter",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ba4863cdc09ede0/pages/user/index": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ba4863cdc09ede0/pages/user/applyInvoice/index": [
+        "wx.chooseInvoiceTitle",
+        "wx.chooseInvoice"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ba4863cdc09ede0/pages/freeReceive/index": [
+        "wx.openBluetoothAdapter"
+    ]
+}

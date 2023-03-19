@@ -1,0 +1,23 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx7bbadf1acff589c5/pages/choose-stores/choose-stores": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7bbadf1acff589c5/pages/search-address/search-address": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7bbadf1acff589c5/pages/shop/shop": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7bbadf1acff589c5/pages/book/details/details": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7bbadf1acff589c5/pages/book/shop/shop": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7bbadf1acff589c5/pages/new-order-submit/new-order-submit": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7bbadf1acff589c5/pages/bluetooth/index": [
+        "wx.openBluetoothAdapter"
+    ]
+}

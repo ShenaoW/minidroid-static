@@ -1,0 +1,29 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx9a3bff8c4cba4888/pages/population/add": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9a3bff8c4cba4888/pages/property/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9a3bff8c4cba4888/pages/account/addr": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9a3bff8c4cba4888/pages/help/feedProblem": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9a3bff8c4cba4888/pages/readMeter/readMeter": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9a3bff8c4cba4888/pages/residentBusiness/transferName": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9a3bff8c4cba4888/pages/residentBusiness/pipeAlteration": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9a3bff8c4cba4888/pages/residentBusiness/modifyContactInfo": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9a3bff8c4cba4888/pages/nonresidentBusiness/openAccount": [
+        "wx.chooseLocation"
+    ]
+}

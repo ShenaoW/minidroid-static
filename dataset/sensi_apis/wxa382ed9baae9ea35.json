@@ -1,0 +1,55 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxa382ed9baae9ea35/pages/details/details": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa382ed9baae9ea35/pages/poster/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa382ed9baae9ea35/pages/address/address": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa382ed9baae9ea35/pages/order/confirm": [
+        "wx.chooseAddress",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa382ed9baae9ea35/pages/order/evaluate": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa382ed9baae9ea35/pages/order/refund": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa382ed9baae9ea35/pages/wallet/account": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa382ed9baae9ea35/pages/vip/confirm": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa382ed9baae9ea35/pages/promotion/detail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa382ed9baae9ea35/pages/bespoke/order": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa382ed9baae9ea35/pages/project/details": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa382ed9baae9ea35/pages/nearby/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa382ed9baae9ea35/pages/nearby/poi": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa382ed9baae9ea35/pages/live/live-pusher": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa382ed9baae9ea35/pages/live/live-player": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa382ed9baae9ea35/pages/live/my-Notice": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa382ed9baae9ea35/pages/live/add-broadcast": [
+        "wx.chooseImage"
+    ]
+}

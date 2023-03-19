@@ -2,7 +2,6 @@
     "req_before_use": {
         "authorize_scope": [],
         "sensi_apis": [
-            "wx.getUserInfo",
             "wx.getUserInfo"
         ],
         "violation_page": [
@@ -13,7 +12,6 @@
     "blanket_reqs": {
         "authorize_scope": [],
         "sensi_apis": [
-            "wx.getUserInfo",
             "wx.getUserInfo"
         ],
         "violation_page": [

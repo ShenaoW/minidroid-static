@@ -1,0 +1,24 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx8672c432b6c4bc1b/pages/index2/index": [
+        "wx.saveVideoToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8672c432b6c4bc1b/pages/tools/ceshi/ceshi": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8672c432b6c4bc1b/pages/erweima/erweima": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8672c432b6c4bc1b/pages/jx/jx": [
+        "wx.saveImageToPhotosAlbum",
+        "wx.saveVideoToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8672c432b6c4bc1b/pages/tool/images/drawingBoard/drawingBoard": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8672c432b6c4bc1b/pages/bilibilidownload/index/index": [
+        "wx.saveVideoToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8672c432b6c4bc1b/pages/bilibiliimage/home/home": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

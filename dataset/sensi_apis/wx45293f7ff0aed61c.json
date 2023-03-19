@@ -1,0 +1,8 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx45293f7ff0aed61c/pages/authlogin/authlogin": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx45293f7ff0aed61c/pages/teacher/teacher": [
+        "wx.chooseImage"
+    ]
+}

@@ -1,0 +1,57 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx8f46b4440b465f4e/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8f46b4440b465f4e/pages/businessCooperation/businessCooperation": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8f46b4440b465f4e/pages/shop_list/z": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8f46b4440b465f4e/pages/shop_store/shop_store": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8f46b4440b465f4e/pages/goods/goods": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8f46b4440b465f4e/pages/order-submit/order-submit": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8f46b4440b465f4e/pages/address-edit/address-edit": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8f46b4440b465f4e/pages/address-picker/address-picker": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8f46b4440b465f4e/pages/order-refund/order-refund": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8f46b4440b465f4e/pages/order-comment/order-comment": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8f46b4440b465f4e/pages/shop/shop": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8f46b4440b465f4e/pages/card/card": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8f46b4440b465f4e/pages/pt/details/details": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8f46b4440b465f4e/pages/pt/group/details": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8f46b4440b465f4e/pages/pt/order-comment/order-comment": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8f46b4440b465f4e/pages/book/details/details": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8f46b4440b465f4e/pages/book/shop/shop": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8f46b4440b465f4e/pages/book/order-comment/order-comment": [
+        "wx.chooseImage"
+    ]
+}

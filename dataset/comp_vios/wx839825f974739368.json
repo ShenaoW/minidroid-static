@@ -5,7 +5,6 @@
             "wx.getUserInfo"
         ],
         "violation_page": [
-            "app.js",
             "app.js"
         ]
     },

@@ -1,0 +1,40 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx7fb91358d7c80e50/pages/classify/classify": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7fb91358d7c80e50/pages/flash_sale/flash_sale": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7fb91358d7c80e50/pages/saleDetail/saleDetail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7fb91358d7c80e50/pages/buy_card/buy_card": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7fb91358d7c80e50/pages/meeting/meeting": [
+        "wx.getLocation",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7fb91358d7c80e50/pages/take_out/take_out": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7fb91358d7c80e50/pages/wechatLogin/wechatLogin": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7fb91358d7c80e50/pages/rest/rest": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7fb91358d7c80e50/pages/coupon/coupon": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7fb91358d7c80e50/pages/add_Address/add_Address": [
+        "wx.getLocation",
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7fb91358d7c80e50/pages/purchase/purchase": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7fb91358d7c80e50/pages/mobileLogin/mobileLogin": [
+        "wx.getUserInfo"
+    ]
+}

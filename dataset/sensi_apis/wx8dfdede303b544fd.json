@@ -1,0 +1,9 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx8dfdede303b544fd/pages/footdetail/detail": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8dfdede303b544fd/pages/do/index": [
+        "wx.getUserInfo",
+        "wx.chooseImage"
+    ]
+}

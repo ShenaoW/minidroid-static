@@ -1,0 +1,18 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx9cbdbdf31de40d73/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9cbdbdf31de40d73/pages/zhuli/index": [
+        "wx.getLocation",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9cbdbdf31de40d73/pages/orderInfo/info": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9cbdbdf31de40d73/pages/fuli/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9cbdbdf31de40d73/pages/sport/index": [
+        "wx.getWeRunData"
+    ]
+}

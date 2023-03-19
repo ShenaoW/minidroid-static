@@ -1,0 +1,26 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxaa1f852ba8c5198c/pages/wode/vip/vip": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaa1f852ba8c5198c/pages/wode/feedback/feedback": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaa1f852ba8c5198c/pages/wode/share/share": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaa1f852ba8c5198c/pages/wode/index/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaa1f852ba8c5198c/pages/wode/kefu/kefu": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaa1f852ba8c5198c/pages/zuopin/generate/generate": [
+        "wx.saveVideoToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaa1f852ba8c5198c/pages/live/liveResource/liveResource": [
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaa1f852ba8c5198c/pages/live/liveDetail/liveDetail": [
+        "wx.saveVideoToPhotosAlbum"
+    ]
+}

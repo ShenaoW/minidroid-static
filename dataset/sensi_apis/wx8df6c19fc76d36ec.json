@@ -1,0 +1,26 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx8df6c19fc76d36ec/pages/shopInfoSetup/index": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8df6c19fc76d36ec/pages/paymentCode/codeList/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8df6c19fc76d36ec/pages/Authorization/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8df6c19fc76d36ec/pages/merchantinput/uploadImg/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8df6c19fc76d36ec/pages/merchantinput/aliopen/index": [
+        "wx.chooseImage",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8df6c19fc76d36ec/pages/merchantinput/wxopen/index": [
+        "wx.chooseImage",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8df6c19fc76d36ec/pages/receipt/affirm/index": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "req_before_use": {
+        "authorize_scope": [],
+        "sensi_apis": [
+            "wx.getUserInfo"
+        ],
+        "violation_page": [
+            "app.js",
+            "/root/minidroid/dataset/miniprograms/wx763ed52855c7b4d1/pages/sameCity/sameCity",
+            "/root/minidroid/dataset/miniprograms/wx763ed52855c7b4d1/pages/sameCity/sameCity"
+        ]
+    },
+    "blanket_reqs": null,
+    "compulsory_req": null
+}

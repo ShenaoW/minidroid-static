@@ -5,11 +5,8 @@
             "wx.getUserInfo"
         ],
         "violation_page": [
-            "app.js",
-            "app.js",
             "/root/minidroid/dataset/miniprograms/wxa43778422bf7e570/pages/lifegv/lifegv",
-            "/root/minidroid/dataset/miniprograms/wxa43778422bf7e570/pages/lifegv/lifegv",
-            "/root/minidroid/dataset/miniprograms/wxa43778422bf7e570/pages/lifegv/lifegv"
+            "app.js"
         ]
     },
     "blanket_reqs": null,

@@ -1,0 +1,11 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx84a36b4e150083ba/pages/mzdj/selectStore/selectStore": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx84a36b4e150083ba/pages/mzdj/addressInfo/addressInfo": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx84a36b4e150083ba/pages/mzdj/addressMap/addressMap": [
+        "wx.getLocation"
+    ]
+}

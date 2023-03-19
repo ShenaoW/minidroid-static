@@ -1,0 +1,32 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx4ecf9be41155f8e2/pages/index/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4ecf9be41155f8e2/pages/MoForm/list": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4ecf9be41155f8e2/pages/product/server": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4ecf9be41155f8e2/pages/order/detailed": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4ecf9be41155f8e2/pages/order/list": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4ecf9be41155f8e2/pages/order/detailed2": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4ecf9be41155f8e2/pages/product/server3": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4ecf9be41155f8e2/pages/takeaway/takeaway": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4ecf9be41155f8e2/pages/takeaway/Choice1": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4ecf9be41155f8e2/pages/channel/channel": [
+        "wx.chooseImage"
+    ]
+}

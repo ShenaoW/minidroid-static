@@ -1,0 +1,19 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxa9672ecb37303206/pages/shop/addaddress": [
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa9672ecb37303206/pages/services/car/chexian/upload": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa9672ecb37303206/pages/services/lagehuo/lagehuo": [
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa9672ecb37303206/pages/zhihuicunwu/party/partyapply": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa9672ecb37303206/pages/services/enterprise": [
+        "wx.chooseImage"
+    ]
+}

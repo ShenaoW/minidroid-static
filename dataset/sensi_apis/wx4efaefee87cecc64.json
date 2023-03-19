@@ -1,0 +1,44 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx4efaefee87cecc64/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4efaefee87cecc64/pages/shopowner/shopowner": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4efaefee87cecc64/pages/circle/circle": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4efaefee87cecc64/pages/user/user": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4efaefee87cecc64/pages/circle/circontent": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4efaefee87cecc64/pages/circle/publish": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4efaefee87cecc64/pages/QQMapWX/QQMapWX": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4efaefee87cecc64/pages/shopindex/shopindex": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4efaefee87cecc64/pages/user/recvinvitation": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4efaefee87cecc64/pages/index/authorize": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4efaefee87cecc64/pages/user/abulk/headapplication": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4efaefee87cecc64/pages/found/mall": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4efaefee87cecc64/pages/release/release": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4efaefee87cecc64/pages/user/abulk/publishbulk": [
+        "wx.chooseImage"
+    ]
+}

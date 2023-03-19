@@ -1,0 +1,60 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx4d7b15dfb46164de/pages/jstore/goods/list/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d7b15dfb46164de/pages/jstore/home/shop/info": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d7b15dfb46164de/pages/jmall/Mall/Index/Index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d7b15dfb46164de/pages/jmall/Goods/GoodsDetail/GoodsDetail": [
+        "wx.getLocation",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d7b15dfb46164de/pages/jmall/Customer/PersonalCenter/Edit": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d7b15dfb46164de/pages/jmall/Customer/AddressDetail/AddressDetail": [
+        "wx.getLocation",
+        "wx.chooseLocation",
+        "wx.chooseAddress",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d7b15dfb46164de/pages/jmall/Distribution/DistributionCenter/DistributionCenter": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d7b15dfb46164de/pages/jmall/Distribution/DistributionGoods/DistributionGoods": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d7b15dfb46164de/pages/jmall/Distribution/MallPoster/MallPoster": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d7b15dfb46164de/pages/jmall/Trade/TradeConfirm/TradeConfirm": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d7b15dfb46164de/pages/jmall/Coupon/CouponList/CouponList": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d7b15dfb46164de/pages/jmall/Trade/TradeComment/TradeComment": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d7b15dfb46164de/pages/jmall/Community/GroupBuyList/GroupBuyList": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d7b15dfb46164de/pages/jmall/DisShop/ShopInfo/ShopInfo": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d7b15dfb46164de/pages/jmall/DisShop/ShopIndex/ShopIndex": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d7b15dfb46164de/pages/jmc/praise/praise": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d7b15dfb46164de/pages/jmall/Goods/GoodsCustom/GoodsCustom": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d7b15dfb46164de/pages/jmall/Trade/TradeConfirm_New/TradeConfirm_New": [
+        "wx.getLocation"
+    ]
+}

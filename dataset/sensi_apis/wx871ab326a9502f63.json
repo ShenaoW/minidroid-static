@@ -1,0 +1,18 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx871ab326a9502f63/pages/index/index": [
+        "wx.getUserInfo",
+        "wx.chooseImage",
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx871ab326a9502f63/pages/join/join": [
+        "wx.chooseImage",
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx871ab326a9502f63/pages/sign_edit/sign_edit": [
+        "wx.chooseImage",
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx871ab326a9502f63/pages/details/details": [
+        "wx.getUserInfo"
+    ]
+}

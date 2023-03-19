@@ -1,0 +1,23 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx4d1cafa6eaa40355/pages/user/user": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d1cafa6eaa40355/pages/serviceDetails/serviceDetails": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d1cafa6eaa40355/pages/assemble/assemble": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d1cafa6eaa40355/pages/seckill/seckill": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d1cafa6eaa40355/pages/store/store": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d1cafa6eaa40355/pages/ptstore/ptstore": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d1cafa6eaa40355/pages/qgstore/qgstore": [
+        "wx.getLocation"
+    ]
+}

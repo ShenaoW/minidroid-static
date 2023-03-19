@@ -1,0 +1,32 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx7c5381d77ce6738f/pages/tabBar/home/home": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7c5381d77ce6738f/pages/home/selectAddress/selectAddress": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7c5381d77ce6738f/pages/mine/sharingCode/sharingCode": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7c5381d77ce6738f/pages/mine/task/task": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7c5381d77ce6738f/pages/mine/addAddress/addAddress": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7c5381d77ce6738f/pages/mine/login/login": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7c5381d77ce6738f/pages/mine/payVideo/payVideo": [
+        "wx.saveVideoToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7c5381d77ce6738f/pages/mine/newsVideo/newsVideo": [
+        "wx.saveVideoToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7c5381d77ce6738f/pages/product/specialPoster/specialPoster": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7c5381d77ce6738f/pages/PhaseII/riskTesting/riskTesting": [
+        "wx.chooseLocation"
+    ]
+}

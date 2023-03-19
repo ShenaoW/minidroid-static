@@ -1,0 +1,30 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx83abcfbcf6f70495/pages/login/login": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx83abcfbcf6f70495/pages/mynote/mynote": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx83abcfbcf6f70495/pages/test/test": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx83abcfbcf6f70495/pages/collect/collect": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx83abcfbcf6f70495/pages/companyregister/companyregister": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx83abcfbcf6f70495/pages/editcompany/editcompany": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx83abcfbcf6f70495/pages/addCompanyjob/addCompanyjob": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx83abcfbcf6f70495/pages/editCompanyjob/editCompanyjob": [
+        "wx.chooseLocation"
+    ]
+}

@@ -1,0 +1,51 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx8f51ccdcc86d50db/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8f51ccdcc86d50db/pages/login/login": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8f51ccdcc86d50db/pages/item/detail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8f51ccdcc86d50db/pages/item/gysShop/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8f51ccdcc86d50db/pages/item/cutDownPrice/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8f51ccdcc86d50db/pages/buy/detail": [
+        "wx.getLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8f51ccdcc86d50db/pages/gift/getGift/getGift": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8f51ccdcc86d50db/pages/user/editUserInfo/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8f51ccdcc86d50db/pages/user/evaluate/evaluate": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8f51ccdcc86d50db/pages/user/myfans/myRepresent": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8f51ccdcc86d50db/pages/address/index": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8f51ccdcc86d50db/pages/levelPage/agentRequest/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8f51ccdcc86d50db/pages/levelPage/distRequest/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8f51ccdcc86d50db/pages/levelPage/magazineDetail/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8f51ccdcc86d50db/pages/levelPage/shopSettled/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8f51ccdcc86d50db/pages/levelPage/choosecity/index": [
+        "wx.getLocation"
+    ]
+}

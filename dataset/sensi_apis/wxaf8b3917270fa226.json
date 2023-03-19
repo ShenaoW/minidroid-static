@@ -1,0 +1,44 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxaf8b3917270fa226/pages/card/index/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaf8b3917270fa226/pages/card/ranking/ranking": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaf8b3917270fa226/pages/city/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaf8b3917270fa226/pages/card/ai_ocr/ai_ocr": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaf8b3917270fa226/pages/card/collection/collection": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaf8b3917270fa226/pages/card/info/info": [
+        "wx.saveImageToPhotosAlbum",
+        "wx.addPhoneContact"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaf8b3917270fa226/pages/card/edit/card-edit": [
+        "wx.chooseLocation",
+        "wx.chooseImage",
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaf8b3917270fa226/pages/card/edit_imgs/edit_imgs": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaf8b3917270fa226/pages/card/mail/mail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaf8b3917270fa226/pages/card/mails/mails": [
+        "wx.getLocation",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaf8b3917270fa226/pages/city/cityedit/cityedit": [
+        "wx.getUserInfo",
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaf8b3917270fa226/pages/examine/newsaudit/newsaudit": [
+        "wx.getLocation"
+    ]
+}

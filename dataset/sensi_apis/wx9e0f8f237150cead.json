@@ -1,0 +1,14 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx9e0f8f237150cead/pages/chat/public/chat": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9e0f8f237150cead/pages/lostAndSearch/registerCollectPage/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9e0f8f237150cead/pages/lostAndSearch/registerLostPage/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9e0f8f237150cead/pages/chat/single/chat": [
+        "wx.chooseImage"
+    ]
+}

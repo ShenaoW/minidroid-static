@@ -1,0 +1,11 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx79f00005bbe176cd/pages/address/address": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx79f00005bbe176cd/pages/orderlist_aftersale/orderlist_aftersale": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx79f00005bbe176cd/pages/booking_detail/booking_detail": [
+        "wx.getUserInfo"
+    ]
+}

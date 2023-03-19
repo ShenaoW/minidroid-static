@@ -1,0 +1,9 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx71ac0ea9df10aafb/pages/scan/scan": [
+        "wx.getUserInfo",
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71ac0ea9df10aafb/pages/my/my": [
+        "wx.getUserInfo"
+    ]
+}

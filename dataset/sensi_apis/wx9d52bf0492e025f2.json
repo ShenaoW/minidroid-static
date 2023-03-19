@@ -1,0 +1,17 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx9d52bf0492e025f2/pages/setting/goodsRequirement": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9d52bf0492e025f2/pages/groupBuying/applyGoodsAfterSale": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9d52bf0492e025f2/pages/groupBuying/goodsReviews": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9d52bf0492e025f2/pages/Admin/bleConnect": [
+        "wx.openBluetoothAdapter"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9d52bf0492e025f2/pages/demo/chatRobot": [
+        "wx.chooseImage"
+    ]
+}

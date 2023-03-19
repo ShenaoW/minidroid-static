@@ -1,0 +1,11 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxa03fc24cfed18ae0/pages/user/advise/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa03fc24cfed18ae0/pages/user/location/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa03fc24cfed18ae0/pages/user/after_market/index": [
+        "wx.chooseImage"
+    ]
+}

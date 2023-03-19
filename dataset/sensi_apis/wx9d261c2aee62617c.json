@@ -1,0 +1,50 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx9d261c2aee62617c/pages/businessCardMain/businessCardEdit/businessCardEdit": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9d261c2aee62617c/pages/businessCardMain/businessCardPicture/businessCardPicture": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9d261c2aee62617c/pages/businessCardMain/businessCardMainShare/businessCardMainShare": [
+        "wx.addPhoneContact"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9d261c2aee62617c/pages/distribution/generalize/generalize": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9d261c2aee62617c/pages/orderComment/orderComment": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9d261c2aee62617c/pages/address/address": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9d261c2aee62617c/pages/addAddress/addAddress": [
+        "wx.getLocation",
+        "wx.chooseLocation",
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9d261c2aee62617c/pages/manageGoodAdd/manageGoodAdd": [
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9d261c2aee62617c/pages/editor/editor": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9d261c2aee62617c/pages/aftersale/aftersale": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9d261c2aee62617c/pages/cropper/cropper": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9d261c2aee62617c/pages/poster/makePoster/makePoster": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9d261c2aee62617c/pages/groupsAftersale/groupsAftersale": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9d261c2aee62617c/pages/SubscribeRefer/SubscribeRefer": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9d261c2aee62617c/pages/cashierDesk/cashierDesk": [
+        "wx.getLocation"
+    ]
+}

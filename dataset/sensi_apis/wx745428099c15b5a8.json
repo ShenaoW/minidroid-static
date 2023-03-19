@@ -1,0 +1,21 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx745428099c15b5a8/pages/home/home": [
+        "wx.getUserInfo",
+        "wx.getUserProfile",
+        "wx.getLocation",
+        "wx.onLocationChange",
+        "wx.startLocationUpdate"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx745428099c15b5a8/pages/index/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx745428099c15b5a8/pages/QRcode4car/QRcode4car": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx745428099c15b5a8/pages/takeCar/takeCar": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx745428099c15b5a8/pages/takeCarNowShare/takeCarNowShare": [
+        "wx.getLocation"
+    ]
+}

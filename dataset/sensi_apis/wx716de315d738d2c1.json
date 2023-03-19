@@ -1,0 +1,15 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx716de315d738d2c1/pages/member/index/index": [
+        "wx.onLocationChange",
+        "wx.startLocationUpdate"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx716de315d738d2c1/pages/team/order": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx716de315d738d2c1/pages/commission/poster/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx716de315d738d2c1/pages/goods/poster/poster": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

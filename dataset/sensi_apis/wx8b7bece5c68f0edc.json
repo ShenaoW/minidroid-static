@@ -1,0 +1,17 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx8b7bece5c68f0edc/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8b7bece5c68f0edc/pages/poster/poster": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8b7bece5c68f0edc/pages/detile/detile": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8b7bece5c68f0edc/pages/servicedetile/servicedetile": [
+        "wx.addPhoneContact"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8b7bece5c68f0edc/pages/map/map": [
+        "wx.getLocation"
+    ]
+}

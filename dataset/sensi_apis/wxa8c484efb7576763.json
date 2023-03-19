@@ -1,0 +1,14 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxa8c484efb7576763/pages/apprebackmoney/apprebackmoney": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa8c484efb7576763/pages/owngoodsdetail/owngoodsdetail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa8c484efb7576763/pages/evaluate/evaluate": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa8c484efb7576763/pages/goodsdetail/goodsdetail": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

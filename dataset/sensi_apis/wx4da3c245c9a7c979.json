@@ -1,0 +1,41 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx4da3c245c9a7c979/pages/shop_decorate/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4da3c245c9a7c979/pages/big_shop_cate/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4da3c245c9a7c979/pages/message/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4da3c245c9a7c979/pages/shop_detail/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4da3c245c9a7c979/pages/activity-detail/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4da3c245c9a7c979/pages/publish/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4da3c245c9a7c979/pages/advertisements/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4da3c245c9a7c979/pages/apply/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4da3c245c9a7c979/pages/celebrity/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4da3c245c9a7c979/pages/details/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4da3c245c9a7c979/pages/release/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4da3c245c9a7c979/pages/group_details/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4da3c245c9a7c979/pages/group_order/index": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

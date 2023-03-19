@@ -1,0 +1,14 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx630fbc1f7c4085d8/pages/auth/getuserinfo": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx630fbc1f7c4085d8/pages/managestore/article/article": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx630fbc1f7c4085d8/pages/managestore/category/category": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx630fbc1f7c4085d8/pages/managestore/slide/slide": [
+        "wx.chooseImage"
+    ]
+}

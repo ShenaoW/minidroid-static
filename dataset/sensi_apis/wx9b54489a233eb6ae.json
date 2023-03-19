@@ -1,0 +1,11 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx9b54489a233eb6ae/pages/my/my": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9b54489a233eb6ae/pages/edit/edit": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9b54489a233eb6ae/pages/other/other": [
+        "wx.addPhoneContact"
+    ]
+}

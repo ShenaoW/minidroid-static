@@ -1,0 +1,19 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx4bd0f50f72b8aa30/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4bd0f50f72b8aa30/pages/multi/list": [
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4bd0f50f72b8aa30/pages/takefood/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4bd0f50f72b8aa30/pages/comment/add": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4bd0f50f72b8aa30/pages/invoice/applyinvoice/applyinvoice": [
+        "wx.chooseInvoiceTitle",
+        "wx.chooseInvoice"
+    ]
+}

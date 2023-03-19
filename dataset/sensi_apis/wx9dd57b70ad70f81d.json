@@ -1,0 +1,53 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx9dd57b70ad70f81d/pages/memberPackeg/memberPackeg": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9dd57b70ad70f81d/pages/limitbuy/limitbuy": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9dd57b70ad70f81d/pages/limitcard/limitcard": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9dd57b70ad70f81d/pages/reduce/reduce": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9dd57b70ad70f81d/pages/mine/refund/refund": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9dd57b70ad70f81d/pages/commonshop/productDetail/productDetail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9dd57b70ad70f81d/pages/secondshop/productDetail/productDetail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9dd57b70ad70f81d/pages/secondshop/index/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9dd57b70ad70f81d/pages/secondshop/newAddr/newAddr": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9dd57b70ad70f81d/pages/teamshop/index/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9dd57b70ad70f81d/pages/teamshop/productDetail/productDetail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9dd57b70ad70f81d/pages/mine/address/new/new": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9dd57b70ad70f81d/pages/mine/coupon/detail/detail": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9dd57b70ad70f81d/pages/mine/coupon/unDetail/unDetail": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9dd57b70ad70f81d/pages/mine/newAddr/newAddr": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9dd57b70ad70f81d/pages/account/favorable/favorable": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9dd57b70ad70f81d/pages/account/shareCoupon/shareCoupon": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

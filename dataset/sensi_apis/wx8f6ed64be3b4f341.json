@@ -1,0 +1,17 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx8f6ed64be3b4f341/pages/index/index": [
+        "wx.openBluetoothAdapter"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8f6ed64be3b4f341/pages/replen/index": [
+        "wx.openBluetoothAdapter"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8f6ed64be3b4f341/pages/login/login": [
+        "wx.openBluetoothAdapter"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8f6ed64be3b4f341/pages/openLock/openLock": [
+        "wx.openBluetoothAdapter"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8f6ed64be3b4f341/pages/batteryCharge/index": [
+        "wx.openBluetoothAdapter"
+    ]
+}

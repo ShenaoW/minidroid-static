@@ -1,0 +1,53 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx7199e685aa99bddc/pages/my/myPainter": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7199e685aa99bddc/pages/my/myDetail": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7199e685aa99bddc/pages/my/shopDetail": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7199e685aa99bddc/pages/my/workerDetail": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7199e685aa99bddc/pages/house/housePainter": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7199e685aa99bddc/pages/utils/editVideo": [
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7199e685aa99bddc/pages/fabu/esf": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7199e685aa99bddc/pages/fabu/zf": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7199e685aa99bddc/pages/fabu/applyplot": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7199e685aa99bddc/pages/xf_house/housePainter": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7199e685aa99bddc/pages/xf_house/addPost": [
+        "wx.chooseImage",
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7199e685aa99bddc/pages/xf_my/myPainter": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7199e685aa99bddc/pages/xf_my/myDetail": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7199e685aa99bddc/pages/xf_my/signin": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7199e685aa99bddc/pages/xf_guest/report": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7199e685aa99bddc/pages/utils/painter": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

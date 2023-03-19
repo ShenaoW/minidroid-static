@@ -1,0 +1,63 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx4ed902e153b35e79/pages/first/first": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4ed902e153b35e79/pages/home/home": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4ed902e153b35e79/pages/moreHome/moreHome": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4ed902e153b35e79/pages/moreTools/rmSound/rmSound": [
+        "wx.chooseVideo",
+        "wx.saveVideoToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4ed902e153b35e79/pages/moreTools/rmGPS/rmGPS": [
+        "wx.chooseImage",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4ed902e153b35e79/pages/moreTools/bgSound/bgSound": [
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4ed902e153b35e79/pages/moreTools/modifyPhoto/modify": [
+        "wx.chooseImage",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4ed902e153b35e79/pages/moreTools/downloadWithGroups/downlaodWithGroups": [
+        "wx.chooseMessageFile",
+        "wx.saveImageToPhotosAlbum",
+        "wx.saveVideoToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4ed902e153b35e79/pages/kuaishou/kuaishou": [
+        "wx.saveImageToPhotosAlbum",
+        "wx.saveVideoToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4ed902e153b35e79/pages/index/index": [
+        "wx.saveImageToPhotosAlbum",
+        "wx.saveVideoToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4ed902e153b35e79/pages/menu/menu": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4ed902e153b35e79/pages/drawPic/drawPic": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4ed902e153b35e79/pages/photoCombine/photoCombine": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4ed902e153b35e79/pages/visitingCardSet/visitingCardSet": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4ed902e153b35e79/pages/waterMark/waterMark": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4ed902e153b35e79/pages/waterMarkSet/waterMarkSet": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4ed902e153b35e79/pages/wordCombine/wordCombine": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4ed902e153b35e79/pages/imageDetail/imageDetail": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

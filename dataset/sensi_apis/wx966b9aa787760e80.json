@@ -1,0 +1,11 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx966b9aa787760e80/pages/goodsDetail/goodsDetail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx966b9aa787760e80/pages/multiStore/multiStore": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx966b9aa787760e80/pages/limitTimeDiscount/detail/index": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

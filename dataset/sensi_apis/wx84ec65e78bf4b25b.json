@@ -1,0 +1,8 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx84ec65e78bf4b25b/pages/sdf_firstpage/sdf_firstpage": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx84ec65e78bf4b25b/pages/store_list/store_list": [
+        "wx.getLocation"
+    ]
+}

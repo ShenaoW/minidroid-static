@@ -1,0 +1,20 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx7e937b7bac03da8e/pages/app_danye_20180530/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7e937b7bac03da8e/pages/shop/ghaibao/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7e937b7bac03da8e/pages/shop/submit/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7e937b7bac03da8e/pages/user/orderComment/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7e937b7bac03da8e/pages/user/adress/index": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7e937b7bac03da8e/pages/user/haibao/index": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

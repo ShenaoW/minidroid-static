@@ -1,0 +1,14 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx45c38607d69fd2ea/pages/home/home": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx45c38607d69fd2ea/pages/index/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx45c38607d69fd2ea/pages/assign/assign": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx45c38607d69fd2ea/pages/qrcode/qrcode": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

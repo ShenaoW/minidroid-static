@@ -1,0 +1,17 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx9f7d793751738431/pages/my/editCardNew/index": [
+        "wx.chooseLocation",
+        "wx.chooseImage",
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9f7d793751738431/pages/team/index/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9f7d793751738431/pages/my/index/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9f7d793751738431/pages/product/add/index": [
+        "wx.chooseImage",
+        "wx.chooseVideo"
+    ]
+}

@@ -1,0 +1,87 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx498c1a2833c93065/pages/aaafirst/aaafirst": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx498c1a2833c93065/pages/prolist/prolist": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx498c1a2833c93065/pages/prodetail/prodetail": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx498c1a2833c93065/pages/regions/regions": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx498c1a2833c93065/pages/clientnear/clientnear": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx498c1a2833c93065/pages/commentwrite/commentwrite": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx498c1a2833c93065/pages/group/group": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx498c1a2833c93065/pages/group-order/group-order": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx498c1a2833c93065/pages/team-detail/team-detail": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx498c1a2833c93065/pages/submit-order/submit-order": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx498c1a2833c93065/pages/wheel/wheel": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx498c1a2833c93065/pages/shake/shake": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx498c1a2833c93065/pages/yaoqing/yaoqing": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx498c1a2833c93065/pages/yaoqingyouli/yaoqingyouli": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx498c1a2833c93065/pages/yynewdetail/yynewdetail": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx498c1a2833c93065/pages/yysubmite/yysubmite": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx498c1a2833c93065/pages/yyaddcomment/yyaddcomment": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx498c1a2833c93065/pages/huodongdetail/huodongdetail": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx498c1a2833c93065/pages/huatifabu/huatifabu": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx498c1a2833c93065/pages/newclientlist/newclientlist": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx498c1a2833c93065/pages/waimailist/waimailist": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx498c1a2833c93065/pages/waimaisuborder/waimaisuborder": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx498c1a2833c93065/pages/waimaiassess/waimaiassess": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx498c1a2833c93065/pages/my/regions/regions": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx498c1a2833c93065/pages/my/fenxiao/erweima/erweima": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx498c1a2833c93065/pages/orderpay/orderpay": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx498c1a2833c93065/pages/fximage/fximage": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx498c1a2833c93065/pages/addNew1Address/addNew1Address": [
+        "wx.chooseLocation"
+    ]
+}

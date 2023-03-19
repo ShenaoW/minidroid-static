@@ -1,0 +1,17 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx7499c3ae074e5c61/pages/user_address_list/index": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7499c3ae074e5c61/pages/goods_details/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7499c3ae074e5c61/pages/user_spread_code/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7499c3ae074e5c61/pages/order_pay_status/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7499c3ae074e5c61/pages/u/u": [
+        "wx.chooseAddress"
+    ]
+}

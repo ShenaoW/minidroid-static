@@ -5,11 +5,8 @@
             "wx.getUserInfo"
         ],
         "violation_page": [
-            "app.js",
-            "app.js",
             "/root/minidroid/dataset/miniprograms/wx9cc92da5153d6f09/pages/cwdveo/cwdveo",
-            "/root/minidroid/dataset/miniprograms/wx9cc92da5153d6f09/pages/cwdveo/cwdveo",
-            "/root/minidroid/dataset/miniprograms/wx9cc92da5153d6f09/pages/cwdveo/cwdveo"
+            "app.js"
         ]
     },
     "blanket_reqs": null,

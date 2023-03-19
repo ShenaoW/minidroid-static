@@ -1,0 +1,8 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx4df627a0b4eb7069/pages/handbook/detail/detail": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4df627a0b4eb7069/pages/handbook/statistics/statistics": [
+        "wx.getLocation"
+    ]
+}

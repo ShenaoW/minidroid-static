@@ -1,0 +1,14 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxa1619bd0a159e71a/pages/user/user": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa1619bd0a159e71a/pages/index/cxindex": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa1619bd0a159e71a/pages/feiyong/fyadd": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa1619bd0a159e71a/pages/luntan/ltAdd": [
+        "wx.chooseImage"
+    ]
+}

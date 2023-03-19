@@ -1,0 +1,48 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx7264e66131e2e523/pages/index/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7264e66131e2e523/pages/my/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7264e66131e2e523/pages/add/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7264e66131e2e523/pages/add_douyin/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7264e66131e2e523/pages/add_xcx/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7264e66131e2e523/pages/add_baping/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7264e66131e2e523/pages/push/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7264e66131e2e523/pages/push_old/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7264e66131e2e523/pages/chuangjian/index": [
+        "wx.saveVideoToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7264e66131e2e523/pages/mylink/index": [
+        "wx.saveVideoToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7264e66131e2e523/pages/upjd/index": [
+        "wx.saveVideoToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7264e66131e2e523/pages/upimg/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7264e66131e2e523/pages/haibao/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7264e66131e2e523/pages/newvideo/index": [
+        "wx.getLocation",
+        "wx.saveVideoToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7264e66131e2e523/pages/push_edit/index": [
+        "wx.chooseImage"
+    ]
+}

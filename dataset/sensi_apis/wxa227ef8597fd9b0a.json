@@ -1,0 +1,11 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxa227ef8597fd9b0a/pages/mine/basicInfo/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa227ef8597fd9b0a/pages/personalhelpfeedback/personalhelpfeedback": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa227ef8597fd9b0a/pages/medicalInstitution/detail/index": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

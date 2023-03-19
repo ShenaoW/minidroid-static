@@ -1,0 +1,27 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx79f636ed51ec744d/pages/loginAndRegister/loginAndRegister": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx79f636ed51ec744d/pages/patientList/patientList": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx79f636ed51ec744d/pages/personal/personal": [
+        "wx.getUserProfile",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx79f636ed51ec744d/pages/editDoctorInfo/editDoctorInfo": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx79f636ed51ec744d/pages/shareEwm/shareEwm": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx79f636ed51ec744d/pages/noteEdit/noteEdit": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx79f636ed51ec744d/pages/customerService/customerService": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx79f636ed51ec744d/components/hospital_search/hospital_search": [
+        "wx.getLocation"
+    ]
+}

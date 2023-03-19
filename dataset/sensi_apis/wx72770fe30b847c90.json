@@ -1,0 +1,50 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx72770fe30b847c90/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx72770fe30b847c90/pages/payUnder/payUnder": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx72770fe30b847c90/pages/confirmOrder/confirmOrder": [
+        "wx.getUserInfo",
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx72770fe30b847c90/pages/addressList/addressList": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx72770fe30b847c90/pages/shopList/shopList": [
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx72770fe30b847c90/pages/pintuan/pintuanIndex": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx72770fe30b847c90/pages/shop/editShop": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx72770fe30b847c90/pages/shop/applyClerk": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx72770fe30b847c90/pages/official/website": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx72770fe30b847c90/pages/fwOrderComment/fwOrderComment": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx72770fe30b847c90/pages/dyfCardList/dyfCardList": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx72770fe30b847c90/pages/sourceMaterial/sharePage/sharePage": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx72770fe30b847c90/pages/dyfIntroduce/dyfIntroduce": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx72770fe30b847c90/pages/painting/onlineMatching": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx72770fe30b847c90/pages/painting/matchingPainting": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

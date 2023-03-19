@@ -1,0 +1,60 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxaa9faab4da9c0ee8/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaa9faab4da9c0ee8/pages/login/login": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaa9faab4da9c0ee8/pages/index/garbageIdentification/garbageIdentification": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaa9faab4da9c0ee8/pages/recovery/recovery": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaa9faab4da9c0ee8/pages/launchPoint/launchPoint": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaa9faab4da9c0ee8/pages/me/userInfo/userInfo": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaa9faab4da9c0ee8/pages/recycler/list/list": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaa9faab4da9c0ee8/pages/recycler/map/map": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaa9faab4da9c0ee8/pages/recycler/join/join": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaa9faab4da9c0ee8/pages/recycler/collector/create": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaa9faab4da9c0ee8/pages/recycler/collector/mdm/create": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaa9faab4da9c0ee8/pages/franchise/join/join": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaa9faab4da9c0ee8/pages/convenient/create/create": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaa9faab4da9c0ee8/pages/team/create/create": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaa9faab4da9c0ee8/pages/publicBenefit/recovery": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaa9faab4da9c0ee8/pages/homemaking/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaa9faab4da9c0ee8/pages/homemaking/staff/apply": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaa9faab4da9c0ee8/pages/store/index/index": [
+        "wx.getLocation"
+    ]
+}

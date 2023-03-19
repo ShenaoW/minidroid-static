@@ -1,0 +1,20 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx497e0c109c210617/pages/chosen/product/material/material": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx497e0c109c210617/pages/store/shop/shopInfo/shopInfo": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx497e0c109c210617/pages/store/shop/qrCode/qrCode": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx497e0c109c210617/pages/mine/certification/certification": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx497e0c109c210617/pages/oneStep/one/one": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx497e0c109c210617/pages/store/team/invite/invite": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

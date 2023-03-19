@@ -1,0 +1,16 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx46c415dad41f1638/pages/ucenter/location/add/add": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx46c415dad41f1638/pages/store/switchcity/switchcity": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx46c415dad41f1638/pages/card/test/test": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx46c415dad41f1638/pages/other/header/header": [
+        "wx.getUserInfo",
+        "wx.chooseImage",
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

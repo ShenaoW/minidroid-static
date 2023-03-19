@@ -1,0 +1,32 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx80736292998f373d/pages/product-detail/product-detail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx80736292998f373d/pages/profile/profile": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx80736292998f373d/pages/partner/partner": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx80736292998f373d/pages/promotion/promotion": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx80736292998f373d/pages/point-profile/point-profile": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx80736292998f373d/pages/user-settings/user-settings": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx80736292998f373d/pages/free-order/free-order": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx80736292998f373d/pages/first-order-bonus/first-order-bonus": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx80736292998f373d/pages/ele/ele": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx80736292998f373d/pages/meituan/meituan": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

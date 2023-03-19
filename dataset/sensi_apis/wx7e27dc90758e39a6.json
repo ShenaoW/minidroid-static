@@ -1,0 +1,18 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx7e27dc90758e39a6/pages/bx/bx": [
+        "wx.getLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7e27dc90758e39a6/pages/zladd/zladd": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7e27dc90758e39a6/pages/scadd/scadd": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7e27dc90758e39a6/pages/note/note": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7e27dc90758e39a6/pages/Photo/Photo": [
+        "wx.chooseImage"
+    ]
+}

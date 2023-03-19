@@ -1,0 +1,15 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx6f065e830795c44a/pages/indexPage/indexPage": [
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx6f065e830795c44a/pages/shopCar/shopCar": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx6f065e830795c44a/pages/classify/classify": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx6f065e830795c44a/pages/myPage/myPage": [
+        "wx.getUserProfile"
+    ]
+}

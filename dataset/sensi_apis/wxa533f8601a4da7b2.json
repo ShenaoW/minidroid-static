@@ -1,0 +1,47 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxa533f8601a4da7b2/pages/quan/quancreate": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa533f8601a4da7b2/pages/quan/quanindex": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa533f8601a4da7b2/pages/quan/quanedit": [
+        "wx.chooseLocation",
+        "wx.chooseImage",
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa533f8601a4da7b2/pages/shop/shopindex": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa533f8601a4da7b2/pages/shop/shopreg": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa533f8601a4da7b2/pages/makeshare/makeshare": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa533f8601a4da7b2/pages/quan/quanupdate": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa533f8601a4da7b2/pages/quan/quanupdatebg": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa533f8601a4da7b2/pages/theme/themecreate": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa533f8601a4da7b2/pages/theme/themepublic": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa533f8601a4da7b2/pages/theme/themeupdate": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa533f8601a4da7b2/pages/editor/editor": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa533f8601a4da7b2/pages/exmall/goodsadd": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa533f8601a4da7b2/pages/quan/qsearch": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

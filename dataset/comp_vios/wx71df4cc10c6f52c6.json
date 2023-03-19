@@ -5,10 +5,8 @@
             "wx.getUserInfo"
         ],
         "violation_page": [
-            "app.js",
             "/root/minidroid/dataset/miniprograms/wx71df4cc10c6f52c6/pages/index/index",
-            "/root/minidroid/dataset/miniprograms/wx71df4cc10c6f52c6/pages/index/index",
-            "/root/minidroid/dataset/miniprograms/wx71df4cc10c6f52c6/pages/index/index"
+            "app.js"
         ]
     },
     "blanket_reqs": null,

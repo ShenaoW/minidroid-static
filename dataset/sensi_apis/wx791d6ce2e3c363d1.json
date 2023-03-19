@@ -1,0 +1,36 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx791d6ce2e3c363d1/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx791d6ce2e3c363d1/pages/address/address": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx791d6ce2e3c363d1/pages/userCenter/address/editAddress/index": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx791d6ce2e3c363d1/pages/shop/shopindex/feedback/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx791d6ce2e3c363d1/pages/userCenter/set/info/index": [
+        "wx.getUserProfile",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx791d6ce2e3c363d1/pages/userCenter/promotion/collectionBinding/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx791d6ce2e3c363d1/pages/userCenter/invite/invitecenter": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx791d6ce2e3c363d1/pages/userCenter/invitecompents/facetoface/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx791d6ce2e3c363d1/pages/equity/openequity/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx791d6ce2e3c363d1/pages/userCenter/marketing/joinPoster/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx791d6ce2e3c363d1/pages/fecthExpress/addPackage/index": [
+        "wx.chooseImage"
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx93564259619cd0f1/tabbar/stores/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx93564259619cd0f1/tabbar/vip/index": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx93564259619cd0f1/pages/product/goods/goods-order": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx93564259619cd0f1/pages/features-test/index": [
+        "wx.chooseImage"
+    ]
+}

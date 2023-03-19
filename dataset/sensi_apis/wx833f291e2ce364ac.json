@@ -1,0 +1,42 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx833f291e2ce364ac/pages/index/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx833f291e2ce364ac/pages/rate/rate": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx833f291e2ce364ac/pages/purchase-details/purchase-details": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx833f291e2ce364ac/pages/order-details/order-details": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx833f291e2ce364ac/pages/map-guide/map-guide": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx833f291e2ce364ac/pages/card-active/card-active": [
+        "wx.getUserInfo",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx833f291e2ce364ac/pages/new-restaurant-content/new-restaurant-content": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx833f291e2ce364ac/pages/new-restaurant-list/new-restaurant-list": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx833f291e2ce364ac/pages/new-restaurant-star/new-restaurant-star": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx833f291e2ce364ac/pages/new-mall-home/new-mall-home": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx833f291e2ce364ac/pages/new-hotel-list/new-hotel-list": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx833f291e2ce364ac/pages/new-hotel-detail/new-hotel-detail": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx833f291e2ce364ac/pages/new-map-coupon/new-map-coupon": [
+        "wx.getLocation"
+    ]
+}

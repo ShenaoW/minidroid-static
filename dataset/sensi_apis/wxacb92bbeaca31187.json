@@ -1,0 +1,12 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxacb92bbeaca31187/pages/store/market-index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxacb92bbeaca31187/pages/plug-in/collection/index/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxacb92bbeaca31187/pages/user/user_index/index": [
+        "wx.chooseAddress",
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

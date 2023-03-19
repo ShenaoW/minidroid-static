@@ -1,0 +1,23 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx959350dfdc9cb1ce/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx959350dfdc9cb1ce/pages/address/list/list": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx959350dfdc9cb1ce/pages/shareFriendCircle/shareFriendCircle": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx959350dfdc9cb1ce/pages/camera/camera": [
+        "wx.createCameraContext"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx959350dfdc9cb1ce/pages/coupon/couponDetail/couponDetail": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx959350dfdc9cb1ce/pages/coupon/shopDetail/shopDetail": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx959350dfdc9cb1ce/pages/recommendGoodsDetail/recommendGoodsDetail": [
+        "wx.getLocation"
+    ]
+}

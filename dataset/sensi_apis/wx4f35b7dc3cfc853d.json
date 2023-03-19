@@ -1,0 +1,8 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx4f35b7dc3cfc853d/pages/main/main": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4f35b7dc3cfc853d/pages/chat/chat": [
+        "wx.chooseImage"
+    ]
+}

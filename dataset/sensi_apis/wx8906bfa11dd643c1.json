@@ -1,0 +1,35 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx8906bfa11dd643c1/pages/transfer/transfer": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8906bfa11dd643c1/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8906bfa11dd643c1/pages/walkLine/walkLine": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8906bfa11dd643c1/pages/scenicList/scenicList": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8906bfa11dd643c1/pages/scenic/scenic": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8906bfa11dd643c1/pages/problem/problem": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8906bfa11dd643c1/pages/route/route": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8906bfa11dd643c1/pages/spotDetail/spotDetail": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8906bfa11dd643c1/pages/searchSpot/searchSpot": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8906bfa11dd643c1/pages/sugList/sugList": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8906bfa11dd643c1/pages/searchResult/searchResult": [
+        "wx.getLocation"
+    ]
+}

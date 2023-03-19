@@ -1,0 +1,8 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx72e282e9bd714608/pages/friend/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx72e282e9bd714608/pages/cashout/index": [
+        "wx.chooseImage"
+    ]
+}

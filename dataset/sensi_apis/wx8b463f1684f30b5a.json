@@ -1,0 +1,14 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx8b463f1684f30b5a/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8b463f1684f30b5a/pages/weather/weather": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8b463f1684f30b5a/pages/location/location": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8b463f1684f30b5a/pages/appointment/appointment": [
+        "wx.getUserInfo"
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxad9738614552c291/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxad9738614552c291/pages/order_reserve/order_reserve1": [
+        "wx.chooseImage",
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxad9738614552c291/pages/class_ification/class_ification": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxad9738614552c291/pages/company_apply/company_apply": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxad9738614552c291/pages/my_feedback/my_feedback": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxad9738614552c291/pages/order_put/order_put": [
+        "wx.chooseImage",
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxad9738614552c291/pages/order_reserve/order_reserve": [
+        "wx.chooseImage",
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxad9738614552c291/pages/address_add/address_add": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxad9738614552c291/pages/login/login": [
+        "wx.getUserInfo",
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxad9738614552c291/pages/address_put/address_put": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxad9738614552c291/pages/address_choose/address_choose": [
+        "wx.getLocation"
+    ]
+}

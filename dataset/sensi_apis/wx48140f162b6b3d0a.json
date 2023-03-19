@@ -1,0 +1,8 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx48140f162b6b3d0a/pages/logs/logs": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx48140f162b6b3d0a/pages/shlun/upload/upload": [
+        "wx.chooseImage"
+    ]
+}

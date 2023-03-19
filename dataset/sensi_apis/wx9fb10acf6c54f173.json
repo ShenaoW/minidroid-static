@@ -1,0 +1,23 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx9fb10acf6c54f173/pages/custom/custom_566669957": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9fb10acf6c54f173/pages/zixun/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9fb10acf6c54f173/pages/dian-ye/markers": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9fb10acf6c54f173/pages/user/user_index/index": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9fb10acf6c54f173/pages/user/address/index": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9fb10acf6c54f173/pages/user/tips-info/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9fb10acf6c54f173/pages/user/fenxiao/qcode/qcode": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

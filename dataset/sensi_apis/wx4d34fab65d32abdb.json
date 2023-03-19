@@ -1,0 +1,23 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx4d34fab65d32abdb/pages/mainIndex/mainIndex": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d34fab65d32abdb/pages/superDrive/superDrive": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d34fab65d32abdb/pages/completeInfro/completeInfro": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d34fab65d32abdb/pages/carport/carport": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d34fab65d32abdb/pages/finishPublish/finishPublish": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d34fab65d32abdb/pages/ctrlCarMap/ctrlCarMap": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d34fab65d32abdb/pages/pathLine/pathLine": [
+        "wx.getLocation"
+    ]
+}

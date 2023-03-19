@@ -1,0 +1,39 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx8ad63272a697e47b/pages/feed/feed": [
+        "wx.getLocation",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8ad63272a697e47b/pages/play/play": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8ad63272a697e47b/pages/myad/myad": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8ad63272a697e47b/pages/usergoods/goods/goods": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8ad63272a697e47b/pages/complain/complain": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8ad63272a697e47b/pages/myad/editinfo/editinfo": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8ad63272a697e47b/pages/usergoods/addgoods/addgoods": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8ad63272a697e47b/pages/usergoods/address/address": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8ad63272a697e47b/pages/myad/userphoto/userphoto": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8ad63272a697e47b/pages/myad/mylive/mylive": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8ad63272a697e47b/pages/myad/addlive/addlive": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8ad63272a697e47b/pages/pointmall/goodsdetail/goodsdetail": [
+        "wx.chooseAddress"
+    ]
+}

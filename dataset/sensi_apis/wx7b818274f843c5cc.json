@@ -1,0 +1,21 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx7b818274f843c5cc/pages/index/addCustomer/addCustomer": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7b818274f843c5cc/pages/employee/qrcode/qrcode": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7b818274f843c5cc/pages/lafen/lafen": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7b818274f843c5cc/pages/addcustom/addcustom": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7b818274f843c5cc/pages/custom/serviceRecord/serviceRecord": [
+        "wx.chooseImage",
+        "RecorderManager.start"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7b818274f843c5cc/pages/custom/birthCustom/birthCustom": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

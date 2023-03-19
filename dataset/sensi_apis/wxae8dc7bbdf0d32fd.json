@@ -1,0 +1,29 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxae8dc7bbdf0d32fd/pages/order-submit/order-submit": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxae8dc7bbdf0d32fd/pages/address-edit/address-edit": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxae8dc7bbdf0d32fd/pages/address-picker/address-picker": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxae8dc7bbdf0d32fd/pages/order-comment/order-comment": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxae8dc7bbdf0d32fd/pages/express-detail/express-detail": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxae8dc7bbdf0d32fd/pages/topic/topic": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxae8dc7bbdf0d32fd/pages/shop/shop": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxae8dc7bbdf0d32fd/pages/card/card": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxae8dc7bbdf0d32fd/pages/new-order-submit/new-order-submit": [
+        "wx.chooseLocation"
+    ]
+}

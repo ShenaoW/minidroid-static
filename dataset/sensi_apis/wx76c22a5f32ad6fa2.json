@@ -1,0 +1,14 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx76c22a5f32ad6fa2/pages/login/login": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx76c22a5f32ad6fa2/pages/wxwalk/wxwalk": [
+        "wx.getWeRunData"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx76c22a5f32ad6fa2/pages/actrank/actrank": [
+        "wx.getWeRunData"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx76c22a5f32ad6fa2/pages/detailwalk/detailwalk": [
+        "wx.getWeRunData"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx9a06ed3bdb3116a8/pages/company/license": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9a06ed3bdb3116a8/pages/company/logo": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9a06ed3bdb3116a8/pages/company/picture": [
+        "wx.chooseImage"
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx76e288fb9d07eb49/pages/chatPage/chatPage": [
+        "wx.getUserInfo",
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx76e288fb9d07eb49/pages/guide/subpage/search/search2": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx76e288fb9d07eb49/pages/guide/subpage/search/from": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx76e288fb9d07eb49/pages/guide/subpage/yellowPage/yellowPage": [
+        "wx.getLocation",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx76e288fb9d07eb49/pages/detail/detail": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx76e288fb9d07eb49/pages/mine/subpage/mineAddress/mineAddress": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx76e288fb9d07eb49/pages/signin/signin": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx76e288fb9d07eb49/pages/moveCar/moveCar": [
+        "wx.getUserInfo",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx76e288fb9d07eb49/pages/share/share": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx76e288fb9d07eb49/pages/ban_jump/ban_jump": [
+        "wx.getUserInfo"
+    ]
+}

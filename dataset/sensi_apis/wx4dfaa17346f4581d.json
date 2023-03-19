@@ -1,0 +1,42 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx4dfaa17346f4581d/pages/house/house": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4dfaa17346f4581d/pages/wenda/details/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4dfaa17346f4581d/pages/huodong/details/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4dfaa17346f4581d/pages/yaohao/result/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4dfaa17346f4581d/pages/user/index": [
+        "wx.getUserInfo",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4dfaa17346f4581d/pages/user/houses/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4dfaa17346f4581d/pages/user/housdt/add/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4dfaa17346f4581d/pages/artical/details/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4dfaa17346f4581d/pages/user/consulant/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4dfaa17346f4581d/pages/topic/detail/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4dfaa17346f4581d/pages/topic/regist/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4dfaa17346f4581d/pages/topic/detail/comment/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4dfaa17346f4581d/pages/user/edit/index": [
+        "wx.chooseImage"
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx9e126bed00cf529a/pages/library/library/search": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9e126bed00cf529a/pages/shixiseng/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9e126bed00cf529a/pages/shixiseng/editResume/editResume": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9e126bed00cf529a/pages/shixiseng/resumeModify/modify": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9e126bed00cf529a/pages/shixiseng/baseInfo/baseInfo": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9e126bed00cf529a/pages/highqilai/list/list": [
+        "wx.getUserInfo",
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9e126bed00cf529a/pages/highqilai/shareActive/shareActive": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9e126bed00cf529a/pages/highqilai/newcreate/newcreate": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9e126bed00cf529a/pages/highqilai/saveActive/saveActive": [
+        "wx.chooseLocation"
+    ]
+}

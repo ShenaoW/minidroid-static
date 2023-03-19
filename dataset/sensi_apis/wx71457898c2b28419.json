@@ -1,0 +1,20 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx71457898c2b28419/pages/map/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71457898c2b28419/pages/check/index": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71457898c2b28419/pages/applyDaili/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71457898c2b28419/pages/editAddress/index": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71457898c2b28419/pages/imgCropper/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71457898c2b28419/pages/upAgreement/index": [
+        "wx.chooseImage"
+    ]
+}

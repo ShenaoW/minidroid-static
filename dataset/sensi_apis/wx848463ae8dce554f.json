@@ -1,0 +1,8 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx848463ae8dce554f/pages/tabBar/groupBuy": [
+        "wx.createCameraContext"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx848463ae8dce554f/pages/kindpay/kindpay": [
+        "wx.getLocation"
+    ]
+}

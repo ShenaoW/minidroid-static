@@ -1,0 +1,53 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx8941b3c1b073ac6c/pages/custom/custom_456769905": [
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8941b3c1b073ac6c/pages/custom/custom_352753817": [
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8941b3c1b073ac6c/pages/zixun/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8941b3c1b073ac6c/pages/dian-ye/markers": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8941b3c1b073ac6c/pages/shop/mall/mall": [
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8941b3c1b073ac6c/pages/shop/mallsure/mallsure": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8941b3c1b073ac6c/pages/shop/order/comment/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8941b3c1b073ac6c/pages/shop/shop/address_list/index": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8941b3c1b073ac6c/pages/shop/share/share": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8941b3c1b073ac6c/pages/shop/business-address/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8941b3c1b073ac6c/pages/shop/applyRefund/applyRefund": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8941b3c1b073ac6c/pages/shop/whiteLogistic/whiteLogistic": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8941b3c1b073ac6c/pages/user/user_index/index": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8941b3c1b073ac6c/pages/user/address/index": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8941b3c1b073ac6c/pages/user/tips-info/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8941b3c1b073ac6c/pages/user/fenxiao/qcode/qcode": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

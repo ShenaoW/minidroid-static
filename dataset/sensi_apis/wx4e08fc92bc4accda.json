@@ -1,0 +1,21 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx4e08fc92bc4accda/pages/register/oldusers/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4e08fc92bc4accda/pages/register/newuser/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4e08fc92bc4accda/pages/distribution/user/modify": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4e08fc92bc4accda/pages/checkin/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4e08fc92bc4accda/pages/address/add/index": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4e08fc92bc4accda/pages/distribution/zhuanfa/index": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ]
+}

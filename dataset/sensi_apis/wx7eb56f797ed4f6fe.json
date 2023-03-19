@@ -1,0 +1,15 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx7eb56f797ed4f6fe/pages/user/user": [
+        "wx.getUserInfo",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7eb56f797ed4f6fe/pages/classify/classify": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7eb56f797ed4f6fe/pages/share/share": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7eb56f797ed4f6fe/pages/nbbj/nbbj": [
+        "wx.getLocation"
+    ]
+}

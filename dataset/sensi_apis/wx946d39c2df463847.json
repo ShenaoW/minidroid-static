@@ -1,0 +1,32 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx946d39c2df463847/pages/index/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx946d39c2df463847/pages/custom/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx946d39c2df463847/pages/commission/poster/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx946d39c2df463847/pages/goods/poster/poster": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx946d39c2df463847/pages/member/index/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx946d39c2df463847/pages/changce/store/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx946d39c2df463847/pages/changce/store/verify": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx946d39c2df463847/pages/changce/member/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx946d39c2df463847/pages/member/card/face": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx946d39c2df463847/pages/member/card/cropper": [
+        "wx.chooseImage"
+    ]
+}

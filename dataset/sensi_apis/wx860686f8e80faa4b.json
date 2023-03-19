@@ -1,0 +1,23 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx860686f8e80faa4b/pages/sdf_firstpage/sdf_firstpage": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx860686f8e80faa4b/pages/member_mainpage/member_mainpage": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx860686f8e80faa4b/pages/store_list/store_list": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx860686f8e80faa4b/pages/grade_buy/grade_buy": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx860686f8e80faa4b/pages/spellgroup_mainpage/spellgroup_mainpage": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx860686f8e80faa4b/pages/assis_mainpage/assis_mainpage": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx860686f8e80faa4b/pages/bargain_mainpage/bargain_mainpage": [
+        "wx.getUserProfile"
+    ]
+}

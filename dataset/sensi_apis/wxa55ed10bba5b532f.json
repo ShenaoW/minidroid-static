@@ -1,0 +1,6 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxa55ed10bba5b532f/pages/user/reg/index": [
+        "wx.getUserInfo",
+        "wx.getUserProfile"
+    ]
+}

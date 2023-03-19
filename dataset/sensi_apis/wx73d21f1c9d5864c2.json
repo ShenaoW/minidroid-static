@@ -1,0 +1,14 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx73d21f1c9d5864c2/pages/syindex/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx73d21f1c9d5864c2/pages/chuangjiandianpu/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx73d21f1c9d5864c2/pages/city/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx73d21f1c9d5864c2/pages/youhui/index": [
+        "wx.getLocation"
+    ]
+}

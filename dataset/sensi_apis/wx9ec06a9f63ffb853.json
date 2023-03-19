@@ -1,0 +1,8 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx9ec06a9f63ffb853/pages/play/play": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9ec06a9f63ffb853/pages/calc/calc": [
+        "wx.getLocation"
+    ]
+}

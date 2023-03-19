@@ -1,0 +1,23 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx9cabc2ab13039860/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9cabc2ab13039860/pages/tologin/tologin": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9cabc2ab13039860/pages/service/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9cabc2ab13039860/pages/shop/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9cabc2ab13039860/pages/shop/create/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9cabc2ab13039860/pages/shop/create/message": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9cabc2ab13039860/pages/map/index": [
+        "wx.getLocation"
+    ]
+}

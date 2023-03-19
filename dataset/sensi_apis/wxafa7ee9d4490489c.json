@@ -1,0 +1,8 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxafa7ee9d4490489c/pages/readlog/readlog": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxafa7ee9d4490489c/pages/poster/poster": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

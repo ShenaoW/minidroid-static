@@ -1,0 +1,17 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx71e4cb5e519d2ffc/pages/index/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71e4cb5e519d2ffc/pages/doctor/classCircle/classCirclePublish/classCirclePublish": [
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71e4cb5e519d2ffc/pages/notice/noticeList/campusNotice/campusNotice": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71e4cb5e519d2ffc/pages/user/eventReply/eventReplyDetail/eventReplyDetail": [
+        "wx.saveVideoToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71e4cb5e519d2ffc/pages/doctor/doctorApplyList/doctorApplyList": [
+        "wx.getUserInfo"
+    ]
+}

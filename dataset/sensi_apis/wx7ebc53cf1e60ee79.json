@@ -1,0 +1,35 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx7ebc53cf1e60ee79/pages/login/doctorSign": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ebc53cf1e60ee79/pages/login/serviceSign": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ebc53cf1e60ee79/pages/customer/message/detail": [
+        "wx.chooseMedia"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ebc53cf1e60ee79/pages/customer/home/visit/visit": [
+        "wx.chooseMedia"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ebc53cf1e60ee79/pages/customer/home/group/visit": [
+        "wx.chooseMedia"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ebc53cf1e60ee79/pages/customer/my/userInfo": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ebc53cf1e60ee79/pages/doctor/patient/groupText": [
+        "wx.chooseMedia"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ebc53cf1e60ee79/pages/doctor/message/detail": [
+        "wx.chooseMedia"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ebc53cf1e60ee79/pages/doctor/my/info": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ebc53cf1e60ee79/pages/service/message/detail": [
+        "wx.chooseMedia"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ebc53cf1e60ee79/pages/public/contribute/index": [
+        "wx.chooseMessageFile"
+    ]
+}

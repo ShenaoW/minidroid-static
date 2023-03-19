@@ -1,0 +1,14 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx70bc45229d2359a1/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx70bc45229d2359a1/pages/pay-order/pay-order": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx70bc45229d2359a1/pages/information/information": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx70bc45229d2359a1/components/y-member-popup/index": [
+        "wx.getUserInfo"
+    ]
+}

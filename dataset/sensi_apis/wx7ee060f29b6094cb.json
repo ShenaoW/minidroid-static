@@ -1,0 +1,61 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx7ee060f29b6094cb/pages/card/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ee060f29b6094cb/pages/mine/index": [
+        "wx.getUserInfo",
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ee060f29b6094cb/pages/details/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ee060f29b6094cb/pages/shoopdetails/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ee060f29b6094cb/pages/specimen/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ee060f29b6094cb/pages/jcdetails/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ee060f29b6094cb/pages/jpdetails/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ee060f29b6094cb/pages/product/product": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ee060f29b6094cb/pages/place/place": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ee060f29b6094cb/pages/list/details": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ee060f29b6094cb/pages/sendDetails/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ee060f29b6094cb/pages/store/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ee060f29b6094cb/pages/welfare/welfare": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ee060f29b6094cb/pages/comment/comment": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ee060f29b6094cb/pages/pyjdetails/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ee060f29b6094cb/pages/draw/draw": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ee060f29b6094cb/pages/map/map": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ee060f29b6094cb/pages/entry/entry": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ee060f29b6094cb/pages/routine/routine": [
+        "wx.getUserInfo",
+        "wx.getLocation"
+    ]
+}

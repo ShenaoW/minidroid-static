@@ -1,0 +1,50 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx744f07b7b3c6c120/pages/mine/canvas/canvas": [
+        "wx.getUserInfo",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx744f07b7b3c6c120/pages/car/car": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx744f07b7b3c6c120/pages/coupon/fabu": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx744f07b7b3c6c120/pages/mine/info/auth": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx744f07b7b3c6c120/pages/common/photo/camera": [
+        "wx.createCameraContext"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx744f07b7b3c6c120/pages/thread/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx744f07b7b3c6c120/pages/thread/edit": [
+        "wx.getLocation",
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx744f07b7b3c6c120/pages/thread/detail": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx744f07b7b3c6c120/pages/thread/canvas": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx744f07b7b3c6c120/pages/thread/mypost/mypost": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx744f07b7b3c6c120/pages/collage/canvas": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx744f07b7b3c6c120/pages/collage/info": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx744f07b7b3c6c120/pages/my/news/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx744f07b7b3c6c120/pages/shun/shunfabu/shunfabu": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx744f07b7b3c6c120/pages/shun/shuninfo2/shuninfo2": [
+        "wx.getUserInfo"
+    ]
+}

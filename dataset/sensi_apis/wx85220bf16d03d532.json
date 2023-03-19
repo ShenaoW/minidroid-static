@@ -1,0 +1,54 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx85220bf16d03d532/pages/home/index": [
+        "wx.getUserProfile",
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx85220bf16d03d532/pages/area/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx85220bf16d03d532/pages/bid/items/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx85220bf16d03d532/pages/bid/apply/applyMan/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx85220bf16d03d532/pages/bid/apply/agentMan/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx85220bf16d03d532/pages/bid/apply/recipiMan/index": [
+        "wx.chooseLocation",
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx85220bf16d03d532/pages/bid/confirm/applyMan/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx85220bf16d03d532/pages/bid/confirm/agentMan/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx85220bf16d03d532/pages/bid/confirm/recipiMan/index": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx85220bf16d03d532/pages/bid/upload/index": [
+        "wx.chooseImage",
+        "wx.chooseMessageFile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx85220bf16d03d532/pages/bid/success/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx85220bf16d03d532/pages/order/swear/index": [
+        "wx.createCameraContext"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx85220bf16d03d532/pages/bill/index": [
+        "wx.chooseInvoiceTitle",
+        "wx.chooseInvoice"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx85220bf16d03d532/pages/authorize/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx85220bf16d03d532/pages/identity/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx85220bf16d03d532/pages/agencyLogin/index": [
+        "wx.getLocation"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxa42ce802e197c155/pages/course/info": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa42ce802e197c155/pages/new/xe_comment": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa42ce802e197c155/pages/index/info": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa42ce802e197c155/pages/new/info": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa42ce802e197c155/pages/new/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa42ce802e197c155/pages/my/comment": [
+        "wx.chooseImage"
+    ]
+}

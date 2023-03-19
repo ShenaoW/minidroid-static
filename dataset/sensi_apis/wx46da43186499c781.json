@@ -1,0 +1,19 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx46da43186499c781/pages/firstPage/uploadWechatFile/uploadWechatFile": [
+        "wx.chooseMessageFile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx46da43186499c781/pages/tabBar/myCard/myCard": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx46da43186499c781/pages/tabBar/document/document": [
+        "wx.chooseImage",
+        "wx.chooseVideo",
+        "wx.chooseMessageFile",
+        "wx.saveImageToPhotosAlbum",
+        "wx.saveVideoToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx46da43186499c781/components/formtemplate/formtemplate": [
+        "wx.chooseImage",
+        "wx.chooseVideo"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxa37e92615f40a26c/pages/getUserInfo/getUserInfo": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa37e92615f40a26c/pages/getUserInfo/authorize": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa37e92615f40a26c/verify_mpsdk/index/index": [
+        "wx.getLocation",
+        "wx.chooseImage",
+        "wx.createCameraContext"
+    ]
+}

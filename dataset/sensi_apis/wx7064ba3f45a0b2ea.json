@@ -1,0 +1,15 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx7064ba3f45a0b2ea/pages/index/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7064ba3f45a0b2ea/pages/photo/photo": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7064ba3f45a0b2ea/pages/lovers/lovers": [
+        "wx.getUserInfo",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7064ba3f45a0b2ea/pages/headDetail/headDetail": [
+        "wx.saveVideoToPhotosAlbum"
+    ]
+}

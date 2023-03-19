@@ -1,0 +1,18 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx9b3e6cb0256b963f/pages/shopping/nearstore/nearstore": [
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9b3e6cb0256b963f/pages/shopping/placeorder/addAddress": [
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9b3e6cb0256b963f/pages/group/placeorder/addAddress": [
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9b3e6cb0256b963f/pages/bargain/placeorder/addAddress": [
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ]
+}

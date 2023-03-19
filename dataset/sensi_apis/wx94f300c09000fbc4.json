@@ -1,0 +1,15 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx94f300c09000fbc4/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx94f300c09000fbc4/pages/searchDetail/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx94f300c09000fbc4/pages/user/index": [
+        "wx.getUserInfo",
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx94f300c09000fbc4/pages/watchRecord/index": [
+        "wx.getLocation"
+    ]
+}

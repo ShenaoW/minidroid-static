@@ -1,0 +1,11 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx7eadca4dd602c0cb/pages/submitorder/submitorder": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7eadca4dd602c0cb/pages/shippingaddress/shippingaddress": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7eadca4dd602c0cb/pages/groupbookingsuccess/groupbookingsuccess": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

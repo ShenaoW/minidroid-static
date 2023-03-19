@@ -1,0 +1,11 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx961345dbc3cee77d/pages/receiveGift/receiveGift": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx961345dbc3cee77d/pages/toBuy/toBuy": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx961345dbc3cee77d/pages/wxauth/wxauth": [
+        "wx.getUserInfo"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx79a3df22c5456483/pages/openapi/cloudid/cloudid": [
+        "wx.getWeRunData"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx79a3df22c5456483/pages/im/room/room": [
+        "wx.getUserInfo"
+    ]
+}

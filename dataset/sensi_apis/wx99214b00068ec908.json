@@ -1,0 +1,14 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx99214b00068ec908/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx99214b00068ec908/pages/takefood/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx99214b00068ec908/pages/order/confirm/confirm": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx99214b00068ec908/pages/comment/add": [
+        "wx.chooseImage"
+    ]
+}

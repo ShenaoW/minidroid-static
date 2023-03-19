@@ -1,0 +1,33 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx7e32e310f77c48ce/pages/index/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7e32e310f77c48ce/pages/whattoeat/article": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7e32e310f77c48ce/pages/create_recipe/create_recipe": [
+        "wx.chooseImage",
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7e32e310f77c48ce/pages/search/search": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7e32e310f77c48ce/pages/article/article": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7e32e310f77c48ce/pages/wenzhang/wenzhang": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7e32e310f77c48ce/pages/foodstreet/foodstreet": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7e32e310f77c48ce/pages/foodshow/foodshow": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7e32e310f77c48ce/pages/topiclist/topiclist": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7e32e310f77c48ce/pages/wz/wz": [
+        "wx.getUserInfo"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx703f51fd9c9a4c9d/pages/ticketsupload/ticketsupload": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx703f51fd9c9a4c9d/pages/index/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx703f51fd9c9a4c9d/pages/adddiscuss/adddiscuss": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx703f51fd9c9a4c9d/pages/complaintadviceadd/complaintadviceadd": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx703f51fd9c9a4c9d/pages/clubinfo/clubinfo": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx703f51fd9c9a4c9d/pages/ticketsuploadocr/ticketsuploadocr": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx703f51fd9c9a4c9d/pages/goodunifiedorder/goodunifiedorder": [
+        "wx.chooseAddress",
+        "wx.chooseInvoiceTitle",
+        "wx.chooseInvoice"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx703f51fd9c9a4c9d/pages/goodcomment/goodcomment": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx703f51fd9c9a4c9d/pages/authlogin/index": [
+        "wx.getUserProfile"
+    ]
+}

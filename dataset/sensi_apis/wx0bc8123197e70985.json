@@ -1,0 +1,20 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx0bc8123197e70985/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx0bc8123197e70985/pages/governmentCoupon/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx0bc8123197e70985/pages/venue/list/list": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx0bc8123197e70985/pages/venue/detail/detail": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx0bc8123197e70985/pages/productOrder/code/code": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx0bc8123197e70985/pages/productOrder/comment/comment": [
+        "wx.chooseImage"
+    ]
+}

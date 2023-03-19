@@ -1,0 +1,14 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx44dff76ea6d9d6be/pages/index/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx44dff76ea6d9d6be/pages/news/detail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx44dff76ea6d9d6be/pages/order/pay": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx44dff76ea6d9d6be/pages/order/waitPay": [
+        "wx.chooseAddress"
+    ]
+}

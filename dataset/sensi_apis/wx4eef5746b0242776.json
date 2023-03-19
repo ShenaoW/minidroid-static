@@ -1,0 +1,31 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx4eef5746b0242776/pages/batteryCharge/index": [
+        "wx.openBluetoothAdapter"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4eef5746b0242776/pages/replenishment/replenishment": [
+        "wx.openBluetoothAdapter"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4eef5746b0242776/pages/openLock/openLock": [
+        "wx.openBluetoothAdapter"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4eef5746b0242776/pages/index/index": [
+        "wx.getUserProfile",
+        "wx.openBluetoothAdapter"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4eef5746b0242776/pages/login/login": [
+        "wx.openBluetoothAdapter"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4eef5746b0242776/pages/complaint/complaint": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4eef5746b0242776/pages/serviceHelp/index": [
+        "wx.openBluetoothAdapter",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4eef5746b0242776/pages/drayCloseHungers/index": [
+        "wx.openBluetoothAdapter"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4eef5746b0242776/pages/user/index": [
+        "wx.getUserProfile"
+    ]
+}

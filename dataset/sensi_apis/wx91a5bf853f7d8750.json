@@ -1,0 +1,35 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx91a5bf853f7d8750/pages/discoverProject/discoverProject": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx91a5bf853f7d8750/pages/my/myCard/myCard": [
+        "wx.addPhoneContact"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx91a5bf853f7d8750/pages/userDetail/networkDetail/networkDetail": [
+        "wx.addPhoneContact"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx91a5bf853f7d8750/pages/my/sharePage/sharePage": [
+        "wx.addPhoneContact"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx91a5bf853f7d8750/pages/my/projectShop/shopEdit/shopEdit": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx91a5bf853f7d8750/pages/my/projectShop/shopShare/shopShare": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx91a5bf853f7d8750/pages/my/qrCode/qrCode": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx91a5bf853f7d8750/pages/my/identity/identityEdit/identityEdit": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx91a5bf853f7d8750/pages/contactsActivty/createWarband/createWarband": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx91a5bf853f7d8750/pages/FAIndustryAlliance/FAIndustryAlliance/FAIndustryAlliance": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx91a5bf853f7d8750/pages/FAIndustryAlliance/FAIndustryAllianceRegister/FAIndustryAllianceRegister": [
+        "wx.chooseImage"
+    ]
+}

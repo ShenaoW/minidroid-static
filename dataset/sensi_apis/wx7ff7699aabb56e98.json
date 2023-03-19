@@ -1,0 +1,14 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx7ff7699aabb56e98/pages/index/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ff7699aabb56e98/pages/quote/quote": [
+        "wx.chooseMessageFile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ff7699aabb56e98/pages/staff/staff": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ff7699aabb56e98/pages/staff-card/staff-card": [
+        "wx.chooseImage"
+    ]
+}

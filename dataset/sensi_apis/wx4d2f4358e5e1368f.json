@@ -1,0 +1,33 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx4d2f4358e5e1368f/pages/restaurant/restaurant-home/index": [
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d2f4358e5e1368f/pages/restaurant/restaurant-addAdress/index": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d2f4358e5e1368f/pages/restaurant/restaurant-order-comment/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d2f4358e5e1368f/pages/restaurant/restaurant-list/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d2f4358e5e1368f/pages/restaurant/restaurant-shop-topic/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d2f4358e5e1368f/pages/bigcms/article/article": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d2f4358e5e1368f/pages/user/user_index/index": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d2f4358e5e1368f/pages/user/address/index": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d2f4358e5e1368f/pages/user/tips-info/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d2f4358e5e1368f/pages/user/fenxiao/qcode/qcode": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

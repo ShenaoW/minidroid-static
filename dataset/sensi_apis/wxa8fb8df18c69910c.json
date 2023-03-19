@@ -1,0 +1,14 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxa8fb8df18c69910c/pages/index/index": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa8fb8df18c69910c/pages/ceshi/ceshi": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa8fb8df18c69910c/pages/daijinquan_mendian/daijinquan_mendian": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa8fb8df18c69910c/pages/shop_jinwei/index": [
+        "wx.chooseLocation"
+    ]
+}

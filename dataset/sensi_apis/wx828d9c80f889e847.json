@@ -1,0 +1,14 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx828d9c80f889e847/pages/teacher/test/test": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx828d9c80f889e847/pages/ucenter/myinfo/myinfo": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx828d9c80f889e847/pages/teacher/teacherInfo/teacherInfo": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx828d9c80f889e847/pages/ucenter/addstu/addstu": [
+        "wx.chooseImage"
+    ]
+}

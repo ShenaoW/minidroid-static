@@ -1,0 +1,29 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx9df17b1a2d9e4412/pages/cartConfirm/cartConfirm": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9df17b1a2d9e4412/pages/order_detail/order_detail": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9df17b1a2d9e4412/pages/assess_aditor/assess_aditor": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9df17b1a2d9e4412/pages/location/location": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9df17b1a2d9e4412/pages/chipmunks/heartcardgive/heartcardgive": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9df17b1a2d9e4412/pages/chipmunks/heartcardpay/heartcardpay": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9df17b1a2d9e4412/pages/chipmunks/heartcardopen/heartcardopen": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9df17b1a2d9e4412/pages/goodsDetail/share": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9df17b1a2d9e4412/pages/distribution/poster": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

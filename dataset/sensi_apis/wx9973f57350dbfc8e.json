@@ -1,0 +1,19 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx9973f57350dbfc8e/pages/sharepage/sharepage": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9973f57350dbfc8e/pages/Generalreservationdetailfillorder/Generalreservationdetailfillorder": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9973f57350dbfc8e/pages/storeList/storeList": [
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9973f57350dbfc8e/pages/storeListTab/storeListTab": [
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9973f57350dbfc8e/pages/myProfile/myProfile": [
+        "wx.chooseImage"
+    ]
+}

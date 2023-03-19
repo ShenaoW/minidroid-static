@@ -1,0 +1,47 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxf7b56dc5fbe3df53/pages/index/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxf7b56dc5fbe3df53/pages/mine/mine": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxf7b56dc5fbe3df53/pages/activity/activity": [
+        "wx.getUserInfo",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxf7b56dc5fbe3df53/pages/creditPromotion/creditPromotion": [
+        "wx.getUserInfo",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxf7b56dc5fbe3df53/pages/component/firstLimit/firstLimit": [
+        "wx.getUserInfo",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxf7b56dc5fbe3df53/pages-registered/second-registered-hascardresult/result": [
+        "wx.getUserInfo",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxf7b56dc5fbe3df53/pages-registered/third-registered-hascardinfo/registerwitheaccfirst/registerwitheacc": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxf7b56dc5fbe3df53/pages-registered/third-registered-hascardinfo/registerwitheaccend/registerwitheaccend": [
+        "wx.getUserInfo",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxf7b56dc5fbe3df53/payment/providentquary/providentquaryIndex/providentquaryIndex": [
+        "wx.getUserInfo",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxf7b56dc5fbe3df53/payment/electricityfeepay/electricityfeeResult/electricityfeeResult": [
+        "wx.getUserInfo",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxf7b56dc5fbe3df53/payment/succecccode/successcode": [
+        "wx.getUserInfo",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxf7b56dc5fbe3df53/payment/tariffpayresult/tariffpayresult": [
+        "wx.getUserInfo",
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

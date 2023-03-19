@@ -1,0 +1,50 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx4a4a7e2cf0551259/pages/zhuangx/edit/edit": [
+        "wx.getUserProfile",
+        "wx.getLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4a4a7e2cf0551259/pages/zhuangx/cutInside/cutInside": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4a4a7e2cf0551259/pages/preview/preview": [
+        "wx.saveImageToPhotosAlbum",
+        "wx.saveVideoToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4a4a7e2cf0551259/pages/profile/index/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4a4a7e2cf0551259/pages/screenShot/screenShot": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4a4a7e2cf0551259/pages/info/info": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4a4a7e2cf0551259/pages/detailADAdd/detailADAdd": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4a4a7e2cf0551259/pages/detailLinkAdd/detailLinkAdd": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4a4a7e2cf0551259/pages/detailAdd/detailAdd": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4a4a7e2cf0551259/pages/commentAdd/commentAdd": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4a4a7e2cf0551259/pages/likeAdd/likeAdd": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4a4a7e2cf0551259/pages/jietu/weixin/qunliaoshezhi/qunliaoshezhi": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4a4a7e2cf0551259/pages/jietu/weixin/danliaoshezhi/danliaoshezhi": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4a4a7e2cf0551259/pages/jietu/urlAdd/urlAdd": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4a4a7e2cf0551259/pages/jietu/picAdd/picAdd": [
+        "wx.chooseImage"
+    ]
+}

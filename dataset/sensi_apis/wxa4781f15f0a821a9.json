@@ -1,0 +1,47 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxa4781f15f0a821a9/pages/parking-onlinecar/parking-onlinecar": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa4781f15f0a821a9/pages/login/login": [
+        "wx.getUserInfo",
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa4781f15f0a821a9/pages/message/message": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa4781f15f0a821a9/pages/parking/parking": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa4781f15f0a821a9/pages/24hw/gameweb/gameweb": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa4781f15f0a821a9/pages/invoice-details/index": [
+        "wx.chooseLocation",
+        "wx.chooseInvoiceTitle",
+        "wx.chooseInvoice"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa4781f15f0a821a9/pages/mycoupon-new/mycoupon-new": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa4781f15f0a821a9/pages/webview/rxgame/gameweb": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa4781f15f0a821a9/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa4781f15f0a821a9/live/roomList/roomList": [
+        "wx.getLocation",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa4781f15f0a821a9/pages/parking-invoice-info/parking-invoice-info": [
+        "wx.chooseInvoiceTitle",
+        "wx.chooseInvoice"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa4781f15f0a821a9/pages/online-invoice-apply/online-invoice-apply": [
+        "wx.chooseInvoiceTitle",
+        "wx.chooseInvoice"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa4781f15f0a821a9/pages/parking-query-online/parking-query-online": [
+        "wx.getUserInfo"
+    ]
+}

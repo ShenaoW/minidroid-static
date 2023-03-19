@@ -1,0 +1,26 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx7ad340993fe7c282/pages/setting/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ad340993fe7c282/pages/bankDetail/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ad340993fe7c282/pages/createGoods/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ad340993fe7c282/pages/identity/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ad340993fe7c282/pages/moments/index": [
+        "wx.saveImageToPhotosAlbum",
+        "wx.saveVideoToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ad340993fe7c282/pages/shareMoments/index": [
+        "wx.chooseImage",
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ad340993fe7c282/pages/searchMoments/index": [
+        "wx.saveImageToPhotosAlbum",
+        "wx.saveVideoToPhotosAlbum"
+    ]
+}

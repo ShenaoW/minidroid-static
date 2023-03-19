@@ -1,0 +1,24 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx49c810704040817f/pages/index/index": [
+        "wx.getUserInfo",
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx49c810704040817f/pages/find/find": [
+        "wx.getUserInfo",
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx49c810704040817f/pages/product/product": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx49c810704040817f/pages/user/user": [
+        "wx.getUserInfo",
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx49c810704040817f/pages/goods1/goods1": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx49c810704040817f/pages/findliebiao/findliebiao": [
+        "wx.getUserInfo"
+    ]
+}

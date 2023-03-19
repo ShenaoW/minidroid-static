@@ -1,0 +1,70 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxaaefc3b07142eeba/pages/index/index": [
+        "wx.chooseImage",
+        "wx.saveImageToPhotosAlbum",
+        "wx.saveVideoToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaaefc3b07142eeba/pages/miniV/miniV": [
+        "wx.saveVideoToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaaefc3b07142eeba/pages/comment-list/comment-list": [
+        "wx.saveVideoToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaaefc3b07142eeba/pages/comment-detail/comment-detail": [
+        "wx.getUserInfo",
+        "wx.getUserProfile",
+        "wx.saveVideoToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaaefc3b07142eeba/pages/comment-image/comment-image": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaaefc3b07142eeba/pages/comment-operation/comment-operation": [
+        "wx.chooseImage",
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaaefc3b07142eeba/pages/message-detail/message-detail": [
+        "wx.getUserInfo",
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaaefc3b07142eeba/pages/message-image/message-image": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaaefc3b07142eeba/pages/poster-detail/poster-detail": [
+        "wx.getUserInfo",
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaaefc3b07142eeba/pages/enroll-finish/enroll-finish": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaaefc3b07142eeba/pages/poster-image/poster-image": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaaefc3b07142eeba/pages/poster/poster": [
+        "wx.getUserInfo",
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaaefc3b07142eeba/pages/group-buy-detail/group-buy-detail": [
+        "wx.getUserInfo",
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaaefc3b07142eeba/pages/group-buy-form/group-buy-form": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaaefc3b07142eeba/pages/group-buy-image/group-buy-image": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaaefc3b07142eeba/pages/referral-image/referral-image": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaaefc3b07142eeba/pages/poster-detail-form/poster-detail-form": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaaefc3b07142eeba/pages/growth-record/growth-record": [
+        "wx.saveImageToPhotosAlbum",
+        "wx.saveVideoToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaaefc3b07142eeba/pages/growth-detail/growth-detail": [
+        "wx.saveImageToPhotosAlbum",
+        "wx.saveVideoToPhotosAlbum"
+    ]
+}

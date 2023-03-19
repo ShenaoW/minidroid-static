@@ -1,0 +1,8 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxa7877a049b2fe04a/pages/index/index": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa7877a049b2fe04a/pages/invitation/invitation": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

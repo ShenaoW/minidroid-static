@@ -1,0 +1,17 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx88e5ee1e4546b7ec/pages/customIndex/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx88e5ee1e4546b7ec/pages/dataIndex/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx88e5ee1e4546b7ec/pages/index/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx88e5ee1e4546b7ec/pages/meetingDetail/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx88e5ee1e4546b7ec/pages/postersShare/index": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

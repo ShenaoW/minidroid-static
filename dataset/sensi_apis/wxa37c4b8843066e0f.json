@@ -1,0 +1,18 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxa37c4b8843066e0f/pages/login/login": [
+        "wx.chooseImage",
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa37c4b8843066e0f/pages/video/video": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa37c4b8843066e0f/pages/supervideo/supervideo": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa37c4b8843066e0f/pages/join/join": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa37c4b8843066e0f/pages/loginpic/loginpic": [
+        "wx.chooseImage"
+    ]
+}

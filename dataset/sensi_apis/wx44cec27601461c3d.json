@@ -1,0 +1,14 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx44cec27601461c3d/pages/index/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx44cec27601461c3d/pages/opus/detail": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx44cec27601461c3d/pages/share/designer": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx44cec27601461c3d/pages/share/detail": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

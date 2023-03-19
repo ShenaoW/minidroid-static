@@ -1,0 +1,14 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx8060cf65e4c70fa9/pages/addWorkorder/addWorkorder": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8060cf65e4c70fa9/pages/generalForm/generalForm": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8060cf65e4c70fa9/pages/generalFormTab/generalFormTab": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ]
+}

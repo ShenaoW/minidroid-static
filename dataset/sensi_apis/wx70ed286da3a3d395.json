@@ -1,0 +1,14 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx70ed286da3a3d395/pages/login/login": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx70ed286da3a3d395/pages/invite/invite": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx70ed286da3a3d395/pages/index/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx70ed286da3a3d395/pages/kefu/kefu": [
+        "wx.getUserInfo"
+    ]
+}

@@ -1,0 +1,35 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx9b3d93f17011c439/pages/mbranch/bedit": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9b3d93f17011c439/pages/mbranch/uedit": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9b3d93f17011c439/pages/signin/log": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9b3d93f17011c439/pages/theme/edit": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9b3d93f17011c439/pages/theme/details": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9b3d93f17011c439/pages/theme/sign": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9b3d93f17011c439/pages/cost/details": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9b3d93f17011c439/pages/meet/sign": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9b3d93f17011c439/pages/login/reginfo": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9b3d93f17011c439/pages/my/myinfo": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9b3d93f17011c439/pages/tool/imageupload": [
+        "wx.chooseImage"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx7c84204137e52f93/pages/center/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7c84204137e52f93/pages/products/product_detail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7c84204137e52f93/pages/pdetail/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7c84204137e52f93/pages/center/pstore/onestore/sales_return/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7c84204137e52f93/pages/center/pstore/onestore/pingjia/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7c84204137e52f93/pages/center/store/onestore/pingjia/index": [
+        "wx.chooseImage"
+    ]
+}

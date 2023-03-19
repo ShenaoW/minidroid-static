@@ -1,0 +1,39 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx8d5458cb1e9d0630/pages/showCar/showCar": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8d5458cb1e9d0630/pages/binding_bank_card/binding_bank_card": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8d5458cb1e9d0630/pages/register_car/register_car": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8d5458cb1e9d0630/pages/phone_login/phone_login": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8d5458cb1e9d0630/pages/waybill/waybill": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8d5458cb1e9d0630/pages/driver_certification/driver_certification": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8d5458cb1e9d0630/pages/index/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8d5458cb1e9d0630/pages/sign_order/sign_order": [
+        "wx.getLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8d5458cb1e9d0630/pages/bind_driver/bind_driver": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8d5458cb1e9d0630/pages/regist_driver/regist_driver": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8d5458cb1e9d0630/pages/get_order/get_order": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8d5458cb1e9d0630/pages/u_driver_photo/u_driver_photo": [
+        "wx.chooseImage"
+    ]
+}

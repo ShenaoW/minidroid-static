@@ -1,0 +1,8 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx774b41d71a63a846/pages/cert-message/cert-message": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx774b41d71a63a846/pages/share-code/share-code": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

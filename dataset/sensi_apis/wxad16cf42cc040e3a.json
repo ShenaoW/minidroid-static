@@ -1,0 +1,35 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxad16cf42cc040e3a/pages/discoverProject/discoverProject": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxad16cf42cc040e3a/pages/my/myCard/myCard": [
+        "wx.addPhoneContact"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxad16cf42cc040e3a/pages/userDetail/networkDetail/networkDetail": [
+        "wx.addPhoneContact"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxad16cf42cc040e3a/pages/my/sharePage/sharePage": [
+        "wx.addPhoneContact"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxad16cf42cc040e3a/pages/my/projectShop/shopEdit/shopEdit": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxad16cf42cc040e3a/pages/my/projectShop/shopShare/shopShare": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxad16cf42cc040e3a/pages/my/qrCode/qrCode": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxad16cf42cc040e3a/pages/my/identity/identityEdit/identityEdit": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxad16cf42cc040e3a/pages/contactsActivty/createWarband/createWarband": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxad16cf42cc040e3a/pages/FAIndustryAlliance/FAIndustryAlliance/FAIndustryAlliance": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxad16cf42cc040e3a/pages/FAIndustryAlliance/FAIndustryAllianceRegister/FAIndustryAllianceRegister": [
+        "wx.chooseImage"
+    ]
+}

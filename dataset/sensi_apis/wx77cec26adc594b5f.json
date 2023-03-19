@@ -1,0 +1,47 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx77cec26adc594b5f/pages/restaurant/restaurant-home/index": [
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx77cec26adc594b5f/pages/restaurant/restaurant-home-info/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx77cec26adc594b5f/pages/restaurant/restaurant-ruzhu/index": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx77cec26adc594b5f/pages/restaurant/restaurant-single/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx77cec26adc594b5f/pages/restaurant/restaurant-order/index": [
+        "wx.chooseInvoiceTitle",
+        "wx.chooseInvoice"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx77cec26adc594b5f/pages/restaurant/restaurant-addAdress/index": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx77cec26adc594b5f/pages/restaurant/restaurant-order-comment/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx77cec26adc594b5f/pages/restaurant/get-redbag/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx77cec26adc594b5f/pages/restaurant/restaurant-list/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx77cec26adc594b5f/pages/restaurant/restaurant-shop-topic/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx77cec26adc594b5f/pages/user/user_index/index": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx77cec26adc594b5f/pages/user/address/index": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx77cec26adc594b5f/pages/user/tips-info/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx77cec26adc594b5f/pages/user/fenxiao/qcode/qcode": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

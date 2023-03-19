@@ -1,0 +1,59 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx4b8b86d58f94abc8/pages/home/index": [
+        "wx.getUserProfile",
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4b8b86d58f94abc8/pages/mine/index": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4b8b86d58f94abc8/pages/search/index": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4b8b86d58f94abc8/pages/library_detail/index": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4b8b86d58f94abc8/pages/library_create/index": [
+        "wx.getUserProfile",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4b8b86d58f94abc8/pages/book_modify/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4b8b86d58f94abc8/pages/library_setting/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4b8b86d58f94abc8/pages/library_qrcode/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4b8b86d58f94abc8/pages/book_import/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4b8b86d58f94abc8/pages/book_related_library/index": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4b8b86d58f94abc8/pages/login/index": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4b8b86d58f94abc8/pages/partner_qrcode/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4b8b86d58f94abc8/pages/book_common_import/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4b8b86d58f94abc8/pages/popularize_qrcode/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4b8b86d58f94abc8/pages/reading_plan_list/index": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4b8b86d58f94abc8/pages/reading_plan_detail/index": [
+        "wx.getUserProfile",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4b8b86d58f94abc8/pages/reading_plan_qrcode/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4b8b86d58f94abc8/pages/book_add/index": [
+        "wx.chooseImage"
+    ]
+}

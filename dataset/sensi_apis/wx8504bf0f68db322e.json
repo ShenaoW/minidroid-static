@@ -1,0 +1,31 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx8504bf0f68db322e/pages/beauty/beauty": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8504bf0f68db322e/pages/takeOutHome/takeOutHome": [
+        "wx.getLocation",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8504bf0f68db322e/pages/home/home": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8504bf0f68db322e/pages/shopHome/shopHome": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8504bf0f68db322e/pages/contentList/contentList": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8504bf0f68db322e/pages/activityList/activityList": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8504bf0f68db322e/pages/case/case": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8504bf0f68db322e/pages/about/about": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8504bf0f68db322e/pages/video/video": [
+        "wx.getLocation",
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

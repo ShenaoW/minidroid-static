@@ -1,0 +1,8 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx86d1ec63d63da979/pages/cinema/cinema": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx86d1ec63d63da979/pages/getUserInfo/login": [
+        "wx.getUserInfo"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxa447c2115cd3dc41/pages/index/index": [
+        "wx.getUserInfo",
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa447c2115cd3dc41/pages/userCenter/location/form/index": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa447c2115cd3dc41/pages/userCenter/userInfo/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa447c2115cd3dc41/pages/userCenter/biginvoice/ticket-history/invoice/index": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

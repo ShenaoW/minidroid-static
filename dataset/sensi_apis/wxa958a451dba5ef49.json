@@ -1,0 +1,14 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxa958a451dba5ef49/pages/mapIndex/mapIndex": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa958a451dba5ef49/pages/shopInformation/shopInformation": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa958a451dba5ef49/pages/register/index/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa958a451dba5ef49/pages/register/invite/invite": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

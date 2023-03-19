@@ -1,0 +1,10 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx67c7fd2fb51ab44c/pages/sns/writer": [
+        "wx.chooseLocation",
+        "wx.chooseImage",
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx67c7fd2fb51ab44c/pages/address/edit": [
+        "wx.chooseAddress"
+    ]
+}

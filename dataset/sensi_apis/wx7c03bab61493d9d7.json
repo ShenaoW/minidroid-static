@@ -1,0 +1,12 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx7c03bab61493d9d7/pages/mine/mine": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7c03bab61493d9d7/pages/manage/zlxg/zlxg": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7c03bab61493d9d7/pages/manage/comqr/comqr": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

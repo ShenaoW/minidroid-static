@@ -1,0 +1,14 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx8603ebb419592008/pages/test/test": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8603ebb419592008/pages/detail/detail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8603ebb419592008/pages/userinfo/userinfo": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8603ebb419592008/pages/rules/rules": [
+        "wx.chooseImage"
+    ]
+}

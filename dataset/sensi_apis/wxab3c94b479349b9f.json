@@ -1,0 +1,15 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxab3c94b479349b9f/pages/home/home": [
+        "wx.getWeRunData",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxab3c94b479349b9f/pages/pedometer/pedometer": [
+        "wx.getWeRunData"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxab3c94b479349b9f/pages/invite/invite": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxab3c94b479349b9f/pages/login/login": [
+        "wx.getUserInfo"
+    ]
+}

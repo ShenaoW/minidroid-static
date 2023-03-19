@@ -1,0 +1,48 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx4bd33eab3f43b1be/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4bd33eab3f43b1be/pages/lingquhongbao/lingquhongbao": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4bd33eab3f43b1be/pages/card/makecard/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4bd33eab3f43b1be/pages/sroll_map/sroll_map": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4bd33eab3f43b1be/pages/address/address": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4bd33eab3f43b1be/pages/addressEdit/address": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4bd33eab3f43b1be/pages/member/member": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4bd33eab3f43b1be/pages/shangjia/indexshopPay": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4bd33eab3f43b1be/pages/second/product/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4bd33eab3f43b1be/pages/second/operagoods/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4bd33eab3f43b1be/pages/second/indexset/index": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4bd33eab3f43b1be/pages/second/apply/apply": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4bd33eab3f43b1be/pages/second/extension/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4bd33eab3f43b1be/pages/second/qrcode/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4bd33eab3f43b1be/pages/second/circleimg/index": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

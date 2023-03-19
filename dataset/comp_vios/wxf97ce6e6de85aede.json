@@ -5,10 +5,8 @@
             "wx.getUserInfo"
         ],
         "violation_page": [
-            "app.js",
             "/root/minidroid/dataset/miniprograms/wxf97ce6e6de85aede/pages/CurriculumCenter/index",
-            "/root/minidroid/dataset/miniprograms/wxf97ce6e6de85aede/pages/CurriculumCenter/index",
-            "/root/minidroid/dataset/miniprograms/wxf97ce6e6de85aede/pages/CurriculumCenter/index"
+            "app.js"
         ]
     },
     "blanket_reqs": null,

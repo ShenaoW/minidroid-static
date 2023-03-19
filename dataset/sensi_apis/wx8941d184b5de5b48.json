@@ -1,0 +1,32 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx8941d184b5de5b48/pages/custom/custom_295099512": [
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8941d184b5de5b48/pages/store/market-index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8941d184b5de5b48/pages/user/user_index/index": [
+        "wx.chooseAddress",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8941d184b5de5b48/pages/user/address/index": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8941d184b5de5b48/pages/user/tips-info/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8941d184b5de5b48/pages/user/fenxiao/qcode/qcode": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8941d184b5de5b48/pages/user/fenxiao/card/card": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8941d184b5de5b48/pages/plug-in/collection/index/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8941d184b5de5b48/pages/user/businessCard/myCardDetail/myCardDetail": [
+        "wx.chooseLocation",
+        "wx.addPhoneContact"
+    ]
+}

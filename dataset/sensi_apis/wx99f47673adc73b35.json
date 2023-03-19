@@ -1,0 +1,8 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx99f47673adc73b35/pages/my/my": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx99f47673adc73b35/pages/my/personalInfo/personalInfo": [
+        "wx.chooseImage"
+    ]
+}

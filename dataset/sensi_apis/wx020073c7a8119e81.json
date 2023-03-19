@@ -1,0 +1,20 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx020073c7a8119e81/pages/account/login/login": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx020073c7a8119e81/pages/account/loginFail/loginFail": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx020073c7a8119e81/pages/account/registered/registered": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx020073c7a8119e81/pages/linetrainclass/trainclassDetail/trainclassDetail": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx020073c7a8119e81/pages/certificate/certificateDetail/certificateDetail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx020073c7a8119e81/pages/account/tianShuiRegister/tianShuiRegister": [
+        "wx.getUserInfo"
+    ]
+}

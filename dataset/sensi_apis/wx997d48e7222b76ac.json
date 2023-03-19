@@ -1,0 +1,11 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx997d48e7222b76ac/pages/map/map": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx997d48e7222b76ac/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx997d48e7222b76ac/pages/near-by/near-by": [
+        "wx.getLocation"
+    ]
+}

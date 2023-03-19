@@ -1,0 +1,11 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx81cd2850786ae32a/tabbar/vip/index": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx81cd2850786ae32a/pages/product/goods/goods-order": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx81cd2850786ae32a/pages/features-test/index": [
+        "wx.chooseImage"
+    ]
+}

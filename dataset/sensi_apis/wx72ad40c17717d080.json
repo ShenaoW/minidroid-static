@@ -1,0 +1,33 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx72ad40c17717d080/pages/home/home": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx72ad40c17717d080/pages/activity/detail/activityDetail": [
+        "wx.getLocation",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx72ad40c17717d080/pages/mine/mine": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx72ad40c17717d080/pages/news/article/article": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx72ad40c17717d080/pages/join/memberClaim/first/claimInfo": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx72ad40c17717d080/pages/album/albumList/albumList": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx72ad40c17717d080/pages/album/albumDetail/albumDetail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx72ad40c17717d080/pages/join/memberApply/preface/preface": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx72ad40c17717d080/pages/join/memberApply/joinMember/joinMember": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx72ad40c17717d080/pages/join/circleApply/circleApply": [
+        "wx.getUserProfile"
+    ]
+}

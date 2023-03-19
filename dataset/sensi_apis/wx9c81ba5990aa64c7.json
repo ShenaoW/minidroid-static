@@ -1,0 +1,40 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx9c81ba5990aa64c7/pages/index/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9c81ba5990aa64c7/pages/activity/publish": [
+        "wx.getLocation",
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9c81ba5990aa64c7/pages/activity/baoming": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9c81ba5990aa64c7/pages/zy_user/applyjoin": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9c81ba5990aa64c7/pages/club/applyjoin": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9c81ba5990aa64c7/pages/my/transfer/transfer_person": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9c81ba5990aa64c7/pages/clubablum/upload_album/upload_album": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9c81ba5990aa64c7/pages/set_person/set_person": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9c81ba5990aa64c7/pages/person_apply/person_apply": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9c81ba5990aa64c7/pages/my/clubleader/edit_person": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9c81ba5990aa64c7/pages/my/clubleader/person_updata": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9c81ba5990aa64c7/pages/release/release": [
+        "wx.chooseImage"
+    ]
+}

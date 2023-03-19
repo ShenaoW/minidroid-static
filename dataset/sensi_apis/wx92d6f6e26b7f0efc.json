@@ -1,0 +1,14 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx92d6f6e26b7f0efc/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx92d6f6e26b7f0efc/pages/my/live/live": [
+        "wx.createLivePusherContext"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx92d6f6e26b7f0efc/pages/my/coach/personal/personal": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx92d6f6e26b7f0efc/pages/index/site/site": [
+        "wx.getLocation"
+    ]
+}

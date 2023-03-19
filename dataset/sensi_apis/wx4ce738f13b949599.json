@@ -1,0 +1,9 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx4ce738f13b949599/pages/stepCount/stepCountPage": [
+        "wx.getUserInfo",
+        "wx.getWeRunData"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4ce738f13b949599/pages/donation/donationSharePic/donationSharePicPage": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

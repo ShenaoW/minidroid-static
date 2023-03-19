@@ -1,0 +1,10 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx4bc1a8837fb14fc1/pages/note/note": [
+        "wx.chooseImage",
+        "wx.chooseVideo",
+        "wx.startRecord"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4bc1a8837fb14fc1/pages/note/editNote/editNote": [
+        "wx.chooseImage"
+    ]
+}

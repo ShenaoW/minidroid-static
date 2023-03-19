@@ -1,0 +1,10 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx9ca5f7866bf39e29/pages/index2/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9ca5f7866bf39e29/pages/index/index": [
+        "wx.getUserInfo",
+        "wx.chooseImage",
+        "wx.createCameraContext"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx94c026e2e5873e09/pages/home/home": [
+        "wx.getLocation",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx94c026e2e5873e09/pages/pickup/main/main": [
+        "wx.getUserInfo",
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx94c026e2e5873e09/pages/userinfo/userinfo": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx94c026e2e5873e09/pages/pickup/login/login": [
+        "wx.getUserInfo"
+    ]
+}

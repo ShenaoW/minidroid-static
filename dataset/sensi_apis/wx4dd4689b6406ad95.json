@@ -1,0 +1,44 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx4dd4689b6406ad95/pages/DBHFY_Baoming_WC/DBHFY_Baoming_WC": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4dd4689b6406ad95/pages/DBHFY_Baoming/DBHFY_Baoming": [
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4dd4689b6406ad95/pages/FXZS_Baoming_WC/FXZS_Baoming_WC": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4dd4689b6406ad95/pages/FXZS_Baoming/FXZS_Baoming": [
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4dd4689b6406ad95/pages/ADD_fenihufangan/ADD_fenihufangan": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4dd4689b6406ad95/pages/Liaotian/Liaotian": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4dd4689b6406ad95/pages/FB_shanquan/FB_shanquan": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4dd4689b6406ad95/pages/login/login": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4dd4689b6406ad95/pages/my_HDXG/my_HDXG": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4dd4689b6406ad95/pages/ceishi/ceishi": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4dd4689b6406ad95/pages/my_HD/my_HD": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4dd4689b6406ad95/pages/my/my": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4dd4689b6406ad95/pages/user_infor/user_infor": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4dd4689b6406ad95/pages/Release_WS/Release_WS": [
+        "wx.chooseImage"
+    ]
+}

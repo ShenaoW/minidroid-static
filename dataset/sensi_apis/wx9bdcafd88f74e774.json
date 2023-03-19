@@ -1,0 +1,17 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx9bdcafd88f74e774/pages/goods/goods": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9bdcafd88f74e774/pages/user/user": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9bdcafd88f74e774/pages/index/index-new": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9bdcafd88f74e774/pages/index/index-jfyx/index-jfyx": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9bdcafd88f74e774/pages/index/indexSub": [
+        "wx.getLocation"
+    ]
+}

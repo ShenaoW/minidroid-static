@@ -1,0 +1,31 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx9d2a98046c3538d1/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9d2a98046c3538d1/pages/store/store": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9d2a98046c3538d1/pages/ucenter/skillDetail/skillDetail": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9d2a98046c3538d1/pages/shopping/addressAdd/addressAdd": [
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9d2a98046c3538d1/pages/ucenter/addressAdd/addressAdd": [
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9d2a98046c3538d1/pages/commentPost/commentPost": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9d2a98046c3538d1/pages/ucenter/address/address": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9d2a98046c3538d1/pages/shops/shops": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9d2a98046c3538d1/pages/shopping/address/address": [
+        "wx.chooseAddress"
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx8e4ea43972d68cee/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8e4ea43972d68cee/pages/cart/cart": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8e4ea43972d68cee/pages/ucenter/ucenter": [
+        "wx.chooseImage",
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx9a2148359974c2ee/pages/tools/qr/generate": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9a2148359974c2ee/pages/tools/qr/decorate": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9a2148359974c2ee/pages/tools/it/secCheck": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9a2148359974c2ee/pages/voucherCoupons/voucherCouponDetail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9a2148359974c2ee/pages/tools/ai/changeAgePic": [
+        "wx.chooseImage"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxadf6b985adad853e/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxadf6b985adad853e/pages/myPromotionCode/myPromotionCode": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxadf6b985adad853e/pages/trademarkSearch/trademarkSearch": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxadf6b985adad853e/pages/businessDetail/businessDetail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxadf6b985adad853e/pages/my/perInfo/perInfo": [
+        "wx.chooseImage"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx4b15f2683a9617d4/pages/businessCard/businessCard": [
+        "wx.addPhoneContact"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4b15f2683a9617d4/pages/dingdongService/dingdongService": [
+        "wx.startRecord"
+    ]
+}

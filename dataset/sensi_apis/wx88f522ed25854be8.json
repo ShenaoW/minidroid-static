@@ -1,0 +1,32 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx88f522ed25854be8/pages/main/main": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx88f522ed25854be8/pages/reserve/homeService/homeService/homeService": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx88f522ed25854be8/pages/activity/groupDetail/groupDetail": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx88f522ed25854be8/pages/reserve/artificerdetail/artificerdetail": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx88f522ed25854be8/pages/reserve/shopartificer/shopartificer": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx88f522ed25854be8/pages/reserve/artorderpay/artorderpay3": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx88f522ed25854be8/pages/orderList/evaluate/evaluate": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx88f522ed25854be8/pages/ConvenientPayment/ConvenientPayment": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx88f522ed25854be8/pages/activity/spellGroupDetail/spellGroupDetail": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx88f522ed25854be8/pages/activity/bargain/bargain": [
+        "wx.getUserInfo"
+    ]
+}

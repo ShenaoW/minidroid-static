@@ -1,0 +1,14 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxa8b97701f6ad3935/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa8b97701f6ad3935/pages/goods/poster/poster": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa8b97701f6ad3935/pages/goods/detail/poster/poster": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa8b97701f6ad3935/pages/goods/cardetail/poster/poster": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

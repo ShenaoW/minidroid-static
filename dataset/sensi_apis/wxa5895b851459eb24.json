@@ -1,0 +1,11 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxa5895b851459eb24/pages/webgoodsposter/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa5895b851459eb24/pages/goods/detail/poster/poster": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa5895b851459eb24/pages/goods/poster/poster": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

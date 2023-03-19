@@ -1,0 +1,12 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx706a2666867091a0/pages/home/home": [
+        "wx.saveVideoToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx706a2666867091a0/pages/analysisResult/analysisResult": [
+        "wx.saveVideoToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx706a2666867091a0/pages/modifMd5/modifMd5": [
+        "wx.chooseVideo",
+        "wx.saveVideoToPhotosAlbum"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxa4de1d15a512657d/pages/custom/custom_1522567777974": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa4de1d15a512657d/pages/zixun/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa4de1d15a512657d/pages/coupon/card_list/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa4de1d15a512657d/pages/user/user_index/index": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa4de1d15a512657d/pages/user/setting/index": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa4de1d15a512657d/pages/user/address/index": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa4de1d15a512657d/pages/user/tips-info/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa4de1d15a512657d/pages/user/fenxiao/qcode/qcode": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx7edb9b4ce821d2d6/pages/index/index": [
+        "wx.getUserInfo",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7edb9b4ce821d2d6/pages/personal/personal": [
+        "wx.getUserInfo",
+        "wx.chooseImage",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7edb9b4ce821d2d6/pages/file/file": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7edb9b4ce821d2d6/pages/otherinfo/otherinfo": [
+        "wx.getUserInfo"
+    ]
+}

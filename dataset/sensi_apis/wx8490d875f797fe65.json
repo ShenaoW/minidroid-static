@@ -1,0 +1,29 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx8490d875f797fe65/pages/detail/detail": [
+        "wx.chooseAddress",
+        "wx.createLivePusherContext"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8490d875f797fe65/pages/mine/mine": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8490d875f797fe65/pages/new-card/new-card": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8490d875f797fe65/pages/order-appraisal/order-appraisal": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8490d875f797fe65/pages/paipin-detail/paipin-detail": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8490d875f797fe65/pages/paipin-text/paipin-text": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8490d875f797fe65/pages/zhuanchang-new/zhuanchang-new": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8490d875f797fe65/pages/group-chat/group-chat": [
+        "wx.chooseLocation",
+        "wx.chooseImage",
+        "wx.chooseVideo"
+    ]
+}

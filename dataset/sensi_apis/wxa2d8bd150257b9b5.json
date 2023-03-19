@@ -1,0 +1,23 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxa2d8bd150257b9b5/pages/index/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa2d8bd150257b9b5/pages/village/villageDetail/villageDetail": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa2d8bd150257b9b5/pages/manage/banner/banner": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa2d8bd150257b9b5/pages/manage/decorate/decorate": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa2d8bd150257b9b5/pages/manage/publish/video/video": [
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa2d8bd150257b9b5/pages/manage/publish/graphic/graphic": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa2d8bd150257b9b5/pages/manage/houseDecoration/decorationPic/decorationPic": [
+        "wx.chooseImage"
+    ]
+}

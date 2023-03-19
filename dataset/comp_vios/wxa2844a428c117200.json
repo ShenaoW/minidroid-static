@@ -5,10 +5,8 @@
             "wx.getUserInfo"
         ],
         "violation_page": [
-            "app.js",
             "/root/minidroid/dataset/miniprograms/wxa2844a428c117200/pages/pay/payindex",
-            "/root/minidroid/dataset/miniprograms/wxa2844a428c117200/pages/pay/payindex",
-            "/root/minidroid/dataset/miniprograms/wxa2844a428c117200/pages/pay/payindex"
+            "app.js"
         ]
     },
     "blanket_reqs": null,

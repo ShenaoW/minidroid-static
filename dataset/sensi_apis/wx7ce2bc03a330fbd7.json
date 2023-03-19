@@ -1,0 +1,20 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx7ce2bc03a330fbd7/pages/login/login": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ce2bc03a330fbd7/pages/user-address/user-address": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ce2bc03a330fbd7/pages/user-address-save/user-address-save": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ce2bc03a330fbd7/pages/user-order-comments/user-order-comments": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ce2bc03a330fbd7/pages/user-orderaftersale-detail/user-orderaftersale-detail": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7ce2bc03a330fbd7/pages/common/open-setting-location/open-setting-location": [
+        "wx.chooseLocation"
+    ]
+}

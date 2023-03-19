@@ -1,0 +1,17 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx9f57e4816f93c7ec/pages/goods/poster/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9f57e4816f93c7ec/pages/member/index/index": [
+        "wx.saveVideoToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9f57e4816f93c7ec/pages/changce/merch/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9f57e4816f93c7ec/pages/commission/poster/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9f57e4816f93c7ec/pages/mplive/index/qrcode": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

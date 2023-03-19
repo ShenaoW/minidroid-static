@@ -1,0 +1,23 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx8a6c2cef6c2887b4/pages/dietary_record/dietary_record": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8a6c2cef6c2887b4/pages/reportError/reportError": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8a6c2cef6c2887b4/pages/laboratory/laboratory": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8a6c2cef6c2887b4/pages/cropper/cropper": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8a6c2cef6c2887b4/pages/takePicture_canpan/takePicture_canpan": [
+        "wx.createCameraContext"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8a6c2cef6c2887b4/pages/takePicture_QCR/takePicture_QCR": [
+        "wx.createCameraContext"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8a6c2cef6c2887b4/pages/bluetoothSync/bluetoothSync": [
+        "wx.openBluetoothAdapter"
+    ]
+}

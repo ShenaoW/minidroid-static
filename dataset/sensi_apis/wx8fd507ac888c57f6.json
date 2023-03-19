@@ -1,0 +1,11 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx8fd507ac888c57f6/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8fd507ac888c57f6/pages/goods/goods": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8fd507ac888c57f6/pages/privilege/privilege": [
+        "wx.getLocation"
+    ]
+}

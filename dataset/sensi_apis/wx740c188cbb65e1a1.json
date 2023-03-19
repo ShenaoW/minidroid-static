@@ -1,0 +1,12 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx740c188cbb65e1a1/pages/index/index": [
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx740c188cbb65e1a1/pages/orderRefund/orderRefund": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx740c188cbb65e1a1/pages/fault/fault": [
+        "wx.chooseImage"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx703d3470fa9d4378/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx703d3470fa9d4378/pages/me/address/detail/index": [
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx703d3470fa9d4378/pages/need/pages/home/index": [
+        "wx.getLocation",
+        "wx.chooseImage"
+    ]
+}

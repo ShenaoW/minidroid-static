@@ -1,0 +1,17 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx45f11be2a3aaf10d/pages/index/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx45f11be2a3aaf10d/pages/nologin/nologin": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx45f11be2a3aaf10d/pages/order/evaluate1/evaluate1": [
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx45f11be2a3aaf10d/pages/order/evaluate2/evaluate2": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx45f11be2a3aaf10d/pages/me/my_info/my_info": [
+        "wx.chooseImage"
+    ]
+}

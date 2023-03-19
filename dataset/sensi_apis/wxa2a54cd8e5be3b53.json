@@ -1,0 +1,65 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxa2a54cd8e5be3b53/pages/sell/sell": [
+        "wx.chooseImage",
+        "wx.chooseVideo",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa2a54cd8e5be3b53/pages/sellFilter/sellFilter": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa2a54cd8e5be3b53/pages/send_trends/send_trends": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa2a54cd8e5be3b53/pages/openTweetPage/openTweetPage": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa2a54cd8e5be3b53/pages/livePusher/livePusher": [
+        "wx.createLivePusherContext"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa2a54cd8e5be3b53/pages/zeroBuy/zeroBuy": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa2a54cd8e5be3b53/pages/playSericeVideo/playSericeVideo": [
+        "wx.saveImageToPhotosAlbum",
+        "wx.saveVideoToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa2a54cd8e5be3b53/pages/address/address": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa2a54cd8e5be3b53/pages/pushTheMaterial/pushTheMaterial": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa2a54cd8e5be3b53/pages/sendRed/sendRed": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa2a54cd8e5be3b53/pages/sunBurnPage/sunBurnPage": [
+        "wx.chooseImage",
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa2a54cd8e5be3b53/pages/setUserInfo/setUserInfo": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa2a54cd8e5be3b53/pages/copyGZ/copyGZ": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa2a54cd8e5be3b53/pages/createOwnerGoods/createOwnerGoods": [
+        "wx.chooseImage",
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa2a54cd8e5be3b53/pages/addVideoAndImage/addVideoAndImage": [
+        "wx.chooseImage",
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa2a54cd8e5be3b53/pages/moneyReceivingQRCode/moneyReceivingQRCode": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa2a54cd8e5be3b53/pages/dynamicsShare/dynamicsShare": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa2a54cd8e5be3b53/pages/discover/discover": [
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa2a54cd8e5be3b53/pages/addQun/addQun": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

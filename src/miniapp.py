@@ -164,6 +164,7 @@ class Page:
             self.page_expr_node = get_page_expr_node(self.pdg_node)
         if self.page_expr_node != None:
             self.page_method_nodes = get_page_method_nodes(self.page_expr_node)
+        self.wxml_soup = None
         self.binding_event = {
             # Bubbling Event
             'bindtap': [],
@@ -193,6 +194,7 @@ class Page:
     def set_binding_event(self, page_path):
         try:
             soup = BeautifulSoup(open(page_path+'.wxml'), 'html.parser')
+            self.wxml_soup = soup
         except Exception as e:
             logger.error('WxmlNotFoundError: {}'.format(e))
         for binding in self.binding_event.keys():
@@ -442,13 +444,13 @@ class MiniApp:
             except FileNotFoundError:
                 with open(os.path.join(miniapp_path, page.page_path+'.ts'), 'r', encoding='utf-8') as fp:
                     data = fp.read()
-
             sensi_api_matched = []
             for sensi_api in config.SENSITIVE_API.keys():
                 res = re.search(sensi_api, data)
                 if res is not None:
                     sensi_api_matched.append(res.group(0))
-            self.sensi_apis[page.page_path] = sensi_api_matched
+            if len(sensi_api_matched):
+                self.sensi_apis[page.page_path] = sensi_api_matched
 
 
 # test

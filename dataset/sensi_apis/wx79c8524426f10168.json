@@ -1,0 +1,51 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx79c8524426f10168/pages/homePageNew/homePageNew": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx79c8524426f10168/pages/homePage/homePage": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx79c8524426f10168/pages/sunDrying/sunDrying": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx79c8524426f10168/pages/login/login": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx79c8524426f10168/pages/ds_dsj/ds_dsj": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx79c8524426f10168/pages/sj_dsj/sj_dsj": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx79c8524426f10168/pages/search/search/search": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx79c8524426f10168/pages/score/score_list/score_list": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx79c8524426f10168/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx79c8524426f10168/pages/myJob/myJob": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx79c8524426f10168/pages/jobInfo/jobInfo": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx79c8524426f10168/pages/search/jobInfo/jobInfo": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx79c8524426f10168/pages/score/score_info/score_info": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx79c8524426f10168/pages/tools/profession/profession": [
+        "wx.getUserInfo",
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx79c8524426f10168/pages/order/order": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx79c8524426f10168/pages/order2/order2": [
+        "wx.getLocation"
+    ]
+}

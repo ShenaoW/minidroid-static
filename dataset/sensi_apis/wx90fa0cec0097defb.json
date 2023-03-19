@@ -1,0 +1,20 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx90fa0cec0097defb/pages/goods/poster/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx90fa0cec0097defb/pages/member/index/index": [
+        "wx.saveVideoToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx90fa0cec0097defb/pages/changce/merch/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx90fa0cec0097defb/pages/commission/poster/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx90fa0cec0097defb/pages/business/material/detail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx90fa0cec0097defb/pages/agencyCircle/agencyCircle": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

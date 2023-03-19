@@ -1,0 +1,14 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx4575d77634ce8af9/pages/zhengjianzhao/zjzIndex/zjzIndex": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4575d77634ce8af9/pages/tongnianzhao/tongnianzhao/tongnianzhao": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4575d77634ce8af9/pages/zhengjianzhao/avaterEdit/avaterEdit": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4575d77634ce8af9/pages/zhengjianzhao/makeImg/makeImg": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

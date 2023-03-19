@@ -1,0 +1,18 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx7575b144366b4f40/pages/mine/mine": [
+        "wx.getUserInfo",
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7575b144366b4f40/pages/authorize/index": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7575b144366b4f40/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7575b144366b4f40/pages/weather/weather": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7575b144366b4f40/pages/location/location": [
+        "wx.getLocation"
+    ]
+}

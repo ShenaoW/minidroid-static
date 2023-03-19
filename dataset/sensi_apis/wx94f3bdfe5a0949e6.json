@@ -1,0 +1,40 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx94f3bdfe5a0949e6/pages/sourceCenters/sourceCenters": [
+        "wx.saveVideoToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx94f3bdfe5a0949e6/pages/addLuckyInfo/addLuckyInfo": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx94f3bdfe5a0949e6/pages/appraise/appraise": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx94f3bdfe5a0949e6/pages/addService/addService": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx94f3bdfe5a0949e6/pages/chart/chart": [
+        "wx.chooseImage",
+        "wx.chooseVideo",
+        "wx.saveVideoToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx94f3bdfe5a0949e6/pages/identification/identification": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx94f3bdfe5a0949e6/pages/identifibank/identifibank": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx94f3bdfe5a0949e6/pages/countinfo/countinfo": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx94f3bdfe5a0949e6/pages/serviceStar/serviceStar": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx94f3bdfe5a0949e6/pages/addAddress/addAddress": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx94f3bdfe5a0949e6/pages/storeInfo/storeInfo": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx94f3bdfe5a0949e6/pages/sharesucai/sharesucai": [
+        "wx.saveVideoToPhotosAlbum"
+    ]
+}

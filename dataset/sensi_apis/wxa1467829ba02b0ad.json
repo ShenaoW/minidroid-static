@@ -1,0 +1,27 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxa1467829ba02b0ad/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa1467829ba02b0ad/pages/me/address/detail/index": [
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa1467829ba02b0ad/pages/carter/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa1467829ba02b0ad/pages/need/pages/home/index": [
+        "wx.getLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa1467829ba02b0ad/pages/shove/pages/home/index": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa1467829ba02b0ad/pages/shove/pages/ku/index": [
+        "wx.chooseImage",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa1467829ba02b0ad/pages/store/pages/reg/index": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ]
+}

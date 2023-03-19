@@ -1,0 +1,8 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx7415c42bac4fca12/pages/login/login": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7415c42bac4fca12/pages/pay/index": [
+        "wx.chooseImage"
+    ]
+}

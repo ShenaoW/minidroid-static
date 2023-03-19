@@ -1,0 +1,17 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx7d3880e703ecee15/pages/wode/wode": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7d3880e703ecee15/pages/share/share": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7d3880e703ecee15/pages/list/qiang/mai": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7d3880e703ecee15/pages/wode/tui/tui": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7d3880e703ecee15/pages/clipboard/clipboard": [
+        "wx.getUserInfo"
+    ]
+}

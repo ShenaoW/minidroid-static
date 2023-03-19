@@ -1,0 +1,28 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx4af5f9fe2a9c75bf/pages/publish_detail/index": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4af5f9fe2a9c75bf/pages/publish_local/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4af5f9fe2a9c75bf/pages/publish_edit/index": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4af5f9fe2a9c75bf/pages/seekhelp_publish/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4af5f9fe2a9c75bf/pages/myStroe/index": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4af5f9fe2a9c75bf/pages/alterCheck/index": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4af5f9fe2a9c75bf/pages/rewrite_order/index": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ]
+}

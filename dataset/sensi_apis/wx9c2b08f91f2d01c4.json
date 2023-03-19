@@ -1,0 +1,14 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx9c2b08f91f2d01c4/pages/weidian/userweidian": [
+        "wx.addPhoneContact"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9c2b08f91f2d01c4/pages/previewCard/previewCard": [
+        "wx.addPhoneContact"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9c2b08f91f2d01c4/pages/userweidian/userweidian": [
+        "wx.addPhoneContact"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9c2b08f91f2d01c4/pages/chatdetail/chatdetail": [
+        "wx.chooseImage"
+    ]
+}

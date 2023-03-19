@@ -1,0 +1,74 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxacf2a82d7269c3fa/utils/we-cropper/cutInside/cutInside": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxacf2a82d7269c3fa/pages/series_add/series_add": [
+        "wx.chooseImage",
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxacf2a82d7269c3fa/pages/list_goods/list_goods": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxacf2a82d7269c3fa/pages/newcar_publish/newcar_publish": [
+        "wx.chooseImage",
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxacf2a82d7269c3fa/pages/poster/poster": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxacf2a82d7269c3fa/pages/publish_usedcar/publish_usedcar": [
+        "wx.chooseImage",
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxacf2a82d7269c3fa/pages/manage_storefront_brand_add/manage_storefront_brand_add": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxacf2a82d7269c3fa/pages/carimg_publish/carimg_publish": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxacf2a82d7269c3fa/pages/publish_active/publish_active": [
+        "wx.chooseLocation",
+        "wx.chooseImage",
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxacf2a82d7269c3fa/pages/reserve_information/reserve_information": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxacf2a82d7269c3fa/pages/member_manage/member_manage": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxacf2a82d7269c3fa/pages/member_leave_list/member_leave_list": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxacf2a82d7269c3fa/pages/member_enroll_apply/member_enroll_apply": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxacf2a82d7269c3fa/pages/manage_goods/manage_goods": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxacf2a82d7269c3fa/pages/publish_service/publish_service": [
+        "wx.chooseImage",
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxacf2a82d7269c3fa/pages/publish_goods/publish_goods": [
+        "wx.chooseImage",
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxacf2a82d7269c3fa/pages/banner_publish/banner_publish": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxacf2a82d7269c3fa/pages/dorder_integralgoods/dorder_integralgoods": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxacf2a82d7269c3fa/pages/publish_news/publish_news": [
+        "wx.chooseImage",
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxacf2a82d7269c3fa/pages/reserve_drive/reserve_drive": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxacf2a82d7269c3fa/pages/reserve_maintain/reserve_maintain": [
+        "wx.getUserInfo"
+    ]
+}

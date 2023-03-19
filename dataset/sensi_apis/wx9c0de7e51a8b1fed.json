@@ -1,0 +1,18 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx9c0de7e51a8b1fed/pages/recommendMap/recommendMap": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9c0de7e51a8b1fed/pages/uploadPage/uploadPage": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9c0de7e51a8b1fed/pages/myCard/myCard": [
+        "wx.addPhoneContact"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9c0de7e51a8b1fed/pages/Camera/Camera": [
+        "wx.chooseImage",
+        "wx.createCameraContext"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9c0de7e51a8b1fed/pages/saveImg/saveImg": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

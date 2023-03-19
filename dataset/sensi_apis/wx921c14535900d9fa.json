@@ -1,0 +1,21 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx921c14535900d9fa/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx921c14535900d9fa/pages/me/set/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx921c14535900d9fa/pages/me/address/detail/index": [
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx921c14535900d9fa/pages/carter/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx921c14535900d9fa/pages/bianmin/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx921c14535900d9fa/pages/ditu/index": [
+        "wx.getLocation"
+    ]
+}

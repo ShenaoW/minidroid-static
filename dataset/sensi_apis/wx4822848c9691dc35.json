@@ -1,0 +1,38 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx4822848c9691dc35/pages/groupDetails/groupDetails": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4822848c9691dc35/pages/presaleDetail/presaleDetail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4822848c9691dc35/pages/Test/test": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4822848c9691dc35/pages/articleList/articleList": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4822848c9691dc35/pages/report/report": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4822848c9691dc35/pages/donkeyFriendPublished/donkeyFriendPublished": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4822848c9691dc35/pages/0715NewPage/groupDetails/groupDetails": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4822848c9691dc35/pages/0715NewPage/MpresaleDetail/MpresaleDetail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4822848c9691dc35/pages/0715NewPage/KanJiaDetail/kanJiaDetail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4822848c9691dc35/pages/0715NewPage/kjHelp/kjHelp": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4822848c9691dc35/pages/0715NewPage/faceInput/faceInput": [
+        "wx.createCameraContext"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4822848c9691dc35/pages/0715NewPage/ticketsGiveDetail/ticketsGiveDetail": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

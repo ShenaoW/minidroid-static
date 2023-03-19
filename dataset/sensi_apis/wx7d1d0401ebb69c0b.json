@@ -1,0 +1,22 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx7d1d0401ebb69c0b/pages/phonecard/phonecard": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7d1d0401ebb69c0b/pages/phonecarddetail/phonecarddetail": [
+        "wx.chooseImage",
+        "wx.saveImageToPhotosAlbum",
+        "wx.addPhoneContact"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7d1d0401ebb69c0b/pages/phonerounddetail/phonerounddetail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7d1d0401ebb69c0b/pages/phonecardewm/phonecardewm": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7d1d0401ebb69c0b/pages/phonetopeople/phonetopeople": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7d1d0401ebb69c0b/pages/addsharecard/addsharecard": [
+        "wx.chooseImage"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx9792f69fe5970b8a/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9792f69fe5970b8a/pages/quan/quandetail": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9792f69fe5970b8a/pages/quan/quanedit": [
+        "wx.getLocation",
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9792f69fe5970b8a/pages/shop/shopindex": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9792f69fe5970b8a/pages/shop/shopreg": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ]
+}

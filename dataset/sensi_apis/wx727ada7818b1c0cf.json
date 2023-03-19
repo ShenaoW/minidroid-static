@@ -1,0 +1,10 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx727ada7818b1c0cf/pages/wifi/index": [
+        "wx.getUserInfo",
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx727ada7818b1c0cf/pages/wifi/result/index": [
+        "wx.getUserInfo",
+        "wx.getLocation"
+    ]
+}

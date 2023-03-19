@@ -1,0 +1,32 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx770c3db63a3e1779/pages/index/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx770c3db63a3e1779/pages/index3/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx770c3db63a3e1779/pages/list/list": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx770c3db63a3e1779/pages/web/web": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx770c3db63a3e1779/pages/my/my": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx770c3db63a3e1779/pages/task/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx770c3db63a3e1779/pages/task1/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx770c3db63a3e1779/pages/mine/my": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx770c3db63a3e1779/pages/daytask/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx770c3db63a3e1779/pages/daytask1/index": [
+        "wx.getUserInfo"
+    ]
+}

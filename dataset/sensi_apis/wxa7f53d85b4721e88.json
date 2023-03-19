@@ -1,0 +1,45 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxa7f53d85b4721e88/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa7f53d85b4721e88/pages/userinfo/userinfo": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa7f53d85b4721e88/pages/new-mall-home/new-mall-home": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa7f53d85b4721e88/pages/new-hotel-list/new-hotel-list": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa7f53d85b4721e88/pages/new-hotel-detail/new-hotel-detail": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa7f53d85b4721e88/pages/order-details/order-details": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa7f53d85b4721e88/pages/map-guide/map-guide": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa7f53d85b4721e88/pages/purchase-details/purchase-details": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa7f53d85b4721e88/pages/rate/rate": [
+        "wx.getUserInfo",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa7f53d85b4721e88/pages/card-buy/card-buy": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa7f53d85b4721e88/pages/card-buy-get/card-buy-get": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa7f53d85b4721e88/pages/card-active/card-active": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa7f53d85b4721e88/pages/card-all/card-all": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa7f53d85b4721e88/pages/card-mess-change/card-mess-change": [
+        "wx.chooseImage"
+    ]
+}

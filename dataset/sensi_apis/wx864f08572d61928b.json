@@ -1,0 +1,11 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx864f08572d61928b/pages/post/post": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx864f08572d61928b/pages/follower/follower": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx864f08572d61928b/pages/addidol/addidol": [
+        "wx.chooseImage"
+    ]
+}

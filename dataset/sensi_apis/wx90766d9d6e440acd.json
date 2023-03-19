@@ -1,0 +1,11 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx90766d9d6e440acd/pages/detail/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx90766d9d6e440acd/pages/my/my": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx90766d9d6e440acd/pages/tools/shouchong/index": [
+        "wx.getUserInfo"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx71a84e6c4ba1ab9c/pages/homePage/homePage": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71a84e6c4ba1ab9c/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71a84e6c4ba1ab9c/pages/myJob/myJob": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71a84e6c4ba1ab9c/pages/jobInfo/jobInfo": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71a84e6c4ba1ab9c/pages/information/information": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71a84e6c4ba1ab9c/pages/order/order": [
+        "wx.getLocation"
+    ]
+}

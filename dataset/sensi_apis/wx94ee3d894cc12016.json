@@ -1,0 +1,27 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx94ee3d894cc12016/pages/addarticle/addarticle": [
+        "wx.chooseImage",
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx94ee3d894cc12016/pages/postopic/postopic": [
+        "wx.chooseLocation",
+        "wx.chooseImage",
+        "wx.chooseVideo",
+        "wx.chooseMessageFile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx94ee3d894cc12016/pages/socialmap/socialmap": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx94ee3d894cc12016/pages/authorcode/authorcode": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx94ee3d894cc12016/pages/earnIntegral/earnIntegral": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx94ee3d894cc12016/pages/about/about": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx94ee3d894cc12016/pages/wppage/wppage": [
+        "wx.getLocation"
+    ]
+}

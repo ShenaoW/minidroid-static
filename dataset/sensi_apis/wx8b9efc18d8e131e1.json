@@ -1,0 +1,14 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx8b9efc18d8e131e1/pages/ucenter/feedback/feedback": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8b9efc18d8e131e1/pages/commentPost/commentPost": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8b9efc18d8e131e1/pages/topicCommentPost/topicCommentPost": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8b9efc18d8e131e1/pages/goods/goods": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

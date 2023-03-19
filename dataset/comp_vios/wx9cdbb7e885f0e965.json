@@ -1,0 +1,16 @@
+{
+    "req_before_use": {
+        "authorize_scope": [],
+        "sensi_apis": [
+            "wx.getUserInfo"
+        ],
+        "violation_page": [
+            "app.js",
+            "/root/minidroid/dataset/miniprograms/wx9cdbb7e885f0e965/pages/crossBorder/index/index",
+            "/root/minidroid/dataset/miniprograms/wx9cdbb7e885f0e965/pages/crossBorder/index/index",
+            "/root/minidroid/dataset/miniprograms/wx9cdbb7e885f0e965/pages/crossBorder/index/index"
+        ]
+    },
+    "blanket_reqs": null,
+    "compulsory_req": null
+}

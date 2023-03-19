@@ -1,0 +1,59 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx4d56ea8526fab03c/pages/index/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d56ea8526fab03c/pages/sharepic/sharepic": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d56ea8526fab03c/pages/colonel/colonel": [
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d56ea8526fab03c/pages/searchcolonel/searchcolonel": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d56ea8526fab03c/pages/goodsdetail/goodsdetail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d56ea8526fab03c/pages/detail/detail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d56ea8526fab03c/pages/firmOrder/firmOrder": [
+        "wx.getUserInfo",
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d56ea8526fab03c/pages/firmOrder1/firmOrder1": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d56ea8526fab03c/pages/firmOrder2/firmOrder2": [
+        "wx.getUserInfo",
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d56ea8526fab03c/pages/feedback/feedback": [
+        "wx.getUserInfo",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d56ea8526fab03c/pages/release/release": [
+        "wx.getUserInfo",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d56ea8526fab03c/pages/agent/agent": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d56ea8526fab03c/pages/appraise/appraise": [
+        "wx.getUserInfo",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d56ea8526fab03c/pages/recharge/recharge": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d56ea8526fab03c/pages/register/register": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d56ea8526fab03c/pages/logon/logon": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4d56ea8526fab03c/pages/exchange/exchange": [
+        "wx.getUserInfo"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx84d09c83ac2f02cf/pages/create/create": [
+        "wx.getUserProfile",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx84d09c83ac2f02cf/pages/addCustom/addCustom": [
+        "wx.getUserProfile",
+        "wx.chooseImage",
+        "wx.startRecord"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx84d09c83ac2f02cf/pages/update/update": [
+        "wx.getUserProfile",
+        "wx.chooseImage"
+    ]
+}

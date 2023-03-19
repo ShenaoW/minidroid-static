@@ -1,0 +1,30 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx73ccf43e9a5d6407/pages/tapswitching/tapswitching": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx73ccf43e9a5d6407/pages/editaddress/editaddress": [
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx73ccf43e9a5d6407/pages/personal/personal": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx73ccf43e9a5d6407/pages/directbuyingto/directbuyingto": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx73ccf43e9a5d6407/pages/Theorderthrfour/Theorderthrfour": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx73ccf43e9a5d6407/pages/buyingrefund/buyingrefund": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx73ccf43e9a5d6407/pages/detailzt/detailzt": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx73ccf43e9a5d6407/pages/Directsellingto/Directsellingto": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx73ccf43e9a5d6407/pages/impromote/impromote": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

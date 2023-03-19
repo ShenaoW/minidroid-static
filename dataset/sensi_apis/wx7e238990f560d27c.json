@@ -1,0 +1,37 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx7e238990f560d27c/pages/user/add/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7e238990f560d27c/pages/productCommit/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7e238990f560d27c/pages/modelCommit/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7e238990f560d27c/pages/service/addWorker/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7e238990f560d27c/pages/service/addCar/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7e238990f560d27c/pages/maintainer/uploadVoucher/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7e238990f560d27c/pages/ad/add/index": [
+        "wx.chooseImage",
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7e238990f560d27c/pages/order/sendGoods/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7e238990f560d27c/pages/quickLoan/commitBusiness/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7e238990f560d27c/pages/quickLoan/commitFace/index": [
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7e238990f560d27c/pages/idcardIdent/index": [
+        "wx.chooseImage",
+        "wx.createCameraContext"
+    ]
+}

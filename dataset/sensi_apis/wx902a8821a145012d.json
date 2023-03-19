@@ -1,0 +1,10 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx902a8821a145012d/pages/material/material": [
+        "wx.saveImageToPhotosAlbum",
+        "wx.saveVideoToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx902a8821a145012d/pages/save-images/save-images": [
+        "wx.saveImageToPhotosAlbum",
+        "wx.saveVideoToPhotosAlbum"
+    ]
+}

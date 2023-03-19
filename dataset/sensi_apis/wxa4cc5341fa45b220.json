@@ -1,0 +1,8 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxa4cc5341fa45b220/pages/index/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa4cc5341fa45b220/pages/out/out": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx76619c6381e15f15/pages/stores/local": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx76619c6381e15f15/pages/stores/selectstores": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx76619c6381e15f15/pages/stores/pickupaddress": [
+        "wx.getLocation"
+    ]
+}

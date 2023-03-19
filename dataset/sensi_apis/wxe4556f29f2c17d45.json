@@ -1,0 +1,26 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxe4556f29f2c17d45/pages/microPage/microPage": [
+        "wx.getLocation",
+        "wx.chooseLocation",
+        "wx.chooseImage",
+        "wx.addPhoneContact"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxe4556f29f2c17d45/pages/mine/mine": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxe4556f29f2c17d45/pages/activateIdentity/activateIdentity": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxe4556f29f2c17d45/pages/coupon/employCard/employCard": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxe4556f29f2c17d45/pages/coupon/ticketDetail/ticketDetail": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxe4556f29f2c17d45/pages/microPage/upload/upload": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxe4556f29f2c17d45/pages/trend/trend": [
+        "wx.chooseImage"
+    ]
+}

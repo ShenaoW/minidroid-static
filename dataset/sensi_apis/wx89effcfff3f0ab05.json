@@ -1,0 +1,8 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx89effcfff3f0ab05/pages/group/detail/detail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx89effcfff3f0ab05/pages/group/order/order": [
+        "wx.chooseAddress"
+    ]
+}

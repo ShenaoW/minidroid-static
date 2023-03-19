@@ -1,0 +1,44 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx96285ca496db17f3/pages/yishuzi/pages/index/create": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx96285ca496db17f3/pages/cuttingNine/cuttingNine": [
+        "wx.chooseImage",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx96285ca496db17f3/pages/screenshotConnect/screenshotConnect": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx96285ca496db17f3/pages/toolsTwo/weather/weather/weather": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx96285ca496db17f3/pages/toolsTwo/compass/compass": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx96285ca496db17f3/pages/toolsTwo/videoparse/videoparse": [
+        "wx.saveVideoToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx96285ca496db17f3/pages/toolsTwo/tuzhuanwenzi/tuzhuanwenzi": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx96285ca496db17f3/pages/toolsTwo/jggpt/jggpt": [
+        "wx.chooseImage",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx96285ca496db17f3/pages/toolsThree/waterMarker/index": [
+        "wx.chooseImage",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx96285ca496db17f3/pages/toolsThree/yasuo/single": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx96285ca496db17f3/pages/toolsThree/yasuo/msg": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx96285ca496db17f3/pages/toolsThree/qushuiyin/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx96285ca496db17f3/pages/toolsThree/dongmanhua/index": [
+        "wx.chooseImage"
+    ]
+}

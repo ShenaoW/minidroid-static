@@ -1,0 +1,76 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx8931d78a203d8cb5/components/publishdetail/publishdetail": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8931d78a203d8cb5/pages/donation/donation": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8931d78a203d8cb5/pages/publicfinancing/publicfinancing-detail/publicfinancing-detail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8931d78a203d8cb5/pages/fund/fund-detail/fund-detail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8931d78a203d8cb5/pages/togetherdonation/togetherdonation-detail/togetherdonation-detail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8931d78a203d8cb5/pages/illnessrescue/illnessrescue-detail/illnessrescue-detail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8931d78a203d8cb5/pages/student/student-detail/student-detail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8931d78a203d8cb5/pages/charitysale/charitysale-detail/charitysale-detail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8931d78a203d8cb5/pages/dynamic/dynamic": [
+        "wx.getLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8931d78a203d8cb5/pages/register/register": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8931d78a203d8cb5/pages/activity/activity-detail/activity-detail": [
+        "wx.getLocation",
+        "wx.chooseImage",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8931d78a203d8cb5/pages/activity/activity-checked/activity-checked": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8931d78a203d8cb5/pages/activity/activity-check/activity-check": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8931d78a203d8cb5/pages/certificate/certificate": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8931d78a203d8cb5/pages/integral/integral-detail/integral-detail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8931d78a203d8cb5/pages/history/history": [
+        "wx.getLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8931d78a203d8cb5/pages/microwish/microwish-apply/microwish-apply": [
+        "wx.getLocation",
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8931d78a203d8cb5/pages/need/submitneed/submitneed": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8931d78a203d8cb5/pages/family/myfamily/myfamily": [
+        "wx.getLocation",
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8931d78a203d8cb5/pages/family/addmember/addmember": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8931d78a203d8cb5/pages/family/pay/pay": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8931d78a203d8cb5/pages/blockchain/blockchain": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

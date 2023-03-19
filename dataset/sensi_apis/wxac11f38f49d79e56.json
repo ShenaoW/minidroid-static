@@ -1,0 +1,16 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxac11f38f49d79e56/pages/logs/logs": [
+        "wx.saveVideoToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxac11f38f49d79e56/pages/index/video/index": [
+        "wx.saveImageToPhotosAlbum",
+        "wx.saveVideoToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxac11f38f49d79e56/pages/batch/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxac11f38f49d79e56/pages/md5/index": [
+        "wx.chooseVideo",
+        "wx.saveVideoToPhotosAlbum"
+    ]
+}

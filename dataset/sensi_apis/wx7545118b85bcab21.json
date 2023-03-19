@@ -1,0 +1,21 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx7545118b85bcab21/pages/live/push/push": [
+        "wx.createLivePusherContext"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7545118b85bcab21/pages/aded/aded_petroom/aded_petroom": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7545118b85bcab21/pages/aded/aded_pet/aded_pet": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7545118b85bcab21/pages/aded/aded_cloudpet/aded_cloudpet": [
+        "wx.chooseImage",
+        "wx.chooseMedia"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7545118b85bcab21/pages/aded/aded_snack/aded_snack": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7545118b85bcab21/pages/others/notice/notice": [
+        "wx.chooseMedia"
+    ]
+}

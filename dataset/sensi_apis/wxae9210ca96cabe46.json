@@ -1,0 +1,11 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxae9210ca96cabe46/pages/commission/poster/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxae9210ca96cabe46/pages/goods/poster/poster": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxae9210ca96cabe46/pages/changce/merch/index": [
+        "wx.getLocation"
+    ]
+}

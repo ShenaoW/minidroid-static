@@ -1,0 +1,8 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx74a080515f7d4cee/pages/index/index": [
+        "wx.openBluetoothAdapter"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx74a080515f7d4cee/pages/login/index": [
+        "wx.getUserInfo"
+    ]
+}

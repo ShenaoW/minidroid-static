@@ -1,0 +1,106 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx47fbd7e0b2f11a6d/pages/ProductDetail/ProductDetail": [
+        "wx.getUserProfile",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx47fbd7e0b2f11a6d/pages/OrderCreate/OrderCreate": [
+        "wx.getUserProfile",
+        "wx.chooseAddress",
+        "wx.chooseInvoiceTitle",
+        "wx.chooseInvoice"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx47fbd7e0b2f11a6d/pages/AddressCreate/AddressCreate": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx47fbd7e0b2f11a6d/pages/UserIndex/UserIndex": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx47fbd7e0b2f11a6d/pages/UserInfoSet/UserInfoSet": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx47fbd7e0b2f11a6d/pages/OrderInfo/OrderInfo": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx47fbd7e0b2f11a6d/pages/OrderTrace/OrderTrace": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx47fbd7e0b2f11a6d/pages/ExchangeOrderCreate/ExchangeOrderCreate": [
+        "wx.getUserProfile",
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx47fbd7e0b2f11a6d/pages/AccountGetAmount/AccountGetAmount": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx47fbd7e0b2f11a6d/pages/MyShare/MyShare": [
+        "wx.getUserProfile",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx47fbd7e0b2f11a6d/pages/OrderComment/OrderComment": [
+        "wx.getUserProfile",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx47fbd7e0b2f11a6d/pages/customerform/customerform": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx47fbd7e0b2f11a6d/pages/Course_Detail/Course_Detail": [
+        "wx.getUserProfile",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx47fbd7e0b2f11a6d/pages/StoreList/StoreList": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx47fbd7e0b2f11a6d/pages/Group_Detail/Group_Detail": [
+        "wx.getUserProfile",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx47fbd7e0b2f11a6d/pages/Group_OrderCreate/Group_OrderCreate": [
+        "wx.getUserProfile",
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx47fbd7e0b2f11a6d/pages/SecKill_Detail/SecKill_Detail": [
+        "wx.getUserProfile",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx47fbd7e0b2f11a6d/pages/LuckDraw/LuckDraw": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx47fbd7e0b2f11a6d/pages/MyPrizes/MyPrizes": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx47fbd7e0b2f11a6d/pages/MyPrizeClaim/MyPrizeClaim": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx47fbd7e0b2f11a6d/pages/customerformRecommend/customerformRecommend": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx47fbd7e0b2f11a6d/pages/StoreLists/StoreLists": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx47fbd7e0b2f11a6d/pages/zhuanpai/zhuanpai": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx47fbd7e0b2f11a6d/pages/CutPriceDetail/CutPriceDetail": [
+        "wx.getUserProfile",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx47fbd7e0b2f11a6d/pages/SetWithdraw/SetWithdraw": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx47fbd7e0b2f11a6d/pages/MyShareCode/MyShareCode": [
+        "wx.getUserProfile",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx47fbd7e0b2f11a6d/pages/MyApplet/MyApplet": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx47fbd7e0b2f11a6d/pages/authLogin/authLogin": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx47fbd7e0b2f11a6d/pages/PayByOther/PayByOther": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx47fbd7e0b2f11a6d/pages/MyCertificate/MyCertificate": [
+        "wx.getUserProfile",
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

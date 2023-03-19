@@ -1,0 +1,43 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx80cc7223690f301b/pages/modifyPhoto/modify": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx80cc7223690f301b/pages/splicePhoto/splice": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx80cc7223690f301b/pages/emotionChoose/emotionChoose": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx80cc7223690f301b/pages/mask/index/index": [
+        "wx.getUserProfile",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx80cc7223690f301b/pages/mask/combine/combine": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx80cc7223690f301b/pages/imagematting/imagematting": [
+        "wx.chooseImage",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx80cc7223690f301b/pages/preview/preview": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx80cc7223690f301b/pages/cuttingNine/cuttingNine": [
+        "wx.chooseImage",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx80cc7223690f301b/pages/imagepress/imagepress": [
+        "wx.chooseImage",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx80cc7223690f301b/pages/screenshotConnect/screenshotConnect": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx80cc7223690f301b/pages/screenshotConnect/showImage": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx80cc7223690f301b/pages/waterMarker/index": [
+        "wx.chooseImage",
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

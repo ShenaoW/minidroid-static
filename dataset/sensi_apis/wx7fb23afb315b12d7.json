@@ -1,0 +1,20 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx7fb23afb315b12d7/pages/my/my": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7fb23afb315b12d7/pages/cs/cs": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7fb23afb315b12d7/pages/newbieGuide/newbieGuide": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7fb23afb315b12d7/pages/setUpQiyeGo/setUpQiyeGo": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7fb23afb315b12d7/pages/driverList/fastAllocation": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7fb23afb315b12d7/pages/personalCertify/personalCertify": [
+        "wx.chooseImage"
+    ]
+}

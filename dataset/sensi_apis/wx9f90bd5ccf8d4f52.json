@@ -1,0 +1,27 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx9f90bd5ccf8d4f52/pages/home/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9f90bd5ccf8d4f52/pages/materialList/materialList": [
+        "wx.saveImageToPhotosAlbum",
+        "wx.saveVideoToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9f90bd5ccf8d4f52/pages/live/live": [
+        "wx.createLivePusherContext"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9f90bd5ccf8d4f52/pages/podcast/detail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9f90bd5ccf8d4f52/pages/live/createLive": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9f90bd5ccf8d4f52/pages/h5/shareToFriend": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9f90bd5ccf8d4f52/pages/live/live_v2": [
+        "wx.createLivePusherContext"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9f90bd5ccf8d4f52/pages/h5/map": [
+        "wx.chooseLocation"
+    ]
+}

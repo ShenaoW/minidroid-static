@@ -1,0 +1,14 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx83a1f19d142cbfb8/pages/myPersonDetail/myPersonDetail": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx83a1f19d142cbfb8/pages/payplatform/payplatform": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx83a1f19d142cbfb8/pages/index/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx83a1f19d142cbfb8/pages/locationSel/locationSel": [
+        "wx.chooseLocation"
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxadd01cb2cec94979/pages/index/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxadd01cb2cec94979/pages/mine/mine": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxadd01cb2cec94979/pages/scenic-details/scenic-details": [
+        "wx.getUserInfo",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxadd01cb2cec94979/pages/rate/rate": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxadd01cb2cec94979/pages/purchase-details/purchase-details": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxadd01cb2cec94979/pages/map-guide/map-guide": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxadd01cb2cec94979/pages/card-order/card-order": [
+        "wx.getUserInfo",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxadd01cb2cec94979/pages/card-active/card-active": [
+        "wx.getUserInfo",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxadd01cb2cec94979/pages/card-sumber/card-sumber": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxadd01cb2cec94979/pages/new-restaurant-content/new-restaurant-content": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxadd01cb2cec94979/pages/new-restaurant-list/new-restaurant-list": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxadd01cb2cec94979/pages/new-restaurant-star/new-restaurant-star": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxadd01cb2cec94979/pages/new-mall-home/new-mall-home": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxadd01cb2cec94979/pages/new-mall-goods/new-mall-goods": [
+        "wx.getUserInfo",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxadd01cb2cec94979/pages/new-hotel-list/new-hotel-list": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxadd01cb2cec94979/pages/new-hotel-detail/new-hotel-detail": [
+        "wx.getUserInfo",
+        "wx.getLocation",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxadd01cb2cec94979/pages/new-map-coupon/new-map-coupon": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxadd01cb2cec94979/pages/hot/new-hot-detail/new-hot-detail": [
+        "wx.getUserInfo",
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

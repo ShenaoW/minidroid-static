@@ -1,0 +1,32 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxaf0c40ef06335bb2/pages/maicai/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaf0c40ef06335bb2/pages/my_address/index/index": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaf0c40ef06335bb2/pages/address/index": [
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaf0c40ef06335bb2/pages/user_center/evaluate/ordinary/index": [
+        "wx.chooseImage",
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaf0c40ef06335bb2/pages/user_center/evaluate/take_out/index": [
+        "wx.chooseImage",
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaf0c40ef06335bb2/pages/login/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaf0c40ef06335bb2/pages/shop/selection/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaf0c40ef06335bb2/pages/supplier/add_new_supply": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxaf0c40ef06335bb2/pages/supplier/foreign_Image_setting": [
+        "wx.chooseImage"
+    ]
+}

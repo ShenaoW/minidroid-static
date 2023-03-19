@@ -1,0 +1,35 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx4624bcaa3f907804/pages/specialSale/index": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4624bcaa3f907804/pages/sure-order/sure-order": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4624bcaa3f907804/pages/login-account/login-account": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4624bcaa3f907804/pages/cloudcoin-list/cloudcoin-list": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4624bcaa3f907804/pages/order-list/order-list": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4624bcaa3f907804/pages/order-detail/order-detail": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4624bcaa3f907804/pages/auth/index": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4624bcaa3f907804/pages/activity-coupons/activity-coupons": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4624bcaa3f907804/pages/jiujiu/jiujiu": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4624bcaa3f907804/pages/help-middle/help-middle": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4624bcaa3f907804/pages/robot-add-code/robot-add-code": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

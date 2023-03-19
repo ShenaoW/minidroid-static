@@ -1,0 +1,17 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx874db1954c9a59e3/pages/login/login/login": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx874db1954c9a59e3/pages/login/phoneLogin/phoneLogin": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx874db1954c9a59e3/pages/login/register/register": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx874db1954c9a59e3/pages/roleAdmin/products/editProduct/editProduct": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx874db1954c9a59e3/pages/roleAdmin/clientManager/clientEdit/clientEdit": [
+        "wx.chooseImage"
+    ]
+}

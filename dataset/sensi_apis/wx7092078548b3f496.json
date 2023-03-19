@@ -1,0 +1,38 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx7092078548b3f496/pages/albumDetail/albumDetail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7092078548b3f496/pages/avatorDetail/avatorDetail": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7092078548b3f496/pages/diy/diy": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7092078548b3f496/pages/releaseDynamic/releaseDynamic": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7092078548b3f496/pages/releaseTailor/releaseTailor": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7092078548b3f496/pages/dynamic/dynamic": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7092078548b3f496/pages/qqCardDetail/qqCardDetail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7092078548b3f496/pages/qqCardDiy/qqCardDiy": [
+        "wx.chooseImage",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7092078548b3f496/pages/whitePhoto/whitePhoto": [
+        "wx.chooseImage",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7092078548b3f496/pages/photoWall/photoWall": [
+        "wx.chooseImage",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7092078548b3f496/pages/testResult/testResult": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

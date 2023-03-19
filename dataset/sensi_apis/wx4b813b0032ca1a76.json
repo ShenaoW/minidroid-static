@@ -1,0 +1,36 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx4b813b0032ca1a76/pages/Contacts/Contacts": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4b813b0032ca1a76/pages/indexa/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4b813b0032ca1a76/pages/compile/compile": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4b813b0032ca1a76/pages/savacard/savacard": [
+        "wx.getLocation",
+        "wx.chooseLocation",
+        "wx.chooseImage",
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4b813b0032ca1a76/pages/goods/goods": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4b813b0032ca1a76/pages/adminlogs/adminlogs": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4b813b0032ca1a76/pages/Context/Context": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4b813b0032ca1a76/pages/is_admin/is_admin": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4b813b0032ca1a76/pages/Consultation/Consultation": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4b813b0032ca1a76/pages/cardindex/cardindex": [
+        "wx.chooseVideo",
+        "wx.addPhoneContact"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxa86459059ef37b55/pages/infoStep1/infoStep1": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa86459059ef37b55/pages/customService/customService": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa86459059ef37b55/pages/infoStep2/infoStep2": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa86459059ef37b55/pages/profile/profile": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa86459059ef37b55/pages/report/report": [
+        "wx.chooseImage"
+    ]
+}

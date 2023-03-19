@@ -1,0 +1,21 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx78e2af8eef51350c/pages/mine/mine": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx78e2af8eef51350c/pages/index/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx78e2af8eef51350c/pages/authentication/authentication": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx78e2af8eef51350c/pages/personal_card/personal_card": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx78e2af8eef51350c/pages/my_card/my_card": [
+        "wx.chooseImage",
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx78e2af8eef51350c/pages/webview/webview": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

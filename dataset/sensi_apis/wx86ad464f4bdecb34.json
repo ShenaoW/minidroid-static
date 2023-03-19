@@ -1,0 +1,14 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx86ad464f4bdecb34/pages/lafen/lafen": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx86ad464f4bdecb34/pages/employee/qrcode/qrcode": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx86ad464f4bdecb34/pages/chat/chat": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx86ad464f4bdecb34/pages/poster/build/build": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

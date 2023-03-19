@@ -1,0 +1,26 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx9d0309c546e970bd/pages/my/setting/setting": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9d0309c546e970bd/pages/my/myorder/order_detail/order_detail": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9d0309c546e970bd/pages/my/myorder/order_info/order_refund/order_refund": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9d0309c546e970bd/pages/my/personalInfo/personalInfo": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9d0309c546e970bd/pages/my/myservice/consultationSub/consultationSub": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9d0309c546e970bd/pages/common/order_commit/order_commit": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9d0309c546e970bd/pages/common/inviteCardProgram/inviteCardProgram": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx9d0309c546e970bd/pages/show/commodity/commodityRefund/commodityRefund": [
+        "wx.chooseImage"
+    ]
+}

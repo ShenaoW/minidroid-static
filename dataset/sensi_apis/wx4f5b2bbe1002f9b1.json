@@ -1,0 +1,24 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx4f5b2bbe1002f9b1/pages/user/login": [
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4f5b2bbe1002f9b1/pages/profile/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4f5b2bbe1002f9b1/pages/upload/avatar": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4f5b2bbe1002f9b1/pages/upload/image": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4f5b2bbe1002f9b1/pages/ugc/group_result": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4f5b2bbe1002f9b1/pages/org/info": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4f5b2bbe1002f9b1/pages/orbas/info": [
+        "wx.getLocation",
+        "wx.chooseImage"
+    ]
+}

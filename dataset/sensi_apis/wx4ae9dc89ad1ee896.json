@@ -1,0 +1,11 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx4ae9dc89ad1ee896/pages/wallet/wallet": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4ae9dc89ad1ee896/pages/detail/detail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx4ae9dc89ad1ee896/pages/other/flow/flow": [
+        "wx.chooseImage"
+    ]
+}

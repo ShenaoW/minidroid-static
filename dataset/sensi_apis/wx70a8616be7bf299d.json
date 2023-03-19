@@ -1,0 +1,14 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx70a8616be7bf299d/pages/feedback/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx70a8616be7bf299d/pages/design/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx70a8616be7bf299d/pages/sign/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx70a8616be7bf299d/pages/login/index": [
+        "wx.getUserInfo"
+    ]
+}

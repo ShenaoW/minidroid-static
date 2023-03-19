@@ -1,0 +1,22 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxab76063d7d8a3ce3/pages/mine/mine": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxab76063d7d8a3ce3/pages/new-card/new-card": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxab76063d7d8a3ce3/pages/order-appraisal/order-appraisal": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxab76063d7d8a3ce3/pages/paipin-text/paipin-text": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxab76063d7d8a3ce3/pages/zhuanchang-new/zhuanchang-new": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxab76063d7d8a3ce3/pages/group-chat/group-chat": [
+        "wx.chooseLocation",
+        "wx.chooseImage",
+        "wx.chooseVideo"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx881b6d478deb81b0/pages/my/my": [
+        "wx.getUserInfo",
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx881b6d478deb81b0/pages/study/study": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx881b6d478deb81b0/pages/coupleBack/coupleBack": [
+        "wx.chooseImage",
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx881b6d478deb81b0/pages/wxLogin/wxLogin": [
+        "wx.getUserInfo",
+        "wx.getUserProfile"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx881b6d478deb81b0/pages/finish/finish": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

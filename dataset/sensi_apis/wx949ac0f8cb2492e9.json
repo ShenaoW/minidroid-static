@@ -1,0 +1,12 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx949ac0f8cb2492e9/pages/puzidetail/puzidetail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx949ac0f8cb2492e9/pages/jubao/jubao": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx949ac0f8cb2492e9/pages/auth/auth": [
+        "wx.getUserInfo",
+        "wx.getUserProfile"
+    ]
+}

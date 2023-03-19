@@ -1,0 +1,11 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxa4eda64640319afa/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa4eda64640319afa/pages/takefood/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa4eda64640319afa/pages/order/confirm/confirm": [
+        "wx.getLocation"
+    ]
+}

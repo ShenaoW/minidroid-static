@@ -1,0 +1,14 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx8d559202cef4c62c/pages/custom/addcustomer": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8d559202cef4c62c/pages/analysis/editcustomer": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8d559202cef4c62c/pages/prevention/addNewRecord": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8d559202cef4c62c/pages/profile/index": [
+        "wx.chooseImage"
+    ]
+}

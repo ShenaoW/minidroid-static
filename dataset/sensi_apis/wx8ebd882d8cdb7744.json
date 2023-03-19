@@ -1,0 +1,78 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx8ebd882d8cdb7744/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8ebd882d8cdb7744/pages/changeArea/changeArea": [
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8ebd882d8cdb7744/pages/submitOrder/submitOrder": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8ebd882d8cdb7744/pages/addressAdd/addressAdd": [
+        "wx.getLocation",
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8ebd882d8cdb7744/pages/myRecruit/myRecruit": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8ebd882d8cdb7744/pages/myOrderRefund/myOrderRefund": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8ebd882d8cdb7744/pages/storeInfo/storeInfo": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8ebd882d8cdb7744/pages/submitOrderExpress/submitOrderExpress": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8ebd882d8cdb7744/pages/myExpressOrderRefund/myExpressOrderRefund": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8ebd882d8cdb7744/pages/MerchantInfo/MerchantInfo": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8ebd882d8cdb7744/pages/wishForm/wishForm": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8ebd882d8cdb7744/pages/addComment/addComment": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8ebd882d8cdb7744/pages/AllMerchant/AllMerchant": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8ebd882d8cdb7744/pages/MerchantList/MerchantList": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8ebd882d8cdb7744/pages/MerchantSecondList/MerchantSecondList": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8ebd882d8cdb7744/pages/MerchantSearch/MerchantSearch": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8ebd882d8cdb7744/pages/AuctionSearch/AuctionSearch": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8ebd882d8cdb7744/pages/jielongDetail/jielongDetail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8ebd882d8cdb7744/pages/jielong/jielong": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8ebd882d8cdb7744/pages/jielongSubmit/jielongSubmit": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8ebd882d8cdb7744/pages/bindCard/bindCard": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8ebd882d8cdb7744/pages/billPayment/billPayment": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8ebd882d8cdb7744/pages/submitOrderLeaderGoods/submitOrderLeaderGoods": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx8ebd882d8cdb7744/pages/submitExpressOrderLeaderGoods/submitExpressOrderLeaderGoods": [
+        "wx.getLocation"
+    ]
+}

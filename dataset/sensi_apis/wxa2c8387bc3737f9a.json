@@ -1,0 +1,14 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxa2c8387bc3737f9a/pages/rainCard/index": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa2c8387bc3737f9a/pages/center/index": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa2c8387bc3737f9a/pages/couponall_j/couponall": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa2c8387bc3737f9a/pages/saveShare/saveShare": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

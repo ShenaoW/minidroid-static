@@ -1,0 +1,20 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx89fbb349b4011dd4/pages/banquet/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx89fbb349b4011dd4/pages/banquet/current/detail/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx89fbb349b4011dd4/pages/banquet/current/sign/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx89fbb349b4011dd4/pages/banquet/current/imageDetail/index": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx89fbb349b4011dd4/pages/wineClub/group/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx89fbb349b4011dd4/pages/wineClub/createPoster/index": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

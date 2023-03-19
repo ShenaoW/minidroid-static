@@ -1,0 +1,16 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx846609546e3c64cc/pages/huodong/guoqing/guoqing": [
+        "wx.chooseImage",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx846609546e3c64cc/pages/goods_info/goods_info": [
+        "wx.chooseLocation",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx846609546e3c64cc/pages/tu/tu": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx846609546e3c64cc/pages/notice/noticeRelease/noticeRelease": [
+        "wx.chooseMedia"
+    ]
+}

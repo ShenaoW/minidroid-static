@@ -1,0 +1,14 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx7635f0e86252b09a/pages/index/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7635f0e86252b09a/pages/opus/detail": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7635f0e86252b09a/pages/share/designer": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx7635f0e86252b09a/pages/share/detail": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

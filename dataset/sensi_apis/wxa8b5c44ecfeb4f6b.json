@@ -1,0 +1,46 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxa8b5c44ecfeb4f6b/pages/index/index": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa8b5c44ecfeb4f6b/pages/shopLease/shopLease": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa8b5c44ecfeb4f6b/pages/goodsDetail/goodsDetail": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa8b5c44ecfeb4f6b/pages/housingSaleEdit/housingSaleEdit": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa8b5c44ecfeb4f6b/pages/housingRentEdit/housingRentEdit": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa8b5c44ecfeb4f6b/pages/tempparkingsearch/tempparkingsearch": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa8b5c44ecfeb4f6b/pages/housingImg/housingImg": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa8b5c44ecfeb4f6b/pages/repair/repair": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa8b5c44ecfeb4f6b/pages/repairuncertify/repairuncertify": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa8b5c44ecfeb4f6b/pages/roominfo/roominfo": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa8b5c44ecfeb4f6b/pages/addProperty/addProperty": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa8b5c44ecfeb4f6b/pages/villageList/villageList": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa8b5c44ecfeb4f6b/pages/cityList/cityList": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa8b5c44ecfeb4f6b/pages/housingLease/housingLease": [
+        "wx.getLocation"
+    ]
+}

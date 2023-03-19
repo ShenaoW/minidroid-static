@@ -1,0 +1,11 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxa662cfc7464bfe0f/pages/login/login": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa662cfc7464bfe0f/pages/editUserHeadImg/editUserHeadImg": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa662cfc7464bfe0f/pages/about/about": [
+        "wx.getLocation"
+    ]
+}

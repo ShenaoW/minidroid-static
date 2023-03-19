@@ -1,0 +1,21 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx787dc6e750fc2008/pages/index9/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx787dc6e750fc2008/pages/detail/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx787dc6e750fc2008/pages/chongming/index": [
+        "wx.getUserInfo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx787dc6e750fc2008/pages/newvideo/index": [
+        "wx.getLocation",
+        "wx.saveVideoToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx787dc6e750fc2008/pages/exam/result": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx787dc6e750fc2008/components/authorize/index": [
+        "wx.getUserInfo"
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx45e968a1c8c9fd48/pages/activity_add/clo_color/clo_color": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx45e968a1c8c9fd48/pages/activity_add/title/title": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx45e968a1c8c9fd48/pages/activity_add/map/map": [
+        "wx.chooseLocation"
+    ]
+}

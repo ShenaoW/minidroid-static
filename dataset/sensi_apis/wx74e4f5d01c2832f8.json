@@ -1,0 +1,18 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx74e4f5d01c2832f8/pages/preview/index": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx74e4f5d01c2832f8/pages/address/info": [
+        "wx.chooseLocation",
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx74e4f5d01c2832f8/pages/member/info": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx74e4f5d01c2832f8/pages/preview/clothesShare": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx74e4f5d01c2832f8/pages/goods/poster": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

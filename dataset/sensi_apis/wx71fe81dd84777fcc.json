@@ -1,0 +1,66 @@
+{
+    "/root/minidroid/dataset/miniprograms/wx71fe81dd84777fcc/pages/fjhd/fjhd": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71fe81dd84777fcc/pages/showMap/showMap": [
+        "wx.getLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71fe81dd84777fcc/pages/mine/mine": [
+        "wx.getUserInfo",
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71fe81dd84777fcc/pages/luckydrawdetails/luckydrawdetails": [
+        "wx.getUserInfo",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71fe81dd84777fcc/pages/luckydrawdetailsRed/luckydrawdetailsRed": [
+        "wx.getUserInfo",
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71fe81dd84777fcc/pages/brandhome/brandhome": [
+        "wx.chooseLocation"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71fe81dd84777fcc/pages/openbrand/openbrand": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71fe81dd84777fcc/pages/prizedetails/prizedetails": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71fe81dd84777fcc/pages/LuckyCoinCenter/LuckyCoinCenter": [
+        "wx.getUserInfo",
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71fe81dd84777fcc/pages/Mypurse/Mypurse": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71fe81dd84777fcc/pages/Luckyfortreasure/Luckyfortreasure": [
+        "wx.getUserInfo",
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71fe81dd84777fcc/pages/graphic/graphic": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71fe81dd84777fcc/pages/initiatorInformationAdd/initiatorInformationAdd": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71fe81dd84777fcc/pages/publicNum/publicNum": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71fe81dd84777fcc/pages/publicNumRed/publicNumRed": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71fe81dd84777fcc/pages/commentary/commentary": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71fe81dd84777fcc/pages/ShippingAddress/ShippingAddress": [
+        "wx.chooseAddress"
+    ],
+    "/root/minidroid/dataset/miniprograms/wx71fe81dd84777fcc/pages/physicalLottery/physicalLottery": [
+        "wx.getUserInfo",
+        "wx.getLocation",
+        "wx.chooseLocation",
+        "wx.chooseImage",
+        "wx.chooseMessageFile"
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "/root/minidroid/dataset/miniprograms/wxa81a1e01241b4e8f/pages/my/myPainter": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa81a1e01241b4e8f/pages/my/myDetail": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa81a1e01241b4e8f/pages/my/shopDetail": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa81a1e01241b4e8f/pages/my/workerDetail": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa81a1e01241b4e8f/pages/house/housePainter": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa81a1e01241b4e8f/pages/utils/editVideo": [
+        "wx.chooseVideo"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa81a1e01241b4e8f/pages/fabu/esf": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa81a1e01241b4e8f/pages/fabu/zf": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa81a1e01241b4e8f/pages/fabu/applyplot": [
+        "wx.chooseLocation",
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa81a1e01241b4e8f/pages/xf_house/housePainter": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa81a1e01241b4e8f/pages/xf_my/myPainter": [
+        "wx.saveImageToPhotosAlbum"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa81a1e01241b4e8f/pages/xf_my/myDetail": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa81a1e01241b4e8f/pages/xf_my/signin": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa81a1e01241b4e8f/pages/xf_guest/report": [
+        "wx.chooseImage"
+    ],
+    "/root/minidroid/dataset/miniprograms/wxa81a1e01241b4e8f/pages/utils/painter": [
+        "wx.saveImageToPhotosAlbum"
+    ]
+}

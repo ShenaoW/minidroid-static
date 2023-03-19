@@ -16208,3 +16208,99 @@
 2023-03-11 03:28:29.671 | INFO     | __main__:main:56 - [Start] Static analysis of /root/minidroid/dataset/miniprograms/wx9f92c031e169993b
 2023-03-11 03:28:36.251 | ERROR    | __main__:main:72 - 'NoneType' object has no attribute 'keys'
 2023-03-11 03:28:36.252 | INFO     | __main__:main:56 - [Start] Static analysis of /root/minidroid/dataset/miniprograms/wx8af944a9a60eecef
+2023-03-11 03:28:53.777 | INFO     | __main__:main:70 - [Finish] Static Analysis finished
+2023-03-11 03:28:53.777 | INFO     | __main__:main:56 - [Start] Static analysis of /root/minidroid/dataset/miniprograms/wx93dbe3160c547df8
+2023-03-11 03:29:10.535 | INFO     | __main__:main:70 - [Finish] Static Analysis finished
+2023-03-11 03:29:10.535 | INFO     | __main__:main:56 - [Start] Static analysis of /root/minidroid/dataset/miniprograms/wx4ce72aca19417caf
+2023-03-11 03:29:20.434 | INFO     | __main__:main:70 - [Finish] Static Analysis finished
+2023-03-11 03:29:20.434 | INFO     | __main__:main:56 - [Start] Static analysis of /root/minidroid/dataset/miniprograms/wx7bf6d354bd93440f
+2023-03-11 03:29:21.279 | CRITICAL | __main__:main:69 - [ViolationsFound] Compliance violations found at /root/minidroid/dataset/miniprograms/wx7bf6d354bd93440f
+2023-03-11 03:29:21.279 | INFO     | __main__:main:70 - [Finish] Static Analysis finished
+2023-03-11 03:29:21.279 | INFO     | __main__:main:56 - [Start] Static analysis of /root/minidroid/dataset/miniprograms/wx83e1467ff67a4216
+2023-03-11 03:29:21.661 | INFO     | __main__:main:70 - [Finish] Static Analysis finished
+2023-03-11 03:29:21.661 | INFO     | __main__:main:56 - [Start] Static analysis of /root/minidroid/dataset/miniprograms/wxabc4fb387e9efd4c
+2023-03-11 03:29:31.078 | ERROR    | __main__:main:72 - 'Page' object has no attribute 'page_method_nodes'
+2023-03-11 03:29:31.079 | INFO     | __main__:main:56 - [Start] Static analysis of /root/minidroid/dataset/miniprograms/wx9da8703fb983ccc2
+2023-03-11 03:29:35.184 | CRITICAL | __main__:main:69 - [ViolationsFound] Compliance violations found at /root/minidroid/dataset/miniprograms/wx9da8703fb983ccc2
+2023-03-11 03:29:35.184 | INFO     | __main__:main:70 - [Finish] Static Analysis finished
+2023-03-11 03:29:35.184 | INFO     | __main__:main:56 - [Start] Static analysis of /root/minidroid/dataset/miniprograms/wx76f17b98157b52b3
+2023-03-11 03:29:35.650 | INFO     | __main__:main:70 - [Finish] Static Analysis finished
+2023-03-11 03:29:35.650 | INFO     | __main__:main:56 - [Start] Static analysis of /root/minidroid/dataset/miniprograms/wx4ed590a3291f4bb8
+2023-03-11 03:29:46.487 | INFO     | __main__:main:70 - [Finish] Static Analysis finished
+2023-03-11 03:29:46.487 | INFO     | __main__:main:56 - [Start] Static analysis of /root/minidroid/dataset/miniprograms/wx7f873dfdc3d0ec5a
+2023-03-11 03:29:48.282 | INFO     | __main__:main:70 - [Finish] Static Analysis finished
+2023-03-11 03:29:48.283 | INFO     | __main__:main:56 - [Start] Static analysis of /root/minidroid/dataset/miniprograms/wx4dad87ef3616b802
+2023-03-11 03:29:48.888 | INFO     | __main__:main:70 - [Finish] Static Analysis finished
+2023-03-11 03:29:48.888 | INFO     | __main__:main:56 - [Start] Static analysis of /root/minidroid/dataset/miniprograms/wx7e63a18c0e7e366e
+2023-03-11 03:29:56.922 | INFO     | __main__:main:70 - [Finish] Static Analysis finished
+2023-03-11 03:29:56.923 | INFO     | __main__:main:56 - [Start] Static analysis of /root/minidroid/dataset/miniprograms/wx49d95885ebb133fc
+2023-03-11 03:29:57.547 | ERROR    | __main__:main:72 - unhashable type: 'list'
+2023-03-11 03:29:57.547 | INFO     | __main__:main:56 - [Start] Static analysis of /root/minidroid/dataset/miniprograms/wxab46fcd2aadb0b2b
+2023-03-11 03:30:06.928 | INFO     | __main__:main:70 - [Finish] Static Analysis finished
+2023-03-11 03:30:06.928 | INFO     | __main__:main:56 - [Start] Static analysis of /root/minidroid/dataset/miniprograms/wx7fc609f057a25e04
+2023-03-11 03:30:16.866 | ERROR    | __main__:main:72 - 'NoneType' object has no attribute 'keys'
+2023-03-11 03:30:16.866 | INFO     | __main__:main:56 - [Start] Static analysis of /root/minidroid/dataset/miniprograms/wx8d05154024cc9567
+2023-03-11 03:30:26.569 | CRITICAL | __main__:main:69 - [ViolationsFound] Compliance violations found at /root/minidroid/dataset/miniprograms/wx8d05154024cc9567
+2023-03-11 03:30:26.570 | INFO     | __main__:main:70 - [Finish] Static Analysis finished
+2023-03-11 03:30:26.570 | INFO     | __main__:main:56 - [Start] Static analysis of /root/minidroid/dataset/miniprograms/wx4de429749c679599
+2023-03-11 03:30:32.022 | INFO     | __main__:main:70 - [Finish] Static Analysis finished
+2023-03-11 03:30:32.023 | INFO     | __main__:main:56 - [Start] Static analysis of /root/minidroid/dataset/miniprograms/wxaf89ff826f926bc6
+2023-03-11 03:30:47.107 | ERROR    | __main__:main:72 - 'NoneType' object has no attribute 'keys'
+2023-03-11 03:30:47.107 | INFO     | __main__:main:56 - [Start] Static analysis of /root/minidroid/dataset/miniprograms/wx96a9f7695ae96509
+2023-03-11 03:31:01.405 | INFO     | __main__:main:70 - [Finish] Static Analysis finished
+2023-03-11 03:31:01.405 | INFO     | __main__:main:56 - [Start] Static analysis of /root/minidroid/dataset/miniprograms/wx44e1890cd2a3c7b8
+2023-03-11 03:31:02.037 | INFO     | __main__:main:70 - [Finish] Static Analysis finished
+2023-03-11 03:31:02.037 | INFO     | __main__:main:56 - [Start] Static analysis of /root/minidroid/dataset/miniprograms/wx980fe2a72398eb36
+2023-03-11 03:31:16.356 | ERROR    | __main__:main:72 - 'NoneType' object has no attribute 'keys'
+2023-03-11 03:31:16.357 | INFO     | __main__:main:56 - [Start] Static analysis of /root/minidroid/dataset/miniprograms/wx767f551550634f08
+2023-03-11 03:31:37.290 | ERROR    | __main__:main:72 - 'NoneType' object has no attribute 'keys'
+2023-03-11 03:31:37.290 | INFO     | __main__:main:56 - [Start] Static analysis of /root/minidroid/dataset/miniprograms/wx7da31a1fe363a5be
+2023-03-11 03:31:47.504 | INFO     | __main__:main:70 - [Finish] Static Analysis finished
+2023-03-11 03:31:47.504 | INFO     | __main__:main:56 - [Start] Static analysis of /root/minidroid/dataset/miniprograms/wxad68580c6d824261
+2023-03-11 03:31:58.001 | INFO     | __main__:main:70 - [Finish] Static Analysis finished
+2023-03-11 03:31:58.002 | INFO     | __main__:main:56 - [Start] Static analysis of /root/minidroid/dataset/miniprograms/wx76019bfe2fecb845
+2023-03-11 03:32:09.186 | INFO     | __main__:main:70 - [Finish] Static Analysis finished
+2023-03-11 03:32:09.186 | INFO     | __main__:main:56 - [Start] Static analysis of /root/minidroid/dataset/miniprograms/wx9e03a010af926811
+2023-03-11 03:32:20.227 | INFO     | __main__:main:70 - [Finish] Static Analysis finished
+2023-03-11 03:32:20.227 | INFO     | __main__:main:56 - [Start] Static analysis of /root/minidroid/dataset/miniprograms/wx96303a7a5455862d
+2023-03-11 03:32:33.300 | INFO     | __main__:main:70 - [Finish] Static Analysis finished
+2023-03-11 03:32:33.300 | INFO     | __main__:main:56 - [Start] Static analysis of /root/minidroid/dataset/miniprograms/wx4f438d8b69076c4f
+2023-03-11 03:32:33.733 | INFO     | __main__:main:70 - [Finish] Static Analysis finished
+2023-03-11 03:32:33.733 | INFO     | __main__:main:56 - [Start] Static analysis of /root/minidroid/dataset/miniprograms/wx9ca6f7770a6f12e8
+2023-03-11 03:32:47.788 | ERROR    | __main__:main:72 - 'NoneType' object has no attribute 'keys'
+2023-03-11 03:32:47.788 | INFO     | __main__:main:56 - [Start] Static analysis of /root/minidroid/dataset/miniprograms/wx9cd4500d77e5f6b0
+2023-03-11 03:33:05.697 | INFO     | __main__:main:70 - [Finish] Static Analysis finished
+2023-03-11 03:33:05.698 | INFO     | __main__:main:56 - [Start] Static analysis of /root/minidroid/dataset/miniprograms/wx9b3660856a1db322
+2023-03-11 03:33:21.892 | INFO     | __main__:main:70 - [Finish] Static Analysis finished
+2023-03-11 03:33:21.892 | INFO     | __main__:main:56 - [Start] Static analysis of /root/minidroid/dataset/miniprograms/wx914cfed423f200df
+2023-03-11 03:33:33.306 | INFO     | __main__:main:70 - [Finish] Static Analysis finished
+2023-03-11 03:33:33.306 | INFO     | __main__:main:56 - [Start] Static analysis of /root/minidroid/dataset/miniprograms/wx9d23a4b0440a79f5
+2023-03-11 03:33:42.469 | INFO     | __main__:main:70 - [Finish] Static Analysis finished
+2023-03-11 03:33:42.469 | INFO     | __main__:main:56 - [Start] Static analysis of /root/minidroid/dataset/miniprograms/wx7bae6d6c81df640e
+2023-03-11 03:33:45.188 | INFO     | __main__:main:70 - [Finish] Static Analysis finished
+2023-03-11 03:33:45.189 | INFO     | __main__:main:56 - [Start] Static analysis of /root/minidroid/dataset/miniprograms/wx759c45a8c54a72b7
+2023-03-11 03:33:55.279 | INFO     | __main__:main:70 - [Finish] Static Analysis finished
+2023-03-11 03:33:55.280 | INFO     | __main__:main:56 - [Start] Static analysis of /root/minidroid/dataset/miniprograms/wx49ddf9db7be1dec0
+2023-03-11 03:33:55.595 | INFO     | __main__:main:70 - [Finish] Static Analysis finished
+2023-03-11 03:33:55.595 | INFO     | __main__:main:56 - [Start] Static analysis of /root/minidroid/dataset/miniprograms/wx45e968a1c8c9fd48
+2023-03-11 03:33:57.883 | INFO     | __main__:main:70 - [Finish] Static Analysis finished
+2023-03-11 03:33:57.883 | INFO     | __main__:main:56 - [Start] Static analysis of /root/minidroid/dataset/miniprograms/wx4bf1651bce9efed2
+2023-03-11 03:34:10.733 | INFO     | __main__:main:70 - [Finish] Static Analysis finished
+2023-03-11 03:34:10.733 | INFO     | __main__:main:56 - [Start] Static analysis of /root/minidroid/dataset/miniprograms/wx7c6afb1b3d9ac173
+2023-03-11 03:34:16.809 | INFO     | __main__:main:70 - [Finish] Static Analysis finished
+2023-03-11 03:34:16.810 | INFO     | __main__:main:56 - [Start] Static analysis of /root/minidroid/dataset/miniprograms/wx9c74e63c17593fcf
+2023-03-11 03:34:25.576 | ERROR    | __main__:main:72 - 'NoneType' object has no attribute 'keys'
+2023-03-11 03:34:25.577 | INFO     | __main__:main:56 - [Start] Static analysis of /root/minidroid/dataset/miniprograms/wx45b305d280c79950
+2023-03-11 03:34:35.519 | INFO     | __main__:main:70 - [Finish] Static Analysis finished
+2023-03-11 03:34:35.519 | INFO     | __main__:main:56 - [Start] Static analysis of /root/minidroid/dataset/miniprograms/wx725618aab88a78a4
+2023-03-11 03:34:48.421 | INFO     | __main__:main:70 - [Finish] Static Analysis finished
+2023-03-11 03:34:48.421 | INFO     | __main__:main:56 - [Start] Static analysis of /root/minidroid/dataset/miniprograms/wx49cf1bc05481f43e
+2023-03-11 03:34:50.980 | INFO     | __main__:main:70 - [Finish] Static Analysis finished
+2023-03-11 03:34:50.980 | INFO     | __main__:main:56 - [Start] Static analysis of /root/minidroid/dataset/miniprograms/wx7f23c85ef0139d0a
+2023-03-11 03:34:53.493 | CRITICAL | __main__:main:69 - [ViolationsFound] Compliance violations found at /root/minidroid/dataset/miniprograms/wx7f23c85ef0139d0a
+2023-03-11 03:34:53.494 | INFO     | __main__:main:70 - [Finish] Static Analysis finished
+2023-03-11 03:34:53.494 | INFO     | __main__:main:56 - [Start] Static analysis of /root/minidroid/dataset/miniprograms/wxa3a181053dfa7b63
+2023-03-11 03:35:03.566 | INFO     | __main__:main:70 - [Finish] Static Analysis finished
+2023-03-11 03:35:03.566 | INFO     | __main__:main:56 - [Start] Static analysis of /root/minidroid/dataset/miniprograms/wx7e62f93b2dfabf10
+2023-03-11 03:35:16.590 | ERROR    | __main__:main:72 - 'NoneType' object has no attribute 'keys'
+2023-03-11 03:35:16.591 | INFO     | __main__:main:56 - [Start] Static analysis of /root/minidroid/dataset/miniprograms/wx79198932606da64d

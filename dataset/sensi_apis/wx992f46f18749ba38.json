@@ -1,8 +1,0 @@
-{
-    "/root/minidroid/dataset/miniprograms/wx992f46f18749ba38/pages/nbbj/nbbj": [
-        "wx.getLocation"
-    ],
-    "/root/minidroid/dataset/miniprograms/wx992f46f18749ba38/pages/share/share": [
-        "wx.saveImageToPhotosAlbum"
-    ]
-}

@@ -1,9 +1,0 @@
-{
-    "/root/minidroid/dataset/miniprograms/wx4acab5da649bc467/pages/index/index": [
-        "wx.getUserInfo",
-        "wx.chooseImage"
-    ],
-    "/root/minidroid/dataset/miniprograms/wx4acab5da649bc467/pages/combine/combine": [
-        "wx.saveImageToPhotosAlbum"
-    ]
-}

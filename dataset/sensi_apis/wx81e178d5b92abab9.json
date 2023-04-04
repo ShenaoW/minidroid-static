@@ -1,8 +1,0 @@
-{
-    "/root/minidroid/dataset/miniprograms/wx81e178d5b92abab9/pages/address/address": [
-        "wx.chooseAddress"
-    ],
-    "/root/minidroid/dataset/miniprograms/wx81e178d5b92abab9/pages/orderlist_aftersale/orderlist_aftersale": [
-        "wx.chooseImage"
-    ]
-}

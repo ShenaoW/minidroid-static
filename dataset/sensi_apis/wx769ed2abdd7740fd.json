@@ -1,8 +1,0 @@
-{
-    "/root/minidroid/dataset/miniprograms/wx769ed2abdd7740fd/pages/fenxiao/index": [
-        "wx.saveImageToPhotosAlbum"
-    ],
-    "/root/minidroid/dataset/miniprograms/wx769ed2abdd7740fd/pages/addr/add": [
-        "wx.chooseLocation"
-    ]
-}

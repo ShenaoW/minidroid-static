@@ -1,9 +1,0 @@
-{
-    "/root/minidroid/dataset/miniprograms/wxa4b37834c5390f51/pages/usercenter/usercenter": [
-        "wx.getUserProfile"
-    ],
-    "/root/minidroid/dataset/miniprograms/wxa4b37834c5390f51/pages/login/login": [
-        "wx.getUserInfo",
-        "wx.getUserProfile"
-    ]
-}

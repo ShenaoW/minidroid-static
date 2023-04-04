@@ -1,8 +1,0 @@
-{
-    "/root/minidroid/dataset/miniprograms/wx9d4e9ee49615ccd9/pages/home_index/home_index": [
-        "wx.getLocation"
-    ],
-    "/root/minidroid/dataset/miniprograms/wx9d4e9ee49615ccd9/pages/integralMall/integralMallEdit/integralMallEdit": [
-        "wx.addPhoneContact"
-    ]
-}

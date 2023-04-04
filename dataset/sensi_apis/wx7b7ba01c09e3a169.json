@@ -1,8 +1,0 @@
-{
-    "/root/minidroid/dataset/miniprograms/wx7b7ba01c09e3a169/pages/map/map": [
-        "wx.getLocation"
-    ],
-    "/root/minidroid/dataset/miniprograms/wx7b7ba01c09e3a169/pages/proIndex/proIndex": [
-        "wx.getLocation"
-    ]
-}

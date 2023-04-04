@@ -104,12 +104,38 @@ def get_sensi_page_text():
         result_json[miniappkey] = sensi_api_dict
     with open('dataset/senxi_page_text.json', 'w') as fp:
         json.dump(result_json, fp, indent=4)
+
+def draw_utg():
+    logger.add('result/utg.log')
+    with open('dataset/dataset.json', 'r') as fp:
+        miniapp_paths = json.load(fp)
+    for miniapp_path in miniapp_paths:
+        logger.info('[Start] Static analysis of {}'.format(miniapp_path))
+        try:
+            miniapp = MiniApp(miniapp_path=miniapp_path)
+            miniapp.draw_utg()
+        except Exception as e:
+            logger.error(e)
                 
+def draw_fcg():
+    logger.add('result/fcg.log')
+    with open('dataset/dataset.json', 'r') as fp:
+        miniapp_paths = json.load(fp)
+    for miniapp_path in miniapp_paths:
+        logger.info('[Start] Static analysis of {}'.format(miniapp_path))
+        try:
+            miniapp = MiniApp(miniapp_path=miniapp_path)
+            for page in miniapp.pages.values():
+                page.draw_call_graph()
+        except Exception as e:
+            logger.error(e)
                 
 if __name__ == '__main__':
     # check_compliance_violations()
     # check_sensi_apis()
-    get_sensi_page_text()
+    # get_sensi_page_text()
+    # draw_utg()
+    draw_fcg()
 
     # FIXED: 'Page' object has no attribute 'pdg_node'
     # miniapp = MiniApp('/root/minidroid/dataset/miniprograms/wx4c912d1abd56b887')   __plugin__

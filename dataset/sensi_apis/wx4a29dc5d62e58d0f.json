@@ -1,9 +1,0 @@
-{
-    "/root/minidroid/dataset/miniprograms/wx4a29dc5d62e58d0f/part/rygz/game/game": [
-        "wx.saveImageToPhotosAlbum"
-    ],
-    "/root/minidroid/dataset/miniprograms/wx4a29dc5d62e58d0f/part/drawImage/drawImage": [
-        "wx.chooseImage",
-        "wx.saveImageToPhotosAlbum"
-    ]
-}

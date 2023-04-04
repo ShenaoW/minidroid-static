@@ -1,7 +1,10 @@
 import os
 import sys
+import argparse
 
 PROJECT_PATH = os.path.dirname(os.path.abspath('__file__'))
+SAVE_PATH_UTG = os.path.dirname(os.path.abspath('__file__'))+'/result/utg'
+SAVE_PATH_FCG = os.path.dirname(os.path.abspath('__file__'))+'/result/fcg'
 SENSITIVE_API = {'wx.getUserInfo': '收集微信昵称、头像', 
                  'wx.getUserProfile': '收集微信昵称、头像',
                  'wx.getFuzzyLocation': '收集模糊位置信息',
@@ -34,3 +37,15 @@ SENSITIVE_API = {'wx.getUserInfo': '收集微信昵称、头像',
                  'wx.addPhoneRepeatCalendar': '访问日历并写入重复事件', 
                  'wx.addPhoneCalendar': '访问日历并写入事件'
                  }
+
+# def params():
+#     parser = argparse.ArgumentParser(prog='minidroid', \
+#                                      formatter_class=argparse.RawTextHelpFormatter)
+#     parser.add_argument("-i", "--input", dest="input", metavar="path", type=str, required=True,
+#                         help="path of input mini program(s)."
+#                              "Single mini program directory or index files will both fine.")
+#     parser.add_argument("-o", "--output", dest="output", metavar="path", type=str, default="results",
+#                         help="path of output results."
+#                              "The output file will be stored outside of the mini program directories.")
+#     parser.add_argument("-c", "--config", dest="config", metavar="path", type=str,
+#                         help="path of config file.")

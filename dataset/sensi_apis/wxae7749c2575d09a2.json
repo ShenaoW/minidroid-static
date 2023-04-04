@@ -1,8 +1,0 @@
-{
-    "/root/minidroid/dataset/miniprograms/wxae7749c2575d09a2/pages/user/userCenter/userCenter": [
-        "wx.chooseImage"
-    ],
-    "/root/minidroid/dataset/miniprograms/wxae7749c2575d09a2/pages/payment/paymentQR/paymentQR": [
-        "wx.saveImageToPhotosAlbum"
-    ]
-}

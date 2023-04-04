@@ -1,8 +1,0 @@
-{
-    "/root/minidroid/dataset/miniprograms/wx4571c1a2956fbb73/pages/formInfoV2/formInfoV2": [
-        "wx.chooseAddress"
-    ],
-    "/root/minidroid/dataset/miniprograms/wx4571c1a2956fbb73/pages/camera/camera": [
-        "wx.createCameraContext"
-    ]
-}

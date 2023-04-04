@@ -1,8 +1,0 @@
-{
-    "/root/minidroid/dataset/miniprograms/wx96a5870d3fdce5dd/pages/login/login": [
-        "wx.getUserInfo"
-    ],
-    "/root/minidroid/dataset/miniprograms/wx96a5870d3fdce5dd/pages/user_face/face": [
-        "wx.createCameraContext"
-    ]
-}

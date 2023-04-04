@@ -1,8 +1,0 @@
-{
-    "/root/minidroid/dataset/miniprograms/wx9bbf5a35b26841b5/pages/my/my": [
-        "wx.getUserProfile"
-    ],
-    "/root/minidroid/dataset/miniprograms/wx9bbf5a35b26841b5/pages/shop/shop": [
-        "wx.getLocation"
-    ]
-}

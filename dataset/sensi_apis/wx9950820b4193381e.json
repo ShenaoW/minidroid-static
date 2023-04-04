@@ -1,8 +1,0 @@
-{
-    "/root/minidroid/dataset/miniprograms/wx9950820b4193381e/pages/answerReport/answerReport": [
-        "wx.saveImageToPhotosAlbum"
-    ],
-    "/root/minidroid/dataset/miniprograms/wx9950820b4193381e/pages/liveShare/liveShare": [
-        "wx.getUserInfo"
-    ]
-}

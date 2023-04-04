@@ -1,8 +1,0 @@
-{
-    "/root/minidroid/dataset/miniprograms/wx71d7fd2240770880/pages/moreshops/page": [
-        "wx.getLocation"
-    ],
-    "/root/minidroid/dataset/miniprograms/wx71d7fd2240770880/pages/goodsdetail/save_address/save_address": [
-        "wx.chooseAddress"
-    ]
-}

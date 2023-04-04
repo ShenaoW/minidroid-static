@@ -12,6 +12,7 @@
 import os
 import json
 import re
+import graphviz
 from loguru import logger
 import config as config
 from bs4 import BeautifulSoup
@@ -145,6 +146,10 @@ class Page:
             The original miniapp to which the page belongs
         - pdg_node: Node =>
             Head node of the PDG of page.js
+        - page_expr_node: Node =>
+            Node of Page() in the PDG of page.js
+        - page_method_nodes: dict =>
+            A dict of {page_mothod_name : page_method_node}
         - data: dict =>
             A dict of {key:value} to store local variable in the page (setData)
         - binding_event: dict =>
@@ -154,11 +159,12 @@ class Page:
     '''
     def __init__(self, page_path, miniapp):
         self.page_path = page_path
+        self.abs_page_path = miniapp.miniapp_path+'/'+page_path
         self.miniapp = miniapp
-        if os.path.exists(page_path+'.js'):
-            self.pdg_node = get_data_flow(input_file=page_path+'.js', benchmarks={})
-        elif os.path.exists(page_path+'.ts'):
-            self.pdg_node = get_data_flow(input_file=page_path+'.ts', benchmarks={})
+        if os.path.exists(self.abs_page_path+'.js'):
+            self.pdg_node = get_data_flow(input_file=self.abs_page_path+'.js', benchmarks={})
+        elif os.path.exists(self.abs_page_path+'.ts'):
+            self.pdg_node = get_data_flow(input_file=self.abs_page_path+'.ts', benchmarks={})
         else: self.pdg_node = None
         if self.pdg_node != None:
             self.page_expr_node = get_page_expr_node(self.pdg_node)
@@ -184,9 +190,9 @@ class Page:
             'NavigateAPI': []  # API Trigger, such as wx.navigateTo()
         }
 
-        self.init_page_data(page_path)
-        self.set_binding_event(page_path)
-        self.set_navigator(page_path)
+        self.init_page_data(self.abs_page_path)
+        self.set_binding_event(self.abs_page_path)
+        self.set_navigator(self.abs_page_path)
 
     def init_page_data(self, page_path):
         pass
@@ -377,8 +383,94 @@ class Page:
                 else:
                     props[key] = get_node_computed_value(prop.children[1])  # value is Literal/ObjectExpression
         return props
-                        
+    
+    # TODO: 构建call_graph
+    def produce_call_graph(self, graph=graphviz.Digraph(graph_attr={"concentrate": "true", "splines": "false"},
+                                                        comment='Function Call Graph')):
+        page_node_style = ['box', 'red', 'lightpink']
+        graph.attr('node', shape=page_node_style[0], style='filled', \
+                color=page_node_style[2], fillcolor=page_node_style[2])
+        graph.node(name=self.page_path)
+        func_node_style = ['ellipse', 'goldenrod1', 'goldenrod1']
+        graph.attr('node', shape=func_node_style[0], style='filled', color=func_node_style[2],
+               fillcolor=func_node_style[2])
+        graph.attr('edge', color=func_node_style[1])
+        # graph.edge(self.page_path, 'BindingEvent')
+        # graph.edge(self.page_path, 'LifecycleCallback')
+        # BindingEvent Call Graph
+        for binding in self.binding_event.keys():
+            if len(self.binding_event[binding]):
+                for event in self.binding_event[binding]:
+                    # event_contents=' '
+                    # event_contents.join(event.contents)
+                    graph.edge(self.page_path, event.handler, label=event.trigger)
+                    func = event.handler
+                    call_graph = self.get_all_callee_from_func(func, call_graph={})
+                    if func in call_graph.keys():
+                        graph = self.add_callee_edge_to_graph(graph, call_graph, func)
+        
+        for func in self.page_method_nodes.keys():
+            if func in ('onLoad', 'onShow', 'onReady', 'onHide', 'onUnload'):
+                graph.edge(self.page_path, func)
+                call_graph = self.get_all_callee_from_func(func, call_graph={})
+                if func in call_graph.keys():
+                    graph = self.add_callee_edge_to_graph(graph, call_graph, func)
+        return graph
 
+    def get_all_callee_from_func(self, func: str, call_graph):
+        func_node = self.page_method_nodes[func]
+        call_graph = self.traverse_children_of_func(func ,func_node, call_graph)
+        return call_graph
+    
+    def traverse_children_of_func(self, func:str, node, call_graph):
+        for child in node.children:
+            if child.name in ('CallExpression', 'TaggedTemplateExpression'):
+                if len(child.children) > 0 and child.children[0].body in ('callee', 'tag'):
+                    if child.children[0].name == 'MemberExpression' \
+                        and child.children[0].children[0].name == 'ThisExpression':
+                        callee = child.children[0].children[1]
+                    else: 
+                        callee = child.children[0]
+                    call_expr_value = get_node_computed_value(callee)
+                    if call_expr_value in self.page_method_nodes.keys():
+                        if call_graph.get(func, False):
+                            call_graph[func].append(call_expr_value)
+                        else:
+                            call_graph[func] = [call_expr_value]
+                        self.get_all_callee_from_func(call_expr_value, call_graph)
+                    elif call_expr_value in config.SENSITIVE_API:
+                        call_graph[func] = [call_expr_value]
+            call_graph = self.traverse_children_of_func(func, child, call_graph)
+        return call_graph
+
+    def add_callee_edge_to_graph(self, graph, call_graph, func):
+        for callee in call_graph[func]:
+            if callee in config.SENSITIVE_API:
+                graph.attr('node', style='filled', color='lightgoldenrodyellow',
+                   fillcolor='lightgoldenrodyellow')
+                graph.attr('edge', color='orange')
+                graph.edge(func, callee)
+                func_node_style = ['ellipse', 'goldenrod1', 'goldenrod1']
+                graph.attr('node', shape=func_node_style[0], style='filled', color=func_node_style[2],
+                    fillcolor=func_node_style[2])
+                graph.attr('edge', color=func_node_style[1])
+            else:
+                graph.edge(func, callee)
+            if callee in call_graph.keys():
+                graph = self.add_callee_edge_to_graph(graph, call_graph, func=callee)
+        return graph
+    
+    def draw_call_graph(self, save_path=config.SAVE_PATH_FCG):
+        save_path += '/'+self.miniapp.name+'/'+self.page_path
+        dot = self.produce_call_graph()
+        if save_path is None:
+            dot.view()
+        else:
+            dot.render(save_path, view=False)
+            graphviz.render(filepath=save_path, engine='dot', format='eps')
+        dot.clear()
+                
+        
 class MiniApp:
     '''
         Definition of MiniApp.
@@ -403,7 +495,7 @@ class MiniApp:
         self.miniapp_path = miniapp_path
         self.name = miniapp_path.split('/')[-1]
         self.pdg_node = get_data_flow(input_file=os.path.join(miniapp_path, 'app.js'), benchmarks={})
-        self.app_expr_node = get_page_expr_node(self.pdg_node)
+        self.app_expr_node = get_page_expr_node(self.pdg_node)  # App() node
         if self.app_expr_node != None:
             self.app_method_nodes = get_page_method_nodes(self.app_expr_node)
         else:
@@ -412,10 +504,11 @@ class MiniApp:
         self.pages = {}
         self.index_page = ''
         self.sensi_apis = {}
-        self.set_pages(miniapp_path)
+        self.tabBars = {}
+        self.set_pages_and_tab_bar(miniapp_path)
         self.find_sensi_api(miniapp_path)
 
-    def set_pages(self, miniapp_path):
+    def set_pages_and_tab_bar(self, miniapp_path):
         if os.path.exists(os.path.join(miniapp_path, 'app.json')):
             # TODO: 只解析主包页面, 分包页面解析暂不支持
             with open(os.path.join(miniapp_path, 'app.json'), 'r', encoding = 'utf-8') as fp:
@@ -427,14 +520,21 @@ class MiniApp:
                     # self.pages = list(Page(os.path.join(miniapp_path,page), self) for page in pages)
                     
                     # Case2: Init self.pages with a dict of Page Object
-                    self.pages = dict((page, Page(os.path.join(miniapp_path,page), self)) for page in pages if 'plugin' not in page)
+                    self.pages = dict((page, Page(page, self)) for page in pages if 'plugin' not in page)
 
                     # Case3: Init self.pages with the value of pages(actrually a list) in app.json
                     # self.pages = app_config['pages']
                 else:
                     self.pages = None
+                if app_config.get('tabBar', False):
+                    tab_bar_list = app_config['tabBar']['list']
+                    for tab_bar in tab_bar_list:
+                        self.tabBars[tab_bar['pagePath']] = tab_bar['text']
+                else:
+                    self.tabBars = None
         else:
             self.pages = None
+            self.tabBars = None
 
     def find_sensi_api(self, miniapp_path):
         for page in self.pages.values():
@@ -452,7 +552,63 @@ class MiniApp:
             if len(sensi_api_matched):
                 self.sensi_apis[page.page_path] = sensi_api_matched
 
+    def produce_utg(self, graph=graphviz.Digraph(comment='UI Transition Graph', \
+                                graph_attr={"concentrate": "true", "splines": "false"})):
+        page_node_style = ['box', 'red', 'lightpink']
+        graph.attr('node', shape=page_node_style[0], style='filled', \
+                color=page_node_style[2], fillcolor=page_node_style[2])
+        graph.attr('edge', color=page_node_style[1])
+        for tabBar in self.tabBars.keys():
+            graph.edge('MiniApp', str(tabBar))
+        for page in self.pages.keys():
+            for navigator in self.pages[page].navigator['UIElement']:
+                if navigator.target == 'self':
+                    graph.edge(str(page), str(navigator.url))
+            for navigator in self.pages[page].navigator['NavigateAPI']:
+                if navigator.name in ('wx.navigateTo', 'wx.navigateBack'):
+                    graph.edge(str(page), str(navigator.target))
+        return graph
+    
+    def draw_utg(self, save_path=config.SAVE_PATH_UTG):
+        save_path += '/'+self.name+'/'+self.name
+        dot = self.produce_utg()
+        if save_path is None:
+            dot.view()
+        else:
+            dot.render(save_path, view=False)
+            graphviz.render(filepath=save_path, engine='dot', format='eps')
+        dot.clear()
+
+    def produce_mdg(self, graph=graphviz.Digraph(comment='MiniApp Dependency Grapg', \
+                                graph_attr={"concentrate": "true", "splines": "false"})):
+        page_node_style = ['box', 'red', 'lightpink']
+        graph.attr('node', shape=page_node_style[0], style='filled', \
+                   color=page_node_style[2], fillcolor=page_node_style[2])
+        graph.attr('edge', color=page_node_style[1])
+        for tabBar in self.tabBars.keys():
+            graph.edge('MiniApp', str(tabBar))
+        for page in self.pages.keys():
+            page_node_style = ['box', 'red', 'lightpink']
+            graph.attr('node', shape=page_node_style[0], style='filled', \
+                    color=page_node_style[2], fillcolor=page_node_style[2])
+            graph.attr('edge', color=page_node_style[1])
+            for navigator in self.pages[page].navigator['UIElement']:
+                if navigator.target == 'self':
+                    graph.edge(str(page), str(navigator.url), label=navigator.type)
+            for navigator in self.pages[page].navigator['NavigateAPI']:
+                if navigator.name in ('wx.navigateTo', 'wx.navigateBack'):
+                    graph.edge(str(page), str(navigator.target), label=navigator.name)
+            graph = self.pages[page].produce_call_graph(graph=graph)
+        return graph
+
 
 # test
-# app = MiniApp('/root/minidroid/miniprogram-demo')
+app = MiniApp('/root/minidroid/dataset/miniprograms/wx81e4613b8a60e2ea')
+# app = MiniApp('/root/minidroid/dataset/miniprogram-demo')
+for page in app.pages.values():
+    page.draw_call_graph()
+# app.draw_utg()
+# dot = app.produce_mdg()
+# dot.render('/root/minidroid/result/mdg/miniprogram-demo', view=False)
+# graphviz.render(filepath='/root/minidroid/result/mdg/miniprogram-demo', engine='dot', format='eps')
 # print('success')

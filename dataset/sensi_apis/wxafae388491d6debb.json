@@ -1,8 +1,0 @@
-{
-    "/root/minidroid/dataset/miniprograms/wxafae388491d6debb/pages/common/image/imageSelector": [
-        "wx.chooseImage"
-    ],
-    "/root/minidroid/dataset/miniprograms/wxafae388491d6debb/pages/common/map/searchMap": [
-        "wx.getLocation"
-    ]
-}

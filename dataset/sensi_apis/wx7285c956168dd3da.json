@@ -1,9 +1,0 @@
-{
-    "/root/minidroid/dataset/miniprograms/wx7285c956168dd3da/pages/index/index": [
-        "wx.getUserInfo",
-        "wx.saveImageToPhotosAlbum"
-    ],
-    "/root/minidroid/dataset/miniprograms/wx7285c956168dd3da/pages/numberBinding/numberBinding": [
-        "wx.saveImageToPhotosAlbum"
-    ]
-}

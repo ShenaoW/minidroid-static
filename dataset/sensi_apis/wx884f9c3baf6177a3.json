@@ -1,8 +1,0 @@
-{
-    "/root/minidroid/dataset/miniprograms/wx884f9c3baf6177a3/pages/index/index": [
-        "wx.getLocation"
-    ],
-    "/root/minidroid/dataset/miniprograms/wx884f9c3baf6177a3/packages/callingCard/index/index": [
-        "wx.addPhoneContact"
-    ]
-}

@@ -1,9 +1,0 @@
-{
-    "/root/minidroid/dataset/miniprograms/wxaa53b9466057e1f8/pages/touxiang/index": [
-        "wx.getUserInfo",
-        "wx.chooseImage"
-    ],
-    "/root/minidroid/dataset/miniprograms/wxaa53b9466057e1f8/pages/poster/poster": [
-        "wx.saveImageToPhotosAlbum"
-    ]
-}

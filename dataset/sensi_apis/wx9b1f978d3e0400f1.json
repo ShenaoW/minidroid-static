@@ -1,8 +1,0 @@
-{
-    "/root/minidroid/dataset/miniprograms/wx9b1f978d3e0400f1/pages/order/order": [
-        "wx.chooseImage"
-    ],
-    "/root/minidroid/dataset/miniprograms/wx9b1f978d3e0400f1/pages/login/login": [
-        "wx.getUserInfo"
-    ]
-}

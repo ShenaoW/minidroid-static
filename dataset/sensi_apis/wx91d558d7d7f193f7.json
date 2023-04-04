@@ -1,8 +1,0 @@
-{
-    "/root/minidroid/dataset/miniprograms/wx91d558d7d7f193f7/pages/authorize/authorize": [
-        "wx.getUserInfo"
-    ],
-    "/root/minidroid/dataset/miniprograms/wx91d558d7d7f193f7/pages/customerService/customerService": [
-        "wx.chooseImage"
-    ]
-}

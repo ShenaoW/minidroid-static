@@ -1,8 +1,0 @@
-{
-    "/root/minidroid/dataset/miniprograms/wx489adbe768421010/pages/prize-publish/prize-publish": [
-        "wx.chooseImage"
-    ],
-    "/root/minidroid/dataset/miniprograms/wx489adbe768421010/pages/address-detail/address-detail": [
-        "wx.chooseLocation"
-    ]
-}

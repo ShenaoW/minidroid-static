@@ -1,9 +1,0 @@
-{
-    "/root/minidroid/dataset/miniprograms/wx85652b9849b82e71/pages/fullpage/fullpage": [
-        "wx.getLocation",
-        "wx.saveImageToPhotosAlbum"
-    ],
-    "/root/minidroid/dataset/miniprograms/wx85652b9849b82e71/pages/luckDraw/luckDraw": [
-        "wx.saveImageToPhotosAlbum"
-    ]
-}

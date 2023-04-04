@@ -116,8 +116,8 @@ def get_data_flow(input_file, benchmarks, store_pdgs=None, check_var=False, beau
     utility_df.limit_memory(20*10**9)  # Limiting the memory usage to 20GB
     if input_file.endswith('.js'):
         esprima_json = input_file.replace('.js', 'temp.json')
-    else:
-        esprima_json = input_file.replace('.js', 'temp.json')
+    elif input_file.endswith('.ts'):
+        esprima_json = input_file.replace('.ts', 'temp.json')
 
     if alt_json_path is not None:
         if not os.path.exists(alt_json_path):

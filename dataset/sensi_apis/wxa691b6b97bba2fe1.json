@@ -1,8 +1,0 @@
-{
-    "/root/minidroid/dataset/miniprograms/wxa691b6b97bba2fe1/pages/commonshop/orderInfor/orderInfor": [
-        "wx.getLocation"
-    ],
-    "/root/minidroid/dataset/miniprograms/wxa691b6b97bba2fe1/pages/store/list/index": [
-        "wx.getLocation"
-    ]
-}

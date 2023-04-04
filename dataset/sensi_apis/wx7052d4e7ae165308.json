@@ -1,8 +1,0 @@
-{
-    "/root/minidroid/dataset/miniprograms/wx7052d4e7ae165308/pages/home/home": [
-        "wx.getUserProfile"
-    ],
-    "/root/minidroid/dataset/miniprograms/wx7052d4e7ae165308/pages/userMessage/userMessage": [
-        "wx.saveImageToPhotosAlbum"
-    ]
-}

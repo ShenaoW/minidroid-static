@@ -1,8 +1,0 @@
-{
-    "/root/minidroid/dataset/miniprograms/wx73822b5f09ba0bcc/pages/view/view": [
-        "wx.getUserProfile"
-    ],
-    "/root/minidroid/dataset/miniprograms/wx73822b5f09ba0bcc/pages/poster/poster": [
-        "wx.saveImageToPhotosAlbum"
-    ]
-}

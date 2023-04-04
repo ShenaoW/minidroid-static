@@ -1,9 +1,0 @@
-{
-    "/root/minidroid/dataset/miniprograms/wxa3071242091eed86/pages/wear-mask/index": [
-        "wx.getUserInfo",
-        "wx.chooseImage"
-    ],
-    "/root/minidroid/dataset/miniprograms/wxa3071242091eed86/pages/combine/combine": [
-        "wx.saveImageToPhotosAlbum"
-    ]
-}

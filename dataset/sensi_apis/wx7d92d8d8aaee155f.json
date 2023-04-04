@@ -1,8 +1,0 @@
-{
-    "/root/minidroid/dataset/miniprograms/wx7d92d8d8aaee155f/pages/mine/addParticipants/index": [
-        "wx.chooseImage"
-    ],
-    "/root/minidroid/dataset/miniprograms/wx7d92d8d8aaee155f/pages/mine/poster/index": [
-        "wx.saveImageToPhotosAlbum"
-    ]
-}

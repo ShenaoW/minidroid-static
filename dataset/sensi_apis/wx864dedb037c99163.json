@@ -1,8 +1,0 @@
-{
-    "/root/minidroid/dataset/miniprograms/wx864dedb037c99163/pages/rental/rental": [
-        "wx.getLocation"
-    ],
-    "/root/minidroid/dataset/miniprograms/wx864dedb037c99163/pages/index/index": [
-        "wx.getUserInfo"
-    ]
-}

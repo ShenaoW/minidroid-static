@@ -1,8 +1,0 @@
-{
-    "/root/minidroid/dataset/miniprograms/wx4bdfa7d3ceb7a1e8/pages/shop/QRCode/QRCode": [
-        "wx.saveImageToPhotosAlbum"
-    ],
-    "/root/minidroid/dataset/miniprograms/wx4bdfa7d3ceb7a1e8/pages/shop/addShop/addShop": [
-        "wx.getLocation"
-    ]
-}

@@ -1,8 +1,0 @@
-{
-    "/root/minidroid/dataset/miniprograms/wx9c981b4c609775a2/components/msgFooter/msgFooter": [
-        "wx.chooseImage"
-    ],
-    "/root/minidroid/dataset/miniprograms/wx9c981b4c609775a2/pages/workbench/salesPreview/salesPreview": [
-        "wx.saveImageToPhotosAlbum"
-    ]
-}

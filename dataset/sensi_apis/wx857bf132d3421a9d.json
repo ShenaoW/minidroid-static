@@ -1,9 +1,0 @@
-{
-    "/root/minidroid/dataset/miniprograms/wx857bf132d3421a9d/pages/netSpeed/net_speed": [
-        "wx.getUserInfo"
-    ],
-    "/root/minidroid/dataset/miniprograms/wx857bf132d3421a9d/pages/netSpeed/result/result": [
-        "wx.getUserInfo",
-        "wx.saveImageToPhotosAlbum"
-    ]
-}

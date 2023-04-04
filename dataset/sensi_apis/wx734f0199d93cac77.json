@@ -1,9 +1,0 @@
-{
-    "/root/minidroid/dataset/miniprograms/wx734f0199d93cac77/pages/add/index": [
-        "wx.chooseLocation",
-        "wx.chooseImage"
-    ],
-    "/root/minidroid/dataset/miniprograms/wx734f0199d93cac77/pages/qrShare/qrShare": [
-        "wx.saveImageToPhotosAlbum"
-    ]
-}

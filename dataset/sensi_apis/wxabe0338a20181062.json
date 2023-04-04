@@ -1,8 +1,0 @@
-{
-    "/root/minidroid/dataset/miniprograms/wxabe0338a20181062/pages/index/components/notice-bar/pages/login/login": [
-        "wx.getUserProfile"
-    ],
-    "/root/minidroid/dataset/miniprograms/wxabe0338a20181062/pages/index/components/menu/pages/reward/reward": [
-        "wx.getUserProfile"
-    ]
-}

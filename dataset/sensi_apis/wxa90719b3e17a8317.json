@@ -1,9 +1,0 @@
-{
-    "/root/minidroid/dataset/miniprograms/wxa90719b3e17a8317/pages/index2/index": [
-        "wx.getUserInfo",
-        "wx.getUserProfile"
-    ],
-    "/root/minidroid/dataset/miniprograms/wxa90719b3e17a8317/pages/creatAblum/creatAblum": [
-        "wx.chooseImage"
-    ]
-}

@@ -1,8 +1,0 @@
-{
-    "/root/minidroid/dataset/miniprograms/wx4e87939a5c66b36b/pages/goods/poster/poster": [
-        "wx.saveImageToPhotosAlbum"
-    ],
-    "/root/minidroid/dataset/miniprograms/wx4e87939a5c66b36b/pages/order/store/index": [
-        "wx.getLocation"
-    ]
-}

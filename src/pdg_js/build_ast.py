@@ -58,9 +58,22 @@ def get_extended_ast(input_file, json_path, remove_json=False):
     """
 
     try:
-        produce_ast = subprocess.run(['node', os.path.join(SRC_PATH, 'parser.js'),
-                                      input_file, json_path],
-                                     stdout=subprocess.PIPE, check=True)
+        r, w = os.pipe()
+        try:
+            produce_ast = subprocess.Popen(['node', os.path.join(SRC_PATH, 'parser.js'),
+                                        input_file, json_path],
+                                        stderr=w, check=True)
+        except:
+            # logging.warning('Esprima parsing error for %s', input_file)
+            os.read(r, 0x1000)
+            if b'Unexpected token' in r:
+                subprocess.Popen(['node', os.path.join(SRC_PATH, 'convert.js'), input_file], stderr=subprocess.PIPE)
+            produce_ast = subprocess.Popen(['node', os.path.join(SRC_PATH, 'parser.js'),
+                                        input_file, json_path],
+                                        stderr=w, check=True)
+        finally:
+            os.close(r)
+            os.close(w)
     except subprocess.CalledProcessError:
         logging.critical('Esprima parsing error for %s', input_file)
         return None

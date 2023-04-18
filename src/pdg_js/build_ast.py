@@ -59,32 +59,31 @@ def get_extended_ast(input_file, json_path, remove_json=False):
 
     try:
         r, w = os.pipe()
+        produce_ast = subprocess.Popen(['node', os.path.join(SRC_PATH, 'parser.js'),
+                                    input_file, json_path],
+                                    stderr=w)
+    except:    
+        stderr_info = os.read(r, 0x1000)
+        if b'Unexpected token' in stderr_info:
+            subprocess.Popen(['node', os.path.join(SRC_PATH, 'convert.js'), input_file], stderr=subprocess.PIPE)
         try:
             produce_ast = subprocess.Popen(['node', os.path.join(SRC_PATH, 'parser.js'),
-                                        input_file, json_path],
-                                        stderr=w, check=True)
+                                    input_file, json_path],
+                                    stderr=w)
         except:
-            # logging.warning('Esprima parsing error for %s', input_file)
-            os.read(r, 0x1000)
-            if b'Unexpected token' in r:
-                subprocess.Popen(['node', os.path.join(SRC_PATH, 'convert.js'), input_file], stderr=subprocess.PIPE)
-            produce_ast = subprocess.Popen(['node', os.path.join(SRC_PATH, 'parser.js'),
-                                        input_file, json_path],
-                                        stderr=w, check=True)
-        finally:
-            os.close(r)
-            os.close(w)
-    except subprocess.CalledProcessError:
-        logging.critical('Esprima parsing error for %s', input_file)
-        return None
+            logging.critical('Esprima parsing error for %s', input_file)
+            return None
+    finally:
+        os.close(r)
+        os.close(w)
 
-    if produce_ast.returncode == 0:
+    with open(json_path, encoding='utf-8') as json_data:
+        esprima_ast = json.loads(json_data.read())
+        
+    if remove_json:
+        os.remove(json_path)
 
-        with open(json_path) as json_data:
-            esprima_ast = json.loads(json_data.read())
-        if remove_json:
-            os.remove(json_path)
-
+    if esprima_ast:
         extended_ast = _extended_ast.ExtendedAst()
         extended_ast.filename = input_file
         extended_ast.set_type(esprima_ast['type'])
@@ -325,7 +324,7 @@ def save_json(ast_nodes, json_path):
     """
 
     data = build_json(ast_nodes, dico={})
-    with open(json_path, 'w') as json_data:
+    with open(json_path, 'w', encoding='utf-8') as json_data:
         json.dump(data, json_data, indent=4)
 
 

@@ -5,7 +5,7 @@ import argparse
 PROJECT_PATH = os.path.dirname(os.path.abspath('__file__'))
 SAVE_PATH_UTG = os.path.dirname(os.path.abspath('__file__'))+'/result/utg'
 SAVE_PATH_FCG = os.path.dirname(os.path.abspath('__file__'))+'/result/fcg'
-SENSITIVE_API = {'wx.getUserInfo': '收集微信昵称、头像', 
+SENSITIVE_API = {'wx.getUserInfo': '收集微信昵称、头像',
                  'wx.getUserProfile': '收集微信昵称、头像',
                  'wx.getFuzzyLocation': '收集模糊位置信息',
                  'wx.getLocation': '收集精确位置信息',
@@ -34,9 +34,35 @@ SENSITIVE_API = {'wx.getUserInfo': '收集微信昵称、头像',
                  'wx.saveImageToPhotosAlbum': '访问相册并写入照片',
                  'wx.saveVideoToPhotosAlbum': '访问相册并写入视频',
                  'wx.addPhoneContact': '访问通讯录并写入号码',
-                 'wx.addPhoneRepeatCalendar': '访问日历并写入重复事件', 
+                 'wx.addPhoneRepeatCalendar': '访问日历并写入重复事件',
                  'wx.addPhoneCalendar': '访问日历并写入事件'
                  }
+
+ROUTE_API = ['wx.switchTab',
+             'wx.reLaunch',
+             'wx.redirectTo',
+             'wx.navigateTo',
+             'wx.navigateBack']
+NAVIGATE_API = ['wx.navigateToMiniProgram',
+                'wx.navigateBackMiniProgram',
+                'wx.exitMiniProgram']
+
+BINDING_EVENTS = [
+    # Bubbling Event
+    'bindtap',
+    'bindlongtap',  # including longtap/longpress event
+
+    # Non-bubbling Event in Specific Compenonts
+    'bindgetuserinfo',  # <button open-type='getUserInfo' bindgetuserinfo=handler_fun>
+    # <button open-type='getPhoneNumber' bindgetphonenumber=handler_fun>
+    'bindgetphonenumber',
+    'bindchooseavatar',  # <button open-type='chooseAvatar' bindchooseavatar=handler_fun>
+    'bindopensetting',  # <button open-type='openSetting' bindopensetting=handler_fun>
+    'bindlaunchapp',  # <button open-type='launchApp' bindlaunchapp=handler_fun>
+
+    'bindsubmit'  # <form binsubmit=handler_fun>
+]
+
 
 # def params():
 #     parser = argparse.ArgumentParser(prog='minidroid', \

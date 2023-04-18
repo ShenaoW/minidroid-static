@@ -36,7 +36,7 @@ def handle_wxapkgs(wxapkgs_dir='dataset/wxapkgs', save_json=False):
             decompile_pkg.append(wxapkg_path.replace('.wxapkg', '').replace('wxapkgs', 'miniprograms'))
     if save_json:
         res = json.dumps(decompile_pkg, indent=2)
-        with open(save_json, 'w') as fp:
+        with open(save_json, 'w', encoding='utf-8') as fp:
                 fp.write(res)
 
 def mini_droid():
@@ -50,7 +50,7 @@ def mini_droid():
 
 def check_compliance_violations():
     logger.add('dataset/comp_vios.log')
-    with open('dataset/dataset.json', 'r') as fp:
+    with open('dataset/dataset.json', 'r', encoding='utf-8') as fp:
         miniapp_paths = json.load(fp)
     for miniapp_path in miniapp_paths:
         logger.info('[Start] Static analysis of {}'.format(miniapp_path))
@@ -74,7 +74,7 @@ def check_compliance_violations():
 def check_sensi_apis():
     sensi_apis_json = {}
     logger.add('dataset/sensi_apis.log')
-    with open('dataset/dataset.json', 'r') as fp:
+    with open('dataset/dataset.json', 'r', encoding='utf-8') as fp:
         miniapp_paths = json.load(fp)
     for miniapp_path in miniapp_paths:
         logger.info('[Start] Static analysis of {}'.format(miniapp_path))
@@ -91,7 +91,7 @@ def check_sensi_apis():
 
 def get_sensi_page_text():
     result_json = {}
-    with open('dataset/sensi_apis_result.json', 'r') as fp:
+    with open('dataset/sensi_apis_result.json', 'r', encoding='utf-8') as fp:
         json_data = json.load(fp)
     for miniappkey in json_data.keys():
         sensi_api_dict = {}
@@ -107,7 +107,7 @@ def get_sensi_page_text():
 
 def draw_utg():
     logger.add('result/utg.log')
-    with open('dataset/dataset.json', 'r') as fp:
+    with open('dataset/dataset.json', 'r', encoding='utf-8') as fp:
         miniapp_paths = json.load(fp)
     for miniapp_path in miniapp_paths:
         logger.info('[Start] Static analysis of {}'.format(miniapp_path))
@@ -119,7 +119,7 @@ def draw_utg():
                 
 def draw_fcg():
     logger.add('result/fcg.log')
-    with open('dataset/dataset.json', 'r') as fp:
+    with open('dataset/dataset.json', 'r', encoding='utf-8') as fp:
         miniapp_paths = json.load(fp)
     for miniapp_path in miniapp_paths:
         logger.info('[Start] Static analysis of {}'.format(miniapp_path))

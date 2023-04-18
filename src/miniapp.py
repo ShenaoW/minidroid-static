@@ -159,32 +159,21 @@ class Page:
     '''
     def __init__(self, page_path, miniapp):
         self.page_path = page_path
-        self.abs_page_path = miniapp.miniapp_path+'/'+page_path
+        self.abs_page_path = os.path.join(miniapp.miniapp_path, page_path)
         self.miniapp = miniapp
         if os.path.exists(self.abs_page_path+'.js'):
             self.pdg_node = get_data_flow(input_file=self.abs_page_path+'.js', benchmarks={})
         elif os.path.exists(self.abs_page_path+'.ts'):
             self.pdg_node = get_data_flow(input_file=self.abs_page_path+'.ts', benchmarks={})
-        else: self.pdg_node = None
+        else: 
+            self.pdg_node = None
+            
         if self.pdg_node != None:
             self.page_expr_node = get_page_expr_node(self.pdg_node)
         if self.page_expr_node != None:
             self.page_method_nodes = get_page_method_nodes(self.page_expr_node)
         self.wxml_soup = None
-        self.binding_event = {
-            # Bubbling Event
-            'bindtap': [],
-            'bindlongtap': [],  # including longtap/longpress event
-
-            # Non-bubbling Event in Specific Compenonts
-            'bindgetuserinfo': [],  # <button open-type='getUserInfo' bindgetuserinfo=handler_fun>
-            'bindgetphonenumber': [],  # <button open-type='getPhoneNumber' bindgetphonenumber=handler_fun>
-            'bindchooseavatar': [],  # <button open-type='chooseAvatar' bindchooseavatar=handler_fun>
-            'bindopensetting': [],  # <button open-type='openSetting' bindopensetting=handler_fun>
-            'bindlaunchapp': [],  # <button open-type='launchApp' bindlaunchapp=handler_fun>
-
-            'bindsubmit': []  # <form binsubmit=handler_fun>
-        }
+        self.binding_event = {}
         self.navigator = {
             'UIElement': [],  # Navigator element trigger, such as <navigator url="/page/index/index">切换 Tab</navigator>
             'NavigateAPI': []  # API Trigger, such as wx.navigateTo()
@@ -195,48 +184,39 @@ class Page:
         self.set_navigator(self.abs_page_path)
 
     def init_page_data(self, page_path):
-        pass
-
-    def set_binding_event(self, page_path):
         try:
-            soup = BeautifulSoup(open(page_path+'.wxml'), 'html.parser')
+            soup =  BeautifulSoup(open(page_path+'.wxml', encoding='utf-8'), 'html.parser')
             self.wxml_soup = soup
         except Exception as e:
             logger.error('WxmlNotFoundError: {}'.format(e))
-        for binding in self.binding_event.keys():
-            self.binding_event_handler(soup=soup, binding=binding)
 
-    def binding_event_handler(self, soup, binding):
-        # tags = soup.find_all(binding=True)  # binding是字符串, 不能直接作为tag属性名查找 
-        tags = self.find_tags_by_attr(soup, attr=binding)
-        for tag in tags:
-            self.binding_event[binding].append(Event(name=tag.name, trigger=binding, \
-                handler=tag.attrs[binding], contents=tag.contents, element=tag))
-            
-    def find_tags_by_attr(self, soup, attr):
-        tags = []
-        for tag in soup.find_all(True):
-            if attr in tag.attrs.keys():
-                tags.append(tag)
-        return tags
-            
+    def set_binding_event(self, page_path):
+        if not self.wxml_soup:
+            self.init_page_data(page_path)
+        for binding in config.BINDING_EVENTS:
+            for tag in self.wxml_soup.find_all(attrs={binding: True}):
+                evn = Event(name=tag.name, trigger=binding, \
+                    handler=tag.attrs[binding], contents=tag.contents, element=tag)
+                if binding not in self.binding_event.keys():
+                    self.binding[binding] = []
+                self.binding_event[binding].append(evn)
+                
     def set_navigator(self, page_path):
         self.set_navigator_ui(page_path)
         if self.pdg_node != None:
             self.set_navigator_api()
 
     def set_navigator_ui(self, page_path):
-        try:
-            soup = BeautifulSoup(open(page_path+'.wxml'), 'html.parser')
-        except Exception as e:
-            print(f"[wxml] got error: {e}")
-        tags = soup.find_all('navigator')
+        if not self.wxml_soup:
+            self.init_page_data(page_path)
+        tags = self.wxml_soup.find_all('navigator')
         for tag in tags:
-            target = tag['target'] if 'bindsuccess' in tag.attrs.keys() else 'self'
+            target = tag['target'] if 'target' in tag.attrs.keys() else 'self'
             type = tag['open-type'] if 'open-type' in tag.attrs.keys() else 'navigate'
             bindsuccess = tag['bindsuccess'] if 'bindsuccess' in tag.attrs.keys() else None
             bindfail = tag['bindfail'] if 'bindfail' in tag.attrs.keys() else None
             bindcomplete = tag['bindcomplete'] if 'bindcomplete' in tag.attrs.keys() else None
+            
             if target.lower() == 'miniprogram' and type.lower() in ('navigate', 'navigateBack'):
                 extradata = tag['extra-data'] if 'extra-data' in tag.attrs.keys() else None
                 if type.lower() == 'navigate':
@@ -277,20 +257,10 @@ class Page:
                     callee = child.children[0]
                     call_expr_value = get_node_computed_value(callee)
                     if type(call_expr_value) == 'str':
-                        if call_expr_value in (
-                            'wx.navigateToMiniProgram', 
-                            'wx.navigateBackMiniProgram',  
-                            'wx.exitMiniProgram'
-                        ):
-                            self.jump_api_handler(self, child, call_expr_value)
-                        elif call_expr_value in (
-                            'wx.switchTab',
-                            'wx.reLaunch',
-                            'wx.redirectTo',
-                            'wx.navigateTo',
-                            'wx.navigateBack'
-                        ):
-                            self.route_api_handler(self, child, call_expr_value)
+                        if call_expr_value in config.NAVIGATE_API:
+                            self.jump_api_handler(child, call_expr_value)
+                        elif call_expr_value in config.ROUTE_API:
+                            self.route_api_handler(child, call_expr_value)
 
     def jump_api_handler(self, child,call_expr_value):
         if call_expr_value == 'wx.navigateToMiniProgram':
@@ -461,7 +431,7 @@ class Page:
         return graph
     
     def draw_call_graph(self, save_path=config.SAVE_PATH_FCG):
-        save_path += '/'+self.miniapp.name+'/'+self.page_path
+        save_path += '/'+self.miniapp.pathName+'/'+self.page_path
         dot = self.produce_call_graph()
         if save_path is None:
             dot.view()
@@ -493,7 +463,7 @@ class MiniApp:
     '''
     def __init__(self, miniapp_path):
         self.miniapp_path = miniapp_path
-        self.name = miniapp_path.split('/')[-1]
+        self.pathName = miniapp_path.split('/')[-1]
         self.pdg_node = get_data_flow(input_file=os.path.join(miniapp_path, 'app.js'), benchmarks={})
         self.app_expr_node = get_page_expr_node(self.pdg_node)  # App() node
         if self.app_expr_node != None:
@@ -570,7 +540,7 @@ class MiniApp:
         return graph
     
     def draw_utg(self, save_path=config.SAVE_PATH_UTG):
-        save_path += '/'+self.name+'/'+self.name
+        save_path += '/'+self.pathName+'/'+self.pathName
         dot = self.produce_utg()
         if save_path is None:
             dot.view()
@@ -601,14 +571,14 @@ class MiniApp:
             graph = self.pages[page].produce_call_graph(graph=graph)
         return graph
 
-
-# test
-app = MiniApp('/root/minidroid/dataset/miniprograms/wx81e4613b8a60e2ea')
-# app = MiniApp('/root/minidroid/dataset/miniprogram-demo')
-for page in app.pages.values():
-    page.draw_call_graph()
-# app.draw_utg()
-# dot = app.produce_mdg()
-# dot.render('/root/minidroid/result/mdg/miniprogram-demo', view=False)
-# graphviz.render(filepath='/root/minidroid/result/mdg/miniprogram-demo', engine='dot', format='eps')
-# print('success')
+if __name__=="__main__":
+    # test
+    app = MiniApp('/mnt/d/信息安全作品赛/Miniapp权限检测/practice/wechat-app-demo')
+    # app = MiniApp('/root/minidroid/dataset/miniprogram-demo')
+    for page in app.pages.values():
+        page.draw_call_graph()
+    # app.draw_utg()
+    # dot = app.produce_mdg()
+    # dot.render('/root/minidroid/result/mdg/miniprogram-demo', view=False)
+    # graphviz.render(filepath='/root/minidroid/result/mdg/miniprogram-demo', engine='dot', format='eps')
+    # print('success')

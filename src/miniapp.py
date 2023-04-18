@@ -13,7 +13,6 @@
 import os
 import json
 import re
-import random
 import graphviz
 import pydotplus
 from loguru import logger
@@ -23,36 +22,6 @@ from collections import defaultdict
 from pdg_js.build_pdg import get_data_flow
 from utils.utils import get_page_expr_node, get_page_method_nodes
 from pdg_js.js_operators import get_node_computed_value
-
-class Node:
-    '''
-        Definition of Node.
-
-        -------
-        Properties:
-        - name: str =>
-            Name of the Node
-        - id: int =>
-            Unique id of the Node
-        - patent: Node =>
-            Parent node
-        - children: list(Node) =>
-            Children node
-    '''
-    id = random.randint(0, 2*32)
-
-    def __init__(self, name, parent=None):
-        self.name = name
-        self.id = Node.id
-        Node.id += 1
-        self.parent = parent
-        self.children = {}
-
-    def set_parent(self, parent):
-        self.parent = parent
-
-    def set_child(self, child, edge=None):
-        self.children[child]=edge
 
 
 class UIElement:

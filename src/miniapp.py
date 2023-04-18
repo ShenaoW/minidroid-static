@@ -2,7 +2,8 @@
 
 """
     Defination of Class
-    - Element(name, contents, element)
+    - Node(name)
+    - UIElement(name, contents, element)
     - Event(name, contents, element, trigger, handler)
     - Navigator(name, content, element, type, target, url, extradata, bindings)
     - Page(page_path)
@@ -12,13 +13,46 @@
 import os
 import json
 import re
+import random
 import graphviz
+import pydotplus
 from loguru import logger
 import config as config
 from bs4 import BeautifulSoup
+from collections import defaultdict
 from pdg_js.build_pdg import get_data_flow
 from utils.utils import get_page_expr_node, get_page_method_nodes
 from pdg_js.js_operators import get_node_computed_value
+
+class Node:
+    '''
+        Definition of Node.
+
+        -------
+        Properties:
+        - name: str =>
+            Name of the Node
+        - id: int =>
+            Unique id of the Node
+        - patent: Node =>
+            Parent node
+        - children: list(Node) =>
+            Children node
+    '''
+    id = random.randint(0, 2*32)
+
+    def __init__(self, name, parent=None):
+        self.name = name
+        self.id = Node.id
+        Node.id += 1
+        self.parent = parent
+        self.children = {}
+
+    def set_parent(self, parent):
+        self.parent = parent
+
+    def set_child(self, child, edge=None):
+        self.children[child]=edge
 
 
 class UIElement:
@@ -383,39 +417,6 @@ class Page:
                 else:
                     props[key] = get_node_computed_value(prop.children[1])  # value is Literal/ObjectExpression
         return props
-    
-    # TODO: 构建call_graph
-    def produce_call_graph(self, graph=graphviz.Digraph(graph_attr={"concentrate": "true", "splines": "false"},
-                                                        comment='Function Call Graph')):
-        page_node_style = ['box', 'red', 'lightpink']
-        graph.attr('node', shape=page_node_style[0], style='filled', \
-                color=page_node_style[2], fillcolor=page_node_style[2])
-        graph.node(name=self.page_path)
-        func_node_style = ['ellipse', 'goldenrod1', 'goldenrod1']
-        graph.attr('node', shape=func_node_style[0], style='filled', color=func_node_style[2],
-               fillcolor=func_node_style[2])
-        graph.attr('edge', color=func_node_style[1])
-        # graph.edge(self.page_path, 'BindingEvent')
-        # graph.edge(self.page_path, 'LifecycleCallback')
-        # BindingEvent Call Graph
-        for binding in self.binding_event.keys():
-            if len(self.binding_event[binding]):
-                for event in self.binding_event[binding]:
-                    # event_contents=' '
-                    # event_contents.join(event.contents)
-                    graph.edge(self.page_path, event.handler, label=event.trigger)
-                    func = event.handler
-                    call_graph = self.get_all_callee_from_func(func, call_graph={})
-                    if func in call_graph.keys():
-                        graph = self.add_callee_edge_to_graph(graph, call_graph, func)
-        
-        for func in self.page_method_nodes.keys():
-            if func in ('onLoad', 'onShow', 'onReady', 'onHide', 'onUnload'):
-                graph.edge(self.page_path, func)
-                call_graph = self.get_all_callee_from_func(func, call_graph={})
-                if func in call_graph.keys():
-                    graph = self.add_callee_edge_to_graph(graph, call_graph, func)
-        return graph
 
     def get_all_callee_from_func(self, func: str, call_graph):
         func_node = self.page_method_nodes[func]
@@ -460,9 +461,54 @@ class Page:
                 graph = self.add_callee_edge_to_graph(graph, call_graph, func=callee)
         return graph
     
-    def draw_call_graph(self, save_path=config.SAVE_PATH_FCG):
+    def produce_fcg(self, graph=graphviz.Digraph(graph_attr={"concentrate": "true", "splines": "false"},
+                                                        comment='Function Call Graph')):
+        page_node_style = ['box', 'red', 'lightpink']
+        graph.attr('node', shape=page_node_style[0], style='filled', \
+                color=page_node_style[2], fillcolor=page_node_style[2])
+        graph.node(name=self.page_path)
+        func_node_style = ['ellipse', 'goldenrod1', 'goldenrod1']
+        graph.attr('node', shape=func_node_style[0], style='filled', color=func_node_style[2],
+               fillcolor=func_node_style[2])
+        graph.attr('edge', color=func_node_style[1])
+        # graph.edge(self.page_path, 'BindingEvent')
+        # graph.edge(self.page_path, 'LifecycleCallback')
+        # BindingEvent Call Graph
+        for binding in self.binding_event.keys():
+            if len(self.binding_event[binding]):
+                for event in self.binding_event[binding]:
+                    # event_contents=' '
+                    # event_contents.join(event.contents)
+                    graph.edge(self.page_path, event.handler, label=event.trigger)
+                    func = event.handler
+                    call_graph = self.get_all_callee_from_func(func, call_graph={})
+                    if func in call_graph.keys():
+                        graph = self.add_callee_edge_to_graph(graph, call_graph, func)
+        
+        for func in self.page_method_nodes.keys():
+            if func in ('onLoad', 'onShow', 'onReady', 'onHide', 'onUnload'):
+                graph.edge(self.page_path, func)
+                call_graph = self.get_all_callee_from_func(func, call_graph={})
+                if func in call_graph.keys():
+                    graph = self.add_callee_edge_to_graph(graph, call_graph, func)
+        return graph
+
+    def get_fcg(self):
+        fcg = defaultdict(list)
+        dot = self.produce_fcg().source
+        graph = pydotplus.graph_from_dot_data(data=dot)
+        for edge in graph.get_edges():
+            src, dst = edge.get_source().strip('"'), edge.get_destination().strip('"')
+            if "label" in edge.get_attributes().keys():
+                label = edge.get_attributes()["label"]
+            else:
+                label = None
+            fcg[src].append((dst, label))
+        return dict(fcg)
+
+    def draw_fcg(self, save_path=config.SAVE_PATH_FCG):
         save_path += '/'+self.miniapp.name+'/'+self.page_path
-        dot = self.produce_call_graph()
+        dot = self.produce_fcg()
         if save_path is None:
             dot.view()
         else:
@@ -569,6 +615,19 @@ class MiniApp:
                     graph.edge(str(page), str(navigator.target))
         return graph
     
+    def get_utg(self):
+        utg = defaultdict(list)
+        dot = self.produce_utg().source
+        graph = pydotplus.graph_from_dot_data(data=dot)
+        for edge in graph.get_edges():
+            src, dst = edge.get_source().strip('"'), edge.get_destination().strip('"')
+            if "label" in edge.get_attributes().keys():
+                label = edge.get_attributes()["label"]
+            else:
+                label = None
+            utg[src].append((dst, label))
+        return dict(utg)
+    
     def draw_utg(self, save_path=config.SAVE_PATH_UTG):
         save_path += '/'+self.name+'/'+self.name
         dot = self.produce_utg()
@@ -579,7 +638,7 @@ class MiniApp:
             graphviz.render(filepath=save_path, engine='dot', format='eps')
         dot.clear()
 
-    def produce_mdg(self, graph=graphviz.Digraph(comment='MiniApp Dependency Grapg', \
+    def produce_mdg(self, graph=graphviz.Digraph(comment='MiniApp Dependency Graph', \
                                 graph_attr={"concentrate": "true", "splines": "false"})):
         page_node_style = ['box', 'red', 'lightpink']
         graph.attr('node', shape=page_node_style[0], style='filled', \
@@ -598,15 +657,18 @@ class MiniApp:
             for navigator in self.pages[page].navigator['NavigateAPI']:
                 if navigator.name in ('wx.navigateTo', 'wx.navigateBack'):
                     graph.edge(str(page), str(navigator.target), label=navigator.name)
-            graph = self.pages[page].produce_call_graph(graph=graph)
+            graph = self.pages[page].produce_fcg(graph=graph)
         return graph
 
 
 # test
-app = MiniApp('/root/minidroid/dataset/miniprograms/wx81e4613b8a60e2ea')
+# app = MiniApp('/root/minidroid/dataset/miniprograms/wx81e4613b8a60e2ea')
+# print(app.get_utg())
+
 # app = MiniApp('/root/minidroid/dataset/miniprogram-demo')
-for page in app.pages.values():
-    page.draw_call_graph()
+# for page in app.pages.values():
+#     print(page.get_fcg())
+#     break
 # app.draw_utg()
 # dot = app.produce_mdg()
 # dot.render('/root/minidroid/result/mdg/miniprogram-demo', view=False)

@@ -6,7 +6,7 @@ import minium
 import config as config
 from loguru import logger 
 from bs4 import BeautifulSoup
-from utils.utils import get_wxapkg_paths, get_miniapp_paths
+from utils.utils import get_wxapkg_paths
 from utils.wxapkg_decoder import decompile_wxapp
 from strategy.violation_checker import ViolationChecker
 from miniapp import MiniApp
@@ -126,7 +126,7 @@ def draw_fcg():
         try:
             miniapp = MiniApp(miniapp_path=miniapp_path)
             for page in miniapp.pages.values():
-                page.draw_call_graph()
+                page.draw_fcg()
         except Exception as e:
             logger.error(e)
                 

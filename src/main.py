@@ -1,8 +1,4 @@
-
-import os
-import sys
 import json
-import minium
 import config as config
 from loguru import logger 
 from bs4 import BeautifulSoup
@@ -38,15 +34,6 @@ def handle_wxapkgs(wxapkgs_dir='dataset/wxapkgs', save_json=False):
         res = json.dumps(decompile_pkg, indent=2)
         with open(save_json, 'w', encoding='utf-8') as fp:
                 fp.write(res)
-
-def mini_droid():
-    project_path = "H:\[粉粉小红花]\Mobile Security\Miniapp\Open Source Code\MiniApp src\录音器"
-    mini = minium.Minium({
-        "project_path": project_path,
-        "dev_tool_path": "D:\微信web开发者工具\cli.bat",
-    })
-    print(mini.get_system_info())
-
 
 def check_compliance_violations():
     logger.add('dataset/comp_vios.log')

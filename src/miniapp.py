@@ -177,9 +177,9 @@ class Page:
         else:
             self.pdg_node = None
 
-        if self.pdg_node != None:
+        if self.pdg_node is not None:
             self.page_expr_node = get_page_expr_node(self.pdg_node)
-        if self.page_expr_node != None:
+        if self.page_expr_node is not None:
             self.page_method_nodes = get_page_method_nodes(self.page_expr_node)
         self.wxml_soup = None
         self.binding_event = {}
@@ -520,8 +520,11 @@ class MiniApp:
                     for sub_pkg in app_config["subPackages"]:
                         root_path = sub_pkg["root"]
                         for page in sub_pkg["pages"]:
-                            page_path = str(Path(root_path) / page)
-                            self.pages[page_path] = Page(page_path, self)
+                            page_path = Path(root_path) / page
+                            if page_path.exists():
+                                self.pages[str(page_path)] = Page(str(page_path), self)
+                            else:
+                                logger.warning("Miniapp is lack of file {}".format(str(page_path)))
                 else:
                     self.pages = None
 
@@ -591,18 +594,18 @@ class MiniApp:
             graphviz.render(filepath=save_path, engine='dot', format='eps')
         dot.clear()
 
-    def produce_mdg(self, graph=graphviz.Digraph(comment='MiniApp Dependency Graph', \
+    def produce_mdg(self, graph=graphviz.Digraph(comment='MiniApp Dependency Graph',
                                                  graph_attr={"concentrate": "true", "splines": "false"})):
         page_node_style = ['box', 'red', 'lightpink']
-        graph.attr('node', shape=page_node_style[0], style='filled', \
+        graph.attr('node', shape=page_node_style[0], style='filled',
                    color=page_node_style[2], fillcolor=page_node_style[2])
         graph.attr('edge', color=page_node_style[1])
         for tabBar in self.tabBars.keys():
             graph.edge('MiniApp', str(tabBar))
         for page in self.pages.keys():
             page_node_style = ['box', 'red', 'lightpink']
-            graph.attr('node', shape=page_node_style[0], style='filled', \
-                       color=page_node_style[2], fillcolor=page_node_style[2])
+            graph.attr('node', shape=page_node_style[0], style='filled', color=page_node_style[2],
+                       fillcolor=page_node_style[2])
             graph.attr('edge', color=page_node_style[1])
             for navigator in self.pages[page].navigator['UIElement']:
                 if navigator.target == 'self':

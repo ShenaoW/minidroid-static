@@ -1,7 +1,7 @@
 import subprocess
-from loguru import logger
 from pathlib import Path
-import os
+
+from loguru import logger
 
 
 def decompile_wx_miniapp(package_path):

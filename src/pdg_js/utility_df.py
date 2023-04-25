@@ -27,7 +27,6 @@ import traceback
 
 sys.setrecursionlimit(100000)
 
-
 TEST = False
 
 if TEST:  # To test, e.g., the examples
@@ -66,6 +65,8 @@ class UpperThresholdFilter(logging.Filter):
 
 
 logging.basicConfig(format='%(levelname)s: %(filename)s: %(message)s', level=logging.CRITICAL)
+
+
 # logging.basicConfig(filename='pdg.log', format='%(levelname)s: %(filename)s: %(message)s',
 #                     level=logging.DEBUG)
 # LOGGER = logging.getLogger()
@@ -95,7 +96,8 @@ class Timeout:
     def __exit__(self, *args):
         signal.alarm(0)  # disable alarm
 
-    def raise_timeout(self, *args):
+    @staticmethod
+    def raise_timeout(*args):
         traceback.print_stack(limit=100)
         raise Timeout.Timeout()
 

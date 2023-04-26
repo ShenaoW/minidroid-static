@@ -178,7 +178,7 @@ def compute_operators(operator, node_a, node_b, initial_node=None, recdepth=0, r
             return operator_plus(a, b)
         if a is None or b is None:
             return None
-        if (not isinstance(a, str) or isinstance(a, str) and not '.' in a)\
+        if (not isinstance(a, str) or isinstance(a, str) and '.' not in a) \
                 and (not isinstance(b, str) or isinstance(b, str) and not '.' in b):
             # So that if MemExpr could not be fully computed we do not take any hasty decisions
             # For ex: data.message.split(-).1.toUpperCase() == POST is undecidable for us
@@ -323,8 +323,7 @@ def compute_member_expression(node, initial_node, compute=True, recdepth=0, recv
             if len(obj_value.children) > prop_value:
                 member_expression_value = obj_value.children[prop_value]  # We fetch the value
             else:
-                member_expression_value = display_member_expression_value\
-                                              (node, '', initial_node=initial_node)[0:-1]
+                member_expression_value = display_member_expression_value(node, '', initial_node=initial_node)[0:-1]
         else:
             logging.error('Expected an str or an int, got a %s', type(prop_value))
             member_expression_value = None
@@ -365,7 +364,7 @@ def search_object_property(node, prop, found_list):
 def get_property_value(node, initial_node, recdepth=0, recvisited=None):
     """ Get the value of an object's property. """
 
-    if (isinstance(node, _node.Identifier) or node.name == 'Literal')\
+    if (isinstance(node, _node.Identifier) or node.name == 'Literal') \
             and node.parent.name == 'Property':
         prop_value = node.parent.children[1]
         if prop_value.name == 'Literal':

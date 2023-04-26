@@ -56,30 +56,31 @@ def get_extended_ast(input_file, json_path, remove_json=False):
             tokens, and possibly leadingComments) of input_file.
         - None if an error occurred.
     """
-
+    r, w = os.pipe()
+    reparse_flag = False
     try:
-        r, w = os.pipe()
-        produce_ast = subprocess.Popen(['node', os.path.join(SRC_PATH, 'parser.js'),
-                                    input_file, json_path],
-                                    stderr=w)
-    except:    
+        subprocess.check_output(['node', os.path.join(SRC_PATH, 'parser.js'),
+                                 input_file, json_path], stderr=w)
+    except subprocess.CalledProcessError as _:
         stderr_info = os.read(r, 0x1000)
         if b'Unexpected token' in stderr_info:
-            subprocess.Popen(['node', os.path.join(SRC_PATH, 'convert.js'), input_file], stderr=subprocess.PIPE)
-        try:
-            produce_ast = subprocess.Popen(['node', os.path.join(SRC_PATH, 'parser.js'),
-                                    input_file, json_path],
-                                    stderr=w)
-        except:
-            logging.critical('Esprima parsing error for %s', input_file)
-            return None
+            subprocess.check_output(['node', os.path.join(SRC_PATH, 'convert.js'), input_file],
+                                    stderr=subprocess.PIPE)
+            reparse_flag = True
     finally:
         os.close(r)
         os.close(w)
+    if reparse_flag:
+        try:
+            subprocess.check_output(['node', os.path.join(SRC_PATH, 'parser.js'),
+                                     input_file, json_path], stderr=w)
+        except subprocess.CalledProcessError as _:
+            logging.critical('Esprima parsing error for %s', input_file)
+            return None
 
     with open(json_path, encoding='utf-8') as json_data:
         esprima_ast = json.loads(json_data.read())
-        
+
     if remove_json:
         os.remove(json_path)
 

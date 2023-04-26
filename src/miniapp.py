@@ -1,11 +1,11 @@
 # coding: utf8
 
 """
-    Defination of Class
+    Definition of Class
     - Node(name)
     - UIElement(name, contents, element)
     - Event(name, contents, element, trigger, handler)
-    - Navigator(name, content, element, type, target, url, extradata, bindings)
+    - Navigator(name, content, element, type, target, url, extra_data, bindings)
     - Page(page_path)
     - MiniApp(miniapp_path)
 """
@@ -15,6 +15,7 @@ import json
 import re
 import graphviz
 import pydotplus
+from pathlib import Path
 from loguru import logger
 import config as config
 from bs4 import BeautifulSoup
@@ -25,7 +26,7 @@ from pdg_js.js_operators import get_node_computed_value
 
 
 class UIElement:
-    '''
+    """
         Definition of UIElement.
 
         -------
@@ -36,7 +37,8 @@ class UIElement:
             Contents of the UIElement
         - element: Tag
             The UIElement itself, which is stored as a Tag class(BeautifulSoup4)
-    '''
+    """
+
     def __init__(self, name, contents, element):
         self.name = name  # UIElement type name, such as button
         self.contents = contents  # Element contents
@@ -44,7 +46,7 @@ class UIElement:
 
 
 class Event(UIElement):
-    '''
+    """
         Definition of Event(Extends from UIElement).
 
         -------
@@ -59,7 +61,8 @@ class Event(UIElement):
             Trigger of the event, such as bindtap
         - handler: str
             The corresponding event handler in Logical Layer(js)
-    '''
+    """
+
     def __init__(self, name, contents, element, trigger, handler):
         super().__init__(name, contents, element)
         self.trigger = trigger  # Event trigger action, such as bindtap
@@ -67,7 +70,7 @@ class Event(UIElement):
 
 
 class Navigator(UIElement):
-    '''
+    """
         Definition of Navigator(Extends from UIElement).
 
         -------
@@ -84,18 +87,19 @@ class Navigator(UIElement):
             self(routing between pages) or appid(jumping between miniapps)
         - url: str =>
             Routing/Jumping destination page url
-        - extradata: str =>
+        - extra_data: str =>
             Data transmitted by cross-pages/cross-miniapps communication
         - bindings: dict =>
             Bind success/fail/complete event
-    '''
-    def __init__(self, name, contents, element, type='', target='', url='', \
-                 extradata='', bindsuccess='', bindfail='', bindcomplete=''):
+    """
+
+    def __init__(self, name, contents, element, navigate_type='', target='', url='',
+                 extra_data='', bindsuccess='', bindfail='', bindcomplete=''):
         super().__init__(name, contents, element)
-        self.type = type  # navigate/redirect/switchTab/reLaunch/navigateBack
+        self.type = navigate_type  # navigate/redirect/switchTab/reLaunch/navigateBack
         self.target = target  # target miniprogram(self/miniprogram appid)
         self.url = url  # target page url
-        self.extradata = extradata  # extradata when navigateToMiniprogram
+        self.extra_data = extra_data  # extradata when navigateToMiniprogram
         self.bindings = {
             'success': bindsuccess,
             'fail': bindfail,
@@ -104,7 +108,7 @@ class Navigator(UIElement):
 
 
 class NavigateAPI:
-    '''
+    """
         Definition of NavigateAPI.
 
         -------
@@ -115,21 +119,22 @@ class NavigateAPI:
             The name of API
         - target: str/dict =>
             page_url(if routing between pages) or {appid:path}(if jumping between miniapps)
-        - extradata: str =>
+        - extradite: str =>
             Data transmitted by cross-pages/cross-miniapps communication
         - bindings: dict =>
             Bind success/fail/complete event
-    '''
-    def __init__(self, type, name, target='', extradata='', \
+    """
+
+    def __init__(self, navigate_type, name, target=None, extra_data='',
                  bindsuccess=None, bindfail=None, bindcomplete=None):
-        self.type = type  # route/jump
+        self.type = navigate_type  # route/jump
         '''
             route: wx.navigateTo/redirectTo/switchTab/reLaunch/navigateBack
             jump: wx.navigateToMiniprogram/navigateBackMiniprogram/exitMiniprogram
         '''
         self.name = name
         self.target = target  # target page_url/appid
-        self.extradata = extradata  # extradata when jump
+        self.extra_data = extra_data  # extra_data when jump
         self.bindings = {
             'success': bindsuccess,
             'fail': bindfail,
@@ -138,7 +143,7 @@ class NavigateAPI:
 
 
 class Page:
-    '''
+    """
         Definition of Page
 
         -------
@@ -152,28 +157,30 @@ class Page:
         - page_expr_node: Node =>
             Node of Page() in the PDG of page.js
         - page_method_nodes: dict =>
-            A dict of {page_mothod_name : page_method_node}
+            A dict of {page_method_name : page_method_node}
         - data: dict =>
             A dict of {key:value} to store local variable in the page (setData)
         - binding_event: dict =>
             Store Event(extends from UIElement) which triggers binding from Render Layer(wxml) to Logical Layer(js)
         - navigator: dict =>
             Store Navigator(extends from UIElement) or NavigateAPI to build UI State Transition Graph
-    '''
+    """
+
     def __init__(self, page_path, miniapp):
+        self.binding = None
         self.page_path = page_path
         self.abs_page_path = os.path.join(miniapp.miniapp_path, page_path)
         self.miniapp = miniapp
-        if os.path.exists(self.abs_page_path+'.js'):
-            self.pdg_node = get_data_flow(input_file=self.abs_page_path+'.js', benchmarks={})
-        elif os.path.exists(self.abs_page_path+'.ts'):
-            self.pdg_node = get_data_flow(input_file=self.abs_page_path+'.ts', benchmarks={})
-        else: 
+        if os.path.exists(self.abs_page_path + '.js'):
+            self.pdg_node = get_data_flow(input_file=self.abs_page_path + '.js', benchmarks={})
+        elif os.path.exists(self.abs_page_path + '.ts'):
+            self.pdg_node = get_data_flow(input_file=self.abs_page_path + '.ts', benchmarks={})
+        else:
             self.pdg_node = None
-            
-        if self.pdg_node != None:
+
+        if self.pdg_node is not None:
             self.page_expr_node = get_page_expr_node(self.pdg_node)
-        if self.page_expr_node != None:
+        if self.page_expr_node is not None:
             self.page_method_nodes = get_page_method_nodes(self.page_expr_node)
         self.wxml_soup = None
         self.binding_event = {}
@@ -188,7 +195,7 @@ class Page:
 
     def init_page_data(self, page_path):
         try:
-            soup =  BeautifulSoup(open(page_path+'.wxml', encoding='utf-8'), 'html.parser')
+            soup = BeautifulSoup(open(page_path + '.wxml', encoding='utf-8'), 'html.parser')
             self.wxml_soup = soup
         except Exception as e:
             logger.error('WxmlNotFoundError: {}'.format(e))
@@ -198,15 +205,15 @@ class Page:
             self.init_page_data(page_path)
         for binding in config.BINDING_EVENTS:
             for tag in self.wxml_soup.find_all(attrs={binding: True}):
-                evn = Event(name=tag.name, trigger=binding, \
-                    handler=tag.attrs[binding], contents=tag.contents, element=tag)
+                evn = Event(name=tag.name, trigger=binding,
+                            handler=tag.attrs[binding], contents=tag.contents, element=tag)
                 if binding not in self.binding_event.keys():
                     self.binding[binding] = []
                 self.binding_event[binding].append(evn)
-                
+
     def set_navigator(self, page_path):
         self.set_navigator_ui(page_path)
-        if self.pdg_node != None:
+        if self.pdg_node is not None:
             self.set_navigator_api()
 
     def set_navigator_ui(self, page_path):
@@ -215,40 +222,40 @@ class Page:
         tags = self.wxml_soup.find_all('navigator')
         for tag in tags:
             target = tag['target'] if 'target' in tag.attrs.keys() else 'self'
-            type = tag['open-type'] if 'open-type' in tag.attrs.keys() else 'navigate'
+            navigate_type = tag['open-type'] if 'open-type' in tag.attrs.keys() else 'navigate'
             bindsuccess = tag['bindsuccess'] if 'bindsuccess' in tag.attrs.keys() else None
             bindfail = tag['bindfail'] if 'bindfail' in tag.attrs.keys() else None
             bindcomplete = tag['bindcomplete'] if 'bindcomplete' in tag.attrs.keys() else None
-            
-            if target.lower() == 'miniprogram' and type.lower() in ('navigate', 'navigateBack'):
+
+            if target.lower() == 'miniprogram' and navigate_type.lower() in ('navigate', 'navigateBack'):
                 extradata = tag['extra-data'] if 'extra-data' in tag.attrs.keys() else None
-                if type.lower() == 'navigate':
+                if navigate_type.lower() == 'navigate':
                     # <navigator open-type=navigateBack>
                     target = tag['app-id'] if 'app-id' in tag.attrs.keys() else 'miniprogram'
                     url = tag['path'] if 'path' in tag.attrs.keys() else 'index'
-                    
+
                     self.navigator['UIElement'].append(
                         Navigator(
-                            name='navigator', contents=tag.contents, element=tag, \
-                            type=type, target=target, url=url, extradata=extradata, \
+                            name='navigator', contents=tag.contents, element=tag,
+                            navigate_type=navigate_type, target=target, url=url, extra_data=extradata,
                             bindsuccess=bindsuccess, bindfail=bindfail, bindcomplete=bindcomplete
                         )
                     )
                 else:
                     # <navigator open-type=navigateBack>
                     self.navigator['UIElement'].append(
-                    Navigator(
-                        name='navigator', contents=tag.contents, element=tag, \
-                        type=type, extradata=extradata, \
-                        bindsuccess=bindsuccess, bindfail=bindfail, bindcomplete=bindcomplete
+                        Navigator(
+                            name='navigator', contents=tag.contents, element=tag,
+                            navigate_type=navigate_type, extra_data=extradata,
+                            bindsuccess=bindsuccess, bindfail=bindfail, bindcomplete=bindcomplete
+                        )
                     )
-                )
             else:
                 url = tag['url'] if 'url' in tag.attrs.keys() else None
                 self.navigator['UIElement'].append(
                     Navigator(
-                        name='navigator', contents=tag.contents, element=tag, \
-                        type=type, target=target, url=url, \
+                        name='navigator', contents=tag.contents, element=tag,
+                        navigate_type=navigate_type, target=target, url=url,
                         bindsuccess=bindsuccess, bindfail=bindfail, bindcomplete=bindcomplete
                     )
                 )
@@ -265,7 +272,7 @@ class Page:
                         elif call_expr_value in config.ROUTE_API:
                             self.route_api_handler(child, call_expr_value)
 
-    def jump_api_handler(self, child,call_expr_value):
+    def jump_api_handler(self, child, call_expr_value):
         if call_expr_value == 'wx.navigateToMiniProgram':
             props = {
                 'appId': '',
@@ -278,9 +285,8 @@ class Page:
             props = self.search_obj_props(obj_exp=child.children[1], props=props)
             self.navigator['NavigateAPI'].append(
                 NavigateAPI(
-                    type='jump', name='wx.navigateToMiniProgram', \
-                    target={props['appId']: props['path']}, extradata=props['extraData'], \
-                    bindsuccess=props['success'], bindfail=props['fail'], \
+                    navigate_type='jump', name='wx.navigateToMiniProgram', target={props['appId']: props['path']},
+                    extra_data=props['extraData'], bindsuccess=props['success'], bindfail=props['fail'],
                     bindcomplete=props['complete']
                 )
             )
@@ -294,8 +300,8 @@ class Page:
             props = self.search_obj_props(obj_exp=child.children[1], props=props)
             self.navigator['NavigateAPI'].append(
                 NavigateAPI(
-                    type='jump', name='wx.navigateBackMiniProgram', \
-                    extradata=props['extraData'], bindsuccess=props['success'], \
+                    navigate_type='jump', name='wx.navigateBackMiniProgram',
+                    extra_data=props['extraData'], bindsuccess=props['success'],
                     bindfail=props['fail'], bindcomplete=props['complete']
                 )
             )
@@ -308,8 +314,8 @@ class Page:
             props = self.search_obj_props(obj_exp=child.children[1], props=props)
             self.navigator['NavigateAPI'].append(
                 NavigateAPI(
-                    type='jump', name='wx.exitMiniProgram', \
-                    bindsuccess=props['success'], bindfail=props['fail'], \
+                    navigate_type='jump', name='wx.exitMiniProgram',
+                    bindsuccess=props['success'], bindfail=props['fail'],
                     bindcomplete=props['complete']
                 )
             )
@@ -325,8 +331,8 @@ class Page:
             props = self.search_obj_props(obj_exp=child.children[1], props=props)
             self.navigator['NavigateAPI'].append(
                 NavigateAPI(
-                    type='route', name=call_expr_value, target=props['url'], \
-                    bindsuccess=props['success'], bindfail=props['fail'], \
+                    navigate_type='route', name=call_expr_value, target=props['url'],
+                    bindsuccess=props['success'], bindfail=props['fail'],
                     bindcomplete=props['complete']
                 )
             )
@@ -341,8 +347,8 @@ class Page:
             props = self.search_obj_props(obj_exp=child.children[1], props=props)
             self.navigator['NavigateAPI'].append(
                 NavigateAPI(
-                    type='route', name=call_expr_value, target=props['url'], \
-                    bindsuccess=props['success'], bindfail=props['fail'], \
+                    navigate_type='route', name=call_expr_value, target=props['url'],
+                    bindsuccess=props['success'], bindfail=props['fail'],
                     bindcomplete=props['complete']
                 )
             )
@@ -359,17 +365,17 @@ class Page:
 
     def get_all_callee_from_func(self, func: str, call_graph):
         func_node = self.page_method_nodes[func]
-        call_graph = self.traverse_children_of_func(func ,func_node, call_graph)
+        call_graph = self.traverse_children_of_func(func, func_node, call_graph)
         return call_graph
-    
-    def traverse_children_of_func(self, func:str, node, call_graph):
+
+    def traverse_children_of_func(self, func: str, node, call_graph):
         for child in node.children:
             if child.name in ('CallExpression', 'TaggedTemplateExpression'):
                 if len(child.children) > 0 and child.children[0].body in ('callee', 'tag'):
                     if child.children[0].name == 'MemberExpression' \
-                        and child.children[0].children[0].name == 'ThisExpression':
+                            and child.children[0].children[0].name == 'ThisExpression':
                         callee = child.children[0].children[1]
-                    else: 
+                    else:
                         callee = child.children[0]
                     call_expr_value = get_node_computed_value(callee)
                     if call_expr_value in self.page_method_nodes.keys():
@@ -387,28 +393,28 @@ class Page:
         for callee in call_graph[func]:
             if callee in config.SENSITIVE_API:
                 graph.attr('node', style='filled', color='lightgoldenrodyellow',
-                   fillcolor='lightgoldenrodyellow')
+                           fillcolor='lightgoldenrodyellow')
                 graph.attr('edge', color='orange')
                 graph.edge(func, callee)
                 func_node_style = ['ellipse', 'goldenrod1', 'goldenrod1']
                 graph.attr('node', shape=func_node_style[0], style='filled', color=func_node_style[2],
-                    fillcolor=func_node_style[2])
+                           fillcolor=func_node_style[2])
                 graph.attr('edge', color=func_node_style[1])
             else:
                 graph.edge(func, callee)
             if callee in call_graph.keys():
                 graph = self.add_callee_edge_to_graph(graph, call_graph, func=callee)
         return graph
-    
+
     def produce_fcg(self, graph=graphviz.Digraph(graph_attr={"concentrate": "true", "splines": "false"},
-                                                        comment='Function Call Graph')):
+                                                 comment='Function Call Graph')):
         page_node_style = ['box', 'red', 'lightpink']
-        graph.attr('node', shape=page_node_style[0], style='filled', \
-                color=page_node_style[2], fillcolor=page_node_style[2])
+        graph.attr('node', shape=page_node_style[0], style='filled',
+                   color=page_node_style[2], fillcolor=page_node_style[2])
         graph.node(name=self.page_path)
         func_node_style = ['ellipse', 'goldenrod1', 'goldenrod1']
         graph.attr('node', shape=func_node_style[0], style='filled', color=func_node_style[2],
-               fillcolor=func_node_style[2])
+                   fillcolor=func_node_style[2])
         graph.attr('edge', color=func_node_style[1])
         # graph.edge(self.page_path, 'BindingEvent')
         # graph.edge(self.page_path, 'LifecycleCallback')
@@ -423,7 +429,7 @@ class Page:
                     call_graph = self.get_all_callee_from_func(func, call_graph={})
                     if func in call_graph.keys():
                         graph = self.add_callee_edge_to_graph(graph, call_graph, func)
-        
+
         for func in self.page_method_nodes.keys():
             if func in ('onLoad', 'onShow', 'onReady', 'onHide', 'onUnload'):
                 graph.edge(self.page_path, func)
@@ -446,7 +452,7 @@ class Page:
         return dict(fcg)
 
     def draw_fcg(self, save_path=config.SAVE_PATH_FCG):
-        save_path += '/'+self.miniapp.name+'/'+self.page_path
+        save_path += '/' + self.miniapp.name + '/' + self.page_path
         dot = self.produce_fcg()
         if save_path is None:
             dot.view()
@@ -454,10 +460,10 @@ class Page:
             dot.render(save_path, view=False)
             graphviz.render(filepath=save_path, engine='dot', format='eps')
         dot.clear()
-                
-        
+
+
 class MiniApp:
-    '''
+    """
         Definition of MiniApp.
 
         -------
@@ -475,13 +481,14 @@ class MiniApp:
         - sensi_apis: dict =>
             A dict of {page_path : sensi_api}
             For simple scan, the implementation is based on regular matching
-    '''
+    """
+
     def __init__(self, miniapp_path):
         self.miniapp_path = miniapp_path
         self.pathName = miniapp_path.split('/')[-1]
         self.pdg_node = get_data_flow(input_file=os.path.join(miniapp_path, 'app.js'), benchmarks={})
         self.app_expr_node = get_page_expr_node(self.pdg_node)  # App() node
-        if self.app_expr_node != None:
+        if self.app_expr_node is not None:
             self.app_method_nodes = get_page_method_nodes(self.app_expr_node)
         else:
             self.app_method_nodes = None
@@ -495,22 +502,32 @@ class MiniApp:
 
     def set_pages_and_tab_bar(self, miniapp_path):
         if os.path.exists(os.path.join(miniapp_path, 'app.json')):
-            # TODO: 只解析主包页面, 分包页面解析暂不支持
-            with open(os.path.join(miniapp_path, 'app.json'), 'r', encoding = 'utf-8') as fp:
+            with open(os.path.join(miniapp_path, 'app.json'), 'r', encoding='utf-8') as fp:
                 app_config = json.load(fp)
                 if app_config.get('pages', False):
                     pages = app_config['pages']
                     self.index_page = pages[0]
                     # Case1: Init self.pages with a list of Page Object
                     # self.pages = list(Page(os.path.join(miniapp_path,page), self) for page in pages)
-                    
-                    # Case2: Init self.pages with a dict of Page Object
-                    self.pages = dict((page, Page(page, self)) for page in pages if 'plugin' not in page)
 
-                    # Case3: Init self.pages with the value of pages(actrually a list) in app.json
+                    # Case2: Init self.pages with a dict of Page Object
+                    # self.pages = dict((page, Page(page, self)) for page in pages if 'plugin' not in page)
+                    for page in pages:
+                        self.pages[page] = Page(page, self)
+                    # Case3: Init self.pages with the value of pages(actually a list) in app.json
                     # self.pages = app_config['pages']
+                elif app_config.get("subPackages", False):
+                    for sub_pkg in app_config["subPackages"]:
+                        root_path = sub_pkg["root"]
+                        for page in sub_pkg["pages"]:
+                            page_path = Path(root_path) / page
+                            if page_path.exists():
+                                self.pages[str(page_path)] = Page(str(page_path), self)
+                            else:
+                                logger.warning("Miniapp is lack of file {}".format(str(page_path)))
                 else:
                     self.pages = None
+
                 if app_config.get('tabBar', False):
                     tab_bar_list = app_config['tabBar']['list']
                     for tab_bar in tab_bar_list:
@@ -524,10 +541,10 @@ class MiniApp:
     def find_sensi_api(self, miniapp_path):
         for page in self.pages.values():
             try:
-                with open(os.path.join(miniapp_path, page.page_path+'.js'), 'r', encoding='utf-8') as fp:
+                with open(os.path.join(miniapp_path, page.page_path + '.js'), 'r', encoding='utf-8') as fp:
                     data = fp.read()
             except FileNotFoundError:
-                with open(os.path.join(miniapp_path, page.page_path+'.ts'), 'r', encoding='utf-8') as fp:
+                with open(os.path.join(miniapp_path, page.page_path + '.ts'), 'r', encoding='utf-8') as fp:
                     data = fp.read()
             sensi_api_matched = []
             for sensi_api in config.SENSITIVE_API.keys():
@@ -537,11 +554,11 @@ class MiniApp:
             if len(sensi_api_matched):
                 self.sensi_apis[page.page_path] = sensi_api_matched
 
-    def produce_utg(self, graph=graphviz.Digraph(comment='UI Transition Graph', \
-                                graph_attr={"concentrate": "true", "splines": "false"})):
+    def produce_utg(self, graph=graphviz.Digraph(comment='UI Transition Graph',
+                                                 graph_attr={"concentrate": "true", "splines": "false"})):
         page_node_style = ['box', 'red', 'lightpink']
-        graph.attr('node', shape=page_node_style[0], style='filled', \
-                color=page_node_style[2], fillcolor=page_node_style[2])
+        graph.attr('node', shape=page_node_style[0], style='filled',
+                   color=page_node_style[2], fillcolor=page_node_style[2])
         graph.attr('edge', color=page_node_style[1])
         for tabBar in self.tabBars.keys():
             graph.edge('MiniApp', str(tabBar))
@@ -553,7 +570,7 @@ class MiniApp:
                 if navigator.name in ('wx.navigateTo', 'wx.navigateBack'):
                     graph.edge(str(page), str(navigator.target))
         return graph
-    
+
     def get_utg(self):
         utg = defaultdict(list)
         dot = self.produce_utg().source
@@ -566,9 +583,9 @@ class MiniApp:
                 label = None
             utg[src].append((dst, label))
         return dict(utg)
-    
+
     def draw_utg(self, save_path=config.SAVE_PATH_UTG):
-        save_path += '/'+self.pathName+'/'+self.pathName
+        save_path += '/' + self.pathName + '/' + self.pathName
         dot = self.produce_utg()
         if save_path is None:
             dot.view()
@@ -577,18 +594,18 @@ class MiniApp:
             graphviz.render(filepath=save_path, engine='dot', format='eps')
         dot.clear()
 
-    def produce_mdg(self, graph=graphviz.Digraph(comment='MiniApp Dependency Graph', \
-                                graph_attr={"concentrate": "true", "splines": "false"})):
+    def produce_mdg(self, graph=graphviz.Digraph(comment='MiniApp Dependency Graph',
+                                                 graph_attr={"concentrate": "true", "splines": "false"})):
         page_node_style = ['box', 'red', 'lightpink']
-        graph.attr('node', shape=page_node_style[0], style='filled', \
+        graph.attr('node', shape=page_node_style[0], style='filled',
                    color=page_node_style[2], fillcolor=page_node_style[2])
         graph.attr('edge', color=page_node_style[1])
         for tabBar in self.tabBars.keys():
             graph.edge('MiniApp', str(tabBar))
         for page in self.pages.keys():
             page_node_style = ['box', 'red', 'lightpink']
-            graph.attr('node', shape=page_node_style[0], style='filled', \
-                    color=page_node_style[2], fillcolor=page_node_style[2])
+            graph.attr('node', shape=page_node_style[0], style='filled', color=page_node_style[2],
+                       fillcolor=page_node_style[2])
             graph.attr('edge', color=page_node_style[1])
             for navigator in self.pages[page].navigator['UIElement']:
                 if navigator.target == 'self':
@@ -599,7 +616,8 @@ class MiniApp:
             graph = self.pages[page].produce_fcg(graph=graph)
         return graph
 
-if __name__=="__main__":
+
+if __name__ == "__main__":
     # test
     app = MiniApp('/mnt/d/信息安全作品赛/Miniapp权限检测/practice/wechat-app-demo')
     # app = MiniApp('/root/minidroid/dataset/miniprogram-demo')

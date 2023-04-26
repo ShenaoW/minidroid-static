@@ -625,12 +625,16 @@ class MiniApp:
 if __name__ == "__main__":
     # test
     app = MiniApp('/mnt/d/信息安全作品赛/Miniapp权限检测/practice/miniprogram-demo/miniprogram')
-    # utg = app.get_utg()
-    # print(utg)
+    utg = app.get_utg()
+    print(utg)
+    print()
     print(app.sensi_apis)
-    # for page_name, page in app.pages.items():
-    #     fcg = page.get_fcg()
-    #     print(fcg)
+    print()
+    for page_name, page in app.pages.items():
+        fcg = page.get_fcg()
+        print(fcg)
+        print()
+        
     # app.draw_utg('/mnt/d/信息安全作品赛/Miniapp权限检测/practice/miniprogram-demo/miniprogram')
     # app = MiniApp('/root/minidroid/dataset/miniprogram-demo')
     # for page in app.pages.values():

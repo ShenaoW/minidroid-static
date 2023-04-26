@@ -169,3 +169,6 @@ __pycache__/
 
 !/.gitignore
 !/requirements.txt
+
+# JS moudles
+src/pdg_js/node_modules

@@ -1,4 +1,5 @@
 import json
+from loguru import logger
 from bs4 import BeautifulSoup
 from ..src.utils.utils import get_wxapkg_paths
 from ..src.utils.wxapkg_decoder import decompile_wx_miniapp

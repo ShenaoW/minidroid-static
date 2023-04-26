@@ -167,7 +167,6 @@ class Page:
     """
 
     def __init__(self, page_path, miniapp):
-        self.binding = None
         self.page_path = page_path
         self.abs_page_path = os.path.join(miniapp.miniapp_path, page_path)
         self.miniapp = miniapp
@@ -208,7 +207,7 @@ class Page:
                 evn = Event(name=tag.name, trigger=binding,
                             handler=tag.attrs[binding], contents=tag.contents, element=tag)
                 if binding not in self.binding_event.keys():
-                    self.binding[binding] = []
+                    self.binding_event[binding] = []
                 self.binding_event[binding].append(evn)
 
     def set_navigator(self, page_path):
@@ -364,7 +363,11 @@ class Page:
         return props
 
     def get_all_callee_from_func(self, func: str, call_graph):
-        func_node = self.page_method_nodes[func]
+        try:
+            func_node = self.page_method_nodes[func]
+        except:
+            logger.warning("function {} on {} error!".format(func, self.page_path))
+            return None
         call_graph = self.traverse_children_of_func(func, func_node, call_graph)
         return call_graph
 
@@ -429,6 +432,7 @@ class Page:
                     call_graph = self.get_all_callee_from_func(func, call_graph={})
                     if func in call_graph.keys():
                         graph = self.add_callee_edge_to_graph(graph, call_graph, func)
+                        # TODO: bind func can't be found exception handling
 
         for func in self.page_method_nodes.keys():
             if func in ('onLoad', 'onShow', 'onReady', 'onHide', 'onUnload'):
@@ -504,8 +508,10 @@ class MiniApp:
         if os.path.exists(os.path.join(miniapp_path, 'app.json')):
             with open(os.path.join(miniapp_path, 'app.json'), 'r', encoding='utf-8') as fp:
                 app_config = json.load(fp)
-                if app_config.get('pages', False):
-                    pages = app_config['pages']
+                app_config_keys = {i.lower(): i for i in app_config.keys()}
+                # TODO:Exeception for taro uniapp
+                if 'pages' in app_config_keys.keys():
+                    pages = app_config[app_config_keys['pages']]
                     self.index_page = pages[0]
                     # Case1: Init self.pages with a list of Page Object
                     # self.pages = list(Page(os.path.join(miniapp_path,page), self) for page in pages)
@@ -516,17 +522,16 @@ class MiniApp:
                         self.pages[page] = Page(page, self)
                     # Case3: Init self.pages with the value of pages(actually a list) in app.json
                     # self.pages = app_config['pages']
-                elif app_config.get("subPackages", False):
-                    for sub_pkg in app_config["subPackages"]:
+                if "subpackages" in app_config_keys.keys():
+                    for sub_pkg in app_config[app_config_keys['subpackages']]:
                         root_path = sub_pkg["root"]
                         for page in sub_pkg["pages"]:
-                            page_path = Path(root_path) / page
-                            if page_path.exists():
+                            page_path = Path(self.miniapp_path) / root_path / page
+                            page_path_parent = page_path.parent
+                            if page_path_parent.exists():
                                 self.pages[str(page_path)] = Page(str(page_path), self)
                             else:
                                 logger.warning("Miniapp is lack of file {}".format(str(page_path)))
-                else:
-                    self.pages = None
 
                 if app_config.get('tabBar', False):
                     tab_bar_list = app_config['tabBar']['list']
@@ -619,10 +624,17 @@ class MiniApp:
 
 if __name__ == "__main__":
     # test
-    app = MiniApp('/mnt/d/信息安全作品赛/Miniapp权限检测/practice/wechat-app-demo')
+    app = MiniApp('/mnt/d/信息安全作品赛/Miniapp权限检测/practice/miniprogram-demo/miniprogram')
+    # utg = app.get_utg()
+    # print(utg)
+    print(app.sensi_apis)
+    # for page_name, page in app.pages.items():
+    #     fcg = page.get_fcg()
+    #     print(fcg)
+    # app.draw_utg('/mnt/d/信息安全作品赛/Miniapp权限检测/practice/miniprogram-demo/miniprogram')
     # app = MiniApp('/root/minidroid/dataset/miniprogram-demo')
-    for page in app.pages.values():
-        page.draw_call_graph()
+    # for page in app.pages.values():
+    #     page.draw_call_graph()
     # app.draw_utg()
     # dot = app.produce_mdg()
     # dot.render('/root/minidroid/result/mdg/miniprogram-demo', view=False)

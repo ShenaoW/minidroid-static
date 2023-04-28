@@ -56,22 +56,35 @@ def get_extended_ast(input_file, json_path, remove_json=False):
             tokens, and possibly leadingComments) of input_file.
         - None if an error occurred.
     """
-
+    r, w = os.pipe()
+    reparse_flag = False
     try:
-        produce_ast = subprocess.run(['node', os.path.join(SRC_PATH, 'parser.js'),
-                                      input_file, json_path],
-                                     stdout=subprocess.PIPE, check=True)
-    except subprocess.CalledProcessError:
-        logging.critical('Esprima parsing error for %s', input_file)
-        return None
+        subprocess.check_output(['node', os.path.join(SRC_PATH, 'parser.js'),
+                                 input_file, json_path], stderr=w)
+    except subprocess.CalledProcessError as _:
+        stderr_info = os.read(r, 0x1000)
+        if b'Unexpected token' in stderr_info:
+            subprocess.check_output(['node', os.path.join(SRC_PATH, 'convert.js'), input_file])
+            reparse_flag = True
+        
+    if reparse_flag:
+        try:
+            subprocess.check_output(['node', os.path.join(SRC_PATH, 'parser.js'),
+                                     input_file, json_path], stderr=w)
+        except subprocess.CalledProcessError as _:
+            logging.critical('Esprima parsing error for %s', input_file)
+            return None
+    
+    os.close(r)
+    os.close(w)
+    
+    with open(json_path, encoding='utf-8') as json_data:
+        esprima_ast = json.loads(json_data.read())
 
-    if produce_ast.returncode == 0:
+    if remove_json:
+        os.remove(json_path)
 
-        with open(json_path) as json_data:
-            esprima_ast = json.loads(json_data.read())
-        if remove_json:
-            os.remove(json_path)
-
+    if esprima_ast:
         extended_ast = _extended_ast.ExtendedAst()
         extended_ast.filename = input_file
         extended_ast.set_type(esprima_ast['type'])
@@ -312,7 +325,7 @@ def save_json(ast_nodes, json_path):
     """
 
     data = build_json(ast_nodes, dico={})
-    with open(json_path, 'w') as json_data:
+    with open(json_path, 'w', encoding='utf-8') as json_data:
         json.dump(data, json_data, indent=4)
 
 

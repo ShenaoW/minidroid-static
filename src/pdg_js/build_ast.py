@@ -67,17 +67,20 @@ def get_extended_ast(input_file, json_path, remove_json=False):
             subprocess.check_output(['node', os.path.join(SRC_PATH, 'convert.js'), input_file], cwd=SRC_PATH)
             reparse_flag = True
         else:
-            logging.critical('Esprima parsing error for %s with info: \n%s', input_file, stderr_info)
+            logging.critical('Esprima parsing error for %s with info: \n%s', input_file, stderr_info.decode())
+            return None
     except Exception as _:
         stderr_info = os.read(r, 0x1000)
-        logging.critical('Esprima parsing error for %s with info: \n%s', input_file, stderr_info)
+        logging.critical('Esprima parsing error for %s with info: \n%s', input_file, stderr_info.decode())
+        return None
         
     if reparse_flag:
         try:
             subprocess.check_output(['node', os.path.join(SRC_PATH, 'parser.js'),
                                      input_file, json_path], stderr=w, cwd=SRC_PATH)
         except subprocess.CalledProcessError as _:
-            logging.critical('Esprima parsing error for %s', input_file)
+            stderr_info = os.read(r, 0x1000)
+            logging.critical('Esprima parsing error for %s with info: \n%s', input_file, stderr_info.decode())
             return None
     
     os.close(r)

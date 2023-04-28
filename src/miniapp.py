@@ -13,6 +13,7 @@
 import os
 import json
 import re
+import pprint
 import graphviz
 import pydotplus
 from pathlib import Path
@@ -149,7 +150,9 @@ class Page:
         -------
         Properties:
         - page_path: str =>
-            Path of the miniapp page
+            Relative page path
+        - abs_page_path: str =>
+            Absolute page path
         - miniapp: MiniApp =>
             The original miniapp to which the page belongs
         - pdg_node: Node =>
@@ -158,44 +161,50 @@ class Page:
             Node of Page() in the PDG of page.js
         - page_method_nodes: dict =>
             A dict of {page_method_name : page_method_node}
-        - data: dict =>
-            A dict of {key:value} to store local variable in the page (setData)
+        - wxml_soup: Soup =>
+            Soup instance of page.wxml
         - binding_event: dict =>
             Store Event(extends from UIElement) which triggers binding from Render Layer(wxml) to Logical Layer(js)
         - navigator: dict =>
             Store Navigator(extends from UIElement) or NavigateAPI to build UI State Transition Graph
+        - sensi_apis: dict =>
+            A dict of {sensi_api : page_method_node}
     """
 
     def __init__(self, page_path, miniapp):
         self.page_path = page_path
         self.abs_page_path = os.path.join(miniapp.miniapp_path, page_path)
         self.miniapp = miniapp
+        # Get pdg node
         if os.path.exists(self.abs_page_path + '.js'):
             self.pdg_node = get_data_flow(input_file=self.abs_page_path + '.js', benchmarks={})
         elif os.path.exists(self.abs_page_path + '.ts'):
             self.pdg_node = get_data_flow(input_file=self.abs_page_path + '.ts', benchmarks={})
         else:
             self.pdg_node = None
-
+        # Get page expression node
         if self.pdg_node is not None:
             self.page_expr_node = get_page_expr_node(self.pdg_node)
         else: self.page_expr_node = None
-
+        # Get page method nodes
         if self.page_expr_node is not None:
             self.page_method_nodes = get_page_method_nodes(self.page_expr_node)
         else:
             self.page_method_nodes = {}
+
         self.wxml_soup = None
         self.binding_event = {}
         self.navigator = {
             'UIElement': [],  # Navigator element trigger, such as <navigator url="/page/index/index">切换 Tab</navigator>
             'NavigateAPI': []  # API Trigger, such as wx.navigateTo()
         }
+        self.sensi_apis = {}
 
         self.set_wxml_soup(self.abs_page_path)
         if self.wxml_soup is not None:
             self.set_binding_event(self.abs_page_path)
             self.set_navigator(self.abs_page_path)
+        self.set_page_sensi_apis()
 
     def set_wxml_soup(self, page_path):
         try:
@@ -363,16 +372,31 @@ class Page:
                     props[key] = get_node_computed_value(prop.children[1])  # value is Literal/ObjectExpression
         return props
 
+    def set_page_sensi_apis(self):
+        for page_method in self.page_method_nodes.keys():
+            page_method_node = self.page_method_nodes[page_method]
+            self.traverse_children_to_find_sensi_apis(page_method, page_method_node)
+
+    def traverse_children_to_find_sensi_apis(self, page_method, node):
+        for child in node.children:
+            if child.name in ('CallExpression', 'TaggedTemplateExpression'):
+                if len(child.children) > 0 and child.children[0].body in ('callee', 'tag'):
+                    callee = child.children[0]
+                    call_expr_value = get_node_computed_value(callee)
+                    if call_expr_value in config.SENSITIVE_API:
+                        self.sensi_apis[call_expr_value] = page_method
+            self.traverse_children_to_find_sensi_apis(page_method, child)
+
     def get_all_callee_from_func(self, func: str, call_graph):
         try:
             func_node = self.page_method_nodes[func]
         except:
             logger.warning("FuncNotFoundError: function {} in {} not found!".format(func, self.page_path))
             return None
-        call_graph = self.traverse_children_of_func(func, func_node, call_graph)
+        call_graph = self.traverse_children_to_build_func_call_chain(func, func_node, call_graph)
         return call_graph
 
-    def traverse_children_of_func(self, func: str, node, call_graph):
+    def traverse_children_to_build_func_call_chain(self, func: str, node, call_graph):
         for child in node.children:
             if child.name in ('CallExpression', 'TaggedTemplateExpression'):
                 if len(child.children) > 0 and child.children[0].body in ('callee', 'tag'):
@@ -390,7 +414,9 @@ class Page:
                         self.get_all_callee_from_func(call_expr_value, call_graph)
                     elif call_expr_value in config.SENSITIVE_API:
                         call_graph[func] = [call_expr_value]
-            call_graph = self.traverse_children_of_func(func, child, call_graph)
+                        # TODO: Sensi_api which whill be exec in the cf of miniapp
+                        # self.sensi_apis[call_expr_value] = func
+            call_graph = self.traverse_children_to_build_func_call_chain(func, child, call_graph)
         return call_graph
 
     def add_callee_edge_to_graph(self, graph, call_graph, func):
@@ -480,10 +506,16 @@ class MiniApp:
             Name/AppID of miniapp
         - pdg_node: Node =>
             Head node of the PDG of app.js
+        - app_expr_node: Node =>
+            Node of App() expression
+        - app_method_nodes: list =>
+            A list of app_method_node
         - pages: dict =>
-            A dict of (page_path, Page object) parsed from app.json(only main package considered)
+            A dict of {page_path : Page instance} parsed from app.json(only main package considered)
         - index_page: str =>
             The index_page_path of the miniapp
+        - tabBars: dict =>
+            A dict of {tabBar_path : Page instance}
         - sensi_apis: dict =>
             A dict of {page_path : sensi_api}
             For simple scan, the implementation is based on regular matching
@@ -500,11 +532,16 @@ class MiniApp:
             self.app_method_nodes = None
 
         self.pages = {}
-        self.index_page = ''
-        self.sensi_apis = {}
+        self.index_page = None
         self.tabBars = {}
+        self.sensi_apis = {}
         self.set_pages_and_tab_bar(miniapp_path)
-        self.find_sensi_api(miniapp_path)
+        # Case1: Use regular expressions to scan the sensi_api directly in each page 
+        # self.find_sensi_api_by_reg_directly(miniapp_path)
+
+        # Case2: Use PDG to find the sensi_api and corresponding page method to which it belongs
+        self.set_miniapp_sensi_apis()
+
 
     def set_pages_and_tab_bar(self, miniapp_path):
         if os.path.exists(os.path.join(miniapp_path, 'app.json')):
@@ -527,7 +564,7 @@ class MiniApp:
                             if abs_page_dir.exists():
                                 self.pages[str(page_path)] = Page(str(page_path), self)
                             else:
-                                logger.warning("SubpackageNotFoundError: lack of subpackage file {}".format(str(abs_page_path)))
+                                logger.warning("SubpackageNotFoundError: lack of subpackage file {}".format(str(abs_page_dir)))
                 # Set tabBars
                 if app_config.get('tabBar', False):
                     tab_bar_list = app_config['tabBar']['list']
@@ -539,7 +576,7 @@ class MiniApp:
             self.pages = None
             self.tabBars = None
 
-    def find_sensi_api(self, miniapp_path):
+    def find_sensi_api_by_reg_directly(self, miniapp_path):
         for page in self.pages.values():
             try:
                 with open(os.path.join(miniapp_path, page.page_path + '.js'), 'r', encoding='utf-8') as fp:
@@ -557,6 +594,11 @@ class MiniApp:
                     sensi_api_matched.append(res.group(0))
             if len(sensi_api_matched):
                 self.sensi_apis[page.page_path] = sensi_api_matched
+    
+    def set_miniapp_sensi_apis(self):
+        for page in self.pages.values():
+            if len(page.sensi_apis.keys()):
+                self.sensi_apis[page.page_path] = page.sensi_apis
 
     def produce_utg(self, graph=graphviz.Digraph(comment='UI Transition Graph',
                                                  graph_attr={"concentrate": "true", "splines": "false"})):
@@ -623,6 +665,7 @@ class MiniApp:
 
 if __name__ == "__main__":
     app = MiniApp('/root/minidroid/dataset/miniprogram-demo')
-    for page in app.pages.values():
-        page.draw_fcg()
-    app.draw_utg()
+    pprint.pprint(app.sensi_apis)
+    # for page in app.pages.values():
+    #     page.draw_fcg()
+    # app.draw_utg()

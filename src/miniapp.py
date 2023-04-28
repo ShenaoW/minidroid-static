@@ -626,7 +626,3 @@ if __name__ == "__main__":
     for page in app.pages.values():
         page.draw_fcg()
     app.draw_utg()
-    # dot = app.produce_mdg()
-    # dot.render('/root/minidroid/result/mdg/miniprogram-demo', view=False)
-    # graphviz.render(filepath='/root/minidroid/result/mdg/miniprogram-demo', engine='dot', format='eps')
-    print('success')

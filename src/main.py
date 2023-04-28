@@ -33,7 +33,7 @@ def handle_wxapkgs(wxapkgs_dir='dataset/wxapkgs', save_json=None):
 
 
 def check_compliance_violations():
-    logger.add('dataset/comp_vios.log')
+    logger.add('src/log/comp_vios.log')
     with open('dataset/dataset.json', 'r', encoding='utf-8') as fp:
         miniapp_paths = json.load(fp)
     for miniapp_path in miniapp_paths:
@@ -58,7 +58,7 @@ def check_compliance_violations():
 
 def check_sensi_apis():
     sensi_apis_json = {}
-    logger.add('dataset/sensi_apis.log')
+    logger.add('src/log/sensi_apis.log')
     with open('dataset/dataset.json', 'r', encoding='utf-8') as fp:
         miniapp_paths = json.load(fp)
     for miniapp_path in miniapp_paths:
@@ -93,7 +93,7 @@ def get_sensi_page_text():
 
 
 def draw_utg():
-    logger.add('result/utg.log')
+    logger.add('src/log/utg.log')
     with open('dataset/dataset.json', 'r', encoding='utf-8') as fp:
         miniapp_paths = json.load(fp)
     for miniapp_path in miniapp_paths:
@@ -106,7 +106,7 @@ def draw_utg():
 
 
 def draw_fcg():
-    logger.add('result/fcg.log')
+    logger.add('src/log/fcg.log')
     with open('dataset/dataset.json', 'r', encoding='utf-8') as fp:
         miniapp_paths = json.load(fp)
     for miniapp_path in miniapp_paths:

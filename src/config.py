@@ -62,16 +62,3 @@ BINDING_EVENTS = [
 
     'bindsubmit'  # <form binsubmit=handler_fun>
 ]
-
-
-# def params():
-#     parser = argparse.ArgumentParser(prog='minidroid', \
-#                                      formatter_class=argparse.RawTextHelpFormatter)
-#     parser.add_argument("-i", "--input", dest="input", metavar="path", type=str, required=True,
-#                         help="path of input mini program(s)."
-#                              "Single mini program directory or index files will both fine.")
-#     parser.add_argument("-o", "--output", dest="output", metavar="path", type=str, default="results",
-#                         help="path of output results."
-#                              "The output file will be stored outside of the mini program directories.")
-#     parser.add_argument("-c", "--config", dest="config", metavar="path", type=str,
-#                         help="path of config file.")

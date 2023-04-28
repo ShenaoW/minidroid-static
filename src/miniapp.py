@@ -179,8 +179,12 @@ class Page:
 
         if self.pdg_node is not None:
             self.page_expr_node = get_page_expr_node(self.pdg_node)
+        else: self.page_expr_node = None
+
         if self.page_expr_node is not None:
             self.page_method_nodes = get_page_method_nodes(self.page_expr_node)
+        else:
+            self.page_method_nodes = {}
         self.wxml_soup = None
         self.binding_event = {}
         self.navigator = {
@@ -188,11 +192,12 @@ class Page:
             'NavigateAPI': []  # API Trigger, such as wx.navigateTo()
         }
 
-        self.init_page_data(self.abs_page_path)
-        self.set_binding_event(self.abs_page_path)
-        self.set_navigator(self.abs_page_path)
+        self.set_wxml_soup(self.abs_page_path)
+        if self.wxml_soup is not None:
+            self.set_binding_event(self.abs_page_path)
+            self.set_navigator(self.abs_page_path)
 
-    def init_page_data(self, page_path):
+    def set_wxml_soup(self, page_path):
         try:
             soup = BeautifulSoup(open(page_path + '.wxml', encoding='utf-8'), 'html.parser')
             self.wxml_soup = soup
@@ -200,8 +205,6 @@ class Page:
             logger.error('WxmlNotFoundError: {}'.format(e))
 
     def set_binding_event(self, page_path):
-        if not self.wxml_soup:
-            self.init_page_data(page_path)
         for binding in config.BINDING_EVENTS:
             for tag in self.wxml_soup.find_all(attrs={binding: True}):
                 evn = Event(name=tag.name, trigger=binding,
@@ -216,8 +219,6 @@ class Page:
             self.set_navigator_api()
 
     def set_navigator_ui(self, page_path):
-        if not self.wxml_soup:
-            self.init_page_data(page_path)
         tags = self.wxml_soup.find_all('navigator')
         for tag in tags:
             target = tag['target'] if 'target' in tag.attrs.keys() else 'self'
@@ -366,7 +367,7 @@ class Page:
         try:
             func_node = self.page_method_nodes[func]
         except:
-            logger.warning("function {} on {} error!".format(func, self.page_path))
+            logger.warning("FuncNotFoundError: function {} in {} not found!".format(func, self.page_path))
             return None
         call_graph = self.traverse_children_of_func(func, func_node, call_graph)
         return call_graph
@@ -430,16 +431,17 @@ class Page:
                     graph.edge(self.page_path, event.handler, label=event.trigger)
                     func = event.handler
                     call_graph = self.get_all_callee_from_func(func, call_graph={})
-                    if func in call_graph.keys():
-                        graph = self.add_callee_edge_to_graph(graph, call_graph, func)
-                        # TODO: bind func can't be found exception handling
+                    if call_graph is not None:
+                        if func in call_graph.keys():
+                            graph = self.add_callee_edge_to_graph(graph, call_graph, func)
 
         for func in self.page_method_nodes.keys():
             if func in ('onLoad', 'onShow', 'onReady', 'onHide', 'onUnload'):
                 graph.edge(self.page_path, func)
                 call_graph = self.get_all_callee_from_func(func, call_graph={})
-                if func in call_graph.keys():
-                    graph = self.add_callee_edge_to_graph(graph, call_graph, func)
+                if call_graph is not None:
+                    if func in call_graph.keys():
+                        graph = self.add_callee_edge_to_graph(graph, call_graph, func)
         return graph
 
     def get_fcg(self):
@@ -489,7 +491,7 @@ class MiniApp:
 
     def __init__(self, miniapp_path):
         self.miniapp_path = miniapp_path
-        self.pathName = miniapp_path.split('/')[-1]
+        self.name = miniapp_path.split('/')[-1]
         self.pdg_node = get_data_flow(input_file=os.path.join(miniapp_path, 'app.js'), benchmarks={})
         self.app_expr_node = get_page_expr_node(self.pdg_node)  # App() node
         if self.app_expr_node is not None:
@@ -509,30 +511,24 @@ class MiniApp:
             with open(os.path.join(miniapp_path, 'app.json'), 'r', encoding='utf-8') as fp:
                 app_config = json.load(fp)
                 app_config_keys = {i.lower(): i for i in app_config.keys()}
-                # TODO:Exeception for taro uniapp
+                # Set pages
                 if 'pages' in app_config_keys.keys():
                     pages = app_config[app_config_keys['pages']]
                     self.index_page = pages[0]
-                    # Case1: Init self.pages with a list of Page Object
-                    # self.pages = list(Page(os.path.join(miniapp_path,page), self) for page in pages)
-
-                    # Case2: Init self.pages with a dict of Page Object
-                    # self.pages = dict((page, Page(page, self)) for page in pages if 'plugin' not in page)
                     for page in pages:
                         self.pages[page] = Page(page, self)
-                    # Case3: Init self.pages with the value of pages(actually a list) in app.json
-                    # self.pages = app_config['pages']
+                # Set subpackages
                 if "subpackages" in app_config_keys.keys():
                     for sub_pkg in app_config[app_config_keys['subpackages']]:
                         root_path = sub_pkg["root"]
                         for page in sub_pkg["pages"]:
-                            page_path = Path(self.miniapp_path) / root_path / page
-                            page_path_parent = page_path.parent
-                            if page_path_parent.exists():
+                            page_path = Path(root_path) / page
+                            abs_page_dir = Path(self.miniapp_path) / root_path
+                            if abs_page_dir.exists():
                                 self.pages[str(page_path)] = Page(str(page_path), self)
                             else:
-                                logger.warning("Miniapp is lack of file {}".format(str(page_path)))
-
+                                logger.warning("SubpackageNotFoundError: lack of subpackage file {}".format(str(abs_page_path)))
+                # Set tabBars
                 if app_config.get('tabBar', False):
                     tab_bar_list = app_config['tabBar']['list']
                     for tab_bar in tab_bar_list:
@@ -549,8 +545,11 @@ class MiniApp:
                 with open(os.path.join(miniapp_path, page.page_path + '.js'), 'r', encoding='utf-8') as fp:
                     data = fp.read()
             except FileNotFoundError:
-                with open(os.path.join(miniapp_path, page.page_path + '.ts'), 'r', encoding='utf-8') as fp:
-                    data = fp.read()
+                try:
+                    with open(os.path.join(miniapp_path, page.page_path + '.ts'), 'r', encoding='utf-8') as fp:
+                        data = fp.read()
+                except FileNotFoundError:
+                    logger.error('PageNotFoundError: {}'.format(os.path.join(miniapp_path, page.page_path)))
             sensi_api_matched = []
             for sensi_api in config.SENSITIVE_API.keys():
                 res = re.search(sensi_api, data)
@@ -590,7 +589,7 @@ class MiniApp:
         return dict(utg)
 
     def draw_utg(self, save_path=config.SAVE_PATH_UTG):
-        save_path += '/' + self.pathName + '/' + self.pathName
+        save_path += '/' + self.name + '/' + self.name
         dot = self.produce_utg()
         if save_path is None:
             dot.view()
@@ -623,24 +622,11 @@ class MiniApp:
 
 
 if __name__ == "__main__":
-    # test
-    app = MiniApp('/mnt/d/信息安全作品赛/Miniapp权限检测/practice/miniprogram-demo/miniprogram')
-    utg = app.get_utg()
-    print(utg)
-    print()
-    print(app.sensi_apis)
-    print()
-    for page_name, page in app.pages.items():
-        fcg = page.get_fcg()
-        print(fcg)
-        print()
-        
-    # app.draw_utg('/mnt/d/信息安全作品赛/Miniapp权限检测/practice/miniprogram-demo/miniprogram')
-    # app = MiniApp('/root/minidroid/dataset/miniprogram-demo')
-    # for page in app.pages.values():
-    #     page.draw_call_graph()
-    # app.draw_utg()
+    app = MiniApp('/root/minidroid/dataset/miniprogram-demo')
+    for page in app.pages.values():
+        page.draw_fcg()
+    app.draw_utg()
     # dot = app.produce_mdg()
     # dot.render('/root/minidroid/result/mdg/miniprogram-demo', view=False)
     # graphviz.render(filepath='/root/minidroid/result/mdg/miniprogram-demo', engine='dot', format='eps')
-    # print('success')
+    print('success')

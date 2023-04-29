@@ -170,6 +170,7 @@ cython_debug/
 
 !/result/
 /result/*/
+/result/sensi_page_text.json
 
 __pycache__/
 

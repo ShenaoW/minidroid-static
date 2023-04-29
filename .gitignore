@@ -163,6 +163,8 @@ cython_debug/
 /*/
 
 !/src/
+!/dataset/dataset.json
+!/dataset/dataset_11w.json
 /src/log/
 
 __pycache__/

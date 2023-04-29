@@ -1,8 +1,8 @@
 import json
 from loguru import logger
 from bs4 import BeautifulSoup
-from ..src.utils.utils import get_wxapkg_paths
-from ..src.utils.wxapkg_decoder import decompile_wx_miniapp
+from utils.utils import get_wxapkg_paths
+from utils.wxapkg_decoder import decompile_wx_miniapp
 from strategy.violation_checker import ViolationChecker
 from miniapp import MiniApp
 
@@ -120,26 +120,13 @@ def draw_fcg():
 
 
 if __name__ == '__main__':
+    pass
+
     # check_compliance_violations()
     # check_sensi_apis()
     # get_sensi_page_text()
     # draw_utg()
-    draw_fcg()
-
-    # FIXED: 'Page' object has no attribute 'pdg_node'
-    # miniapp = MiniApp('/root/minidroid/dataset/miniprograms/wx4c912d1abd56b887')   __plugin__
-    # miniapp = MiniApp('/root/minidroid/dataset/miniprograms/wxa4653b2a6f953b53')   __plugin__
-    # miniapp = MiniApp('/root/minidroid/dataset/miniprograms/wx45d379cfc179c2db')   __plugin__
-
-    # FIXED: KeyError 'name'
-    # miniapp = MiniApp('/root/minidroid/dataset/miniprograms/wx70c645ccf95a39e1')
-    # miniapp = MiniApp('/root/minidroid/dataset/miniprograms/wx8bfc50da8019a4dc')
-    # miniapp = MiniApp('/root/minidroid/dataset/miniprograms/wxa0598a26b6a71cd3')
-
-    # FIXED: unhashable type: 'list' in call_expr_value == 'wx.authorize'?
-    # miniapp = MiniApp('/root/minidroid/dataset/miniprograms/wx91beb99727a5936f')
-    # miniapp = MiniApp('/root/minidroid/dataset/miniprograms/wx9588480be4a6d9db')
-    # miniapp = MiniApp('/root/minidroid/dataset/miniprograms/wx9e6e9ee3c2ec7751')
+    # draw_fcg()
 
     # test check_sensi_apis
     # miniapp = MiniApp('/root/minidroid/dataset/miniprograms/wx9c7a3b1a32b7116c')

@@ -2,6 +2,7 @@ import requests
 import json
 import time
 import re
+import os
 import config
 
 
@@ -61,6 +62,8 @@ class pp_crawler(object):
             index_start = r.text.index(start) + len(start) + 3 # +3是为了去掉等号
             index_end = r.text.index(end)
             privacy = r.text[index_start:index_end]
+            if not os.path.exists(config.SAVE_PATH):
+                os.makedirs(config.SAVE_PATH)
             with open(file=config.SAVE_PATH + appid + '.json', mode='w', encoding='utf-8') as f:
                 privacy_json = self.js2json(privacy)
                 json.dump(privacy_json,f,ensure_ascii=False,indent=4)
@@ -70,6 +73,7 @@ if __name__=='__main__':
     crawler = pp_crawler()
     appid_i = 'wx47825741d261e437'
     crawler.crawl(appid_i)
+    print('success')
 
 
 

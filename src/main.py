@@ -120,13 +120,11 @@ def draw_fcg():
 
 
 if __name__ == '__main__':
-    pass
-
     # check_compliance_violations()
     # check_sensi_apis()
     # get_sensi_page_text()
     # draw_utg()
-    # draw_fcg()
+    draw_fcg()
 
     # test check_sensi_apis
     # miniapp = MiniApp('/root/minidroid/dataset/miniprograms/wx9c7a3b1a32b7116c')

@@ -2,7 +2,7 @@ import json
 from loguru import logger
 from bs4 import BeautifulSoup
 from utils.utils import get_wxapkg_paths
-from utils.wxapkg_decoder import decompile_wx_miniapp
+from utils.wxapkg_decoder import decompile_wxapkg
 from strategy.violation_checker import ViolationChecker
 from miniapp import MiniApp
 
@@ -21,16 +21,16 @@ def handle_wxapkgs(wxapkgs_dir='dataset/wxapkgs', save_json=None):
         -------
         Return: None
     """
+    logger.add('src/log/dec_wxapkgs.log')
     wxapkg_paths = get_wxapkg_paths(wxapkgs_dir)
     decompile_pkg = []
     for wxapkg_path in wxapkg_paths:
-        if decompile_wx_miniapp(wxapkg_path):
+        if decompile_wxapkg(wxapkg_path, output_path='dataset/miniprograms-11w/'+wxapkg_path.split('/')[-1].replace('.wxapkg', '')):
             decompile_pkg.append(wxapkg_path.replace('.wxapkg', '').replace('wxapkgs', 'miniprograms'))
     if save_json is not None:
         res = json.dumps(decompile_pkg, indent=2)
         with open(save_json, 'w', encoding='utf-8') as fp:
             fp.write(res)
-
 
 def check_compliance_violations():
     logger.add('src/log/comp_vios.log')
@@ -55,7 +55,6 @@ def check_compliance_violations():
         except Exception as e:
             logger.error(e)
 
-
 def check_sensi_apis():
     sensi_apis_json = {}
     logger.add('src/log/sensi_apis.log')
@@ -74,7 +73,6 @@ def check_sensi_apis():
     with open('dataset/sensi_apis.json', 'w') as fp:
         json.dump(sensi_apis_json, fp, indent=4)
 
-
 def get_sensi_page_text():
     result_json = {}
     with open('dataset/sensi_apis_result.json', 'r', encoding='utf-8') as fp:
@@ -91,7 +89,6 @@ def get_sensi_page_text():
     with open('./dataset/sensi_page_text.json', 'w') as fp:
         json.dump(result_json, fp, indent=4)
 
-
 def draw_utg():
     logger.add('src/log/utg.log')
     with open('dataset/dataset.json', 'r', encoding='utf-8') as fp:
@@ -103,7 +100,6 @@ def draw_utg():
             miniapp.draw_utg()
         except Exception as e:
             logger.error(e)
-
 
 def draw_fcg():
     logger.add('src/log/fcg.log')
@@ -120,11 +116,12 @@ def draw_fcg():
 
 
 if __name__ == '__main__':
+    handle_wxapkgs('dataset/wxapkgs-11w', save_json='dataset/dataset11w-dec.json')
     # check_compliance_violations()
     # check_sensi_apis()
     # get_sensi_page_text()
     # draw_utg()
-    draw_fcg()
+    # draw_fcg()
 
     # test check_sensi_apis
     # miniapp = MiniApp('/root/minidroid/dataset/miniprograms/wx9c7a3b1a32b7116c')

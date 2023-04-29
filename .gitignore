@@ -165,8 +165,11 @@ cython_debug/
 !/src/
 /src/log/
 
-!/result/*.json
-!/dataset/*.json
+!/dataset/
+/dataset/*/
+
+!/result/
+/result/*/
 
 __pycache__/
 

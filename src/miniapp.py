@@ -384,7 +384,10 @@ class Page:
                     callee = child.children[0]
                     call_expr_value = get_node_computed_value(callee)
                     if call_expr_value in config.SENSITIVE_API:
-                        self.sensi_apis[call_expr_value] = page_method
+                        if call_expr_value in self.sensi_apis.keys():
+                            self.sensi_apis[call_expr_value].append(page_method)
+                        else:
+                            self.sensi_apis[call_expr_value] = [page_method]
             self.traverse_children_to_find_sensi_apis(page_method, child)
 
     def get_all_callee_from_func(self, func: str, call_graph):

@@ -2,7 +2,7 @@ import json
 from loguru import logger
 from bs4 import BeautifulSoup
 from utils.utils import get_wxapkg_paths
-from utils.wxapkg_decoder import decompile_wxapkg
+from utils.wxapkg_decoder import decompile_wxapkg_with_unveilr
 from strategy.violation_checker import ViolationChecker
 from miniapp import MiniApp
 
@@ -25,7 +25,7 @@ def handle_wxapkgs(wxapkgs_dir='dataset/wxapkgs', save_json=None):
     wxapkg_paths = get_wxapkg_paths(wxapkgs_dir)
     decompile_pkg = []
     for wxapkg_path in wxapkg_paths:
-        if decompile_wxapkg(wxapkg_path, output_path='dataset/miniprograms-11w/'+wxapkg_path.split('/')[-1].replace('.wxapkg', '')):
+        if decompile_wxapkg_with_unveilr(wxapkg_path, output_path='dataset/miniprograms-11w/'+wxapkg_path.split('/')[-1].replace('.wxapkg', '')):
             decompile_pkg.append(wxapkg_path.replace('.wxapkg', '').replace('wxapkgs', 'miniprograms'))
     if save_json is not None:
         res = json.dumps(decompile_pkg, indent=2)

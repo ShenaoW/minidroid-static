@@ -4,7 +4,7 @@ from loguru import logger
 from bs4 import BeautifulSoup
 import multiprocessing as mp
 from utils.utils import get_wxapkg_paths
-from utils.wxapkg_decoder import decompile_wxapkg
+from utils.wxapkg_decoder import decompile_wxapkg_with_unveilr
 from strategy.violation_checker import ViolationChecker
 from miniapp import MiniApp
 
@@ -33,12 +33,21 @@ def handle_wxapkgs(wxapkgs, save_json=None):
         wxapkg_paths = get_wxapkg_paths(wxapkgs)
 
     for wxapkg_path in wxapkg_paths:
+<<<<<<< HEAD
         output_path = 'dataset/miniprograms-11w/'+wxapkg_path.split('/')[-1].replace('.wxapkg', '')
         if os.path.exists(output_path):
             logger.info('Decompile Success: {}'.format(output_path))
         else:
             decompile_wxapkg(wxapkg_path, output_path)
 
+=======
+        if decompile_wxapkg_with_unveilr(wxapkg_path, output_path='dataset/miniprograms-11w/'+wxapkg_path.split('/')[-1].replace('.wxapkg', '')):
+            decompile_pkg.append(wxapkg_path.replace('.wxapkg', '').replace('wxapkgs', 'miniprograms'))
+    if save_json is not None:
+        res = json.dumps(decompile_pkg, indent=2)
+        with open(save_json, 'w', encoding='utf-8') as fp:
+            fp.write(res)
+>>>>>>> 9ba413d5bb05a838fa8097539658ef7907816276
 
 def check_compliance_violations():
     logger.add('src/log/comp_vios.log')

@@ -1,10 +1,12 @@
 import os
 import sys
-import argparse
 
 PROJECT_PATH = os.path.dirname(os.path.abspath('__file__'))
 SAVE_PATH_UTG = os.path.dirname(os.path.abspath('__file__'))+'/result/utg'
 SAVE_PATH_FCG = os.path.dirname(os.path.abspath('__file__'))+'/result/fcg'
+UNPACK_COMMAND = 'node ' + PROJECT_PATH + os.sep + 'src/utils/wxappUnpacker/wuWxapkg.js {}'
+
+
 SENSITIVE_API = {'wx.getUserInfo': '收集微信昵称、头像',
                  'wx.getUserProfile': '收集微信昵称、头像',
                  'wx.getFuzzyLocation': '收集模糊位置信息',
@@ -43,6 +45,7 @@ ROUTE_API = ['wx.switchTab',
              'wx.redirectTo',
              'wx.navigateTo',
              'wx.navigateBack']
+
 NAVIGATE_API = ['wx.navigateToMiniProgram',
                 'wx.navigateBackMiniProgram',
                 'wx.exitMiniProgram']

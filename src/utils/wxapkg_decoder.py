@@ -52,5 +52,7 @@ def decompile_wxapkg(wxapkg, output_path=None):
         return False
 
 if __name__ == '__main__':
-    wxapkg_path = '/root/unveilr/wxapkgs/wx0012c9069fddb0d3-pc.wxapkg'
-    decompile_wxapkg(wxapkg_path, output_path='dataset/miniprograms-11w/'+wxapkg_path.split('/')[-1])
+    wxapkg_paths = ['/root/minidroid/dataset/wxapkgs-11w/wx67d7b506cc6a302b-pc.wxapkg',
+                    '/root/minidroid/dataset/wxapkgs-11w/wx6fe401acd86f1e60-pc.wxapkg']
+    for wxapkg_path in wxapkg_paths:
+        decompile_wxapkg(wxapkg_path, output_path='dataset/miniprograms-11w/'+wxapkg_path.split('/')[-1])

@@ -1,20 +1,22 @@
+import os
 import json
 from loguru import logger
 from bs4 import BeautifulSoup
+import multiprocessing as mp
 from utils.utils import get_wxapkg_paths
 from utils.wxapkg_decoder import decompile_wxapkg
 from strategy.violation_checker import ViolationChecker
 from miniapp import MiniApp
 
 
-def handle_wxapkgs(wxapkgs_dir='dataset/wxapkgs', save_json=None):
+def handle_wxapkgs(wxapkgs, save_json=None):
     """
         Decode wxapkgs in the directory.
 
         -------
         Parameters:
-        - wxapkgs_dir: str
-            default 'dataset/wxapkgs'
+        - wxapkgs: str
+            Multi-wxapkgs directory or index json will both fine.
         - save_json: bool/str
             default False, you can specify the path to save decode json result.
 
@@ -22,15 +24,21 @@ def handle_wxapkgs(wxapkgs_dir='dataset/wxapkgs', save_json=None):
         Return: None
     """
     logger.add('src/log/dec_wxapkgs.log')
-    wxapkg_paths = get_wxapkg_paths(wxapkgs_dir)
-    decompile_pkg = []
+    if os.path.isfile(wxapkgs):
+        # wxapkgs = 'dataset/dataset11w.json'
+        with open(wxapkgs, 'r') as fp:
+            wxapkg_paths = json.load(fp=fp)
+    else:
+        # wxapkgs = 'dataset/wxapkgs-11w'
+        wxapkg_paths = get_wxapkg_paths(wxapkgs)
+
     for wxapkg_path in wxapkg_paths:
-        if decompile_wxapkg(wxapkg_path, output_path='dataset/miniprograms-11w/'+wxapkg_path.split('/')[-1].replace('.wxapkg', '')):
-            decompile_pkg.append(wxapkg_path.replace('.wxapkg', '').replace('wxapkgs', 'miniprograms'))
-    if save_json is not None:
-        res = json.dumps(decompile_pkg, indent=2)
-        with open(save_json, 'w', encoding='utf-8') as fp:
-            fp.write(res)
+        output_path = 'dataset/miniprograms-11w/'+wxapkg_path.split('/')[-1].replace('.wxapkg', '')
+        if os.path.exists(output_path):
+            logger.info('Decompile Success: {}'.format(output_path))
+        else:
+            decompile_wxapkg(wxapkg_path, output_path)
+
 
 def check_compliance_violations():
     logger.add('src/log/comp_vios.log')
@@ -116,7 +124,8 @@ def draw_fcg():
 
 
 if __name__ == '__main__':
-    handle_wxapkgs('dataset/wxapkgs-11w', save_json='dataset/dataset11w-dec.json')
+    handle_wxapkgs('dataset/dataset11w.json', save_json='dataset/dataset11w-dec.json')
+
     # check_compliance_violations()
     # check_sensi_apis()
     # get_sensi_page_text()

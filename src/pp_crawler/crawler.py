@@ -73,8 +73,6 @@ if __name__=='__main__':
     crawler = pp_crawler()
     appid_id = 'wx68da0cea81d5839c'
     crawler.crawl(appid_id)
-    print('success')
-
 
 
 

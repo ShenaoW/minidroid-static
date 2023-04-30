@@ -138,12 +138,15 @@ Unlike `VM`, `NodeVM` allows you to require modules in the same way that you wou
 * `require.external` - Values can be `true`, an array of allowed external modules, or an object (default: `false`). All paths matching `/node_modules/${any_allowed_external_module}/(?!/node_modules/)` are allowed to be required.
 * `require.external.modules` - Array of allowed external modules. Also supports wildcards, so specifying `['@scope/*-ver-??]`, for instance, will allow using all modules having a name of the form `@scope/something-ver-aa`, `@scope/other-ver-11`, etc. The `*` wildcard does not match path separators.
 * `require.external.transitive` - Boolean which indicates if transitive dependencies of external modules are allowed (default: `false`). **WARNING**: When a module is required transitively, any module is then able to require it normally, even if this was not possible before it was loaded.
-* `require.builtin` - Array of allowed built-in modules, accepts ["*"] for all (default: none). **WARNING**: "*" can be dangerous as new built-ins can be added.
+* `require.builtin` - Array of allowed built-in modules, accepts ["\*"] for all (default: none). **WARNING**: "\*" can be dangerous as new built-ins can be added.
 * `require.root` - Restricted path(s) where local modules can be required (default: every path).
 * `require.mock` - Collection of mock modules (both external or built-in).
 * `require.context` - `host` (default) to require modules in the host and proxy them into the sandbox. `sandbox` to load, compile, and require modules in the sandbox. Except for `events`, built-in modules are always required in the host and proxied into the sandbox.
 * `require.import` - An array of modules to be loaded into NodeVM on start.
 * `require.resolve` - An additional lookup function in case a module wasn't found in one of the traditional node lookup paths.
+* `require.customRequire` - Use instead of the `require` function to load modules from the host.
+* `require.strict` - `false` to not force strict mode on modules loaded by require (default: `true`).
+* `require.fs` - Custom file system implementation.
 * `nesting` - **WARNING**: Allowing this is a security risk as scripts can create a NodeVM which can require any host module. `true` to enable VMs nesting (default: `false`).
 * `wrapper` - `commonjs` (default) to wrap script into CommonJS wrapper, `none` to retrieve value returned by the script.
 * `argv` - Array to be passed to `process.argv`.
@@ -376,10 +379,11 @@ vm2 ./script.js
 
 ## Known Issues
 
-* It is not possible to define a class that extends a proxied class.
+* It is not possible to define a class that extends a proxied class. This includes using a proxied class in `Object.create`.
 * Direct eval does not work.
 * Logging sandbox arrays will repeat the array part in the properties.
 * Source code transformations can result a different source string for a function.
+* There are ways to crash the node process from inside the sandbox.
 
 ## Deployment
 

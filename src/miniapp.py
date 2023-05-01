@@ -212,11 +212,11 @@ class Page:
     def set_binding_event(self, page_path):
         for binding in config.BINDING_EVENTS:
             for tag in self.wxml_soup.find_all(attrs={binding: True}):
-                evn = Event(name=tag.name, trigger=binding,
+                enent = Event(name=tag.name, trigger=binding,
                             handler=tag.attrs[binding], contents=tag.contents, tag=tag)
                 if binding not in self.binding_event.keys():
                     self.binding_event[binding] = []
-                self.binding_event[binding].append(evn)
+                self.binding_event[binding].append(enent)
 
     def set_navigator(self, page_path):
         self.set_navigator_ui(page_path)

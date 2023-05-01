@@ -16,84 +16,16 @@ import pydotplus
 from collections import defaultdict
 from loguru import logger
 import config as config
-from typing import List
-from miniapp import MiniApp, Page, Navigator, NavigateAPI
+from miniapp import MiniApp, Page
 from bs4 import Tag
 from pdg_js.js_operators import get_node_computed_value
-
-
-class Node():
-    node_dict = {}
-
-    # TODO: 注意该构造方法的生存周期，在一个MiniApp分析完毕后将Node.node_dict清空
-    # 在节点类的构造方法 __new__ 中，先在 node_dict 中查找是否存在同名节点实例，如果存在，则直接返回该实例；
-    # 否则，再调用 super().__new__(cls) 方法创建新的节点实例并返回
-    def __new__(cls, name, parent):
-        if name in cls.node_dict:
-            return cls.node_dict[name]
-        else:
-            return super().__new__(cls)
-
-    def __init__(self, name, parent):
-        self.name = name
-        self.parent = parent
-        self.children: List[Node] = []
-        Node.node_dict[name] = self
-    
-    def add_child(self, child: 'Node'):
-        self.children.append(child)
-        child.parent = self
-
-    @classmethod
-    def get_node_by_name(cls, name):
-        return cls.node_dict.get(name)
-
-
-class FuncNode(Node):
-    def __init__(self, name, parent):
-        super().__init__(name, parent)
-
-    def set_trigger_tag(self, tag: Tag):
-        self.trigger_tag = tag
-
-    def set_sensi_api(self, sensi_api: str):
-        # TODO: sensi_api is instance of CallExpression
-        self.sensi_api = sensi_api
-
-
-class PageNode(Node):
-    def __init__(self, name, parent, page: Page, beacon):
-        super().__init__(name, parent)
-        self.page = page
-        self.set_beacon(beacon)
-    
-    def set_beacon(self, beacon: Navigator or NavigateAPI):
-        self.beacon = beacon
 
 
 # TODO: 基于Node对FCG、UTG、MDG进行重构(如何解决多个parent路径对应的问题)
 class UTG():
     def __init__(self, miniapp: MiniApp):
         self.miniapp = miniapp
-        # self.utg = Node(name=self.miniapp.name, parent=None)
-        # self.produce_utg()
-
-    # def produce_utg(self):
-    #     # add tabBar PageNode
-    #     for tabBar in self.miniapp.tabBars.keys():
-    #         self.utg.add_child(PageNode(name=tabBar, parent=self.utg, 
-    #                             page=self.miniapp.tabBars[tabBar], beacon=None))
-    #     # add navigator PageNode
-    #     for page in self.miniapp.pages.keys():
-    #         for navigator in self.miniapp.pages[page].navigator['UIElement']:
-    #             if navigator.target == 'self':
-    #                 src = Node.get_node_by_name(str(page))
-    #                 if src is not None:
-    #                     dest = Node.get_node_by_name(str(navigator.url))
-    #                     if dest is None:
-    #                         dest = Node(name=str(navigator.url), parent=src)
-    #                     else:
-    #                         pass
+        self.trigger = {}
 
     def produce_utgviz(self, graph=graphviz.Digraph(comment='UI Transition Graph',
                                                  graph_attr={"concentrate": "true", "splines": "false"})):

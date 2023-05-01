@@ -2,9 +2,9 @@
 
 """
     Definition of Class
-    - UIElement(name, contents, element)
-    - Event(name, contents, element, trigger, handler)
-    - Navigator(name, content, element, type, target, url, extra_data, bindings)
+    - UIElement(name, contents, tag)
+    - Event(name, contents, tag, trigger, handler)
+    - Navigator(name, content, tag, type, target, url, extra_data, bindings)
     - Page(page_path)
     - MiniApp(miniapp_path)
 """
@@ -16,7 +16,7 @@ import pprint
 from pathlib import Path
 from loguru import logger
 import config as config
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, Tag
 from pdg_js.build_pdg import get_data_flow
 from utils.utils import get_page_expr_node, get_page_method_nodes
 from pdg_js.js_operators import get_node_computed_value
@@ -32,14 +32,14 @@ class UIElement:
             Name of the UIElement, such as button
         - contents: str =>
             Contents of the UIElement
-        - element: Tag
+        - tag: Tag
             The UIElement itself, which is stored as a Tag class(BeautifulSoup4)
     """
 
-    def __init__(self, name, contents, element):
+    def __init__(self, name, contents, tag: Tag):
         self.name = name  # UIElement type name, such as button
         self.contents = contents  # Element contents
-        self.element = element  # The UI element itself (Class Tag in BeautifulSoup)
+        self.tag = tag  # The UI element itself (Class Tag in BeautifulSoup)
 
 
 class Event(UIElement):
@@ -52,7 +52,7 @@ class Event(UIElement):
             Name of the UIElement, such as button
         - contents: str =>
             Contents of the UIElement
-        - element: Tag
+        - tag: Tag
             The UIElement itself, which is stored as a Tag class(BeautifulSoup4)
         - trigger: str
             Trigger of the event, such as bindtap
@@ -60,8 +60,8 @@ class Event(UIElement):
             The corresponding event handler in Logical Layer(js)
     """
 
-    def __init__(self, name, contents, element, trigger, handler):
-        super().__init__(name, contents, element)
+    def __init__(self, name, contents, tag, trigger, handler):
+        super().__init__(name, contents, tag)
         self.trigger = trigger  # Event trigger action, such as bindtap
         self.handler = handler  # Event handler function
 
@@ -76,7 +76,7 @@ class Navigator(UIElement):
             Name of the UIElement(Here is navigator of course)
         - contents: str =>
             Contents of the UIElement
-        - element: Tag
+        - tag: Tag
             The UIElement itself, which is stored as a Tag class(BeautifulSoup4)
         - type: str =>
             Type of navigator(navigate/redirect/switchTab/reLaunch/navigateBack)
@@ -90,9 +90,9 @@ class Navigator(UIElement):
             Bind success/fail/complete event
     """
 
-    def __init__(self, name, contents, element, navigate_type='', target='', url='',
+    def __init__(self, name, contents, tag, navigate_type='', target='', url='',
                  extra_data='', bindsuccess='', bindfail='', bindcomplete=''):
-        super().__init__(name, contents, element)
+        super().__init__(name, contents, tag)
         self.type = navigate_type  # navigate/redirect/switchTab/reLaunch/navigateBack
         self.target = target  # target miniprogram(self/miniprogram appid)
         self.url = url  # target page url
@@ -213,7 +213,7 @@ class Page:
         for binding in config.BINDING_EVENTS:
             for tag in self.wxml_soup.find_all(attrs={binding: True}):
                 evn = Event(name=tag.name, trigger=binding,
-                            handler=tag.attrs[binding], contents=tag.contents, element=tag)
+                            handler=tag.attrs[binding], contents=tag.contents, tag=tag)
                 if binding not in self.binding_event.keys():
                     self.binding_event[binding] = []
                 self.binding_event[binding].append(evn)
@@ -241,7 +241,7 @@ class Page:
 
                     self.navigator['UIElement'].append(
                         Navigator(
-                            name='navigator', contents=tag.contents, element=tag,
+                            name='navigator', contents=tag.contents, tag=tag,
                             navigate_type=navigate_type, target=target, url=url, extra_data=extradata,
                             bindsuccess=bindsuccess, bindfail=bindfail, bindcomplete=bindcomplete
                         )
@@ -250,7 +250,7 @@ class Page:
                     # <navigator open-type=navigateBack>
                     self.navigator['UIElement'].append(
                         Navigator(
-                            name='navigator', contents=tag.contents, element=tag,
+                            name='navigator', contents=tag.contents, tag=tag,
                             navigate_type=navigate_type, extra_data=extradata,
                             bindsuccess=bindsuccess, bindfail=bindfail, bindcomplete=bindcomplete
                         )
@@ -259,7 +259,7 @@ class Page:
                 url = tag['url'] if 'url' in tag.attrs.keys() else None
                 self.navigator['UIElement'].append(
                     Navigator(
-                        name='navigator', contents=tag.contents, element=tag,
+                        name='navigator', contents=tag.contents, tag=tag,
                         navigate_type=navigate_type, target=target, url=url,
                         bindsuccess=bindsuccess, bindfail=bindfail, bindcomplete=bindcomplete
                     )

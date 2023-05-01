@@ -71,7 +71,7 @@ class pp_crawler(object):
 
 if __name__=='__main__':
     crawler = pp_crawler()
-    appid_id = 'wx68da0cea81d5839c'
+    appid_id = 'wxe5f52902cf4de896'
     crawler.crawl(appid_id)
 
 

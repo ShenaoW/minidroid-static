@@ -10,6 +10,7 @@
     - MDG(miniapp)
 """
 
+import pprint
 import graphviz
 import pydotplus
 from collections import defaultdict
@@ -24,10 +25,10 @@ from pdg_js.js_operators import get_node_computed_value
 class Node():
     node_dict = {}
 
-    # TODO: 该构造方法的生存周期？
+    # TODO: 注意该构造方法的生存周期，在一个MiniApp分析完毕后将Node.node_dict清空
     # 在节点类的构造方法 __new__ 中，先在 node_dict 中查找是否存在同名节点实例，如果存在，则直接返回该实例；
     # 否则，再调用 super().__new__(cls) 方法创建新的节点实例并返回
-    def __new__(cls, name):
+    def __new__(cls, name, parent):
         if name in cls.node_dict:
             return cls.node_dict[name]
         else:
@@ -46,6 +47,7 @@ class Node():
     @classmethod
     def get_node_by_name(cls, name):
         return cls.node_dict.get(name)
+
 
 class FuncNode(Node):
     def __init__(self, name, parent):
@@ -69,34 +71,32 @@ class PageNode(Node):
         self.beacon = beacon
 
 
-# TODO: 基于Node对FCG、UTG、MDG进行重构
+# TODO: 基于Node对FCG、UTG、MDG进行重构(如何解决多个parent路径对应的问题)
 class UTG():
     def __init__(self, miniapp: MiniApp):
         self.miniapp = miniapp
-        self.utg = Node(name=self.miniapp.name, parent=None)
-        self.produce_utg()
+        # self.utg = Node(name=self.miniapp.name, parent=None)
+        # self.produce_utg()
 
-    def produce_utg(self):
-        # add tabBar PageNode
-        for tabBar in self.miniapp.tabBars.keys():
-            self.utg.add_child(PageNode(name=tabBar, parent=self.utg, 
-                                page=self.miniapp.tabBars[tabBar], beacon=None))
-        # add navigator PageNode
-        for page in self.miniapp.pages.keys():
-            for navigator in self.miniapp.pages[page].navigator['UIElement']:
-                if navigator.target == 'self':
-                    if Node.get_node_by_name(page) is not None:
-                        pass
-
-            
-
+    # def produce_utg(self):
+    #     # add tabBar PageNode
+    #     for tabBar in self.miniapp.tabBars.keys():
+    #         self.utg.add_child(PageNode(name=tabBar, parent=self.utg, 
+    #                             page=self.miniapp.tabBars[tabBar], beacon=None))
+    #     # add navigator PageNode
+    #     for page in self.miniapp.pages.keys():
+    #         for navigator in self.miniapp.pages[page].navigator['UIElement']:
+    #             if navigator.target == 'self':
+    #                 src = Node.get_node_by_name(str(page))
+    #                 if src is not None:
+    #                     dest = Node.get_node_by_name(str(navigator.url))
+    #                     if dest is None:
+    #                         dest = Node(name=str(navigator.url), parent=src)
+    #                     else:
+    #                         pass
 
     def produce_utgviz(self, graph=graphviz.Digraph(comment='UI Transition Graph',
                                                  graph_attr={"concentrate": "true", "splines": "false"})):
-        page_node_style = ['box', 'red', 'lightpink']
-        graph.attr('node', shape=page_node_style[0], style='filled',
-                   color=page_node_style[2], fillcolor=page_node_style[2])
-        graph.attr('edge', color=page_node_style[1])
         for tabBar in self.miniapp.tabBars.keys():
             graph.edge('MiniApp', str(tabBar))
         for page in self.miniapp.pages.keys():
@@ -114,11 +114,7 @@ class UTG():
         graph = pydotplus.graph_from_dot_data(data=dot)
         for edge in graph.get_edges():
             src, dst = edge.get_source().strip('"'), edge.get_destination().strip('"')
-            if "label" in edge.get_attributes().keys():
-                label = edge.get_attributes()["label"]
-            else:
-                label = None
-            utg[src].append((dst, label))
+            utg[src].append(dst)
         return dict(utg)
 
     def draw_utg(self, save_path=config.SAVE_PATH_UTG):
@@ -169,14 +165,7 @@ class FCG():
     def add_callee_edge_to_graph(self, graph, call_graph, func):
         for callee in call_graph[func]:
             if callee in config.SENSITIVE_API:
-                graph.attr('node', style='filled', color='lightgoldenrodyellow',
-                           fillcolor='lightgoldenrodyellow')
-                graph.attr('edge', color='orange')
                 graph.edge(func, callee)
-                func_node_style = ['ellipse', 'goldenrod1', 'goldenrod1']
-                graph.attr('node', shape=func_node_style[0], style='filled', color=func_node_style[2],
-                           fillcolor=func_node_style[2])
-                graph.attr('edge', color=func_node_style[1])
             else:
                 graph.edge(func, callee)
             if callee in call_graph.keys():
@@ -185,29 +174,18 @@ class FCG():
 
     def produce_fcgviz(self, graph=graphviz.Digraph(graph_attr={"concentrate": "true", "splines": "false"},
                                                  comment='Function Call Graph')):
-        page_node_style = ['box', 'red', 'lightpink']
-        graph.attr('node', shape=page_node_style[0], style='filled',
-                   color=page_node_style[2], fillcolor=page_node_style[2])
         graph.node(name=self.page.page_path)
-        func_node_style = ['ellipse', 'goldenrod1', 'goldenrod1']
-        graph.attr('node', shape=func_node_style[0], style='filled', color=func_node_style[2],
-                   fillcolor=func_node_style[2])
-        graph.attr('edge', color=func_node_style[1])
-        # graph.edge(self.page.page_path, 'BindingEvent')
-        # graph.edge(self.page.page_path, 'LifecycleCallback')
         # BindingEvent Call Graph
         for binding in self.page.binding_event.keys():
             if len(self.page.binding_event[binding]):
                 for event in self.page.binding_event[binding]:
-                    # event_contents=' '
-                    # event_contents.join(event.contents)
-                    graph.edge(self.page.page_path, event.handler, label=event.trigger)
+                    graph.edge(self.page.page_path, event.handler)
                     func = event.handler
                     call_graph = self.get_all_callee_from_func(func, call_graph={})
                     if call_graph is not None:
                         if func in call_graph.keys():
                             graph = self.add_callee_edge_to_graph(graph, call_graph, func)
-
+        # LifecycleEvent Call Graph
         for func in self.page.page_method_nodes.keys():
             if func in ('onLoad', 'onShow', 'onReady', 'onHide', 'onUnload'):
                 graph.edge(self.page.page_path, func)
@@ -223,11 +201,11 @@ class FCG():
         graph = pydotplus.graph_from_dot_data(data=dot)
         for edge in graph.get_edges():
             src, dst = edge.get_source().strip('"'), edge.get_destination().strip('"')
-            if "label" in edge.get_attributes().keys():
-                label = edge.get_attributes()["label"]
-            else:
-                label = None
-            fcg[src].append((dst, label))
+            # if "label" in edge.get_attributes().keys():
+            #     label = edge.get_attributes()["label"]
+            # else:
+            #     label = None
+            fcg[src].append(dst)
         return dict(fcg)
 
     def draw_fcg(self, save_path=config.SAVE_PATH_FCG):
@@ -247,17 +225,9 @@ class MDG():
     
     def produce_mdgviz(self, graph=graphviz.Digraph(comment='MiniApp Dependency Graph',
                                                  graph_attr={"concentrate": "true", "splines": "false"})):
-        page_node_style = ['box', 'red', 'lightpink']
-        graph.attr('node', shape=page_node_style[0], style='filled',
-                   color=page_node_style[2], fillcolor=page_node_style[2])
-        graph.attr('edge', color=page_node_style[1])
         for tabBar in self.miniapp.tabBars.keys():
             graph.edge('MiniApp', str(tabBar))
         for page in self.miniapp.pages.keys():
-            page_node_style = ['box', 'red', 'lightpink']
-            graph.attr('node', shape=page_node_style[0], style='filled', color=page_node_style[2],
-                       fillcolor=page_node_style[2])
-            graph.attr('edge', color=page_node_style[1])
             for navigator in self.miniapp.pages[page].navigator['UIElement']:
                 if navigator.target == 'self':
                     graph.edge(str(page), str(navigator.url), label=navigator.type)
@@ -266,3 +236,13 @@ class MDG():
                     graph.edge(str(page), str(navigator.target), label=navigator.name)
             graph = self.miniapp.pages[page].produce_fcg(graph=graph)
         return graph
+    
+
+if __name__ == '__main__':
+    miniapp = MiniApp('/root/minidroid/dataset/miniprogram-demo')
+    # utg = UTG(miniapp)
+    # pprint.pprint(utg.get_utg_dict())
+    for page in miniapp.pages.values():
+        fcg = FCG(page)
+        pprint.pprint(fcg.get_fcg_dict())
+        break

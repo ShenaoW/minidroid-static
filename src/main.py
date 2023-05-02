@@ -1,5 +1,6 @@
 import os
 import json
+from pathlib import Path
 from loguru import logger
 from bs4 import BeautifulSoup
 import multiprocessing as mp
@@ -7,6 +8,7 @@ from utils.utils import get_wxapkg_paths
 from utils.wxapkg_decoder import decompile_wxapkg_with_unveilr
 from strategy.violation_checker import ViolationChecker
 from miniapp import MiniApp
+from analyzer import ConsistencyAnalyzer
 
 
 def handle_wxapkgs(wxapkgs, save_json=None):
@@ -38,7 +40,6 @@ def handle_wxapkgs(wxapkgs, save_json=None):
             logger.info('Decompile Success: {}'.format(output_path))
         else:
             decompile_wxapkg_with_unveilr(wxapkg_path, output_path)
-
 
 def check_compliance_violations():
     logger.add('src/log/comp_vios.log')
@@ -122,9 +123,39 @@ def draw_fcg():
         except Exception as e:
             logger.error(e)
 
+def consistency_analysis():
+    logger.add('src/log/consistency_analysis.log')
+    with open('dataset/dataset.json', 'r', encoding='utf-8') as fp:
+        miniapp_paths = json.load(fp)
+    for miniapp_path in miniapp_paths:
+        try:
+            miniapp = MiniApp(miniapp_path)
+            pp_path = 'dataset/privacy_policy/'+miniapp.name+'.json'
+            result_path = 'result/consistency_analysis/'+miniapp.name+'.json'
+            if os.path.exists(pp_path):
+                analyzer = ConsistencyAnalyzer(miniapp, Path(pp_path))
+                redundant_scopes, missing_scopes = analyzer.consistency_analysis()
+                if redundant_scopes is not None:
+                    if len(redundant_scopes) or len(missing_scopes):
+                        data = {
+                            'redundant_scopes': redundant_scopes,
+                            'missing_scopes': missing_scopes
+                        }
+                        with open(result_path, 'w', encoding='utf-8') as fp:
+                            json.dump(data, fp)
+                        logger.info('[InconsistencyExists]{}'.format(miniapp.name))
+                    else:
+                        logger.info('[PerfectConsistency]{}'.format(miniapp.name))
+                else:
+                    logger.info('[PPEmpty]{}'.format(miniapp.name))
+        except Exception as e:
+            logger.error('[Error]{}{}'.format(miniapp.name, e))
+
 
 if __name__ == '__main__':
-    handle_wxapkgs('dataset/dataset11w.json', save_json='dataset/dataset11w-dec.json')
+    consistency_analysis()
+
+    # handle_wxapkgs('dataset/dataset11w.json', save_json='dataset/dataset11w-dec.json')
 
     # check_compliance_violations()
     # check_sensi_apis()

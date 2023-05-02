@@ -379,11 +379,12 @@ class Page:
                 if len(child.children) > 0 and child.children[0].body in ('callee', 'tag'):
                     callee = child.children[0]
                     call_expr_value = get_node_computed_value(callee)
-                    if call_expr_value in config.SENSITIVE_API:
-                        if call_expr_value in self.sensi_apis.keys():
-                            self.sensi_apis[call_expr_value].append(page_method)
-                        else:
-                            self.sensi_apis[call_expr_value] = [page_method]
+                    if isinstance(call_expr_value, str):
+                        if call_expr_value in config.SENSITIVE_API:
+                            if call_expr_value in self.sensi_apis.keys():
+                                self.sensi_apis[call_expr_value].add(page_method)
+                            else:
+                                self.sensi_apis[call_expr_value] = set(page_method)
             self.traverse_children_to_find_sensi_apis(page_method, child)
 
 
@@ -462,11 +463,6 @@ class MiniApp:
                     tab_bar_list = app_config['tabBar']['list']
                     for tab_bar in tab_bar_list:
                         self.tabBars[tab_bar['pagePath']] = tab_bar['text']
-                else:
-                    self.tabBars = None
-        else:
-            self.pages = None
-            self.tabBars = None
 
     def find_sensi_api_by_reg_directly(self, miniapp_path):
         for page in self.pages.values():

@@ -129,27 +129,33 @@ def consistency_analysis():
         miniapp_paths = json.load(fp)
     for miniapp_path in miniapp_paths:
         try:
-            miniapp = MiniApp(miniapp_path)
-            pp_path = 'dataset/privacy_policy/'+miniapp.name+'.json'
-            result_path = 'result/consistency_analysis/'+miniapp.name+'.json'
+            miniapp_name = miniapp_path.split('/')[-1]
+            pp_path = 'dataset/privacy_policy/'+miniapp_name+'.json'
+            result_path = 'result/consistency_analysis/'+miniapp_name+'.json'
             if os.path.exists(pp_path):
-                analyzer = ConsistencyAnalyzer(miniapp, Path(pp_path))
-                redundant_scopes, missing_scopes = analyzer.consistency_analysis()
-                if redundant_scopes is not None:
-                    if len(redundant_scopes) or len(missing_scopes):
-                        data = {
-                            'redundant_scopes': redundant_scopes,
-                            'missing_scopes': missing_scopes
-                        }
-                        with open(result_path, 'w', encoding='utf-8') as fp:
-                            json.dump(data, fp)
-                        logger.info('[InconsistencyExists]{}'.format(miniapp.name))
-                    else:
-                        logger.info('[PerfectConsistency]{}'.format(miniapp.name))
+                with open(str(pp_path), 'r', encoding='utf-8') as fp:
+                    data = json.load(fp)
+                if data['privacy_detail_list']['item']:
+                    miniapp = MiniApp(miniapp_path)
+                    analyzer = ConsistencyAnalyzer(miniapp, Path(pp_path))
+                    redundant_scopes, missing_scopes = analyzer.consistency_analysis()
+                    if redundant_scopes is not None:
+                        if len(redundant_scopes) or len(missing_scopes):
+                            data = {
+                                'redundant_scopes': redundant_scopes,
+                                'missing_scopes': missing_scopes
+                            }
+                            with open(result_path, 'w', encoding='utf-8') as fp:
+                                json.dump(data, fp)
+                            logger.info('[InconsistencyExists]{}'.format(miniapp_name))
+                        else:
+                            logger.info('[PerfectConsistency]{}'.format(miniapp_name))
                 else:
-                    logger.info('[PPEmpty]{}'.format(miniapp.name))
+                    logger.info('[PPEmpty]{}'.format(miniapp_name))
+            else:
+                    logger.info('[PPEmpty]{}'.format(miniapp_name))
         except Exception as e:
-            logger.error('[Error]{}{}'.format(miniapp.name, e))
+            logger.error('[Error]{}{}'.format(miniapp_name, e))
 
 
 if __name__ == '__main__':

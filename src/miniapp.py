@@ -384,7 +384,8 @@ class Page:
                             if call_expr_value in self.sensi_apis.keys():
                                 self.sensi_apis[call_expr_value].add(page_method)
                             else:
-                                self.sensi_apis[call_expr_value] = set(page_method)
+                                self.sensi_apis[call_expr_value] = set()
+                                self.sensi_apis[call_expr_value].add(page_method)
             self.traverse_children_to_find_sensi_apis(page_method, child)
 
 

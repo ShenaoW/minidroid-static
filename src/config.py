@@ -57,6 +57,7 @@ ROUTE_API = ['wx.switchTab',
              'wx.reLaunch',
              'wx.redirectTo',
              'wx.navigateTo',
+             'wx.navigateToSync',
              'wx.navigateBack']
 
 NAVIGATE_API = ['wx.navigateToMiniProgram',

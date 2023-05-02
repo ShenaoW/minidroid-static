@@ -59,7 +59,7 @@ class UTG():
         else:
             dot.render(save_path, view=False)
             graphviz.render(filepath=save_path, engine='dot', format='eps')
-        # dot.clear()
+        dot.clear()
 
 
 class FCG():
@@ -82,7 +82,8 @@ class FCG():
                     if isinstance(call_expr_value, str):
                         if call_expr_value in self.page.page_method_nodes.keys():
                             if call_graph.get(func, False):
-                                if call_expr_value not in call_graph[func]:
+                                # avoid self-calling/recursive calling loops
+                                if call_expr_value != func and call_expr_value not in call_graph[func]:
                                     call_graph[func].add(call_expr_value)
                                     self.get_all_callee_from_func(call_expr_value, call_graph)
                             else:
@@ -156,7 +157,7 @@ class FCG():
         else:
             dot.render(save_path, view=False)
             graphviz.render(filepath=save_path, engine='dot', format='eps')
-        # dot.clear()
+        dot.clear()
 
     def get_sensi_api_trigger_path(self, sensi_api):
         pass
@@ -182,15 +183,10 @@ class MDG():
     
 
 if __name__ == '__main__':
-    miniapp = MiniApp('/root/minidroid/dataset/miniprograms/wx999eb019dce3def9')
+    miniapp = MiniApp('/root/minidroid/dataset/miniprograms/wx8f454e7905e01d1d')
     utg = UTG(miniapp)
     utg.draw_utg()
     for page in miniapp.pages.values():
         fcg = FCG(page)
         print('[Success]{}'.format(page.page_path))
         fcg.draw_fcg()
-
-    # page = Page('/root/minidroid/dataset/miniprograms/wx81e4613b8a60e2ea/pages/album/albumDetail/albumDetail', 
-    #             miniapp)
-    # fcg = FCG(page)
-    # fcg.draw_fcg()

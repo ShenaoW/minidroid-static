@@ -85,8 +85,8 @@ class ConsistencyAnalyzer():
             return None, None
 
 if __name__ == '__main__':
-    miniapp = MiniApp('/root/minidroid/dataset/miniprograms/wx999eb019dce3def9')
-    analyzer = ConsistencyAnalyzer(miniapp=miniapp, privacy_policy=Path('/root/minidroid/dataset/privacy_policy/wx999eb019dce3def9.json'))
+    miniapp = MiniApp('/root/minidroid/dataset/miniprograms/wx8f454e7905e01d1d')
+    analyzer = ConsistencyAnalyzer(miniapp=miniapp, privacy_policy=Path('/root/minidroid/dataset/privacy_policy/wx8f454e7905e01d1d.json'))
     pprint.pprint(analyzer.consistency_analysis())
 
     # pprint.pprint(analyzer.sensi_apis)

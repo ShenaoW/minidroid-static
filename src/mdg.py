@@ -182,7 +182,7 @@ class MDG():
     
 
 if __name__ == '__main__':
-    miniapp = MiniApp('/root/minidroid/dataset/miniprograms/wx81e4613b8a60e2ea')
+    miniapp = MiniApp('/root/minidroid/dataset/miniprograms/wx999eb019dce3def9')
     utg = UTG(miniapp)
     utg.draw_utg()
     for page in miniapp.pages.values():

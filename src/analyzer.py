@@ -49,11 +49,12 @@ class ConsistencyAnalyzer():
             reachable = set()
         return reachable
 
-    def dfs(self, utg_dict, key, reachable: set):
-        for value in utg_dict[key]:
+    def dfs(self, graph_dict, key, reachable: set):
+        for value in graph_dict[key]:
             reachable.add(value)
-            if value in utg_dict.keys():
-                self.dfs(utg_dict, key=value, reachable=reachable)
+            if value in graph_dict.keys():
+                if value not in reachable:  # avoid loops
+                    self.dfs(graph_dict, key=value, reachable=reachable)
         return reachable
     
     def reachable_sensi_apis_to_scopes(self):
@@ -84,8 +85,8 @@ class ConsistencyAnalyzer():
             return None, None
 
 if __name__ == '__main__':
-    miniapp = MiniApp('/root/minidroid/dataset/miniprograms/wx81e4613b8a60e2ea')
-    analyzer = ConsistencyAnalyzer(miniapp=miniapp, privacy_policy=Path('/root/minidroid/dataset/privacy_policy/wx81e4613b8a60e2ea.json'))
+    miniapp = MiniApp('/root/minidroid/dataset/miniprograms/wx999eb019dce3def9')
+    analyzer = ConsistencyAnalyzer(miniapp=miniapp, privacy_policy=Path('/root/minidroid/dataset/privacy_policy/wx999eb019dce3def9.json'))
     pprint.pprint(analyzer.consistency_analysis())
 
     # pprint.pprint(analyzer.sensi_apis)

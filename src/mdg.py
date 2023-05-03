@@ -69,6 +69,39 @@ class FCG():
         self.reachable_sensi_api_paths = {}
         self.fcg = self.produce_fcg()
 
+    def produce_fcg(self, graph=graphviz.Digraph(graph_attr={"concentrate": "true", "splines": "false"},
+                                                 comment='Function Call Graph')):
+        graph.node(name=self.page.page_path)
+        # BindingEvent Call Graph
+        for binding in self.page.binding_event.keys():
+            if len(self.page.binding_event[binding]):
+                for event in self.page.binding_event[binding]:
+                    graph.edge(self.page.page_path, event.handler)
+                    func = event.handler
+                    self.trigger_event[func] = event
+                    call_graph = self.get_all_callee_from_func(func, call_graph={})
+                    if call_graph is not None:
+                        if func in call_graph.keys():
+                            graph = self.add_callee_edge_to_graph(graph, call_graph, func)
+        # LifecycleEvent Call Graph
+        for func in self.page.page_method_nodes.keys():
+            if func in ('onLoad', 'onShow', 'onReady', 'onHide', 'onUnload'):
+                graph.edge(self.page.page_path, func)
+                call_graph = self.get_all_callee_from_func(func, call_graph={})
+                if call_graph is not None:
+                    if func in call_graph.keys():
+                        graph = self.add_callee_edge_to_graph(graph, call_graph, func)
+        return graph
+    
+    def get_all_callee_from_func(self, func: str, call_graph):
+        try:
+            func_node = self.page.page_method_nodes[func]
+        except:
+            logger.warning("FuncNotFoundError: function {} in {} not found!".format(func, self.page.page_path))
+            return None
+        call_graph = self.traverse_children_to_build_func_call_chain(func, func_node, call_graph)
+        return call_graph
+
     def traverse_children_to_build_func_call_chain(self, func: str, node, call_graph):
         for child in node.children:
             if child.name in ('CallExpression', 'TaggedTemplateExpression'):
@@ -95,15 +128,6 @@ class FCG():
                             call_graph[func].add(call_expr_value)
             call_graph = self.traverse_children_to_build_func_call_chain(func, child, call_graph)
         return call_graph
-    
-    def get_all_callee_from_func(self, func: str, call_graph):
-        try:
-            func_node = self.page.page_method_nodes[func]
-        except:
-            logger.warning("FuncNotFoundError: function {} in {} not found!".format(func, self.page.page_path))
-            return None
-        call_graph = self.traverse_children_to_build_func_call_chain(func, func_node, call_graph)
-        return call_graph
 
     def add_callee_edge_to_graph(self, graph, call_graph, func):
         for callee in call_graph[func]:
@@ -114,30 +138,6 @@ class FCG():
                 if callee not in call_graph[callee]:  # avoid self-calling loops
                     if func not in call_graph[callee]:  # avoid recursive calling loops
                         graph = self.add_callee_edge_to_graph(graph, call_graph, func=callee)
-        return graph
-
-    def produce_fcg(self, graph=graphviz.Digraph(graph_attr={"concentrate": "true", "splines": "false"},
-                                                 comment='Function Call Graph')):
-        graph.node(name=self.page.page_path)
-        # BindingEvent Call Graph
-        for binding in self.page.binding_event.keys():
-            if len(self.page.binding_event[binding]):
-                for event in self.page.binding_event[binding]:
-                    graph.edge(self.page.page_path, event.handler)
-                    func = event.handler
-                    self.trigger_event[func] = event
-                    call_graph = self.get_all_callee_from_func(func, call_graph={})
-                    if call_graph is not None:
-                        if func in call_graph.keys():
-                            graph = self.add_callee_edge_to_graph(graph, call_graph, func)
-        # LifecycleEvent Call Graph
-        for func in self.page.page_method_nodes.keys():
-            if func in ('onLoad', 'onShow', 'onReady', 'onHide', 'onUnload'):
-                graph.edge(self.page.page_path, func)
-                call_graph = self.get_all_callee_from_func(func, call_graph={})
-                if call_graph is not None:
-                    if func in call_graph.keys():
-                        graph = self.add_callee_edge_to_graph(graph, call_graph, func)
         return graph
 
     def get_fcg_dict(self):
@@ -183,7 +183,7 @@ class MDG():
     
 
 if __name__ == '__main__':
-    miniapp = MiniApp('/root/minidroid/dataset/miniprograms/wx8f454e7905e01d1d')
+    miniapp = MiniApp('/root/minidroid/dataset/miniprograms/wx78aede17802a14ab')
     utg = UTG(miniapp)
     utg.draw_utg()
     for page in miniapp.pages.values():

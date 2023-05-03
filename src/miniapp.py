@@ -209,21 +209,21 @@ class Page:
         except Exception as e:
             logger.error('WxmlNotFoundError: {}'.format(e))
 
-    def set_binding_event(self, page_path):
+    def set_binding_event(self):
         for binding in config.BINDING_EVENTS:
             for tag in self.wxml_soup.find_all(attrs={binding: True}):
-                enent = Event(name=tag.name, trigger=binding,
+                event = Event(name=tag.name, trigger=binding,
                             handler=tag.attrs[binding], contents=tag.contents, tag=tag)
                 if binding not in self.binding_event.keys():
                     self.binding_event[binding] = []
-                self.binding_event[binding].append(enent)
+                self.binding_event[binding].append(event)
 
-    def set_navigator(self, page_path):
-        self.set_navigator_ui(page_path)
+    def set_navigator(self):
+        self.set_navigator_ui()
         if self.pdg_node is not None:
             self.set_navigator_api()
 
-    def set_navigator_ui(self, page_path):
+    def set_navigator_ui(self):
         tags = self.wxml_soup.find_all('navigator')
         for tag in tags:
             target = tag['target'] if 'target' in tag.attrs.keys() else 'self'
@@ -464,6 +464,8 @@ class MiniApp:
                     tab_bar_list = app_config['tabBar']['list']
                     for tab_bar in tab_bar_list:
                         self.tabBars[tab_bar['pagePath']] = tab_bar['text']
+                else:
+                    self.tabBars[self.index_page] = '首页'
 
     def find_sensi_api_by_reg_directly(self, miniapp_path):
         for page in self.pages.values():

@@ -146,7 +146,7 @@ def consistency_analysis():
                                 'missing_scopes': missing_scopes
                             }
                             with open(result_path, 'w', encoding='utf-8') as fp:
-                                json.dump(data, fp)
+                                json.dump(data, fp, ensure_ascii=False)
                             logger.info('[InconsistencyExists]{}'.format(miniapp_name))
                         else:
                             logger.info('[PerfectConsistency]{}'.format(miniapp_name))
@@ -159,6 +159,7 @@ def consistency_analysis():
 
 
 if __name__ == '__main__':
+    # ignore "/root/minidroid/dataset/miniprograms/wx78aede17802a14ab"
     consistency_analysis()
 
     # handle_wxapkgs('dataset/dataset11w.json', save_json='dataset/dataset11w-dec.json')

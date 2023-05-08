@@ -114,20 +114,37 @@ class FCG():
                     call_expr_value = get_node_computed_value(callee)
                     if isinstance(call_expr_value, str):
                         if call_expr_value in self.page.page_method_nodes.keys():
-                            if call_graph.get(func, False):
-                                # avoid self-calling/recursive calling loops
-                                if call_expr_value != func and call_expr_value not in call_graph[func]:
+                            if func in call_graph.keys():
+                                # avoid self-calling/recursive calling loops with get_fcg_reachable_path
+                                if len(self.get_fcg_reachable_path(call_graph, call_expr_value, func)) == 0:
+                                # if call_expr_value != func and call_expr_value not in call_graph[func]:
+                                # if call_expr_value not in call_graph.keys():
                                     call_graph[func].add(call_expr_value)
                                     self.get_all_callee_from_func(call_expr_value, call_graph)
                             else:
-                                call_graph[func] = set()
-                                call_graph[func].add(call_expr_value)
-                                self.get_all_callee_from_func(call_expr_value, call_graph)
+                                if len(self.get_fcg_reachable_path(call_graph, call_expr_value, func)) == 0:
+                                    call_graph[func] = set()    
+                                    call_graph[func].add(call_expr_value)
+                                    self.get_all_callee_from_func(call_expr_value, call_graph)
                         elif call_expr_value in config.SENSITIVE_API:
                             call_graph[func] = set()
                             call_graph[func].add(call_expr_value)
             call_graph = self.traverse_children_to_build_func_call_chain(func, child, call_graph)
         return call_graph
+    
+    def get_fcg_reachable_path(self, call_graph: dict, source, target, path=[]):
+        path = path + [source]
+        if source == target:
+            return [path]
+        if source not in call_graph.keys():
+            return [] 
+        paths = []
+        for node in call_graph[source]:
+            if node not in path:
+                new_paths = self.get_fcg_reachable_path(call_graph, node, target, path)
+                for p in new_paths:
+                    paths.append(p)
+        return paths
 
     def add_callee_edge_to_graph(self, graph, call_graph, func):
         for callee in call_graph[func]:
@@ -183,7 +200,7 @@ class MDG():
     
 
 if __name__ == '__main__':
-    miniapp = MiniApp('/root/minidroid/dataset/miniprograms/wx78aede17802a14ab')
+    miniapp = MiniApp('/root/minidroid/dataset/miniprograms/wx911bf687e85b3f22')
     utg = UTG(miniapp)
     utg.draw_utg()
     for page in miniapp.pages.values():

@@ -198,8 +198,8 @@ class Page:
 
         self.set_wxml_soup(self.abs_page_path)
         if self.wxml_soup is not None:
-            self.set_binding_event(self.abs_page_path)
-            self.set_navigator(self.abs_page_path)
+            self.set_binding_event()
+            self.set_navigator()
         self.set_page_sensi_apis()
 
     def set_wxml_soup(self, page_path):

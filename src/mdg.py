@@ -10,9 +10,12 @@
     - MDG(miniapp)
 """
 
+import os
 import pprint
 import graphviz
 import pydotplus
+import networkx as nx
+import matplotlib.pyplot as plt
 from collections import defaultdict
 from loguru import logger
 import config as config
@@ -27,21 +30,22 @@ class UTG():
         self.page_navigators = {}
         self.utg = self.produce_utg()
 
-    def produce_utg(self, graph=graphviz.Digraph(comment='UI Transition Graph',
-                                                 graph_attr={"concentrate": "true", "splines": "false"})):
+    def produce_utg(self):
+        graph = nx.DiGraph()
         for tabBar in self.miniapp.tabBars.keys():
-            graph.edge('MiniApp', str(tabBar))
+            graph.add_edge('MiniApp', str(tabBar))
         for page in self.miniapp.pages.keys():
             for navigator in self.miniapp.pages[page].navigator['UIElement']:
                 if navigator.target == 'self':
-                    graph.edge(str(page), str(navigator.url))
+                    graph.add_edge(str(page), str(navigator.url))
                     self.page_navigators[(str(page), str(navigator.url))] = navigator
             for navigator in self.miniapp.pages[page].navigator['NavigateAPI']:
                 if navigator.name in ('wx.navigateTo', 'wx.navigateBack'):
-                    graph.edge(str(page), str(navigator.target))
+                    graph.add_edge(str(page), str(navigator.target))
                     self.page_navigators[(str(page), str(navigator.target))] = navigator
         return graph
 
+    # TODO: reconstruction with nx.Digraph
     def get_utg_dict(self):
         utg = defaultdict(list)
         dot = self.utg.source
@@ -51,6 +55,7 @@ class UTG():
             utg[src].append(dst)
         return dict(utg)
 
+    # TODO: reconstruction with nx.Digraph
     def draw_utg(self, save_path=config.SAVE_PATH_UTG):
         save_path += '/' + self.miniapp.name + '/' + self.miniapp.name
         dot = self.utg
@@ -68,15 +73,16 @@ class FCG():
         self.trigger_event = {}
         self.reachable_sensi_api_paths = {}
         self.fcg = self.produce_fcg()
+        self.get_all_sensi_apis_trigger_path()
 
-    def produce_fcg(self, graph=graphviz.Digraph(graph_attr={"concentrate": "true", "splines": "false"},
-                                                 comment='Function Call Graph')):
-        graph.node(name=self.page.page_path)
+    def produce_fcg(self):
+        graph=nx.DiGraph()
+        graph.add_node(self.page.page_path)
         # BindingEvent Call Graph
         for binding in self.page.binding_event.keys():
             if len(self.page.binding_event[binding]):
                 for event in self.page.binding_event[binding]:
-                    graph.edge(self.page.page_path, event.handler)
+                    graph.add_edge(self.page.page_path, event.handler)
                     func = event.handler
                     self.trigger_event[func] = event
                     call_graph = self.get_all_callee_from_func(func, call_graph={})
@@ -86,7 +92,7 @@ class FCG():
         # LifecycleEvent Call Graph
         for func in self.page.page_method_nodes.keys():
             if func in ('onLoad', 'onShow', 'onReady', 'onHide', 'onUnload'):
-                graph.edge(self.page.page_path, func)
+                graph.add_edge(self.page.page_path, func)
                 call_graph = self.get_all_callee_from_func(func, call_graph={})
                 if call_graph is not None:
                     if func in call_graph.keys():
@@ -116,13 +122,13 @@ class FCG():
                         if call_expr_value in self.page.page_method_nodes.keys():
                             if func in call_graph.keys():
                                 # avoid self-calling/recursive calling loops with get_fcg_reachable_path
-                                if len(self.get_fcg_reachable_path(call_graph, call_expr_value, func)) == 0:
+                                if len(self.get_reachable_path_in_fcg_dict(call_graph, call_expr_value, func)) == 0:
                                 # if call_expr_value != func and call_expr_value not in call_graph[func]:
                                 # if call_expr_value not in call_graph.keys():
                                     call_graph[func].add(call_expr_value)
                                     self.get_all_callee_from_func(call_expr_value, call_graph)
                             else:
-                                if len(self.get_fcg_reachable_path(call_graph, call_expr_value, func)) == 0:
+                                if len(self.get_reachable_path_in_fcg_dict(call_graph, call_expr_value, func)) == 0:
                                     call_graph[func] = set()    
                                     call_graph[func].add(call_expr_value)
                                     self.get_all_callee_from_func(call_expr_value, call_graph)
@@ -132,7 +138,7 @@ class FCG():
             call_graph = self.traverse_children_to_build_func_call_chain(func, child, call_graph)
         return call_graph
     
-    def get_fcg_reachable_path(self, call_graph: dict, source, target, path=[]):
+    def get_reachable_path_in_fcg_dict(self, call_graph: dict, source, target, path=[]):
         path = path + [source]
         if source == target:
             return [path]
@@ -141,69 +147,78 @@ class FCG():
         paths = []
         for node in call_graph[source]:
             if node not in path:
-                new_paths = self.get_fcg_reachable_path(call_graph, node, target, path)
+                new_paths = self.get_reachable_path_in_fcg_dict(call_graph, node, target, path)
                 for p in new_paths:
                     paths.append(p)
         return paths
 
-    def add_callee_edge_to_graph(self, graph, call_graph, func):
+    def add_callee_edge_to_graph(self, graph: nx.DiGraph, call_graph, func):
         for callee in call_graph[func]:
             if callee in config.SENSITIVE_API:
-                graph.edge(func, callee)
+                graph.add_edge(func, callee)
             elif callee in call_graph.keys():
-                graph.edge(func, callee)
+                graph.add_edge(func, callee)
                 if callee not in call_graph[callee]:  # avoid self-calling loops
                     if func not in call_graph[callee]:  # avoid recursive calling loops
                         graph = self.add_callee_edge_to_graph(graph, call_graph, func=callee)
         return graph
 
+    # TODO: reconstruction with nx.Digraph
     def get_fcg_dict(self):
-        fcg = defaultdict(list)
-        dot = self.fcg.source
-        graph = pydotplus.graph_from_dot_data(data=dot)
-        for edge in graph.get_edges():
-            src, dst = edge.get_source().strip('"'), edge.get_destination().strip('"')
-            fcg[src].append(dst)
-        return dict(fcg)
+        graph:nx.DiGraph = self.fcg
+        fcg_dict = {}
+        for source in graph.adjacency():
+            fcg_dict[source[0]] = list(source[1].keys())
+        return fcg_dict
 
     def draw_fcg(self, save_path=config.SAVE_PATH_FCG):
         save_path += '/' + self.page.miniapp.name + '/' + self.page.page_path
-        dot = self.fcg
-        if save_path is None:
-            dot.view()
-        else:
-            dot.render(save_path, view=False)
-            graphviz.render(filepath=save_path, engine='dot', format='eps')
-        dot.clear()
+        if not os.path.exists(save_path):
+            os.makedirs(save_path)
+        # pydot_graph = nx.drawing.nx_pydot.to_pydot(self.fcg)
+        # pydot_graph.write_pdf(save_path+'.pdf')
+        nx.draw(self.fcg, with_labels=True)
+        plt.savefig(save_path+'.pdf')
+        plt.clf()
+
+    def get_all_sensi_apis_trigger_path(self):
+        for node in self.fcg.nodes:
+            if node in config.SENSITIVE_API.keys():
+                paths = list(nx.all_simple_paths(self.fcg, source=self.page.page_path, target=node))
+                self.reachable_sensi_api_paths[node] = paths
 
     def get_sensi_api_trigger_path(self, sensi_api):
-        pass
+        if sensi_api in self.fcg.nodes:
+            paths = list(nx.all_simple_paths(self.fcg, source=self.page.page_path, target=sensi_api))
+            return paths
+        else: 
+            return []
 
 
 class MDG():
     def __init__(self, miniapp: MiniApp):
         self.miniapp = miniapp
     
-    def produce_mdgviz(self, graph=graphviz.Digraph(comment='MiniApp Dependency Graph',
-                                                 graph_attr={"concentrate": "true", "splines": "false"})):
+    def produce_mdgviz(self):
+        graph = nx.DiGraph()
         for tabBar in self.miniapp.tabBars.keys():
-            graph.edge('MiniApp', str(tabBar))
+            graph.add_edge('MiniApp', str(tabBar))
         for page in self.miniapp.pages.keys():
             for navigator in self.miniapp.pages[page].navigator['UIElement']:
                 if navigator.target == 'self':
-                    graph.edge(str(page), str(navigator.url), label=navigator.type)
+                    graph.add_edge(str(page), str(navigator.url), label=navigator.type)
             for navigator in self.miniapp.pages[page].navigator['NavigateAPI']:
                 if navigator.name in ('wx.navigateTo', 'wx.navigateBack'):
-                    graph.edge(str(page), str(navigator.target), label=navigator.name)
+                    graph.add_edge(str(page), str(navigator.target), label=navigator.name)
             graph = self.miniapp.pages[page].produce_fcg(graph=graph)
         return graph
     
 
 if __name__ == '__main__':
-    miniapp = MiniApp('/root/minidroid/dataset/miniprograms/wx911bf687e85b3f22')
+    miniapp = MiniApp('/root/minidroid/dataset/miniprograms/wxa0e66ed6d3e79028')
     utg = UTG(miniapp)
-    utg.draw_utg()
     for page in miniapp.pages.values():
         fcg = FCG(page)
         print('[Success]{}'.format(page.page_path))
-        fcg.draw_fcg()
+        print(fcg.reachable_sensi_api_paths)
+        # pprint.pprint(fcg.get_fcg_dict())

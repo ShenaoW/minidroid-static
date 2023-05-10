@@ -1,5 +1,6 @@
 import os
 import json
+import pprint
 from pathlib import Path
 from loguru import logger
 from bs4 import BeautifulSoup
@@ -7,7 +8,8 @@ import multiprocessing as mp
 from utils.utils import get_wxapkg_paths
 from utils.wxapkg_decoder import decompile_wxapkg_with_unveilr
 from strategy.violation_checker import ViolationChecker
-from miniapp import MiniApp
+from miniapp import MiniApp, Page
+from mdg import UTG, FCG
 from analyzer import ConsistencyAnalyzer
 
 
@@ -158,9 +160,38 @@ def consistency_analysis():
             logger.error('[Error]{}{}'.format(miniapp_name, e))
 
 
+def scanner():
+    # miniapp_path = '/root/minidroid/dataset/miniprogram-demo'
+    logger.add('src/log/sensi_apis.log')
+    with open('dataset/dataset.json', 'r', encoding='utf-8') as fp:
+        miniapp_paths = json.load(fp)
+    for miniapp_path in miniapp_paths:
+        try:
+            miniapp_name = miniapp_path.split('/')[-1]
+            result_path = 'result/sensi_apis/'+miniapp_name+'.json'
+            miniapp = MiniApp(miniapp_path)
+            sensi_apis = miniapp.sensi_apis
+            for page in sensi_apis.keys():
+                fcg = FCG(miniapp.pages[page])
+                for sensi_api in sensi_apis[page].keys():
+                    sensi_path = fcg.get_sensi_api_trigger_path(sensi_api)
+                    if len(sensi_path):
+                        sensi_apis[page][sensi_api] = sensi_path
+                    else:
+                        sensi_apis[page][sensi_api] = None
+            # pprint.pprint(sensi_apis)
+            if len(sensi_apis):
+                with open(result_path, 'w', encoding='utf-8') as fp:
+                    json.dump(sensi_apis, fp, ensure_ascii=False, indent=2)
+            logger.info('[Finished] {}'.format(miniapp_name))
+        except Exception as e:
+            logger.error('[Error] {} {}'.format(miniapp_name, e))
+        
+
 if __name__ == '__main__':
-    # ignore "/root/minidroid/dataset/miniprograms/wx78aede17802a14ab"
-    consistency_analysis()
+    scanner()
+
+    # consistency_analysis()
 
     # handle_wxapkgs('dataset/dataset11w.json', save_json='dataset/dataset11w-dec.json')
 

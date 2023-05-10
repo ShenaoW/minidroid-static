@@ -238,6 +238,8 @@ class Page:
                     # <navigator open-type=navigateBack>
                     target = tag['app-id'] if 'app-id' in tag.attrs.keys() else 'miniprogram'
                     url = tag['path'] if 'path' in tag.attrs.keys() else 'index'
+                    if isinstance(url, str):
+                        url = os.path.normpath(os.path.join(self.page_path, url))
 
                     self.navigator['UIElement'].append(
                         Navigator(
@@ -257,6 +259,8 @@ class Page:
                     )
             else:
                 url = tag['url'] if 'url' in tag.attrs.keys() else None
+                if isinstance(url, str):
+                    url = os.path.normpath(os.path.join(self.page_path, url))
                 self.navigator['UIElement'].append(
                     Navigator(
                         name='navigator', contents=tag.contents, tag=tag,
@@ -493,5 +497,5 @@ class MiniApp:
 
 
 if __name__ == "__main__":
-    app = MiniApp('/root/minidroid/dataset/miniprogram-demo')
+    app = MiniApp('/root/minidroid/dataset/miniprograms/wxa0e66ed6d3e79028')
     pprint.pprint(app.sensi_apis)

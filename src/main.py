@@ -159,8 +159,26 @@ def consistency_analysis():
         except Exception as e:
             logger.error('[Error]{}{}'.format(miniapp_name, e))
 
+def scanner(miniapp_path):
+    miniapp_name = miniapp_path.split('/')[-1]
+    result_path = 'result/sensi_apis/'+miniapp_name+'.json'
+    miniapp = MiniApp(miniapp_path)
+    sensi_apis = miniapp.sensi_apis
+    for page in sensi_apis.keys():
+        fcg = FCG(miniapp.pages[page])
+        for sensi_api in sensi_apis[page].keys():
+            sensi_path = fcg.get_sensi_api_trigger_path(sensi_api)
+            if len(sensi_path):
+                sensi_apis[page][sensi_api] = sensi_path
+            else:
+                sensi_apis[page][sensi_api] = None
+        logger.info('[Success]{}'.format(page))
+    print(sensi_apis)
+    if len(sensi_apis):
+        with open(result_path, 'w', encoding='utf-8') as fp:
+            json.dump(sensi_apis, fp, ensure_ascii=False, indent=2)
 
-def scanner():
+def multi_scanner():
     # miniapp_path = '/root/minidroid/dataset/miniprogram-demo'
     logger.add('src/log/sensi_apis.log')
     with open('dataset/dataset.json', 'r', encoding='utf-8') as fp:
@@ -189,7 +207,8 @@ def scanner():
         
 
 if __name__ == '__main__':
-    scanner()
+    # multi_scanner()
+    scanner('/root/minidroid/dataset/appforperformance/Pinduoduo')
 
     # consistency_analysis()
 

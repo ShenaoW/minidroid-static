@@ -45,26 +45,19 @@ class UTG():
                     self.page_navigators[(str(page), str(navigator.target))] = navigator
         return graph
 
-    # TODO: reconstruction with nx.Digraph
     def get_utg_dict(self):
-        utg = defaultdict(list)
-        dot = self.utg.source
-        graph = pydotplus.graph_from_dot_data(data=dot)
-        for edge in graph.get_edges():
-            src, dst = edge.get_source().strip('"'), edge.get_destination().strip('"')
-            utg[src].append(dst)
-        return dict(utg)
-
-    # TODO: reconstruction with nx.Digraph
+        graph:nx.DiGraph = self.utg
+        utg_dict = {}
+        for source in graph.adjacency():
+            utg_dict[source[0]] = list(source[1].keys())
+        return utg_dict
+        
     def draw_utg(self, save_path=config.SAVE_PATH_UTG):
         save_path += '/' + self.miniapp.name + '/' + self.miniapp.name
-        dot = self.utg
-        if save_path is None:
-            dot.view()
-        else:
-            dot.render(save_path, view=False)
-            graphviz.render(filepath=save_path, engine='dot', format='eps')
-        dot.clear()
+        if not os.path.exists(save_path):
+            os.makedirs(save_path)
+        pydot_graph = nx.drawing.nx_pydot.to_pydot(self.utg)
+        pydot_graph.write_pdf(save_path+'.pdf')
 
 
 class FCG():
@@ -163,7 +156,6 @@ class FCG():
                         graph = self.add_callee_edge_to_graph(graph, call_graph, func=callee)
         return graph
 
-    # TODO: reconstruction with nx.Digraph
     def get_fcg_dict(self):
         graph:nx.DiGraph = self.fcg
         fcg_dict = {}
@@ -175,11 +167,8 @@ class FCG():
         save_path += '/' + self.page.miniapp.name + '/' + self.page.page_path
         if not os.path.exists(save_path):
             os.makedirs(save_path)
-        # pydot_graph = nx.drawing.nx_pydot.to_pydot(self.fcg)
-        # pydot_graph.write_pdf(save_path+'.pdf')
-        nx.draw(self.fcg, with_labels=True)
-        plt.savefig(save_path+'.pdf')
-        plt.clf()
+        pydot_graph = nx.drawing.nx_pydot.to_pydot(self.fcg)
+        pydot_graph.write_pdf(save_path+'.pdf')
 
     def get_all_sensi_apis_trigger_path(self):
         for node in self.fcg.nodes:
@@ -217,8 +206,10 @@ class MDG():
 if __name__ == '__main__':
     miniapp = MiniApp('/root/minidroid/dataset/miniprograms/wxa0e66ed6d3e79028')
     utg = UTG(miniapp)
+    utg.draw_utg()
     for page in miniapp.pages.values():
         fcg = FCG(page)
+        fcg.draw_fcg()
         print('[Success]{}'.format(page.page_path))
-        print(fcg.reachable_sensi_api_paths)
-        # pprint.pprint(fcg.get_fcg_dict())
+        # print(fcg.reachable_sensi_api_paths)
+        pprint.pprint(fcg.get_fcg_dict())

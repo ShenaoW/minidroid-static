@@ -186,7 +186,7 @@ def multi_scanner():
     for miniapp_path in miniapp_paths:
         try:
             miniapp_name = miniapp_path.split('/')[-1]
-            result_path = 'result/sensi_apis/'+miniapp_name+'.json'
+            result_path = 'result/sensi_api_trigger_path/'+miniapp_name+'.json'
             miniapp = MiniApp(miniapp_path)
             sensi_apis = miniapp.sensi_apis
             for page in sensi_apis.keys():

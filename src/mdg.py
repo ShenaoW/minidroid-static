@@ -79,13 +79,23 @@ class FCG():
         for binding in self.page.binding_event.keys():
             if len(self.page.binding_event[binding]):
                 for event in self.page.binding_event[binding]:
-                    graph.add_edge(self.page.page_path, event.handler)
-                    func = event.handler
-                    self.trigger_event[func] = event
-                    call_graph = self.get_all_callee_from_func(func, call_graph={})
-                    if call_graph is not None:
-                        if func in call_graph.keys():
-                            graph = self.add_callee_edge_to_graph(graph, call_graph, func)
+                    if isinstance(event.handler, list):
+                        for handler in event.handler:
+                            graph.add_edge(self.page.page_path, handler)
+                            func = handler
+                            self.trigger_event[func] = event
+                            call_graph = self.get_all_callee_from_func(func, call_graph={})
+                            if call_graph is not None:
+                                if func in call_graph.keys():
+                                    graph = self.add_callee_edge_to_graph(graph, call_graph, func)
+                    elif isinstance(event.handler, str):
+                        graph.add_edge(self.page.page_path, event.handler)
+                        func = event.handler
+                        self.trigger_event[func] = event
+                        call_graph = self.get_all_callee_from_func(func, call_graph={})
+                        if call_graph is not None:
+                            if func in call_graph.keys():
+                                graph = self.add_callee_edge_to_graph(graph, call_graph, func)
         # LifecycleEvent Call Graph
         for func in self.page.page_method_nodes.keys():
             if func in ('onLoad', 'onShow', 'onReady', 'onHide', 'onUnload'):
@@ -208,7 +218,7 @@ class MDG():
     
 
 if __name__ == '__main__':
-    miniapp = MiniApp('/root/minidroid/dataset/appforperformance/TencentVideo')
+    miniapp = MiniApp('/root/minidroid/dataset/miniprograms/wx4efaefee87cecc64')
     utg = UTG(miniapp)
     utg.draw_utg()
     for page in miniapp.pages.values():

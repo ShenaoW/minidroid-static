@@ -212,8 +212,13 @@ class Page:
     def set_binding_event(self):
         for binding in config.BINDING_EVENTS:
             for tag in self.wxml_soup.find_all(attrs={binding: True}):
+                if len(re.findall(r"\{\{(.+?)\}\}", tag.attrs[binding])):
+                    pattern = re.compile(r'\b(' + '|'.join(self.page_method_nodes.keys()) + r')\b')
+                    handler = pattern.findall(tag.attrs[binding])
+                else:
+                    handler = tag.attrs[binding]
                 event = Event(name=tag.name, trigger=binding,
-                            handler=tag.attrs[binding], contents=tag.contents, tag=tag)
+                            handler=handler, contents=tag.contents, tag=tag)
                 if binding not in self.binding_event.keys():
                     self.binding_event[binding] = []
                 self.binding_event[binding].append(event)

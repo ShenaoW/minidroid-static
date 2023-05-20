@@ -120,8 +120,10 @@ class FCG():
             if child.name in ('CallExpression', 'TaggedTemplateExpression'):
                 if len(child.children) > 0 and child.children[0].body in ('callee', 'tag'):
                     if child.children[0].name == 'MemberExpression':
-                            # and child.children[0].children[0].name == 'ThisExpression':
-                        callee = child.children[0].children[1]
+                        if get_node_computed_value(child.children[0].children[0]) == 'wx':
+                            callee = child.children[0]
+                        else:
+                            callee = child.children[0].children[1]
                     else:
                         callee = child.children[0]
                     call_expr_value = get_node_computed_value(callee)
@@ -139,9 +141,12 @@ class FCG():
                                     call_graph[func] = set()    
                                     call_graph[func].add(call_expr_value)
                                     self.get_all_callee_from_func(call_expr_value, call_graph)
-                        elif call_expr_value in config.SENSITIVE_API:
-                            call_graph[func] = set()
-                            call_graph[func].add(call_expr_value)
+                        elif call_expr_value in config.SENSITIVE_API.keys():
+                            if func in call_graph.keys():
+                                call_graph[func].add(call_expr_value)
+                            else:
+                                call_graph[func] = set()
+                                call_graph[func].add(call_expr_value)
             call_graph = self.traverse_children_to_build_func_call_chain(func, child, call_graph)
         return call_graph
     
@@ -161,7 +166,7 @@ class FCG():
 
     def add_callee_edge_to_graph(self, graph: nx.DiGraph, call_graph, func):
         for callee in call_graph[func]:
-            if callee in config.SENSITIVE_API:
+            if callee in config.SENSITIVE_API.keys():
                 graph.add_edge(func, callee)
             elif callee in call_graph.keys():
                 graph.add_edge(func, callee)
@@ -218,7 +223,7 @@ class MDG():
     
 
 if __name__ == '__main__':
-    miniapp = MiniApp('/root/minidroid/dataset/miniprograms/wx4efaefee87cecc64')
+    miniapp = MiniApp('/root/minidroid/dataset/miniprograms/wx6bb052c0233ca93d')
     utg = UTG(miniapp)
     utg.draw_utg()
     for page in miniapp.pages.values():

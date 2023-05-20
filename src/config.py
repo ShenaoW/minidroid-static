@@ -6,7 +6,6 @@ SAVE_PATH_UTG = os.path.dirname(os.path.abspath('__file__'))+'/result/utg'
 SAVE_PATH_FCG = os.path.dirname(os.path.abspath('__file__'))+'/result/fcg'
 UNPACK_COMMAND = 'node ' + PROJECT_PATH + os.sep + 'src/utils/wxappUnpacker/wuWxapkg.js {}'
 
-
 SENSITIVE_API = {
     'wx.getUserInfo': '收集你的微信昵称、头像',
     'wx.getUserProfile': '收集你的微信昵称、头像',
@@ -189,5 +188,13 @@ BINDING_EVENTS += [
     'bindnetstatus', 
     'bindaudiovolumenotify', 
 
-
+    # <map>
+    'bindmarkertap', 
+    'bindlabeltap', 
+    'bindcontroltap', 
+    'bindcallouttap', 
+    'bindupdated', 
+    'bindregionchange', 
+    'bindpoitap', 
+    'bindanchorpointtap',
 ]

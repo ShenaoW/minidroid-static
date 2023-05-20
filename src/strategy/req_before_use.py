@@ -74,7 +74,7 @@ def violation_checker(method_node, authorize_scopes: set, sensi_apis: set):
                 call_expr_value = get_node_computed_value(callee)
                 if call_expr_value == 'wx.authorize':
                     authorize_scopes = get_authorize_scopes(child, authorize_scopes=authorize_scopes)
-                elif call_expr_value in config.SENSITIVE_API:
+                elif call_expr_value in config.SENSITIVE_API.keys():
                     sensi_apis.add(call_expr_value)
         authorize_scopes, sensi_apis = violation_checker(child, authorize_scopes, sensi_apis)
     return authorize_scopes, sensi_apis
@@ -85,6 +85,6 @@ def get_authorize_scopes(child, authorize_scopes: set):
     for prop in obj_exp.children:
         if get_node_computed_value(prop.children[0]) == 'scope':
             scope = get_node_computed_value(prop.children[1])
-            if scope in config.SENSITIVE_API:
+            if scope in config.SENSITIVE_API.keys():
                 authorize_scopes.add(scope)
     return authorize_scopes

@@ -389,7 +389,7 @@ class Page:
                     callee = child.children[0]
                     call_expr_value = get_node_computed_value(callee)
                     if isinstance(call_expr_value, str):
-                        if call_expr_value in config.SENSITIVE_API:
+                        if call_expr_value in config.SENSITIVE_API.keys():
                             if call_expr_value in self.sensi_apis.keys():
                                 self.sensi_apis[call_expr_value].add(page_method)
                             else:

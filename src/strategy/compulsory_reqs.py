@@ -45,7 +45,7 @@ def violation_checker(node, page, violation):
                 callee = child.children[0]
                 call_expr_value = get_node_computed_value(callee)
                 if type(call_expr_value) == 'str':
-                    if call_expr_value == 'wx.authorize' or call_expr_value in config.SENSITIVE_API:
+                    if call_expr_value == 'wx.authorize' or call_expr_value in config.SENSITIVE_API.keys():
                         violation = check_fail_callback(child, page, violation)
         violation = violation_checker(child, page, violation)
     return violation

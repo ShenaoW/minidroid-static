@@ -22,6 +22,10 @@ import config as config
 from miniapp import MiniApp, Page
 from bs4 import Tag
 from pdg_js.js_operators import get_node_computed_value
+import warnings
+
+# 忽略 DeprecationWarning
+warnings.filterwarnings("ignore", category=DeprecationWarning)
 
 
 class UTG():
@@ -105,8 +109,8 @@ class FCG():
         for child in node.children:
             if child.name in ('CallExpression', 'TaggedTemplateExpression'):
                 if len(child.children) > 0 and child.children[0].body in ('callee', 'tag'):
-                    if child.children[0].name == 'MemberExpression' \
-                            and child.children[0].children[0].name == 'ThisExpression':
+                    if child.children[0].name == 'MemberExpression':
+                            # and child.children[0].children[0].name == 'ThisExpression':
                         callee = child.children[0].children[1]
                     else:
                         callee = child.children[0]
@@ -204,12 +208,12 @@ class MDG():
     
 
 if __name__ == '__main__':
-    miniapp = MiniApp('/root/minidroid/dataset/miniprograms/wxa0e66ed6d3e79028')
+    miniapp = MiniApp('/root/minidroid/dataset/appforperformance/TencentVideo')
     utg = UTG(miniapp)
     utg.draw_utg()
     for page in miniapp.pages.values():
         fcg = FCG(page)
         fcg.draw_fcg()
-        print('[Success]{}'.format(page.page_path))
+        # print('[Success]{}'.format(page.page_path))
         # print(fcg.reachable_sensi_api_paths)
-        pprint.pprint(fcg.get_fcg_dict())
+        # pprint.pprint(fcg.get_fcg_dict())

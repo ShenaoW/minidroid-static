@@ -207,8 +207,8 @@ def multi_scanner():
         
 
 if __name__ == '__main__':
-    # multi_scanner()
-    scanner('/root/minidroid/dataset/appforperformance/Pinduoduo')
+    multi_scanner()
+    # scanner('/root/minidroid/dataset/appforperformance/TencentVideo')
 
     # consistency_analysis()
 

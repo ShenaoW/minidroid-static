@@ -45,6 +45,16 @@ SENSITIVE_API = {
     'wx.addPhoneCalendar': '使用你的日历（仅写入）权限'
 }
 
+SINK_API = [
+    'wx.request',
+    'wx.uploadFile',
+    'wx.connectSocket',
+    'wx.createTCPSocket',
+    'wx.createUDPSocket',
+    'wx.setStorageSync',
+    'wx.setStorage'
+]
+
 ROUTE_API = [
     'wx.switchTab',
     'wx.reLaunch',

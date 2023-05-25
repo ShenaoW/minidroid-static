@@ -141,7 +141,8 @@ class FCG():
                                     call_graph[func] = set()    
                                     call_graph[func].add(call_expr_value)
                                     self.get_all_callee_from_func(call_expr_value, call_graph)
-                        elif call_expr_value in config.SENSITIVE_API.keys():
+                        elif call_expr_value in config.SENSITIVE_API.keys() \
+                                            or call_expr_value in config.SINK_API:
                             if func in call_graph.keys():
                                 call_graph[func].add(call_expr_value)
                             else:
@@ -166,7 +167,8 @@ class FCG():
 
     def add_callee_edge_to_graph(self, graph: nx.DiGraph, call_graph, func):
         for callee in call_graph[func]:
-            if callee in config.SENSITIVE_API.keys():
+            if callee in config.SENSITIVE_API.keys() or \
+                        callee in config.SINK_API:
                 graph.add_edge(func, callee)
             elif callee in call_graph.keys():
                 graph.add_edge(func, callee)
@@ -223,12 +225,12 @@ class MDG():
     
 
 if __name__ == '__main__':
-    miniapp = MiniApp('/root/minidroid/dataset/miniprograms/wx6bb052c0233ca93d')
+    miniapp = MiniApp('/root/minidroid/dataset/miniprograms/wx819a7f524bd9ded6')
     utg = UTG(miniapp)
     utg.draw_utg()
     for page in miniapp.pages.values():
         fcg = FCG(page)
         fcg.draw_fcg()
         # print('[Success]{}'.format(page.page_path))
-        # print(fcg.reachable_sensi_api_paths)
+        print(fcg.reachable_sensi_api_paths)
         # pprint.pprint(fcg.get_fcg_dict())

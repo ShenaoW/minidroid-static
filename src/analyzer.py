@@ -1,5 +1,6 @@
 import json
 import pprint
+import networkx as nx
 import config as config
 from miniapp import MiniApp, Page
 from mdg import UTG, FCG
@@ -84,8 +85,42 @@ class ConsistencyAnalyzer():
         else:
             return None, None
 
+
+class TaintAnalyzer():
+    def __init__(self, fcg: FCG):
+        self.fcg = fcg.fcg
+        self.reachable_sensi_apis = set(fcg.reachable_sensi_api_paths.keys())
+        self.reachable_sink_apis = set()
+        self.get_all_reachable_sink_apis()
+        self.taint_paths = {}
+        self.get_all_taint_paths()
+
+    def get_all_reachable_sink_apis(self):
+        for node in self.fcg.nodes:
+            if node in config.SINK_API:
+                self.reachable_sink_apis.add(node)
+    
+    def get_all_taint_paths(self):
+        for source in self.reachable_sensi_apis:
+            for sink in self.reachable_sink_apis:
+                lca = nx.algorithms.lowest_common_ancestors.lowest_common_ancestor(self.fcg, source, sink)
+                if lca is not None:
+                    if source not in self.taint_paths.keys():
+                        self.taint_paths[source] = {}
+                        self.taint_paths[source][sink] = lca
+                    else:
+                        self.taint_paths[source][sink] = lca
+
+
 if __name__ == '__main__':
-    miniapp = MiniApp('/root/minidroid/dataset/miniprograms/wxa067e5e60deeb11b')
-    analyzer = ConsistencyAnalyzer(miniapp=miniapp, privacy_policy=Path('/root/minidroid/dataset/privacy_policy/wxa067e5e60deeb11b.json'))
-    pprint.pprint(analyzer.consistency_analysis())
+    miniapp = MiniApp('/root/minidroid/dataset/quietweather-master')
+    # analyzer = ConsistencyAnalyzer(miniapp=miniapp, privacy_policy=Path('/root/minidroid/dataset/privacy_policy/wxa067e5e60deeb11b.json'))
+    # pprint.pprint(analyzer.consistency_analysis())
+    for page in miniapp.pages.values():
+        fcg = FCG(page)
+        fcg.draw_fcg()
+        # pprint.pprint(fcg.get_fcg_dict())
+        analyzer = TaintAnalyzer(fcg=fcg)
+        if len(analyzer.taint_paths):
+            print(analyzer.taint_paths)
 

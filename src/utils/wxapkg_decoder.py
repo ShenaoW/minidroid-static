@@ -2,7 +2,7 @@ import re
 import os
 import subprocess
 import platform
-import utils
+import utils.utils as utils
 from Crypto.Protocol.KDF import PBKDF2
 from Crypto.Hash import SHA1
 from Crypto.Cipher import AES

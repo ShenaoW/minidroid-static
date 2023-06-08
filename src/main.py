@@ -5,43 +5,35 @@ from pathlib import Path
 from loguru import logger
 from bs4 import BeautifulSoup
 import multiprocessing as mp
-from utils.utils import get_wxapkg_paths
-from utils.wxapkg_decoder import decompile_wxapkg_with_unveilr
+import utils.utils as utils
+from utils.wxapkg_decoder import decompile_wxapkg_with_wxUnpacker
 from strategy.violation_checker import ViolationChecker
 from miniapp import MiniApp, Page
 from mdg import UTG, FCG
 from analyzer import ConsistencyAnalyzer
 
 
-def handle_wxapkgs(wxapkgs, save_json=None):
+def handle_wxapkgs(wxapkgs):
     """
-        Decode wxapkgs in the directory.
+        Decode wxapkgs in the wxapkgs list.
 
         -------
         Parameters:
-        - wxapkgs: str
-            Multi-wxapkgs directory or index json will both fine.
-        - save_json: bool/str
-            default False, you can specify the path to save decode json result.
+        - wxapkgs: list
+            A list of Multi-wxapkgs directory.
 
         -------
         Return: None
     """
     logger.add('src/log/dec_wxapkgs.log')
-    if os.path.isfile(wxapkgs):
-        # wxapkgs = 'dataset/dataset11w.json'
-        with open(wxapkgs, 'r') as fp:
-            wxapkg_paths = json.load(fp=fp)
-    else:
-        # wxapkgs = 'dataset/wxapkgs-11w'
-        wxapkg_paths = get_wxapkg_paths(wxapkgs)
-
+    wxapkg_paths = wxapkgs
     for wxapkg_path in wxapkg_paths:
         output_path = 'dataset/miniprograms-11w/'+wxapkg_path.split('/')[-1].replace('.wxapkg', '')
         if os.path.exists(output_path):
             logger.info('Decompile Success: {}'.format(output_path))
         else:
-            decompile_wxapkg_with_unveilr(wxapkg_path, output_path)
+            decompile_wxapkg_with_wxUnpacker(wxapkg_path)
+            # decompile_wxapkg_with_unveilr(wxapkg_path, output_path)
 
 def check_compliance_violations():
     logger.add('src/log/comp_vios.log')
@@ -159,34 +151,11 @@ def consistency_analysis():
         except Exception as e:
             logger.error('[Error]{}{}'.format(miniapp_name, e))
 
-def scanner(miniapp_path):
-    miniapp_name = miniapp_path.split('/')[-1]
-    result_path = 'result/sensi_apis/'+miniapp_name+'.json'
-    miniapp = MiniApp(miniapp_path)
-    sensi_apis = miniapp.sensi_apis
-    for page in sensi_apis.keys():
-        fcg = FCG(miniapp.pages[page])
-        for sensi_api in sensi_apis[page].keys():
-            sensi_path = fcg.get_sensi_api_trigger_path(sensi_api)
-            if len(sensi_path):
-                sensi_apis[page][sensi_api] = sensi_path
-            else:
-                sensi_apis[page][sensi_api] = None
-        logger.info('[Success]{}'.format(page))
-    print(sensi_apis)
-    if len(sensi_apis):
-        with open(result_path, 'w', encoding='utf-8') as fp:
-            json.dump(sensi_apis, fp, ensure_ascii=False, indent=2)
-
-def multi_scanner():
-    # miniapp_path = '/root/minidroid/dataset/miniprogram-demo'
-    logger.add('src/log/sensi_apis.log')
-    with open('dataset/dataset.json', 'r', encoding='utf-8') as fp:
-        miniapp_paths = json.load(fp)
+def multi_scanner(miniapp_paths):
     for miniapp_path in miniapp_paths:
         try:
             miniapp_name = miniapp_path.split('/')[-1]
-            result_path = 'result/sensi_api_trigger_path/'+miniapp_name+'.json'
+            result_path = 'result/sensi_api_trigger_path_11w/'+miniapp_name+'.json'
             miniapp = MiniApp(miniapp_path)
             sensi_apis = miniapp.sensi_apis
             for page in sensi_apis.keys():
@@ -203,28 +172,37 @@ def multi_scanner():
                     json.dump(sensi_apis, fp, ensure_ascii=False, indent=2)
             logger.info('[Finished] {}'.format(miniapp_name))
         except Exception as e:
-            logger.error('[Error] {} {}'.format(miniapp_name, e))
+            logger.error('[Error] {}'.format(e))
         
 
 if __name__ == '__main__':
-    multi_scanner()
-    # scanner('/root/minidroid/dataset/miniprograms/wx6bb052c0233ca93d')
+    # Decode wxapkgs with multiprocess
+    # with open('dataset/wxapkgs-11w.json', 'r') as fp:
+    #     package_names = json.load(fp)
+    # processes = 128
+    # batch_size = (len(package_names) + processes - 1) // processes
+    # batched_package_names = [package_names[i:i+batch_size] for i in range(0, len(package_names), batch_size)]
+    # with mp.Pool(processes=processes) as pool:
+    #     pool.map(handle_wxapkgs, batched_package_names)
 
-    # consistency_analysis()
 
-    # handle_wxapkgs('dataset/dataset11w.json', save_json='dataset/dataset11w-dec.json')
+    # Static Analysis with Multiprocess
+    logger.add('src/log/sensi_apis_11w.log')
+    with open('dataset/miniprograms-11w.json', 'r') as fp:
+        package_names = json.load(fp)
+    processes = 128
+    batch_size = (len(package_names) + processes - 1) // processes
+    batched_package_names = [package_names[i:i+batch_size] for i in range(0, len(package_names), batch_size)]
+    with mp.Pool(processes=processes) as pool:
+        pool.map(multi_scanner, batched_package_names)
 
-    # check_compliance_violations()
-    # check_sensi_apis()
-    # get_sensi_page_text()
-    # draw_utg()
-    # draw_fcg()
 
-    # test check_sensi_apis
+    # Test check_sensi_apis
     # miniapp = MiniApp('/root/minidroid/dataset/miniprograms/wx9c7a3b1a32b7116c')
     # with open(miniapp.miniapp_path.replace('miniprograms', 'sensi_apis')+'.json', 'w') as fp:
     #     json.dump(miniapp.sensi_apis, fp, indent=4)
     # print('success')
+
 
     # Test check_compliance_violations
     # miniapp = MiniApp('/root/minidroid/dataset/miniprograms/wx4efaefee87cecc64')

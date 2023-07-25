@@ -6,6 +6,33 @@ SAVE_PATH_UTG = os.path.dirname(os.path.abspath('__file__'))+'/result/utg'
 SAVE_PATH_FCG = os.path.dirname(os.path.abspath('__file__'))+'/result/fcg'
 UNPACK_COMMAND = 'node ' + PROJECT_PATH + os.sep + 'src/utils/wxappUnpacker/wuWxapkg.js {}'
 
+LIFECYCLE_CALLBACKS = [
+    'onLaunch',
+    'onShow',
+    'onHide',
+    'onError',
+    'onLoad',
+    'onReady',
+    'onUnload',
+    'onRouteDone'
+]
+
+EVENT_HANDLER_CALLBACKS = [
+    'onError',
+    'onPageNotFound',
+    'onUnhandledRejection',
+    'onThemeChange',
+    'onPullDownRefresh',
+    'onReachBottom',
+    'onShareAppMessage',
+    'onShareTimeline',
+    'onAddToFavorites',
+    'onPageScroll',
+    'onResize',
+    'onTabItemTap',
+    'onSaveExitState'
+]
+
 SENSITIVE_API = {
     'wx.getUserInfo': '收集你的微信昵称、头像',
     'wx.getUserProfile': '收集你的微信昵称、头像',
@@ -28,7 +55,7 @@ SENSITIVE_API = {
     'wx.chooseVideo': '收集你选中的照片或视频信息',
     'wx.chooseMessageFile': '收集你选中的文件',
     'wx.startRecord': '访问你的麦克风',
-    'RecorderManager.start': '访问你的麦克风',
+    'wx.getRecorderManager': '访问你的麦克风',
     'wx.joinVoIPChat': '访问你的麦克风',
     'wx.createCameraContext': '访问你的摄像头',
     'wx.createVKSession': '访问你的摄像头',

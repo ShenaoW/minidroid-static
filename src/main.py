@@ -155,7 +155,7 @@ def multi_scanner(miniapp_paths):
     for miniapp_path in miniapp_paths:
         try:
             miniapp_name = miniapp_path.split('/')[-1]
-            result_path = 'result/sensi_api_trigger_path_11w/'+miniapp_name+'.json'
+            result_path = 'result/sensi_apis/'+miniapp_name+'.json'
             miniapp = MiniApp(miniapp_path)
             sensi_apis = miniapp.sensi_apis
             for page in sensi_apis.keys():
@@ -168,11 +168,11 @@ def multi_scanner(miniapp_paths):
                         sensi_apis[page][sensi_api] = None
             # pprint.pprint(sensi_apis)
             if len(sensi_apis):
-                with open(result_path, 'w', encoding='utf-8') as fp:
+                with open(result_path, 'w+', encoding='utf-8') as fp:
                     json.dump(sensi_apis, fp, ensure_ascii=False, indent=2)
             logger.info('[Finished] {}'.format(miniapp_name))
         except Exception as e:
-            logger.error('[Error] {}'.format(e))
+            logger.error('[Error] {} {}'.format(miniapp_name, e))
         
 
 if __name__ == '__main__':
@@ -187,8 +187,8 @@ if __name__ == '__main__':
 
 
     # Static Analysis with Multiprocess
-    logger.add('src/log/sensi_apis_11w.log')
-    with open('dataset/miniprograms-11w.json', 'r') as fp:
+    logger.add('src/log/sensi_apis.log')
+    with open('dataset/dataset.json', 'r') as fp:
         package_names = json.load(fp)
     processes = 128
     batch_size = (len(package_names) + processes - 1) // processes

@@ -195,12 +195,12 @@ class Page:
             'NavigateAPI': []  # API Trigger, such as wx.navigateTo()
         }
         self.sensi_apis = {}
-
-        self.set_wxml_soup(self.abs_page_path)
-        if self.wxml_soup is not None:
-            self.set_binding_event()
-            self.set_navigator()
         self.set_page_sensi_apis()
+        if os.path.exists(self.abs_page_path + '.wxml'):
+            self.set_wxml_soup(self.abs_page_path)
+            if self.wxml_soup is not None:
+                self.set_binding_event()
+                self.set_navigator()
 
     def set_wxml_soup(self, page_path):
         try:
@@ -226,7 +226,7 @@ class Page:
     def set_navigator(self):
         self.set_navigator_ui()
         if self.pdg_node is not None:
-            self.set_navigator_api()
+            self.set_navigator_api(self.pdg_node)
 
     def set_navigator_ui(self):
         tags = self.wxml_soup.find_all('navigator')
@@ -274,17 +274,24 @@ class Page:
                     )
                 )
 
-    def set_navigator_api(self):
-        for child in self.pdg_node.children:
+    def set_navigator_api(self, node):
+        for child in node.children:
             if child.name in ('CallExpression', 'TaggedTemplateExpression'):
                 if len(child.children) > 0 and child.children[0].body in ('callee', 'tag'):
-                    callee = child.children[0]
+                    if child.children[0].name == 'MemberExpression':
+                        if get_node_computed_value(child.children[0].children[0]) == 'wx':
+                            callee = child.children[0]
+                        else:
+                            callee = child.children[0].children[1]
+                    else:
+                        callee = child.children[0]
                     call_expr_value = get_node_computed_value(callee)
-                    if type(call_expr_value) == 'str':
+                    if isinstance(call_expr_value, str):
                         if call_expr_value in config.NAVIGATE_API:
                             self.jump_api_handler(child, call_expr_value)
                         elif call_expr_value in config.ROUTE_API:
                             self.route_api_handler(child, call_expr_value)
+            self.set_navigator_api(child)
 
     def jump_api_handler(self, child, call_expr_value):
         if call_expr_value == 'wx.navigateToMiniProgram':
@@ -297,6 +304,8 @@ class Page:
                 'complete': None
             }
             props = self.search_obj_props(obj_exp=child.children[1], props=props)
+            if isinstance(props['appId'], list):
+                props['appId'] = props['appId'][0]
             self.navigator['NavigateAPI'].append(
                 NavigateAPI(
                     navigate_type='jump', name='wx.navigateToMiniProgram', target={props['appId']: props['path']},
@@ -325,17 +334,18 @@ class Page:
                 'fail': None,
                 'complete': None
             }
-            props = self.search_obj_props(obj_exp=child.children[1], props=props)
-            self.navigator['NavigateAPI'].append(
-                NavigateAPI(
-                    navigate_type='jump', name='wx.exitMiniProgram',
-                    bindsuccess=props['success'], bindfail=props['fail'],
-                    bindcomplete=props['complete']
+            if len(child.children) >= 2:
+                props = self.search_obj_props(obj_exp=child.children[1], props=props)
+                self.navigator['NavigateAPI'].append(
+                    NavigateAPI(
+                        navigate_type='jump', name='wx.exitMiniProgram',
+                        bindsuccess=props['success'], bindfail=props['fail'],
+                        bindcomplete=props['complete']
+                    )
                 )
-            )
 
     def route_api_handler(self, child, call_expr_value):
-        if call_expr_value in ('wx.switchTab', 'wx.reLaunch', 'wx.redirectTo', 'wx.navigateBack'):
+        if call_expr_value in ('wx.switchTab', 'wx.reLaunch', 'wx.redirectTo'):
             props = {
                 'url': '',
                 'success': None,
@@ -343,13 +353,16 @@ class Page:
                 'complete': None
             }
             props = self.search_obj_props(obj_exp=child.children[1], props=props)
-            self.navigator['NavigateAPI'].append(
-                NavigateAPI(
-                    navigate_type='route', name=call_expr_value, target=props['url'],
-                    bindsuccess=props['success'], bindfail=props['fail'],
-                    bindcomplete=props['complete']
+            if isinstance(props['url'], list):
+                props['url'] = props['url'][0]
+            if props['url']:
+                self.navigator['NavigateAPI'].append(
+                    NavigateAPI(
+                        navigate_type='route', name=call_expr_value, target=props['url'].split('?')[0],
+                        bindsuccess=props['success'], bindfail=props['fail'],
+                        bindcomplete=props['complete']
+                    )
                 )
-            )
         # TODO: 对于'wx.navigateTo'的页面间通信, 暂不支持解析EventChannel通信 
         elif call_expr_value == 'wx.navigateTo':
             props = {
@@ -359,22 +372,50 @@ class Page:
                 'complete': None
             }
             props = self.search_obj_props(obj_exp=child.children[1], props=props)
-            self.navigator['NavigateAPI'].append(
-                NavigateAPI(
-                    navigate_type='route', name=call_expr_value, target=props['url'],
-                    bindsuccess=props['success'], bindfail=props['fail'],
-                    bindcomplete=props['complete']
+            if isinstance(props['url'], list):
+                props['url'] = props['url'][0]
+            if props['url']:
+                self.navigator['NavigateAPI'].append(
+                    NavigateAPI(
+                        navigate_type='route', name=call_expr_value, target=props['url'].split('?')[0],
+                        bindsuccess=props['success'], bindfail=props['fail'],
+                        bindcomplete=props['complete']
+                    )
                 )
-            )
+        elif call_expr_value == 'wx.navigateBack':
+            props = {
+                'delta': '',
+                'success': None,
+                'fail': None,
+                'complete': None
+            }
+            if len(child.children) > 1:
+                props = self.search_obj_props(obj_exp=child.children[1], props=props)
+                self.navigator['NavigateAPI'].append(
+                    NavigateAPI(
+                        navigate_type='route', name=call_expr_value, target=props['delta'],
+                        bindsuccess=props['success'], bindfail=props['fail'],
+                        bindcomplete=props['complete']
+                    )
+                )
+            else:
+                self.navigator['NavigateAPI'].append(
+                    NavigateAPI(
+                        navigate_type='route', name=call_expr_value, target=1,
+                        bindsuccess=None, bindfail=None,
+                        bindcomplete=None
+                    )
+                )
 
     def search_obj_props(self, obj_exp, props):
         for prop in obj_exp.children:
-            key = get_node_computed_value(prop.children[0])
-            if key in props.keys():
-                if key in ('success', 'fail', 'complete'):
-                    props[key] = prop.children[1]  # value is FunctionExpression 
-                else:
-                    props[key] = get_node_computed_value(prop.children[1])  # value is Literal/ObjectExpression
+            if len(prop.children):
+                key = get_node_computed_value(prop.children[0])
+                if key in props.keys():
+                    if key in ('success', 'fail', 'complete'):
+                        props[key] = prop.children[1]  # value is FunctionExpression 
+                    else:
+                        props[key] = get_node_computed_value(prop.children[1])  # value is Literal/ObjectExpression
         return props
 
     def set_page_sensi_apis(self):
@@ -457,6 +498,7 @@ class MiniApp:
                     self.index_page = pages[0]
                     for page in pages:
                         self.pages[page] = Page(page, self)
+                self.pages['app'] = Page('app', self)
                 # Set subpackages
                 if "subpackages" in app_config_keys.keys():
                     for sub_pkg in app_config[app_config_keys['subpackages']]:
@@ -502,5 +544,5 @@ class MiniApp:
 
 
 if __name__ == "__main__":
-    app = MiniApp('/root/minidroid/dataset/miniprograms/wxa0e66ed6d3e79028')
+    app = MiniApp('/root/minidroid/dataset/miniprograms/wxa79672adcfb8788e')
     pprint.pprint(app.sensi_apis)

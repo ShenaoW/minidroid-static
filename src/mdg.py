@@ -41,11 +41,19 @@ class UTG():
         for page in self.miniapp.pages.keys():
             for navigator in self.miniapp.pages[page].navigator['UIElement']:
                 if navigator.target == 'self':
-                    graph.add_edge(str(page), str(navigator.url))
+                    if '..' in navigator.url:
+                        url = os.path.abspath(os.path.join(str(page), navigator.url))
+                    else:
+                        url = navigator.url
+                    graph.add_edge(str(page), str(url))
                     self.page_navigators[(str(page), str(navigator.url))] = navigator
             for navigator in self.miniapp.pages[page].navigator['NavigateAPI']:
-                if navigator.name in ('wx.navigateTo', 'wx.navigateBack'):
-                    graph.add_edge(str(page), str(navigator.target))
+                if navigator.name in ('wx.switchTab', 'wx.reLaunch', 'wx.redirectTo', 'wx.navigateTo'):
+                    if '..' in navigator.target:
+                        target = os.path.abspath(os.path.join(str(page), navigator.target))
+                    else:
+                        target = navigator.target
+                    graph.add_edge(str(page), str(target))
                     self.page_navigators[(str(page), str(navigator.target))] = navigator
         return graph
 
@@ -98,7 +106,7 @@ class FCG():
                                 graph = self.add_callee_edge_to_graph(graph, call_graph, func)
         # LifecycleEvent Call Graph
         for func in self.page.page_method_nodes.keys():
-            if func in ('onLoad', 'onShow', 'onReady', 'onHide', 'onUnload'):
+            if func in (config.LIFECYCLE_CALLBACKS + config.EVENT_HANDLER_CALLBACKS):
                 graph.add_edge(self.page.page_path, func)
                 call_graph = self.get_all_callee_from_func(func, call_graph={})
                 if call_graph is not None:
@@ -225,12 +233,13 @@ class MDG():
     
 
 if __name__ == '__main__':
-    miniapp = MiniApp('/root/minidroid/dataset/miniprograms/wx819a7f524bd9ded6')
-    utg = UTG(miniapp)
-    utg.draw_utg()
-    for page in miniapp.pages.values():
-        fcg = FCG(page)
-        fcg.draw_fcg()
-        # print('[Success]{}'.format(page.page_path))
-        print(fcg.reachable_sensi_api_paths)
-        # pprint.pprint(fcg.get_fcg_dict())
+    miniapp = MiniApp('/root/minidroid/dataset/miniprograms/wx7a3db22c7de906d0')
+    # utg = UTG(miniapp)
+    # pprint.pprint(utg.get_utg_dict())
+    # utg.draw_utg()
+    # for page in miniapp.pages.values():
+        # fcg = FCG(page)
+    fcg = FCG(miniapp.pages["pages/serviceHelp/index"])
+    fcg.draw_fcg()
+    # print(fcg.reachable_sensi_api_paths)
+    # pprint.pprint(fcg.get_fcg_dict())

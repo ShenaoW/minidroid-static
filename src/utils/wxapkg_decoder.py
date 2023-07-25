@@ -145,7 +145,7 @@ def decrypt_by_salt_and_iv(wxid, input_file, output_file, salt, iv):
 if __name__ == '__main__':
     wxapkg_path = '/root/unveilr/wxapkgs/wx0012c9069fddb0d3-pc.wxapkg'
     # test unveilr
-    # decompile_wxapkg_with_unveilr(wxapkg_path, output_path='dataset/miniprograms-11w/'+wxapkg_path.split('/')[-1])
+    # decompile_wxapkg_with_unveilr(wxapkg_path, output_path='/root/minidroid/dataset/WeMint-TP/miniprograms/')
 
     # test wxappUnpacker
     decompile_wxapkg_with_wxUnpacker(wxapkg_path)
